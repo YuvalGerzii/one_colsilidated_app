@@ -28,7 +28,7 @@ chmod +x ./config/postgres/init-multiple-dbs.sh
 # Function to start services in groups
 start_infrastructure() {
     echo -e "${BLUE}Starting infrastructure services...${NC}"
-    docker compose up -d traefik postgres redis rabbitmq ollama weaviate prometheus grafana keycloak
+    docker compose up -d traefik postgres redis rabbitmq ollama weaviate qdrant neo4j elasticsearch minio prometheus grafana keycloak
     echo -e "${GREEN}Infrastructure services started!${NC}"
 }
 
