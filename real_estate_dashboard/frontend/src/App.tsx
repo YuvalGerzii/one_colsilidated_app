@@ -61,6 +61,12 @@ import ProFormaGenerator from './components/analytics/ProFormaGenerator';
 import EnhancedMarketIntelligence from './components/analytics/EnhancedMarketIntelligence';
 import AdvancedAnalyticsDashboard from './components/analytics/AdvancedAnalyticsDashboard';
 import AIChatbot from './components/chat/AIChatbot';
+// Unified Platform Core
+import UnifiedPlatform from './pages/UnifiedPlatform';
+import CrossPlatformIntelligence from './pages/UnifiedPlatform/CrossPlatformIntelligence';
+import AutonomousAgents from './pages/UnifiedPlatform/AutonomousAgents';
+import DataProducts from './pages/UnifiedPlatform/DataProducts';
+import WhiteLabel from './pages/UnifiedPlatform/WhiteLabel';
 // DISABLED: Dashboard builder was added from wrong repo (Figmarealestatefinancialplatform-main)
 // import { DashboardBuilder } from './components/dashboard-builder/DashboardBuilder';
 // import { DashboardBuilderProvider } from './contexts/DashboardBuilderContext';
@@ -162,6 +168,12 @@ function AppContent() {
                   <Route path="/real-estate-models/renovation-budget" element={<RenovationBudgetPage />} />
                   <Route path="/real-estate-models/tax-strategy" element={<TaxStrategyPage />} />
                   <Route path="/real-estate-models/market-intelligence" element={<MarketIntelligenceDashboard />} />
+                  {/* Unified Platform Core Routes */}
+                  <Route path="/unified-platform" element={<UnifiedPlatform />} />
+                  <Route path="/unified-platform/intelligence" element={<CrossPlatformIntelligence />} />
+                  <Route path="/unified-platform/agents" element={<AutonomousAgents />} />
+                  <Route path="/unified-platform/data-products" element={<DataProducts />} />
+                  <Route path="/unified-platform/white-label" element={<WhiteLabel />} />
                       </Routes>
                     </Layout>
                   </Router>

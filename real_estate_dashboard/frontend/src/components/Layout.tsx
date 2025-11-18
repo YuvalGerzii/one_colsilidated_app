@@ -46,6 +46,7 @@ import {
   AdminPanelSettings as AdminIcon,
   Business as CompanyIcon,
   Settings as SettingsIcon,
+  Hub as HubIcon,
 } from '@mui/icons-material';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { CompanySelector } from './common/CompanySelector';
@@ -187,6 +188,12 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       text: 'Saved Reports',
       icon: <FolderIcon />,
       path: '/saved-reports',
+    },
+    // Unified Platform Section
+    {
+      text: 'Unified Platform',
+      icon: <HubIcon />,
+      path: '/unified-platform',
     },
     // Admin Section
     {
