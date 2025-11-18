@@ -1,13 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import workers, skills, jobs, analytics, enterprise, digital_twin, autopilot, agents, progress, corporate, gig, economic_copilot, freelance, multi_agent_system
-from app.api import workers, skills, jobs, analytics, enterprise, digital_twin, autopilot, agents, progress, corporate, gig, economic_copilot, career_tools
+from app.api import workers, skills, jobs, analytics, enterprise, digital_twin, autopilot, agents, progress, corporate, gig, economic_copilot, freelance, multi_agent_system, career_tools
 from app.core.config import settings
 
 app = FastAPI(
     title="Workforce Transition Platform API",
-    description="AI-powered platform with Digital Twin™, AI Reskilling Autopilot, 5-Agent Intelligence System, Progress Tracking with Gamification, Corporate Workforce Transformation OS, Automation Fairness Engine, Gig & Hybrid Labor Integration, Citizen-Level Economic Copilot, and Freelance Workers Hub for day-to-day freelance opportunities",
-    version="2.7.0"
     description="AI-powered platform with Digital Twin™, AI Reskilling Autopilot, 10-Agent Intelligence Ecosystem, Progress Tracking with Gamification, Corporate Workforce Transformation OS, Automation Fairness Engine, Gig & Hybrid Labor Integration, Citizen-Level Economic Copilot, Mental Health & Burnout Prevention, Networking Intelligence, Salary Negotiation Coach, Interview Preparation System, and Skills Verification & Certification Tracker",
     version="2.8.0"
 )
@@ -42,7 +39,6 @@ app.include_router(career_tools.router, prefix=f"{settings.API_V1_PREFIX}/career
 async def root():
     return {
         "message": "Workforce Transition Platform API",
-        "version": "2.7.0",
         "version": "2.8.0",
         "features": [
             "Workforce Digital Twin™",
@@ -67,19 +63,6 @@ async def root():
             "Holistic Life Financial Planning"
         ],
         "active_agents": [
-            "Gap Analyzer",
-            "Opportunity Scout",
-            "Learning Path Strategist",
-            "Teaching Coach",
-            "Career Navigator",
-            "Profile Optimizer (Multi-Agent)",
-            "Job Matcher (Multi-Agent)",
-            "Pricing Strategist (Multi-Agent)",
-            "Proposal Writer (Multi-Agent)",
-            "Market Analyst (Multi-Agent)",
-            "Career Planner (Multi-Agent)",
-            "Competition Analyzer (Multi-Agent)",
-            "Negotiation Advisor (Multi-Agent)"
             "Gap Analyzer - Skill gaps and market readiness",
             "Opportunity Scout - Hidden job market discovery",
             "Learning Path Strategist - Personalized learning paths",
@@ -146,6 +129,7 @@ async def root():
             "Coordinated Job Discovery & Application",
             "Collaborative Career Planning",
             "System Intelligence Analytics"
+        ],
         "career_tools": [
             "Mental Health & Burnout Assessment",
             "Work-Life Balance Analyzer",

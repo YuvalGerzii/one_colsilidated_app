@@ -15,7 +15,7 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosError, InternalAxiosRequestConfig } from 'axios';
 
 // Possible backend ports to try (in order of preference)
-const BACKEND_PORTS = [8001, 8000, 8002, 3001];
+const BACKEND_PORTS = [8000, 8001, 8002, 3001];
 const API_SUFFIX = '/api/v1';
 
 // Check if running in development mode
@@ -62,14 +62,14 @@ const detectBackendPort = async (): Promise<string> => {
   }
 
   // No backend found, use default and warn
-  const fallbackUrl = `http://localhost:8001${API_SUFFIX}`;
+  const fallbackUrl = `http://localhost:8000${API_SUFFIX}`;
   console.warn(`[API Client] ⚠️ Could not detect backend on any port. Using fallback: ${fallbackUrl}`);
   detectedBackendUrl = fallbackUrl;
   return fallbackUrl;
 };
 
 // Initialize with a default, will be updated by detectBackendPort
-let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8001/api/v1';
+let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api/v1';
 
 /**
  * Get the selected company ID from localStorage
