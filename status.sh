@@ -38,5 +38,6 @@ check_health "Unified Dashboard" "http://localhost:3100"
 check_health "Traefik" "http://localhost:8181"
 check_health "Prometheus" "http://localhost:9190"
 check_health "Grafana" "http://localhost:3101"
+check_health "Keycloak" "http://localhost:8183/health/ready"
 
 echo ""

@@ -120,11 +120,12 @@ docker compose down -v
 ### Infrastructure
 | Service | Port | Description |
 |---------|------|-------------|
-| PostgreSQL | 5532 | Shared database (5 databases) |
+| PostgreSQL | 5532 | Shared database (6 databases) |
 | Redis | 6479 | Shared cache |
 | RabbitMQ | 5772, 15772 | Message queue |
 | Ollama | 11534 | Local LLM |
 | Weaviate | 8182 | Vector database |
+| Keycloak | 8183 | Centralized authentication |
 
 ## Configuration
 
@@ -147,6 +148,11 @@ RABBITMQ_PASSWORD=unified_rabbit_pass
 # Grafana
 GRAFANA_USER=admin
 GRAFANA_PASSWORD=admin
+
+# Keycloak
+KEYCLOAK_ADMIN=admin
+KEYCLOAK_ADMIN_PASSWORD=admin
+AUTH_REALM=unified-platform
 ```
 
 ### Databases
@@ -158,6 +164,17 @@ The platform uses a single PostgreSQL instance with pgvector extension, containi
 - `bondai_db` - Bond.AI connection data
 - `legacy_db` - Legacy systems data
 - `labor_db` - Labor platform data
+- `auth_db` - Keycloak authentication data
+
+### Centralized Authentication
+
+The platform uses Keycloak for centralized OAuth2/OIDC authentication:
+
+- **Admin Console**: http://localhost:8183
+- **Realm**: `unified-platform`
+- **Default Credentials**: admin/admin (change in production)
+
+All backend services are configured to authenticate against Keycloak using the `AUTH_SERVER_URL` and `AUTH_REALM` environment variables.
 
 ## Features
 
