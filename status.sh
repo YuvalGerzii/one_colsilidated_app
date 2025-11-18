@@ -29,14 +29,14 @@ check_health() {
     fi
 }
 
-check_health "Finance API" "http://localhost:8000/health"
-check_health "Real Estate API" "http://localhost:8001/health"
-check_health "Bond.AI API" "http://localhost:8002/health"
-check_health "Legacy API" "http://localhost:8003/health"
-check_health "Labor API" "http://localhost:8004/health"
-check_health "Unified Dashboard" "http://localhost:3000"
-check_health "Traefik" "http://localhost:8080"
-check_health "Prometheus" "http://localhost:9090"
-check_health "Grafana" "http://localhost:3001"
+check_health "Finance API" "http://localhost:8100/health"
+check_health "Real Estate API" "http://localhost:8101/health"
+check_health "Bond.AI API" "http://localhost:8102/health"
+check_health "Legacy API" "http://localhost:8103/health"
+check_health "Labor API" "http://localhost:8104/health"
+check_health "Unified Dashboard" "http://localhost:3100"
+check_health "Traefik" "http://localhost:8181"
+check_health "Prometheus" "http://localhost:9190"
+check_health "Grafana" "http://localhost:3101"
 
 echo ""

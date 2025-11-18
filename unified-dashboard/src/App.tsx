@@ -57,9 +57,9 @@ const platforms: PlatformService[] = [
     description: 'Portfolio management, market data analysis, and investment tracking',
     icon: <FinanceIcon sx={{ fontSize: 40 }} />,
     color: '#10b981',
-    apiUrl: 'http://localhost:8000',
-    uiUrl: 'http://localhost:3002',
-    port: 8000,
+    apiUrl: 'http://localhost:8100',
+    uiUrl: 'http://localhost:3102',
+    port: 8100,
     features: ['Market Data', 'Portfolio Analytics', 'Trading Agents', 'Financial Models'],
     status: 'checking',
   },
@@ -69,9 +69,9 @@ const platforms: PlatformService[] = [
     description: 'Property management, financial modeling, and deal analysis',
     icon: <RealEstateIcon sx={{ fontSize: 40 }} />,
     color: '#3b82f6',
-    apiUrl: 'http://localhost:8001',
-    uiUrl: 'http://localhost:3003',
-    port: 8001,
+    apiUrl: 'http://localhost:8101',
+    uiUrl: 'http://localhost:3103',
+    port: 8101,
     features: ['Property Management', 'Deal Analysis', 'Tax Optimization', 'Market Intelligence'],
     status: 'checking',
   },
@@ -81,9 +81,9 @@ const platforms: PlatformService[] = [
     description: 'AI-powered connection intelligence and relationship scoring',
     icon: <BondIcon sx={{ fontSize: 40 }} />,
     color: '#8b5cf6',
-    apiUrl: 'http://localhost:8002',
-    uiUrl: 'http://localhost:3004',
-    port: 8002,
+    apiUrl: 'http://localhost:8102',
+    uiUrl: 'http://localhost:3104',
+    port: 8102,
     features: ['Connection Matching', 'Network Analysis', 'Opportunity Detection', '11 AI Agents'],
     status: 'checking',
   },
@@ -93,9 +93,9 @@ const platforms: PlatformService[] = [
     description: 'AI-powered legacy code transformation and process automation',
     icon: <LegacyIcon sx={{ fontSize: 40 }} />,
     color: '#f59e0b',
-    apiUrl: 'http://localhost:8003',
+    apiUrl: 'http://localhost:8103',
     uiUrl: '',
-    port: 8003,
+    port: 8103,
     features: ['Code Analysis', 'Process Automation', 'Document Extraction', 'Knowledge Graphs'],
     status: 'checking',
   },
@@ -105,19 +105,19 @@ const platforms: PlatformService[] = [
     description: 'Labor market analysis and freelance worker platform',
     icon: <LaborIcon sx={{ fontSize: 40 }} />,
     color: '#ec4899',
-    apiUrl: 'http://localhost:8004',
-    uiUrl: 'http://localhost:3005',
-    port: 8004,
+    apiUrl: 'http://localhost:8104',
+    uiUrl: 'http://localhost:3105',
+    port: 8104,
     features: ['Labor Market Analysis', 'Freelance Hub', 'Skills Matching', 'Study Buddy'],
     status: 'checking',
   },
 ]
 
 const infrastructureServices = [
-  { name: 'Traefik Dashboard', url: 'http://localhost:8080', description: 'API Gateway & Load Balancer' },
-  { name: 'Grafana', url: 'http://localhost:3001', description: 'Monitoring Dashboards' },
-  { name: 'Prometheus', url: 'http://localhost:9090', description: 'Metrics Collection' },
-  { name: 'RabbitMQ', url: 'http://localhost:15672', description: 'Message Queue Management' },
+  { name: 'Traefik Dashboard', url: 'http://localhost:8181', description: 'API Gateway & Load Balancer' },
+  { name: 'Grafana', url: 'http://localhost:3101', description: 'Monitoring Dashboards' },
+  { name: 'Prometheus', url: 'http://localhost:9190', description: 'Metrics Collection' },
+  { name: 'RabbitMQ', url: 'http://localhost:15772', description: 'Message Queue Management' },
 ]
 
 function App() {
@@ -461,32 +461,32 @@ function App() {
                   <Typography variant="subtitle2" color="primary" gutterBottom>
                     Gateway & Dashboard
                   </Typography>
-                  <Typography variant="body2">80 - Traefik (HTTP)</Typography>
-                  <Typography variant="body2">443 - Traefik (HTTPS)</Typography>
-                  <Typography variant="body2">3000 - Unified Dashboard</Typography>
-                  <Typography variant="body2">8080 - Traefik Dashboard</Typography>
+                  <Typography variant="body2">8180 - Traefik (HTTP)</Typography>
+                  <Typography variant="body2">8443 - Traefik (HTTPS)</Typography>
+                  <Typography variant="body2">3100 - Unified Dashboard</Typography>
+                  <Typography variant="body2">8181 - Traefik Dashboard</Typography>
                 </Grid>
                 <Grid item xs={12} md={4}>
                   <Typography variant="subtitle2" color="primary" gutterBottom>
                     Backend APIs
                   </Typography>
-                  <Typography variant="body2">8000 - Finance API</Typography>
-                  <Typography variant="body2">8001 - Real Estate API</Typography>
-                  <Typography variant="body2">8002 - Bond.AI API</Typography>
-                  <Typography variant="body2">8003 - Legacy Systems API</Typography>
-                  <Typography variant="body2">8004 - Labor API</Typography>
-                  <Typography variant="body2">8005 - Bond.AI Agents</Typography>
+                  <Typography variant="body2">8100 - Finance API</Typography>
+                  <Typography variant="body2">8101 - Real Estate API</Typography>
+                  <Typography variant="body2">8102 - Bond.AI API</Typography>
+                  <Typography variant="body2">8103 - Legacy Systems API</Typography>
+                  <Typography variant="body2">8104 - Labor API</Typography>
+                  <Typography variant="body2">8105 - Bond.AI Agents</Typography>
                 </Grid>
                 <Grid item xs={12} md={4}>
                   <Typography variant="subtitle2" color="primary" gutterBottom>
                     Infrastructure
                   </Typography>
-                  <Typography variant="body2">5432 - PostgreSQL</Typography>
-                  <Typography variant="body2">6379 - Redis</Typography>
-                  <Typography variant="body2">5672/15672 - RabbitMQ</Typography>
-                  <Typography variant="body2">11434 - Ollama LLM</Typography>
-                  <Typography variant="body2">9090 - Prometheus</Typography>
-                  <Typography variant="body2">3001 - Grafana</Typography>
+                  <Typography variant="body2">5532 - PostgreSQL</Typography>
+                  <Typography variant="body2">6479 - Redis</Typography>
+                  <Typography variant="body2">5772/15772 - RabbitMQ</Typography>
+                  <Typography variant="body2">11534 - Ollama LLM</Typography>
+                  <Typography variant="body2">9190 - Prometheus</Typography>
+                  <Typography variant="body2">3101 - Grafana</Typography>
                 </Grid>
               </Grid>
             </CardContent>

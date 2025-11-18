@@ -19,8 +19,8 @@ A consolidated platform that brings together multiple enterprise services under 
 │                                                          │
 │  ┌──────────────┐    ┌──────────────────────────────┐   │
 │  │   Traefik    │───▶│     Unified Dashboard        │   │
-│  │   Gateway    │    │        (Port 3000)           │   │
-│  │  (Port 80)   │    └──────────────────────────────┘   │
+│  │   Gateway    │    │        (Port 3100)           │   │
+│  │  (Port 8180) │    └──────────────────────────────┘   │
 │  └──────┬───────┘                                        │
 │         │                                                │
 │         ▼                                                │
@@ -28,11 +28,11 @@ A consolidated platform that brings together multiple enterprise services under 
 │  │              Backend Services                     │   │
 │  │  ┌─────────┐ ┌─────────┐ ┌─────────┐            │   │
 │  │  │Finance  │ │RealEst. │ │Bond.AI  │            │   │
-│  │  │ :8000   │ │ :8001   │ │ :8002   │            │   │
+│  │  │ :8100   │ │ :8101   │ │ :8102   │            │   │
 │  │  └─────────┘ └─────────┘ └─────────┘            │   │
 │  │  ┌─────────┐ ┌─────────┐ ┌─────────┐            │   │
 │  │  │Legacy   │ │Labor    │ │Agents   │            │   │
-│  │  │ :8003   │ │ :8004   │ │ :8005   │            │   │
+│  │  │ :8103   │ │ :8104   │ │ :8105   │            │   │
 │  │  └─────────┘ └─────────┘ └─────────┘            │   │
 │  └──────────────────────────────────────────────────┘   │
 │                                                          │
@@ -40,11 +40,11 @@ A consolidated platform that brings together multiple enterprise services under 
 │  │           Shared Infrastructure                   │   │
 │  │  ┌─────────┐ ┌─────────┐ ┌─────────┐            │   │
 │  │  │PostgreSQL│ │ Redis  │ │RabbitMQ │            │   │
-│  │  │ :5432   │ │ :6379   │ │:5672    │            │   │
+│  │  │ :5532   │ │ :6479   │ │:5772    │            │   │
 │  │  └─────────┘ └─────────┘ └─────────┘            │   │
 │  │  ┌─────────┐ ┌─────────┐ ┌─────────┐            │   │
 │  │  │ Ollama  │ │Weaviate │ │Prometheus│           │   │
-│  │  │ :11434  │ │ :8082   │ │ :9090   │            │   │
+│  │  │ :11534  │ │ :8182   │ │ :9190   │            │   │
 │  │  └─────────┘ └─────────┘ └─────────┘            │   │
 │  └──────────────────────────────────────────────────┘   │
 │                                                          │
@@ -94,37 +94,37 @@ docker compose down -v
 ### Main Access Points
 | Service | Port | Description |
 |---------|------|-------------|
-| Unified Dashboard | 3000 | Main entry point - access all services |
-| Traefik Dashboard | 8080 | API Gateway management |
-| Grafana | 3001 | Monitoring dashboards |
-| Prometheus | 9090 | Metrics collection |
+| Unified Dashboard | 3100 | Main entry point - access all services |
+| Traefik Dashboard | 8181 | API Gateway management |
+| Grafana | 3101 | Monitoring dashboards |
+| Prometheus | 9190 | Metrics collection |
 
 ### Backend APIs
 | Service | Port | Description |
 |---------|------|-------------|
-| Finance API | 8000 | Portfolio & investment management |
-| Real Estate API | 8001 | Property & deal management |
-| Bond.AI API | 8002 | Connection intelligence |
-| Legacy Systems API | 8003 | Code transformation |
-| Labor API | 8004 | Labor market platform |
-| Bond.AI Agents | 8005 | Python AI agents |
+| Finance API | 8100 | Portfolio & investment management |
+| Real Estate API | 8101 | Property & deal management |
+| Bond.AI API | 8102 | Connection intelligence |
+| Legacy Systems API | 8103 | Code transformation |
+| Labor API | 8104 | Labor market platform |
+| Bond.AI Agents | 8105 | Python AI agents |
 
 ### Frontend UIs
 | Service | Port | Description |
 |---------|------|-------------|
-| Finance UI | 3002 | Finance platform dashboard |
-| Real Estate UI | 3003 | Real estate dashboard |
-| Bond.AI UI | 3004 | Connection intelligence UI |
-| Labor UI | 3005 | Labor platform UI |
+| Finance UI | 3102 | Finance platform dashboard |
+| Real Estate UI | 3103 | Real estate dashboard |
+| Bond.AI UI | 3104 | Connection intelligence UI |
+| Labor UI | 3105 | Labor platform UI |
 
 ### Infrastructure
 | Service | Port | Description |
 |---------|------|-------------|
-| PostgreSQL | 5432 | Shared database (5 databases) |
-| Redis | 6379 | Shared cache |
-| RabbitMQ | 5672, 15672 | Message queue |
-| Ollama | 11434 | Local LLM |
-| Weaviate | 8082 | Vector database |
+| PostgreSQL | 5532 | Shared database (5 databases) |
+| Redis | 6479 | Shared cache |
+| RabbitMQ | 5772, 15772 | Message queue |
+| Ollama | 11534 | Local LLM |
+| Weaviate | 8182 | Vector database |
 
 ## Configuration
 
@@ -225,7 +225,7 @@ docker compose up -d --scale bondai-agents=3
 
 ### Services not starting
 
-1. Check if ports are available: `netstat -tlnp | grep -E '(3000|8000|8001|8002|8003|8004)'`
+1. Check if ports are available: `netstat -tlnp | grep -E '(3100|8100|8101|8102|8103|8104)'`
 2. Check Docker logs: `docker compose logs [service-name]`
 3. Ensure Docker has enough resources allocated
 

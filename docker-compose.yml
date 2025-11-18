@@ -28,9 +28,9 @@ services:
       - "--entrypoints.websecure.address=:443"
       - "--log.level=INFO"
     ports:
-      - "80:80"
-      - "443:443"
-      - "8080:8080"  # Traefik Dashboard
+      - "8180:80"
+      - "8443:443"
+      - "8181:8080"  # Traefik Dashboard
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./config/traefik:/etc/traefik
@@ -48,7 +48,7 @@ services:
       dockerfile: Dockerfile
     container_name: unified-dashboard
     ports:
-      - "3000:80"
+      - "3100:80"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.dashboard.rule=Host(`localhost`) || Host(`dashboard.localhost`)"
@@ -70,7 +70,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-unified_password}
       POSTGRES_MULTIPLE_DATABASES: finance_db,realestate_db,bondai_db,legacy_db,labor_db
     ports:
-      - "5432:5432"
+      - "5532:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./config/postgres/init-multiple-dbs.sh:/docker-entrypoint-initdb.d/init-multiple-dbs.sh
@@ -88,7 +88,7 @@ services:
     container_name: unified-redis
     command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-unified_redis_pass}
     ports:
-      - "6379:6379"
+      - "6479:6379"
     volumes:
       - redis_data:/data
     networks:
@@ -107,8 +107,8 @@ services:
       RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-unified_rabbit}
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-unified_rabbit_pass}
     ports:
-      - "5672:5672"
-      - "15672:15672"
+      - "5772:5672"
+      - "15772:15672"
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
     networks:
@@ -132,7 +132,7 @@ services:
     image: ollama/ollama:latest
     container_name: unified-ollama
     ports:
-      - "11434:11434"
+      - "11534:11434"
     volumes:
       - ollama_data:/root/.ollama
     networks:
@@ -147,7 +147,7 @@ services:
     image: semitechnologies/weaviate:latest
     container_name: unified-weaviate
     ports:
-      - "8082:8080"
+      - "8182:8080"
     environment:
       QUERY_DEFAULTS_LIMIT: 25
       AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
@@ -167,7 +167,7 @@ services:
     image: prom/prometheus:latest
     container_name: unified-prometheus
     ports:
-      - "9090:9090"
+      - "9190:9090"
     volumes:
       - ./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - prometheus_data:/prometheus
@@ -186,7 +186,7 @@ services:
     image: grafana/grafana:latest
     container_name: unified-grafana
     ports:
-      - "3001:3000"
+      - "3101:3000"
     environment:
       GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
       GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
@@ -212,7 +212,7 @@ services:
       dockerfile: Dockerfile
     container_name: finance-backend
     ports:
-      - "8000:8000"
+      - "8100:8000"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/finance_db
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/0
@@ -242,9 +242,9 @@ services:
       dockerfile: Dockerfile
     container_name: finance-frontend
     ports:
-      - "3002:80"
+      - "3102:80"
     environment:
-      VITE_API_URL: http://localhost:8000
+      VITE_API_URL: http://localhost:8100
     depends_on:
       - finance-backend
     networks:
@@ -284,7 +284,7 @@ services:
       dockerfile: Dockerfile
     container_name: realestate-backend
     ports:
-      - "8001:8000"
+      - "8101:8000"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/realestate_db
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/1
@@ -313,9 +313,9 @@ services:
       dockerfile: Dockerfile
     container_name: realestate-frontend
     ports:
-      - "3003:80"
+      - "3103:80"
     environment:
-      VITE_API_URL: http://localhost:8001
+      VITE_API_URL: http://localhost:8101
     depends_on:
       - realestate-backend
     networks:
@@ -336,7 +336,7 @@ services:
       dockerfile: Dockerfile
     container_name: bondai-backend
     ports:
-      - "8002:3002"
+      - "8102:3002"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/bondai_db
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/2
@@ -365,7 +365,7 @@ services:
       dockerfile: Dockerfile
     container_name: bondai-agents
     ports:
-      - "8005:8000"
+      - "8105:8000"
     environment:
       OLLAMA_BASE_URL: http://ollama:11434
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/bondai_db
@@ -385,9 +385,9 @@ services:
       dockerfile: Dockerfile
     container_name: bondai-frontend
     ports:
-      - "3004:80"
+      - "3104:80"
     environment:
-      VITE_API_URL: http://localhost:8002
+      VITE_API_URL: http://localhost:8102
     depends_on:
       - bondai-backend
     networks:
@@ -408,7 +408,7 @@ services:
       dockerfile: Dockerfile
     container_name: legacy-backend
     ports:
-      - "8003:8000"
+      - "8103:8000"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/legacy_db
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/3
@@ -438,7 +438,7 @@ services:
       dockerfile: Dockerfile
     container_name: labor-backend
     ports:
-      - "8004:8000"
+      - "8104:8000"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/labor_db
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/4
@@ -463,9 +463,9 @@ services:
       dockerfile: Dockerfile
     container_name: labor-frontend
     ports:
-      - "3005:80"
+      - "3105:80"
     environment:
-      VITE_API_URL: http://localhost:8004
+      VITE_API_URL: http://localhost:8104
     depends_on:
       - labor-backend
     networks:
