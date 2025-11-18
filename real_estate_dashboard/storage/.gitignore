@@ -1,0 +1,10 @@
+# Ignore downloaded data files
+*.csv
+*.json
+*.log
+
+# Keep gitkeep files
+!.gitkeep
+
+# Ignore token files
+dotloop_tokens.json
