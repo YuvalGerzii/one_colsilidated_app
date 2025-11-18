@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import {
   Search,
   Network,
@@ -14,7 +15,11 @@ import {
   ChevronRight,
   Activity,
   Database,
-  Globe
+  Globe,
+  BarChart3,
+  GitBranch,
+  Workflow,
+  History
 } from 'lucide-react';
 
 interface QueryResult {
@@ -34,10 +39,23 @@ interface ActiveAgent {
 }
 
 export default function CrossPlatformIntelligence() {
+  const location = useLocation();
   const [query, setQuery] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [results, setResults] = useState<QueryResult[]>([]);
   const [selectedPlatforms, setSelectedPlatforms] = useState<string[]>(['all']);
+  const [queryHistory, setQueryHistory] = useState<{query: string; timestamp: string; results: number}[]>([
+    { query: 'Find investors interested in multifamily', timestamp: '2 hours ago', results: 12 },
+    { query: 'Analyze market impact on portfolio', timestamp: '5 hours ago', results: 8 },
+    { query: 'Match skills to opportunities', timestamp: '1 day ago', results: 15 },
+  ]);
+
+  const featureNavigation = [
+    { path: '/unified-platform/intelligence', name: 'Query', icon: Search, description: 'Cross-platform queries' },
+    { path: '/unified-platform/intelligence/entities', name: 'Entities', icon: Network, description: 'Knowledge graph' },
+    { path: '/unified-platform/intelligence/analytics', name: 'Analytics', icon: BarChart3, description: 'Platform metrics' },
+    { path: '/unified-platform/intelligence/workflows', name: 'Workflows', icon: Workflow, description: 'Automation' },
+  ];
 
   const platforms = [
     { id: 'all', name: 'All Platforms', icon: Globe, color: 'bg-purple-500' },
@@ -116,7 +134,7 @@ export default function CrossPlatformIntelligence() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-6">
       {/* Header */}
-      <div className="mb-8">
+      <div className="mb-6">
         <div className="flex items-center gap-3 mb-2">
           <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-lg">
             <Brain className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -128,6 +146,31 @@ export default function CrossPlatformIntelligence() {
         <p className="text-gray-600 dark:text-gray-400">
           Query 104+ AI agents across Finance, Real Estate, Bond.AI, and Labor platforms
         </p>
+      </div>
+
+      {/* Feature Navigation */}
+      <div className="mb-6">
+        <div className="flex flex-wrap gap-2">
+          {featureNavigation.map((feature) => (
+            <Link
+              key={feature.path}
+              to={feature.path}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-lg transition-all ${
+                location.pathname === feature.path
+                  ? 'bg-purple-600 text-white shadow-lg'
+                  : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-purple-50 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700'
+              }`}
+            >
+              <feature.icon className="w-4 h-4" />
+              <div className="text-left">
+                <p className="text-sm font-medium">{feature.name}</p>
+                <p className={`text-xs ${location.pathname === feature.path ? 'text-purple-200' : 'text-gray-400'}`}>
+                  {feature.description}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       {/* Stats */}
@@ -320,9 +363,12 @@ export default function CrossPlatformIntelligence() {
               <div className="text-center">
                 <Network className="w-12 h-12 text-gray-300 dark:text-gray-600 mx-auto mb-2" />
                 <p className="text-sm text-gray-500">Entity Graph Visualization</p>
-                <button className="mt-2 text-sm text-purple-600 dark:text-purple-400 hover:underline">
-                  Open Full View
-                </button>
+                <Link
+                  to="/unified-platform/intelligence/entities"
+                  className="mt-2 text-sm text-purple-600 dark:text-purple-400 hover:underline flex items-center justify-center gap-1"
+                >
+                  Open Full View <ChevronRight className="w-4 h-4" />
+                </Link>
               </div>
             </div>
             <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
@@ -334,6 +380,35 @@ export default function CrossPlatformIntelligence() {
                 <p className="font-medium text-gray-900 dark:text-white">8,923</p>
                 <p className="text-xs text-gray-500">Relationships</p>
               </div>
+            </div>
+          </div>
+
+          {/* Query History */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Query History
+              </h2>
+              <History className="w-5 h-5 text-gray-400" />
+            </div>
+            <div className="space-y-3">
+              {queryHistory.map((item, i) => (
+                <button
+                  key={i}
+                  onClick={() => setQuery(item.query)}
+                  className="w-full text-left p-3 bg-gray-50 dark:bg-gray-900 rounded-lg hover:bg-purple-50 dark:hover:bg-gray-700 transition-colors"
+                >
+                  <p className="text-sm text-gray-900 dark:text-white line-clamp-1">
+                    {item.query}
+                  </p>
+                  <div className="flex items-center justify-between mt-1">
+                    <span className="text-xs text-gray-400">{item.timestamp}</span>
+                    <span className="text-xs text-purple-600 dark:text-purple-400">
+                      {item.results} results
+                    </span>
+                  </div>
+                </button>
+              ))}
             </div>
           </div>
         </div>

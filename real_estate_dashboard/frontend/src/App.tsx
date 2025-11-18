@@ -64,6 +64,9 @@ import AIChatbot from './components/chat/AIChatbot';
 // Unified Platform Core
 import UnifiedPlatform from './pages/UnifiedPlatform';
 import CrossPlatformIntelligence from './pages/UnifiedPlatform/CrossPlatformIntelligence';
+import EntityExplorer from './pages/UnifiedPlatform/CrossPlatformIntelligence/EntityExplorer';
+import PlatformAnalytics from './pages/UnifiedPlatform/CrossPlatformIntelligence/Analytics';
+import WorkflowAutomation from './pages/UnifiedPlatform/CrossPlatformIntelligence/Workflows';
 import AutonomousAgents from './pages/UnifiedPlatform/AutonomousAgents';
 import DataProducts from './pages/UnifiedPlatform/DataProducts';
 import WhiteLabel from './pages/UnifiedPlatform/WhiteLabel';
@@ -171,6 +174,9 @@ function AppContent() {
                   {/* Unified Platform Core Routes */}
                   <Route path="/unified-platform" element={<UnifiedPlatform />} />
                   <Route path="/unified-platform/intelligence" element={<CrossPlatformIntelligence />} />
+                  <Route path="/unified-platform/intelligence/entities" element={<EntityExplorer />} />
+                  <Route path="/unified-platform/intelligence/analytics" element={<PlatformAnalytics />} />
+                  <Route path="/unified-platform/intelligence/workflows" element={<WorkflowAutomation />} />
                   <Route path="/unified-platform/agents" element={<AutonomousAgents />} />
                   <Route path="/unified-platform/data-products" element={<DataProducts />} />
                   <Route path="/unified-platform/white-label" element={<WhiteLabel />} />
