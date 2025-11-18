@@ -43,6 +43,7 @@ from app.api.v1.endpoints import (
     deal_analysis,  # ✅ NEW - Deal analysis framework
     predictive_analytics,  # ✅ NEW - ML-powered predictive analytics
     ai_chatbot,  # ✅ NEW - AI chatbot with multi-agent system
+    rag,  # ✅ NEW - RAG engine with self-improving learning
 )
 
 api_router = APIRouter()
@@ -311,4 +312,11 @@ api_router.include_router(
     ai_chatbot.router,
     prefix="/ai-chatbot",
     tags=["ai-chatbot", "multi-agent", "assistant", "conversational-ai"]
+)
+
+# RAG Engine endpoints (Self-improving retrieval-augmented generation with RL optimization)
+api_router.include_router(
+    rag.router,
+    prefix="/rag",
+    tags=["rag", "retrieval-augmented-generation", "vector-search", "learning", "ai"]
 )

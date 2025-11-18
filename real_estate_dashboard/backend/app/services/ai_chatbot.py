@@ -14,6 +14,9 @@ from app.multi_agent_system.core.types import Task, AgentCapability
 from app.multi_agent_system.agents.real_estate_agents import create_real_estate_agents
 from app.multi_agent_system.communication.message_bus import MessageBus
 
+# RAG integration flag
+RAG_ENABLED = True
+
 
 class RealEstateChatbot:
     """
@@ -59,6 +62,62 @@ class RealEstateChatbot:
         }
 
         logger.info("RealEstateChatbot initialized with 4 specialized agents")
+
+        # RAG context cache
+        self._rag_enabled = RAG_ENABLED
+
+    async def _get_rag_context(self, query: str, session_id: str = None) -> Dict[str, Any]:
+        """
+        Retrieve relevant context from RAG system.
+
+        Returns context documents and metadata for enhanced responses.
+        """
+        if not self._rag_enabled:
+            return {"context": [], "sources": []}
+
+        try:
+            from app.services.rag_engine import get_rag_engine
+            from app.core.database import get_async_session
+
+            # Get database session
+            async with get_async_session() as db:
+                engine = await get_rag_engine()
+                result = await engine.query(
+                    db=db,
+                    query=query,
+                    session_id=session_id,
+                    top_k=3,
+                    include_sources=True,
+                    generate_response=False  # Just retrieve, don't generate
+                )
+
+                # Extract context
+                context = []
+                sources = []
+                for source in result.get("sources", []):
+                    context.append({
+                        "content": source.get("content", ""),
+                        "title": source.get("title", ""),
+                        "score": source.get("score", 0.0)
+                    })
+                    sources.append({
+                        "title": source.get("title", ""),
+                        "type": source.get("source_type", ""),
+                        "relevance": source.get("score", 0.0)
+                    })
+
+                logger.info(f"RAG retrieved {len(context)} relevant documents")
+
+                return {
+                    "context": context,
+                    "sources": sources,
+                    "query_id": result.get("query_id"),
+                    "policy_action": result.get("policy_action")
+                }
+
+        except Exception as e:
+            logger.warning(f"RAG context retrieval failed: {e}")
+            return {"context": [], "sources": []}
 
     def _route_to_agent(self, user_message: str) -> str:
         """
@@ -114,9 +173,19 @@ class RealEstateChatbot:
             "timestamp": datetime.now().isoformat(),
         })
 
+        # Retrieve RAG context for enhanced responses
+        rag_context = await self._get_rag_context(user_message, conversation_id)
+
         # Route to appropriate agent
         agent_id = self._route_to_agent(user_message)
         agent = self.agents[agent_id]
+
+        # Merge RAG context with provided context
+        enhanced_context = context or {}
+        if rag_context.get("context"):
+            enhanced_context["rag_documents"] = rag_context["context"]
+            enhanced_context["rag_sources"] = rag_context["sources"]
+            enhanced_context["rag_query_id"] = rag_context.get("query_id")
 
         # Create task for agent
         task = Task(
@@ -124,7 +193,7 @@ class RealEstateChatbot:
             description=user_message,
             priority=1,
             created_at=datetime.now(),
-            metadata=context or {}
+            metadata=enhanced_context
         )
 
         # Process with agent
@@ -143,6 +212,11 @@ class RealEstateChatbot:
                 "timestamp": datetime.now().isoformat(),
                 "quality_score": result.quality_score,
             })
+
+            # Include RAG sources in response
+            if rag_context.get("sources"):
+                response["rag_sources"] = rag_context["sources"]
+                response["rag_query_id"] = rag_context.get("query_id")
 
             return response
 

@@ -53,11 +53,27 @@ scipy==1.11.4
 # Time Series & Forecasting (Required by analytics)
 statsmodels==0.14.1
 
-# Natural Language Processing (TEMPORARILY DISABLED - Heavy dependencies)
-# transformers==4.45.0
-# huggingface-hub==0.25.2
-# torch==2.1.2
-# sentence-transformers==3.3.0
+# Natural Language Processing & RAG
+sentence-transformers==2.2.2
+torch==2.1.2
+transformers==4.35.0
+huggingface-hub==0.19.4
+
+# Vector Database
+qdrant-client==1.7.0
+chromadb==0.4.22
+
+# RAG & LLM Framework
+langchain==0.1.0
+langchain-community==0.0.10
+tiktoken==0.5.2
+
+# Reinforcement Learning
+gymnasium==0.29.1
+stable-baselines3==2.2.1
+
+# Additional ML for RAG
+faiss-cpu==1.7.4
 
 # Document Generation & Export
 reportlab==4.0.7
