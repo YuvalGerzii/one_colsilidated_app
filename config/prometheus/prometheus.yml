@@ -1,0 +1,45 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'traefik'
+    static_configs:
+      - targets: ['traefik:8080']
+
+  - job_name: 'finance-backend'
+    static_configs:
+      - targets: ['finance-backend:8000']
+    metrics_path: /metrics
+
+  - job_name: 'realestate-backend'
+    static_configs:
+      - targets: ['realestate-backend:8000']
+    metrics_path: /metrics
+
+  - job_name: 'bondai-backend'
+    static_configs:
+      - targets: ['bondai-backend:3002']
+    metrics_path: /metrics
+
+  - job_name: 'legacy-backend'
+    static_configs:
+      - targets: ['legacy-backend:8000']
+    metrics_path: /metrics
+
+  - job_name: 'labor-backend'
+    static_configs:
+      - targets: ['labor-backend:8000']
+    metrics_path: /metrics
+
+  - job_name: 'redis'
+    static_configs:
+      - targets: ['redis:6379']
+
+  - job_name: 'postgres'
+    static_configs:
+      - targets: ['postgres:5432']

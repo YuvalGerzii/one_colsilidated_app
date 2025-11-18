@@ -1,0 +1,659 @@
+version: '3.8'
+
+# =============================================================================
+# CONSOLIDATED PLATFORM - ONE UNIFIED SYSTEM
+# =============================================================================
+# This docker-compose unifies all platforms:
+# - Finance Platform
+# - Real Estate Dashboard
+# - Bond.AI
+# - Legacy Systems
+# - Labor Transformation
+# =============================================================================
+
+services:
+  # ===========================================================================
+  # GATEWAY & ROUTING
+  # ===========================================================================
+
+  traefik:
+    image: traefik:v2.10
+    container_name: unified-traefik
+    command:
+      - "--api.insecure=true"
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--log.level=INFO"
+    ports:
+      - "8180:80"
+      - "8443:443"
+      - "8181:8080"  # Traefik Dashboard
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./config/traefik:/etc/traefik
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "traefik", "healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ===========================================================================
+  # CENTRALIZED AUTHENTICATION
+  # ===========================================================================
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: unified-keycloak
+    command: start-dev
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/auth_db
+      KC_DB_USERNAME: ${POSTGRES_USER:-unified_user}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-unified_password}
+      KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN:-admin}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-admin}
+      KC_HEALTH_ENABLED: true
+    ports:
+      - "8183:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD-SHELL", "exec 3<>/dev/tcp/127.0.0.1/8080;echo -e 'GET /health/ready HTTP/1.1\r\nhost: localhost\r\nConnection: close\r\n\r\n' >&3;grep -q '\"status\": \"UP\"' <&3"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.keycloak.rule=Host(`auth.localhost`)"
+      - "traefik.http.services.keycloak.loadbalancer.server.port=8080"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # UNIFIED DASHBOARD - MAIN UI
+  # ===========================================================================
+
+  unified-dashboard:
+    build:
+      context: ./unified-dashboard
+      dockerfile: Dockerfile
+    container_name: unified-dashboard
+    ports:
+      - "3100:80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`localhost`) || Host(`dashboard.localhost`)"
+      - "traefik.http.routers.dashboard.entrypoints=web"
+      - "traefik.http.services.dashboard.loadbalancer.server.port=80"
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ===========================================================================
+  # SHARED DATABASES
+  # ===========================================================================
+
+  postgres:
+    image: ankane/pgvector:v0.5.1
+    container_name: unified-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-unified_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-unified_password}
+      POSTGRES_MULTIPLE_DATABASES: finance_db,realestate_db,bondai_db,legacy_db,labor_db,auth_db
+    ports:
+      - "5532:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./config/postgres/init-multiple-dbs.sh:/docker-entrypoint-initdb.d/init-multiple-dbs.sh
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-unified_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: unified-redis
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-unified_redis_pass}
+    ports:
+      - "6479:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-unified_redis_pass}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: unified-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-unified_rabbit}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-unified_rabbit_pass}
+    ports:
+      - "5772:5672"
+      - "15772:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - unified-network
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rabbitmq.rule=Host(`rabbitmq.localhost`)"
+      - "traefik.http.services.rabbitmq.loadbalancer.server.port=15672"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # AI/ML INFRASTRUCTURE
+  # ===========================================================================
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: unified-ollama
+    ports:
+      - "11534:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+    restart: unless-stopped
+
+  weaviate:
+    image: semitechnologies/weaviate:latest
+    container_name: unified-weaviate
+    ports:
+      - "8182:8080"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none'
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/v1/.well-known/ready"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ===========================================================================
+  # MONITORING & OBSERVABILITY
+  # ===========================================================================
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: unified-prometheus
+    ports:
+      - "9190:9090"
+    volumes:
+      - ./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:9090/-/healthy"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.prometheus.rule=Host(`prometheus.localhost`)"
+      - "traefik.http.services.prometheus.loadbalancer.server.port=9090"
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: unified-grafana
+    ports:
+      - "3101:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+      GF_USERS_ALLOW_SIGN_UP: false
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.grafana.rule=Host(`grafana.localhost`)"
+      - "traefik.http.services.grafana.loadbalancer.server.port=3000"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # FINANCE PLATFORM SERVICES
+  # ===========================================================================
+
+  finance-backend:
+    build:
+      context: ./FULL_finance_platform/Finance_platform/backend
+      dockerfile: Dockerfile
+    container_name: finance-backend
+    ports:
+      - "8100:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/finance_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/0
+      RABBITMQ_URL: amqp://${RABBITMQ_USER:-unified_rabbit}:${RABBITMQ_PASSWORD:-unified_rabbit_pass}@rabbitmq:5672/
+      OLLAMA_BASE_URL: http://ollama:11434
+      WEAVIATE_URL: http://weaviate:8080
+      AUTH_SERVER_URL: http://keycloak:8080
+      AUTH_REALM: unified-platform
+    volumes:
+      - ./FULL_finance_platform/Finance_platform/backend:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.finance-api.rule=Host(`api.localhost`) && PathPrefix(`/finance`)"
+      - "traefik.http.routers.finance-api.middlewares=finance-strip"
+      - "traefik.http.middlewares.finance-strip.stripprefix.prefixes=/finance"
+      - "traefik.http.services.finance-api.loadbalancer.server.port=8000"
+    restart: unless-stopped
+
+  finance-frontend:
+    build:
+      context: ./FULL_finance_platform/Finance_platform/backend/portfolio-dashboard-frontend
+      dockerfile: Dockerfile
+    container_name: finance-frontend
+    ports:
+      - "3102:80"
+    environment:
+      VITE_API_URL: http://localhost:8100
+      VITE_AUTH_URL: http://localhost:8180
+    depends_on:
+      finance-backend:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.finance-ui.rule=Host(`finance.localhost`)"
+      - "traefik.http.services.finance-ui.loadbalancer.server.port=80"
+    restart: unless-stopped
+
+  finance-celery:
+    build:
+      context: ./FULL_finance_platform/Finance_platform/backend
+      dockerfile: Dockerfile
+    container_name: finance-celery
+    command: celery -A app.tasks worker --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/finance_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/0
+      RABBITMQ_URL: amqp://${RABBITMQ_USER:-unified_rabbit}:${RABBITMQ_PASSWORD:-unified_rabbit_pass}@rabbitmq:5672/
+    volumes:
+      - ./FULL_finance_platform/Finance_platform/backend:/app
+    depends_on:
+      finance-backend:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "celery", "-A", "app.tasks", "inspect", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+  # ===========================================================================
+  # REAL ESTATE DASHBOARD SERVICES
+  # ===========================================================================
+
+  realestate-backend:
+    build:
+      context: ./real_estate_dashboard/backend
+      dockerfile: Dockerfile
+    container_name: realestate-backend
+    ports:
+      - "8101:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/realestate_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/1
+      OLLAMA_BASE_URL: http://ollama:11434
+      AUTH_SERVER_URL: http://keycloak:8080
+      AUTH_REALM: unified-platform
+    volumes:
+      - ./real_estate_dashboard/backend:/app
+      - ./real_estate_dashboard/storage:/app/storage
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.realestate-api.rule=Host(`api.localhost`) && PathPrefix(`/realestate`)"
+      - "traefik.http.routers.realestate-api.middlewares=realestate-strip"
+      - "traefik.http.middlewares.realestate-strip.stripprefix.prefixes=/realestate"
+      - "traefik.http.services.realestate-api.loadbalancer.server.port=8000"
+    restart: unless-stopped
+
+  realestate-frontend:
+    build:
+      context: ./real_estate_dashboard/frontend
+      dockerfile: Dockerfile
+    container_name: realestate-frontend
+    ports:
+      - "3103:80"
+    environment:
+      VITE_API_URL: http://localhost:8101
+      VITE_AUTH_URL: http://localhost:8180
+    depends_on:
+      realestate-backend:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.realestate-ui.rule=Host(`realestate.localhost`)"
+      - "traefik.http.services.realestate-ui.loadbalancer.server.port=80"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # BOND.AI SERVICES
+  # ===========================================================================
+
+  bondai-backend:
+    build:
+      context: ./bond.ai_code/multi-agent-system/bond.ai/server
+      dockerfile: Dockerfile
+    container_name: bondai-backend
+    ports:
+      - "8102:3002"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/bondai_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/2
+      OLLAMA_BASE_URL: http://ollama:11434
+      PYTHON_AGENTS_URL: http://bondai-agents:8000
+      NODE_ENV: production
+      PORT: 3002
+      AUTH_SERVER_URL: http://keycloak:8080
+      AUTH_REALM: unified-platform
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.bondai-api.rule=Host(`api.localhost`) && PathPrefix(`/bondai`)"
+      - "traefik.http.routers.bondai-api.middlewares=bondai-strip"
+      - "traefik.http.middlewares.bondai-strip.stripprefix.prefixes=/bondai"
+      - "traefik.http.services.bondai-api.loadbalancer.server.port=3002"
+    restart: unless-stopped
+
+  bondai-agents:
+    build:
+      context: ./bond.ai_code/multi-agent-system/bond.ai/python-agents
+      dockerfile: Dockerfile
+    container_name: bondai-agents
+    ports:
+      - "8105:8000"
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/bondai_db
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.bondai-agents.rule=Host(`api.localhost`) && PathPrefix(`/agents`)"
+      - "traefik.http.services.bondai-agents.loadbalancer.server.port=8000"
+    restart: unless-stopped
+
+  bondai-frontend:
+    build:
+      context: ./bond.ai_code/multi-agent-system/bond.ai/frontend
+      dockerfile: Dockerfile
+    container_name: bondai-frontend
+    ports:
+      - "3104:80"
+    environment:
+      VITE_API_URL: http://localhost:8102
+      VITE_AUTH_URL: http://localhost:8180
+    depends_on:
+      bondai-backend:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.bondai-ui.rule=Host(`bondai.localhost`)"
+      - "traefik.http.services.bondai-ui.loadbalancer.server.port=80"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # LEGACY SYSTEMS SERVICES
+  # ===========================================================================
+
+  legacy-backend:
+    build:
+      context: ./Legacy-Systems-Manual-Processes-in-Enterprises/Legacy-Systems-Manual-Processes-in-Enterprises
+      dockerfile: Dockerfile
+    container_name: legacy-backend
+    ports:
+      - "8103:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/legacy_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/3
+      OLLAMA_BASE_URL: http://ollama:11434
+      AUTH_SERVER_URL: http://keycloak:8080
+      AUTH_REALM: unified-platform
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.legacy-api.rule=Host(`api.localhost`) && PathPrefix(`/legacy`)"
+      - "traefik.http.routers.legacy-api.middlewares=legacy-strip"
+      - "traefik.http.middlewares.legacy-strip.stripprefix.prefixes=/legacy"
+      - "traefik.http.services.legacy-api.loadbalancer.server.port=8000"
+    restart: unless-stopped
+
+  # ===========================================================================
+  # LABOR TRANSFORMATION SERVICES
+  # ===========================================================================
+
+  labor-backend:
+    build:
+      context: ./labor_transofrmation/Labor-market-disruption-inequality/backend
+      dockerfile: Dockerfile
+    container_name: labor-backend
+    ports:
+      - "8104:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-unified_user}:${POSTGRES_PASSWORD:-unified_password}@postgres:5432/labor_db
+      REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/4
+      AUTH_SERVER_URL: http://keycloak:8080
+      AUTH_REALM: unified-platform
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.labor-api.rule=Host(`api.localhost`) && PathPrefix(`/labor`)"
+      - "traefik.http.routers.labor-api.middlewares=labor-strip"
+      - "traefik.http.middlewares.labor-strip.stripprefix.prefixes=/labor"
+      - "traefik.http.services.labor-api.loadbalancer.server.port=8000"
+    restart: unless-stopped
+
+  labor-frontend:
+    build:
+      context: ./labor_transofrmation/Labor-market-disruption-inequality/frontend
+      dockerfile: Dockerfile
+    container_name: labor-frontend
+    ports:
+      - "3105:80"
+    environment:
+      VITE_API_URL: http://localhost:8104
+      VITE_AUTH_URL: http://localhost:8180
+    depends_on:
+      labor-backend:
+        condition: service_healthy
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.labor-ui.rule=Host(`labor.localhost`)"
+      - "traefik.http.services.labor-ui.loadbalancer.server.port=80"
+    restart: unless-stopped
+
+# =============================================================================
+# NETWORKS
+# =============================================================================
+
+networks:
+  unified-network:
+    driver: bridge
+    name: unified-platform-network
+
+# =============================================================================
+# VOLUMES
+# =============================================================================
+
+volumes:
+  postgres_data:
+    name: unified_postgres_data
+  redis_data:
+    name: unified_redis_data
+  rabbitmq_data:
+    name: unified_rabbitmq_data
+  ollama_data:
+    name: unified_ollama_data
+  weaviate_data:
+    name: unified_weaviate_data
+  prometheus_data:
+    name: unified_prometheus_data
+  grafana_data:
+    name: unified_grafana_data
