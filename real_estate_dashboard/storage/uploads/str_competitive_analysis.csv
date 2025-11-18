@@ -1,0 +1,16 @@
+market,str_adr_daily,str_monthly_equivalent_adr_x30,ltr_monthly_rent,str_adr_vs_ltr_difference,str_profitability_advantage,breakeven_occupancy_rate_pct,str_implied_cap_rate_pct,ltr_implied_cap_rate_pct,cap_rate_advantage_basis_points,data_source,period
+"New York, NY",238.0,7140.0,3167.0,3973.0,3973.0,55.4,9.04,7.68,256.0,Comparative Market Analysis,2024-Q3
+"Los Angeles, CA",245.0,7350.0,3383.0,3967.0,3967.0,51.4,10.75,6.85,537.0,Comparative Market Analysis,2024-Q3
+"San Francisco, CA",190.0,5700.0,2809.0,2891.0,2891.0,55.1,11.57,6.47,425.0,Comparative Market Analysis,2024-Q3
+"Miami, FL",190.0,5700.0,2607.0,3093.0,3093.0,45.3,10.32,5.33,367.0,Comparative Market Analysis,2024-Q3
+"Chicago, IL",194.0,5820.0,2323.0,3497.0,3497.0,63.0,14.1,6.89,439.0,Comparative Market Analysis,2024-Q3
+"Boston, MA",191.0,5730.0,2251.0,3479.0,3479.0,58.1,14.8,6.74,291.0,Comparative Market Analysis,2024-Q3
+"Washington, DC",195.0,5850.0,1887.0,3963.0,3963.0,54.6,11.67,7.16,510.0,Comparative Market Analysis,2024-Q3
+"Seattle, WA",154.0,4620.0,2446.0,2174.0,2174.0,61.4,9.7,6.72,480.0,Comparative Market Analysis,2024-Q3
+"Austin, TX",161.0,4830.0,2124.0,2706.0,2706.0,53.8,10.93,6.24,282.0,Comparative Market Analysis,2024-Q3
+"Denver, CO",176.0,5280.0,2653.0,2627.0,2627.0,57.2,11.3,7.55,491.0,Comparative Market Analysis,2024-Q3
+"Dallas, TX",242.0,7260.0,3000.0,4260.0,4260.0,55.4,11.93,7.99,391.0,Comparative Market Analysis,2024-Q3
+"Atlanta, GA",241.0,7230.0,2441.0,4789.0,4789.0,64.1,11.22,6.6,419.0,Comparative Market Analysis,2024-Q3
+"Phoenix, AZ",211.0,6330.0,2949.0,3381.0,3381.0,62.4,12.77,7.41,306.0,Comparative Market Analysis,2024-Q3
+"Nashville, TN",177.0,5310.0,2623.0,2687.0,2687.0,64.1,9.95,5.9,577.0,Comparative Market Analysis,2024-Q3
+"Charlotte, NC",201.0,6030.0,3470.0,2560.0,2560.0,60.4,12.93,7.07,396.0,Comparative Market Analysis,2024-Q3

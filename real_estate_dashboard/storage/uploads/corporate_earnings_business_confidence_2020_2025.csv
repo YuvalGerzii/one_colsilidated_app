@@ -1,0 +1,409 @@
+period,year,category,metric_name,metric_value,metric_unit,data_source
+2020-01-01,2020,S&P 500 Earnings,Operating EPS,139.72,USD,FactSet/LSEG
+2020-01-01,2020,S&P 500 Earnings,EPS Growth YoY,-14.0,Percent,FactSet/LSEG
+2020-01-01,2020,S&P 500 Earnings,Forward P/E Ratio,18.5,Multiple,FactSet
+2020-01-01,2020,S&P 500 Earnings,Earnings Revision Ratio,0.35,Upgrades/Downgrades,FactSet Earnings Revisions
+2020-01-01,2020,S&P 500 Earnings,Earnings Surprise Rate,48.5,Percent,FactSet
+2020-01-01,2020,S&P 500 Earnings,Operating Margin,8.2,Percent,S&P Global
+2020-01-01,2020,S&P 500 Earnings,Return on Equity,12.5,Percent,FactSet
+2021-01-01,2021,S&P 500 Earnings,Operating EPS,208.12,USD,FactSet/LSEG
+2021-01-01,2021,S&P 500 Earnings,EPS Growth YoY,49.0,Percent,FactSet/LSEG
+2021-01-01,2021,S&P 500 Earnings,Forward P/E Ratio,20.2,Multiple,FactSet
+2021-01-01,2021,S&P 500 Earnings,Earnings Revision Ratio,0.65,Upgrades/Downgrades,FactSet Earnings Revisions
+2021-01-01,2021,S&P 500 Earnings,Earnings Surprise Rate,72.8,Percent,FactSet
+2021-01-01,2021,S&P 500 Earnings,Operating Margin,10.5,Percent,S&P Global
+2021-01-01,2021,S&P 500 Earnings,Return on Equity,16.8,Percent,FactSet
+2022-01-01,2022,S&P 500 Earnings,Operating EPS,218.09,USD,FactSet/LSEG
+2022-01-01,2022,S&P 500 Earnings,EPS Growth YoY,4.8,Percent,FactSet/LSEG
+2022-01-01,2022,S&P 500 Earnings,Forward P/E Ratio,15.8,Multiple,FactSet
+2022-01-01,2022,S&P 500 Earnings,Earnings Revision Ratio,0.42,Upgrades/Downgrades,FactSet Earnings Revisions
+2022-01-01,2022,S&P 500 Earnings,Earnings Surprise Rate,52.3,Percent,FactSet
+2022-01-01,2022,S&P 500 Earnings,Operating Margin,9.8,Percent,S&P Global
+2022-01-01,2022,S&P 500 Earnings,Return on Equity,14.2,Percent,FactSet
+2023-01-01,2023,S&P 500 Earnings,Operating EPS,221.36,USD,FactSet/LSEG
+2023-01-01,2023,S&P 500 Earnings,EPS Growth YoY,1.5,Percent,FactSet/LSEG
+2023-01-01,2023,S&P 500 Earnings,Forward P/E Ratio,18.5,Multiple,FactSet
+2023-01-01,2023,S&P 500 Earnings,Earnings Revision Ratio,0.48,Upgrades/Downgrades,FactSet Earnings Revisions
+2023-01-01,2023,S&P 500 Earnings,Earnings Surprise Rate,58.7,Percent,FactSet
+2023-01-01,2023,S&P 500 Earnings,Operating Margin,10.2,Percent,S&P Global
+2023-01-01,2023,S&P 500 Earnings,Return on Equity,15.5,Percent,FactSet
+2024-01-01,2024,S&P 500 Earnings,Operating EPS,243.49,USD,FactSet/LSEG
+2024-01-01,2024,S&P 500 Earnings,EPS Growth YoY,9.9,Percent,FactSet/LSEG
+2024-01-01,2024,S&P 500 Earnings,Forward P/E Ratio,21.2,Multiple,FactSet
+2024-01-01,2024,S&P 500 Earnings,Earnings Revision Ratio,0.58,Upgrades/Downgrades,FactSet Earnings Revisions
+2024-01-01,2024,S&P 500 Earnings,Earnings Surprise Rate,65.4,Percent,FactSet
+2024-01-01,2024,S&P 500 Earnings,Operating Margin,11.2,Percent,S&P Global
+2024-01-01,2024,S&P 500 Earnings,Return on Equity,17.3,Percent,FactSet
+2025-01-01,2025,S&P 500 Earnings,Operating EPS,267.77,USD,FactSet/LSEG
+2025-01-01,2025,S&P 500 Earnings,EPS Growth YoY,10.0,Percent,FactSet/LSEG
+2025-01-01,2025,S&P 500 Earnings,Forward P/E Ratio,19.8,Multiple,FactSet
+2025-01-01,2025,S&P 500 Earnings,Earnings Revision Ratio,0.62,Upgrades/Downgrades,FactSet Earnings Revisions
+2025-01-01,2025,S&P 500 Earnings,Earnings Surprise Rate,68.2,Percent,FactSet
+2025-01-01,2025,S&P 500 Earnings,Operating Margin,11.8,Percent,S&P Global
+2025-01-01,2025,S&P 500 Earnings,Return on Equity,18.1,Percent,FactSet
+2020-01-01,2020,Sector Earnings,Technology Earnings Growth,-8.5,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Sector Earnings,Financial Services Earnings Growth,-18.2,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Sector Earnings,Consumer Discretionary Earnings Growth,-32.5,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Sector Earnings,Healthcare Earnings Growth,5.2,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Sector Earnings,Real Estate (REIT) Earnings Growth,-22.8,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Sector Earnings,Industrials Earnings Growth,-12.5,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Technology Earnings Growth,32.8,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Financial Services Earnings Growth,45.2,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Consumer Discretionary Earnings Growth,62.5,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Healthcare Earnings Growth,22.5,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Real Estate (REIT) Earnings Growth,58.2,Percent YoY,S&P Global Sector Data
+2021-01-01,2021,Sector Earnings,Industrials Earnings Growth,48.5,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Technology Earnings Growth,-18.2,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Financial Services Earnings Growth,-12.5,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Consumer Discretionary Earnings Growth,-28.3,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Healthcare Earnings Growth,8.5,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Real Estate (REIT) Earnings Growth,-22.5,Percent YoY,S&P Global Sector Data
+2022-01-01,2022,Sector Earnings,Industrials Earnings Growth,-15.2,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Technology Earnings Growth,12.5,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Financial Services Earnings Growth,8.2,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Consumer Discretionary Earnings Growth,18.5,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Healthcare Earnings Growth,12.8,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Real Estate (REIT) Earnings Growth,15.2,Percent YoY,S&P Global Sector Data
+2023-01-01,2023,Sector Earnings,Industrials Earnings Growth,22.5,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Technology Earnings Growth,28.5,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Financial Services Earnings Growth,18.2,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Consumer Discretionary Earnings Growth,22.5,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Healthcare Earnings Growth,15.5,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Real Estate (REIT) Earnings Growth,18.8,Percent YoY,S&P Global Sector Data
+2024-01-01,2024,Sector Earnings,Industrials Earnings Growth,25.2,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Technology Earnings Growth,32.2,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Financial Services Earnings Growth,22.5,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Consumer Discretionary Earnings Growth,18.8,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Healthcare Earnings Growth,14.2,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Real Estate (REIT) Earnings Growth,22.5,Percent YoY,S&P Global Sector Data
+2025-01-01,2025,Sector Earnings,Industrials Earnings Growth,28.5,Percent YoY,S&P Global Sector Data
+2020-01-01,2020,Profit Margins,Corporate Profit Margins,8.5,Percent,NIPA/BEA
+2020-01-01,2020,Profit Margins,Unit Labor Costs Growth,2.5,Percent YoY,BLS
+2020-01-01,2020,Profit Margins,Profit Share of National Income,12.2,Percent,BEA NIPA
+2020-01-01,2020,Profit Margins,Corporate Profits After Tax,1452.0,Billion USD,BEA NIPA
+2020-01-01,2020,Profit Margins,YoY Change in Corporate Profits,-15.8,Percent,BEA NIPA
+2021-01-01,2021,Profit Margins,Corporate Profit Margins,11.2,Percent,NIPA/BEA
+2021-01-01,2021,Profit Margins,Unit Labor Costs Growth,-1.2,Percent YoY,BLS
+2021-01-01,2021,Profit Margins,Profit Share of National Income,14.8,Percent,BEA NIPA
+2021-01-01,2021,Profit Margins,Corporate Profits After Tax,2125.0,Billion USD,BEA NIPA
+2021-01-01,2021,Profit Margins,YoY Change in Corporate Profits,46.3,Percent,BEA NIPA
+2022-01-01,2022,Profit Margins,Corporate Profit Margins,10.5,Percent,NIPA/BEA
+2022-01-01,2022,Profit Margins,Unit Labor Costs Growth,4.8,Percent YoY,BLS
+2022-01-01,2022,Profit Margins,Profit Share of National Income,14.2,Percent,BEA NIPA
+2022-01-01,2022,Profit Margins,Corporate Profits After Tax,2045.0,Billion USD,BEA NIPA
+2022-01-01,2022,Profit Margins,YoY Change in Corporate Profits,-3.8,Percent,BEA NIPA
+2023-01-01,2023,Profit Margins,Corporate Profit Margins,10.8,Percent,NIPA/BEA
+2023-01-01,2023,Profit Margins,Unit Labor Costs Growth,3.2,Percent YoY,BLS
+2023-01-01,2023,Profit Margins,Profit Share of National Income,14.5,Percent,BEA NIPA
+2023-01-01,2023,Profit Margins,Corporate Profits After Tax,2158.0,Billion USD,BEA NIPA
+2023-01-01,2023,Profit Margins,YoY Change in Corporate Profits,5.5,Percent,BEA NIPA
+2024-01-01,2024,Profit Margins,Corporate Profit Margins,11.5,Percent,NIPA/BEA
+2024-01-01,2024,Profit Margins,Unit Labor Costs Growth,2.1,Percent YoY,BLS
+2024-01-01,2024,Profit Margins,Profit Share of National Income,15.2,Percent,BEA NIPA
+2024-01-01,2024,Profit Margins,Corporate Profits After Tax,2385.0,Billion USD,BEA NIPA
+2024-01-01,2024,Profit Margins,YoY Change in Corporate Profits,10.5,Percent,BEA NIPA
+2025-01-01,2025,Profit Margins,Corporate Profit Margins,12.0,Percent,NIPA/BEA
+2025-01-01,2025,Profit Margins,Unit Labor Costs Growth,1.8,Percent YoY,BLS
+2025-01-01,2025,Profit Margins,Profit Share of National Income,15.8,Percent,BEA NIPA
+2025-01-01,2025,Profit Margins,Corporate Profits After Tax,2625.0,Billion USD,BEA NIPA
+2025-01-01,2025,Profit Margins,YoY Change in Corporate Profits,10.1,Percent,BEA NIPA
+2020-01-01,2020,Business Confidence,ISM Manufacturing PMI,47.8,Index (>50=expansion),ISM
+2020-01-01,2020,Business Confidence,ISM Services PMI,42.2,Index (>50=expansion),ISM
+2020-01-01,2020,Business Confidence,ISM New Orders Index,41.5,Index (>50=expansion),ISM
+2020-01-01,2020,Business Confidence,ISM Employment Index,40.2,Index (>50=expansion),ISM
+2020-01-01,2020,Business Confidence,NFIB Small Business Optimism,98.2,Index,NFIB
+2020-01-01,2020,Business Confidence,CEO Confidence Index,38.5,Index,Conference Board
+2020-01-01,2020,Business Confidence,CFO Optimism Index,35.2,Index,Duke CFO Global Survey
+2021-01-01,2021,Business Confidence,ISM Manufacturing PMI,58.5,Index (>50=expansion),ISM
+2021-01-01,2021,Business Confidence,ISM Services PMI,60.2,Index (>50=expansion),ISM
+2021-01-01,2021,Business Confidence,ISM New Orders Index,65.2,Index (>50=expansion),ISM
+2021-01-01,2021,Business Confidence,ISM Employment Index,58.5,Index (>50=expansion),ISM
+2021-01-01,2021,Business Confidence,NFIB Small Business Optimism,105.7,Index,NFIB
+2021-01-01,2021,Business Confidence,CEO Confidence Index,68.5,Index,Conference Board
+2021-01-01,2021,Business Confidence,CFO Optimism Index,72.5,Index,Duke CFO Global Survey
+2022-01-01,2022,Business Confidence,ISM Manufacturing PMI,51.5,Index (>50=expansion),ISM
+2022-01-01,2022,Business Confidence,ISM Services PMI,55.2,Index (>50=expansion),ISM
+2022-01-01,2022,Business Confidence,ISM New Orders Index,52.8,Index (>50=expansion),ISM
+2022-01-01,2022,Business Confidence,ISM Employment Index,51.2,Index (>50=expansion),ISM
+2022-01-01,2022,Business Confidence,NFIB Small Business Optimism,93.5,Index,NFIB
+2022-01-01,2022,Business Confidence,CEO Confidence Index,52.8,Index,Conference Board
+2022-01-01,2022,Business Confidence,CFO Optimism Index,48.5,Index,Duke CFO Global Survey
+2023-01-01,2023,Business Confidence,ISM Manufacturing PMI,46.2,Index (>50=expansion),ISM
+2023-01-01,2023,Business Confidence,ISM Services PMI,51.8,Index (>50=expansion),ISM
+2023-01-01,2023,Business Confidence,ISM New Orders Index,50.2,Index (>50=expansion),ISM
+2023-01-01,2023,Business Confidence,ISM Employment Index,50.5,Index (>50=expansion),ISM
+2023-01-01,2023,Business Confidence,NFIB Small Business Optimism,91.8,Index,NFIB
+2023-01-01,2023,Business Confidence,CEO Confidence Index,48.2,Index,Conference Board
+2023-01-01,2023,Business Confidence,CFO Optimism Index,45.8,Index,Duke CFO Global Survey
+2024-01-01,2024,Business Confidence,ISM Manufacturing PMI,48.5,Index (>50=expansion),ISM
+2024-01-01,2024,Business Confidence,ISM Services PMI,52.8,Index (>50=expansion),ISM
+2024-01-01,2024,Business Confidence,ISM New Orders Index,52.5,Index (>50=expansion),ISM
+2024-01-01,2024,Business Confidence,ISM Employment Index,50.8,Index (>50=expansion),ISM
+2024-01-01,2024,Business Confidence,NFIB Small Business Optimism,94.2,Index,NFIB
+2024-01-01,2024,Business Confidence,CEO Confidence Index,51.5,Index,Conference Board
+2024-01-01,2024,Business Confidence,CFO Optimism Index,52.2,Index,Duke CFO Global Survey
+2025-01-01,2025,Business Confidence,ISM Manufacturing PMI,49.3,Index (>50=expansion),ISM
+2025-01-01,2025,Business Confidence,ISM Services PMI,54.1,Index (>50=expansion),ISM
+2025-01-01,2025,Business Confidence,ISM New Orders Index,54.2,Index (>50=expansion),ISM
+2025-01-01,2025,Business Confidence,ISM Employment Index,51.4,Index (>50=expansion),ISM
+2025-01-01,2025,Business Confidence,NFIB Small Business Optimism,96.5,Index,NFIB
+2025-01-01,2025,Business Confidence,CEO Confidence Index,55.2,Index,Conference Board
+2025-01-01,2025,Business Confidence,CFO Optimism Index,58.5,Index,Duke CFO Global Survey
+2020-01-01,2020,Leading Indicators,Conference Board LEI,84.2,Index (2020=100),Conference Board
+2020-01-01,2020,Leading Indicators,LEI YoY Change,-8.5,Percent,Conference Board
+2020-01-01,2020,Leading Indicators,Recession Probability,95.0,Percent,NY Fed Probability Model
+2020-01-01,2020,Leading Indicators,OECD Composite LEI,92.5,Index,OECD
+2020-01-01,2020,Leading Indicators,Chicago Fed National Activity Index,-2.18,Standard Deviations,Chicago Federal Reserve
+2020-01-01,2020,Leading Indicators,Philadelphia Fed Leading Index,-1.85,Index,Philadelphia Federal Reserve
+2020-01-01,2020,Leading Indicators,ECRI Leading Index,85.2,Index,Economic Cycle Research Institute
+2021-01-01,2021,Leading Indicators,Conference Board LEI,112.5,Index (2020=100),Conference Board
+2021-01-01,2021,Leading Indicators,LEI YoY Change,33.6,Percent,Conference Board
+2021-01-01,2021,Leading Indicators,Recession Probability,15.0,Percent,NY Fed Probability Model
+2021-01-01,2021,Leading Indicators,OECD Composite LEI,125.8,Index,OECD
+2021-01-01,2021,Leading Indicators,Chicago Fed National Activity Index,0.85,Standard Deviations,Chicago Federal Reserve
+2021-01-01,2021,Leading Indicators,Philadelphia Fed Leading Index,1.25,Index,Philadelphia Federal Reserve
+2021-01-01,2021,Leading Indicators,ECRI Leading Index,135.2,Index,Economic Cycle Research Institute
+2022-01-01,2022,Leading Indicators,Conference Board LEI,104.2,Index (2020=100),Conference Board
+2022-01-01,2022,Leading Indicators,LEI YoY Change,-7.4,Percent,Conference Board
+2022-01-01,2022,Leading Indicators,Recession Probability,45.0,Percent,NY Fed Probability Model
+2022-01-01,2022,Leading Indicators,OECD Composite LEI,102.2,Index,OECD
+2022-01-01,2022,Leading Indicators,Chicago Fed National Activity Index,-0.28,Standard Deviations,Chicago Federal Reserve
+2022-01-01,2022,Leading Indicators,Philadelphia Fed Leading Index,-0.15,Index,Philadelphia Federal Reserve
+2022-01-01,2022,Leading Indicators,ECRI Leading Index,98.5,Index,Economic Cycle Research Institute
+2023-01-01,2023,Leading Indicators,Conference Board LEI,108.5,Index (2020=100),Conference Board
+2023-01-01,2023,Leading Indicators,LEI YoY Change,4.1,Percent,Conference Board
+2023-01-01,2023,Leading Indicators,Recession Probability,28.0,Percent,NY Fed Probability Model
+2023-01-01,2023,Leading Indicators,OECD Composite LEI,108.5,Index,OECD
+2023-01-01,2023,Leading Indicators,Chicago Fed National Activity Index,0.12,Standard Deviations,Chicago Federal Reserve
+2023-01-01,2023,Leading Indicators,Philadelphia Fed Leading Index,0.22,Index,Philadelphia Federal Reserve
+2023-01-01,2023,Leading Indicators,ECRI Leading Index,108.2,Index,Economic Cycle Research Institute
+2024-01-01,2024,Leading Indicators,Conference Board LEI,115.2,Index (2020=100),Conference Board
+2024-01-01,2024,Leading Indicators,LEI YoY Change,6.2,Percent,Conference Board
+2024-01-01,2024,Leading Indicators,Recession Probability,18.0,Percent,NY Fed Probability Model
+2024-01-01,2024,Leading Indicators,OECD Composite LEI,115.8,Index,OECD
+2024-01-01,2024,Leading Indicators,Chicago Fed National Activity Index,0.35,Standard Deviations,Chicago Federal Reserve
+2024-01-01,2024,Leading Indicators,Philadelphia Fed Leading Index,0.48,Index,Philadelphia Federal Reserve
+2024-01-01,2024,Leading Indicators,ECRI Leading Index,125.2,Index,Economic Cycle Research Institute
+2025-01-01,2025,Leading Indicators,Conference Board LEI,122.5,Index (2020=100),Conference Board
+2025-01-01,2025,Leading Indicators,LEI YoY Change,6.3,Percent,Conference Board
+2025-01-01,2025,Leading Indicators,Recession Probability,12.0,Percent,NY Fed Probability Model
+2025-01-01,2025,Leading Indicators,OECD Composite LEI,122.5,Index,OECD
+2025-01-01,2025,Leading Indicators,Chicago Fed National Activity Index,0.58,Standard Deviations,Chicago Federal Reserve
+2025-01-01,2025,Leading Indicators,Philadelphia Fed Leading Index,0.82,Index,Philadelphia Federal Reserve
+2025-01-01,2025,Leading Indicators,ECRI Leading Index,142.5,Index,Economic Cycle Research Institute
+2020-01-01,2020,Capital Expenditure,Non-Residential Fixed Investment,1752.0,Billion USD,BEA
+2020-01-01,2020,Capital Expenditure,CapEx Growth YoY,-5.2,Percent,BEA
+2020-01-01,2020,Capital Expenditure,Equipment Investment,585.0,Billion USD,BEA
+2020-01-01,2020,Capital Expenditure,Intellectual Property Investment,652.0,Billion USD,BEA
+2020-01-01,2020,Capital Expenditure,Structures Investment,515.0,Billion USD,BEA
+2020-01-01,2020,Capital Expenditure,CapEx as % of GDP,17.2,Percent,BEA
+2021-01-01,2021,Capital Expenditure,Non-Residential Fixed Investment,1885.0,Billion USD,BEA
+2021-01-01,2021,Capital Expenditure,CapEx Growth YoY,7.6,Percent,BEA
+2021-01-01,2021,Capital Expenditure,Equipment Investment,625.0,Billion USD,BEA
+2021-01-01,2021,Capital Expenditure,Intellectual Property Investment,715.0,Billion USD,BEA
+2021-01-01,2021,Capital Expenditure,Structures Investment,545.0,Billion USD,BEA
+2021-01-01,2021,Capital Expenditure,CapEx as % of GDP,17.5,Percent,BEA
+2022-01-01,2022,Capital Expenditure,Non-Residential Fixed Investment,1945.0,Billion USD,BEA
+2022-01-01,2022,Capital Expenditure,CapEx Growth YoY,3.2,Percent,BEA
+2022-01-01,2022,Capital Expenditure,Equipment Investment,648.0,Billion USD,BEA
+2022-01-01,2022,Capital Expenditure,Intellectual Property Investment,742.0,Billion USD,BEA
+2022-01-01,2022,Capital Expenditure,Structures Investment,555.0,Billion USD,BEA
+2022-01-01,2022,Capital Expenditure,CapEx as % of GDP,17.3,Percent,BEA
+2023-01-01,2023,Capital Expenditure,Non-Residential Fixed Investment,2015.0,Billion USD,BEA
+2023-01-01,2023,Capital Expenditure,CapEx Growth YoY,3.6,Percent,BEA
+2023-01-01,2023,Capital Expenditure,Equipment Investment,682.0,Billion USD,BEA
+2023-01-01,2023,Capital Expenditure,Intellectual Property Investment,785.0,Billion USD,BEA
+2023-01-01,2023,Capital Expenditure,Structures Investment,548.0,Billion USD,BEA
+2023-01-01,2023,Capital Expenditure,CapEx as % of GDP,17.8,Percent,BEA
+2024-01-01,2024,Capital Expenditure,Non-Residential Fixed Investment,2125.0,Billion USD,BEA
+2024-01-01,2024,Capital Expenditure,CapEx Growth YoY,5.5,Percent,BEA
+2024-01-01,2024,Capital Expenditure,Equipment Investment,728.0,Billion USD,BEA
+2024-01-01,2024,Capital Expenditure,Intellectual Property Investment,842.0,Billion USD,BEA
+2024-01-01,2024,Capital Expenditure,Structures Investment,555.0,Billion USD,BEA
+2024-01-01,2024,Capital Expenditure,CapEx as % of GDP,18.2,Percent,BEA
+2025-01-01,2025,Capital Expenditure,Non-Residential Fixed Investment,2245.0,Billion USD,BEA
+2025-01-01,2025,Capital Expenditure,CapEx Growth YoY,5.6,Percent,BEA
+2025-01-01,2025,Capital Expenditure,Equipment Investment,782.0,Billion USD,BEA
+2025-01-01,2025,Capital Expenditure,Intellectual Property Investment,908.0,Billion USD,BEA
+2025-01-01,2025,Capital Expenditure,Structures Investment,555.0,Billion USD,BEA
+2025-01-01,2025,Capital Expenditure,CapEx as % of GDP,18.5,Percent,BEA
+2020-01-01,2020,Productivity,Labor Productivity Growth,4.5,Percent YoY,BLS
+2020-01-01,2020,Productivity,Multifactor Productivity Growth,2.2,Percent YoY,BLS
+2020-01-01,2020,Productivity,Output per Hour,102.5,Index (2020=100),BLS
+2020-01-01,2020,Productivity,Unit Labor Costs Change,2.8,Percent YoY,BLS
+2021-01-01,2021,Productivity,Labor Productivity Growth,3.8,Percent YoY,BLS
+2021-01-01,2021,Productivity,Multifactor Productivity Growth,1.5,Percent YoY,BLS
+2021-01-01,2021,Productivity,Output per Hour,106.2,Index (2020=100),BLS
+2021-01-01,2021,Productivity,Unit Labor Costs Change,-1.5,Percent YoY,BLS
+2022-01-01,2022,Productivity,Labor Productivity Growth,-2.1,Percent YoY,BLS
+2022-01-01,2022,Productivity,Multifactor Productivity Growth,-0.8,Percent YoY,BLS
+2022-01-01,2022,Productivity,Output per Hour,103.8,Index (2020=100),BLS
+2022-01-01,2022,Productivity,Unit Labor Costs Change,4.2,Percent YoY,BLS
+2023-01-01,2023,Productivity,Labor Productivity Growth,1.2,Percent YoY,BLS
+2023-01-01,2023,Productivity,Multifactor Productivity Growth,0.5,Percent YoY,BLS
+2023-01-01,2023,Productivity,Output per Hour,105.2,Index (2020=100),BLS
+2023-01-01,2023,Productivity,Unit Labor Costs Change,2.8,Percent YoY,BLS
+2024-01-01,2024,Productivity,Labor Productivity Growth,1.8,Percent YoY,BLS
+2024-01-01,2024,Productivity,Multifactor Productivity Growth,0.8,Percent YoY,BLS
+2024-01-01,2024,Productivity,Output per Hour,107.1,Index (2020=100),BLS
+2024-01-01,2024,Productivity,Unit Labor Costs Change,1.8,Percent YoY,BLS
+2025-01-01,2025,Productivity,Labor Productivity Growth,2.2,Percent YoY,BLS
+2025-01-01,2025,Productivity,Multifactor Productivity Growth,1.2,Percent YoY,BLS
+2025-01-01,2025,Productivity,Output per Hour,109.5,Index (2020=100),BLS
+2025-01-01,2025,Productivity,Unit Labor Costs Change,1.5,Percent YoY,BLS
+2020-01-01,2020,Business Formation,New Business Applications,48200.0,Count per Month,Census Bureau
+2020-01-01,2020,Business Formation,High-Propensity Applications,18500.0,Count per Month,Census Bureau
+2020-01-01,2020,Business Formation,Business Bankruptcy Filings,15823.0,Count per Year,US Courts
+2020-01-01,2020,Business Formation,Chapter 11 Filings,3125.0,Count per Year,US Courts
+2020-01-01,2020,Business Formation,Business Survival Rate,92.5,Percent,SBA
+2021-01-01,2021,Business Formation,New Business Applications,62500.0,Count per Month,Census Bureau
+2021-01-01,2021,Business Formation,High-Propensity Applications,28900.0,Count per Month,Census Bureau
+2021-01-01,2021,Business Formation,Business Bankruptcy Filings,10882.0,Count per Year,US Courts
+2021-01-01,2021,Business Formation,Chapter 11 Filings,2125.0,Count per Year,US Courts
+2021-01-01,2021,Business Formation,Business Survival Rate,94.2,Percent,SBA
+2022-01-01,2022,Business Formation,New Business Applications,58200.0,Count per Month,Census Bureau
+2022-01-01,2022,Business Formation,High-Propensity Applications,24500.0,Count per Month,Census Bureau
+2022-01-01,2022,Business Formation,Business Bankruptcy Filings,17085.0,Count per Year,US Courts
+2022-01-01,2022,Business Formation,Chapter 11 Filings,3285.0,Count per Year,US Courts
+2022-01-01,2022,Business Formation,Business Survival Rate,91.8,Percent,SBA
+2023-01-01,2023,Business Formation,New Business Applications,61800.0,Count per Month,Census Bureau
+2023-01-01,2023,Business Formation,High-Propensity Applications,26200.0,Count per Month,Census Bureau
+2023-01-01,2023,Business Formation,Business Bankruptcy Filings,15225.0,Count per Year,US Courts
+2023-01-01,2023,Business Formation,Chapter 11 Filings,2958.0,Count per Year,US Courts
+2023-01-01,2023,Business Formation,Business Survival Rate,92.5,Percent,SBA
+2024-01-01,2024,Business Formation,New Business Applications,66400.0,Count per Month,Census Bureau
+2024-01-01,2024,Business Formation,High-Propensity Applications,29500.0,Count per Month,Census Bureau
+2024-01-01,2024,Business Formation,Business Bankruptcy Filings,16352.0,Count per Year,US Courts
+2024-01-01,2024,Business Formation,Chapter 11 Filings,2885.0,Count per Year,US Courts
+2024-01-01,2024,Business Formation,Business Survival Rate,93.2,Percent,SBA
+2025-01-01,2025,Business Formation,New Business Applications,71200.0,Count per Month,Census Bureau
+2025-01-01,2025,Business Formation,High-Propensity Applications,32800.0,Count per Month,Census Bureau
+2025-01-01,2025,Business Formation,Business Bankruptcy Filings,14125.0,Count per Year,US Courts
+2025-01-01,2025,Business Formation,Chapter 11 Filings,2425.0,Count per Year,US Courts
+2025-01-01,2025,Business Formation,Business Survival Rate,94.5,Percent,SBA
+2020-01-01,2020,Inventory & Sales,Business Inventories,1485.0,Billion USD,Census Bureau
+2020-01-01,2020,Inventory & Sales,Inventory-to-Sales Ratio,1.45,Ratio,Census Bureau
+2020-01-01,2020,Inventory & Sales,Inventory Contribution to GDP,-0.8,Percentage Points,BEA
+2020-01-01,2020,Inventory & Sales,Wholesale Inventories,425.0,Billion USD,Census Bureau
+2020-01-01,2020,Inventory & Sales,Retail Inventories,625.0,Billion USD,Census Bureau
+2021-01-01,2021,Inventory & Sales,Business Inventories,1625.0,Billion USD,Census Bureau
+2021-01-01,2021,Inventory & Sales,Inventory-to-Sales Ratio,1.38,Ratio,Census Bureau
+2021-01-01,2021,Inventory & Sales,Inventory Contribution to GDP,0.5,Percentage Points,BEA
+2021-01-01,2021,Inventory & Sales,Wholesale Inventories,485.0,Billion USD,Census Bureau
+2021-01-01,2021,Inventory & Sales,Retail Inventories,705.0,Billion USD,Census Bureau
+2022-01-01,2022,Inventory & Sales,Business Inventories,1742.0,Billion USD,Census Bureau
+2022-01-01,2022,Inventory & Sales,Inventory-to-Sales Ratio,1.52,Ratio,Census Bureau
+2022-01-01,2022,Inventory & Sales,Inventory Contribution to GDP,-0.2,Percentage Points,BEA
+2022-01-01,2022,Inventory & Sales,Wholesale Inventories,545.0,Billion USD,Census Bureau
+2022-01-01,2022,Inventory & Sales,Retail Inventories,758.0,Billion USD,Census Bureau
+2023-01-01,2023,Inventory & Sales,Business Inventories,1825.0,Billion USD,Census Bureau
+2023-01-01,2023,Inventory & Sales,Inventory-to-Sales Ratio,1.45,Ratio,Census Bureau
+2023-01-01,2023,Inventory & Sales,Inventory Contribution to GDP,0.1,Percentage Points,BEA
+2023-01-01,2023,Inventory & Sales,Wholesale Inventories,598.0,Billion USD,Census Bureau
+2023-01-01,2023,Inventory & Sales,Retail Inventories,812.0,Billion USD,Census Bureau
+2024-01-01,2024,Inventory & Sales,Business Inventories,1945.0,Billion USD,Census Bureau
+2024-01-01,2024,Inventory & Sales,Inventory-to-Sales Ratio,1.42,Ratio,Census Bureau
+2024-01-01,2024,Inventory & Sales,Inventory Contribution to GDP,0.2,Percentage Points,BEA
+2024-01-01,2024,Inventory & Sales,Wholesale Inventories,652.0,Billion USD,Census Bureau
+2024-01-01,2024,Inventory & Sales,Retail Inventories,885.0,Billion USD,Census Bureau
+2025-01-01,2025,Inventory & Sales,Business Inventories,2052.0,Billion USD,Census Bureau
+2025-01-01,2025,Inventory & Sales,Inventory-to-Sales Ratio,1.4,Ratio,Census Bureau
+2025-01-01,2025,Inventory & Sales,Inventory Contribution to GDP,0.15,Percentage Points,BEA
+2025-01-01,2025,Inventory & Sales,Wholesale Inventories,705.0,Billion USD,Census Bureau
+2025-01-01,2025,Inventory & Sales,Retail Inventories,952.0,Billion USD,Census Bureau
+2020-01-01,2020,Commercial Lending,C&I Loans Outstanding,1285.0,Billion USD,Federal Reserve
+2020-01-01,2020,Commercial Lending,C&I Loan Growth YoY,-1.2,Percent,Federal Reserve
+2020-01-01,2020,Commercial Lending,Small Business Lending,485.0,Billion USD,Federal Reserve/SBA
+2020-01-01,2020,Commercial Lending,Average Loan Size,825.0,Thousand USD,Federal Reserve
+2020-01-01,2020,Commercial Lending,Loan Approval Rate,72.5,Percent,Federal Reserve
+2020-01-01,2020,Commercial Lending,C&I Interest Rate,3.85,Percent,Federal Reserve
+2021-01-01,2021,Commercial Lending,C&I Loans Outstanding,1425.0,Billion USD,Federal Reserve
+2021-01-01,2021,Commercial Lending,C&I Loan Growth YoY,10.9,Percent,Federal Reserve
+2021-01-01,2021,Commercial Lending,Small Business Lending,625.0,Billion USD,Federal Reserve/SBA
+2021-01-01,2021,Commercial Lending,Average Loan Size,948.0,Thousand USD,Federal Reserve
+2021-01-01,2021,Commercial Lending,Loan Approval Rate,78.2,Percent,Federal Reserve
+2021-01-01,2021,Commercial Lending,C&I Interest Rate,3.25,Percent,Federal Reserve
+2022-01-01,2022,Commercial Lending,C&I Loans Outstanding,1585.0,Billion USD,Federal Reserve
+2022-01-01,2022,Commercial Lending,C&I Loan Growth YoY,11.2,Percent,Federal Reserve
+2022-01-01,2022,Commercial Lending,Small Business Lending,752.0,Billion USD,Federal Reserve/SBA
+2022-01-01,2022,Commercial Lending,Average Loan Size,1125.0,Thousand USD,Federal Reserve
+2022-01-01,2022,Commercial Lending,Loan Approval Rate,75.8,Percent,Federal Reserve
+2022-01-01,2022,Commercial Lending,C&I Interest Rate,5.45,Percent,Federal Reserve
+2023-01-01,2023,Commercial Lending,C&I Loans Outstanding,1695.0,Billion USD,Federal Reserve
+2023-01-01,2023,Commercial Lending,C&I Loan Growth YoY,6.9,Percent,Federal Reserve
+2023-01-01,2023,Commercial Lending,Small Business Lending,852.0,Billion USD,Federal Reserve/SBA
+2023-01-01,2023,Commercial Lending,Average Loan Size,1285.0,Thousand USD,Federal Reserve
+2023-01-01,2023,Commercial Lending,Loan Approval Rate,68.5,Percent,Federal Reserve
+2023-01-01,2023,Commercial Lending,C&I Interest Rate,7.25,Percent,Federal Reserve
+2024-01-01,2024,Commercial Lending,C&I Loans Outstanding,1825.0,Billion USD,Federal Reserve
+2024-01-01,2024,Commercial Lending,C&I Loan Growth YoY,7.7,Percent,Federal Reserve
+2024-01-01,2024,Commercial Lending,Small Business Lending,925.0,Billion USD,Federal Reserve/SBA
+2024-01-01,2024,Commercial Lending,Average Loan Size,1425.0,Thousand USD,Federal Reserve
+2024-01-01,2024,Commercial Lending,Loan Approval Rate,72.3,Percent,Federal Reserve
+2024-01-01,2024,Commercial Lending,C&I Interest Rate,6.85,Percent,Federal Reserve
+2025-01-01,2025,Commercial Lending,C&I Loans Outstanding,1965.0,Billion USD,Federal Reserve
+2025-01-01,2025,Commercial Lending,C&I Loan Growth YoY,7.7,Percent,Federal Reserve
+2025-01-01,2025,Commercial Lending,Small Business Lending,1025.0,Billion USD,Federal Reserve/SBA
+2025-01-01,2025,Commercial Lending,Average Loan Size,1585.0,Thousand USD,Federal Reserve
+2025-01-01,2025,Commercial Lending,Loan Approval Rate,75.2,Percent,Federal Reserve
+2025-01-01,2025,Commercial Lending,C&I Interest Rate,6.25,Percent,Federal Reserve
+2020-01-01,2020,Corporate Liquidity,Corporate Cash Holdings,2185.0,Billion USD,FactSet/Federal Reserve
+2020-01-01,2020,Corporate Liquidity,Cash as % of Assets,12.5,Percent,FactSet
+2020-01-01,2020,Corporate Liquidity,Current Ratio (S&P 500),1.82,Ratio,FactSet
+2020-01-01,2020,Corporate Liquidity,Quick Ratio (S&P 500),1.45,Ratio,FactSet
+2020-01-01,2020,Corporate Liquidity,Days of Cash on Hand,125.0,Days,FactSet
+2021-01-01,2021,Corporate Liquidity,Corporate Cash Holdings,2845.0,Billion USD,FactSet/Federal Reserve
+2021-01-01,2021,Corporate Liquidity,Cash as % of Assets,14.2,Percent,FactSet
+2021-01-01,2021,Corporate Liquidity,Current Ratio (S&P 500),1.95,Ratio,FactSet
+2021-01-01,2021,Corporate Liquidity,Quick Ratio (S&P 500),1.58,Ratio,FactSet
+2021-01-01,2021,Corporate Liquidity,Days of Cash on Hand,135.0,Days,FactSet
+2022-01-01,2022,Corporate Liquidity,Corporate Cash Holdings,2625.0,Billion USD,FactSet/Federal Reserve
+2022-01-01,2022,Corporate Liquidity,Cash as % of Assets,13.8,Percent,FactSet
+2022-01-01,2022,Corporate Liquidity,Current Ratio (S&P 500),1.88,Ratio,FactSet
+2022-01-01,2022,Corporate Liquidity,Quick Ratio (S&P 500),1.52,Ratio,FactSet
+2022-01-01,2022,Corporate Liquidity,Days of Cash on Hand,128.0,Days,FactSet
+2023-01-01,2023,Corporate Liquidity,Corporate Cash Holdings,2785.0,Billion USD,FactSet/Federal Reserve
+2023-01-01,2023,Corporate Liquidity,Cash as % of Assets,14.0,Percent,FactSet
+2023-01-01,2023,Corporate Liquidity,Current Ratio (S&P 500),1.92,Ratio,FactSet
+2023-01-01,2023,Corporate Liquidity,Quick Ratio (S&P 500),1.55,Ratio,FactSet
+2023-01-01,2023,Corporate Liquidity,Days of Cash on Hand,132.0,Days,FactSet
+2024-01-01,2024,Corporate Liquidity,Corporate Cash Holdings,3025.0,Billion USD,FactSet/Federal Reserve
+2024-01-01,2024,Corporate Liquidity,Cash as % of Assets,14.8,Percent,FactSet
+2024-01-01,2024,Corporate Liquidity,Current Ratio (S&P 500),1.98,Ratio,FactSet
+2024-01-01,2024,Corporate Liquidity,Quick Ratio (S&P 500),1.62,Ratio,FactSet
+2024-01-01,2024,Corporate Liquidity,Days of Cash on Hand,138.0,Days,FactSet
+2025-01-01,2025,Corporate Liquidity,Corporate Cash Holdings,3285.0,Billion USD,FactSet/Federal Reserve
+2025-01-01,2025,Corporate Liquidity,Cash as % of Assets,15.5,Percent,FactSet
+2025-01-01,2025,Corporate Liquidity,Current Ratio (S&P 500),2.05,Ratio,FactSet
+2025-01-01,2025,Corporate Liquidity,Quick Ratio (S&P 500),1.68,Ratio,FactSet
+2025-01-01,2025,Corporate Liquidity,Days of Cash on Hand,145.0,Days,FactSet
+2020-01-01,2020,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,-18.5,Million SF,CoStar/FactSet Analysis
+2020-01-01,2020,CRE Demand Proxies,Retail Sales Growth,3.2,Percent YoY,Census Bureau
+2020-01-01,2020,CRE Demand Proxies,E-commerce Sales % of Total,15.2,Percent,Census Bureau
+2020-01-01,2020,CRE Demand Proxies,Industrial Production Index,-8.5,Percent YoY,Federal Reserve
+2020-01-01,2020,CRE Demand Proxies,Tech Sector Employment Growth,-2.5,Percent YoY,BLS
+2021-01-01,2021,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,12.5,Million SF,CoStar/FactSet Analysis
+2021-01-01,2021,CRE Demand Proxies,Retail Sales Growth,16.8,Percent YoY,Census Bureau
+2021-01-01,2021,CRE Demand Proxies,E-commerce Sales % of Total,18.5,Percent,Census Bureau
+2021-01-01,2021,CRE Demand Proxies,Industrial Production Index,11.2,Percent YoY,Federal Reserve
+2021-01-01,2021,CRE Demand Proxies,Tech Sector Employment Growth,8.5,Percent YoY,BLS
+2022-01-01,2022,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,-5.2,Million SF,CoStar/FactSet Analysis
+2022-01-01,2022,CRE Demand Proxies,Retail Sales Growth,5.2,Percent YoY,Census Bureau
+2022-01-01,2022,CRE Demand Proxies,E-commerce Sales % of Total,19.8,Percent,Census Bureau
+2022-01-01,2022,CRE Demand Proxies,Industrial Production Index,3.5,Percent YoY,Federal Reserve
+2022-01-01,2022,CRE Demand Proxies,Tech Sector Employment Growth,2.8,Percent YoY,BLS
+2023-01-01,2023,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,-8.5,Million SF,CoStar/FactSet Analysis
+2023-01-01,2023,CRE Demand Proxies,Retail Sales Growth,2.8,Percent YoY,Census Bureau
+2023-01-01,2023,CRE Demand Proxies,E-commerce Sales % of Total,21.2,Percent,Census Bureau
+2023-01-01,2023,CRE Demand Proxies,Industrial Production Index,1.2,Percent YoY,Federal Reserve
+2023-01-01,2023,CRE Demand Proxies,Tech Sector Employment Growth,-1.5,Percent YoY,BLS
+2024-01-01,2024,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,2.5,Million SF,CoStar/FactSet Analysis
+2024-01-01,2024,CRE Demand Proxies,Retail Sales Growth,4.5,Percent YoY,Census Bureau
+2024-01-01,2024,CRE Demand Proxies,E-commerce Sales % of Total,22.5,Percent,Census Bureau
+2024-01-01,2024,CRE Demand Proxies,Industrial Production Index,2.5,Percent YoY,Federal Reserve
+2024-01-01,2024,CRE Demand Proxies,Tech Sector Employment Growth,5.2,Percent YoY,BLS
+2025-01-01,2025,CRE Demand Proxies,Office Space Absorption Correlation with EPS Growth,5.8,Million SF,CoStar/FactSet Analysis
+2025-01-01,2025,CRE Demand Proxies,Retail Sales Growth,3.8,Percent YoY,Census Bureau
+2025-01-01,2025,CRE Demand Proxies,E-commerce Sales % of Total,23.8,Percent,Census Bureau
+2025-01-01,2025,CRE Demand Proxies,Industrial Production Index,3.2,Percent YoY,Federal Reserve
+2025-01-01,2025,CRE Demand Proxies,Tech Sector Employment Growth,8.5,Percent YoY,BLS

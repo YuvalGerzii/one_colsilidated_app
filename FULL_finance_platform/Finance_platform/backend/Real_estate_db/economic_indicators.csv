@@ -1,0 +1,106 @@
+geography,geography_type,indicator_name,indicator_value,indicator_unit,period,period_type,data_source,notes
+NYC Metro,Metro,population,8480000,count,2024-07-01,annual,NYC Planning Department,As of July 2024
+NYC Metro,Metro,population_growth_yoy,87000,count,2024-07-01,annual,NYC Planning Department,More than double prior year pace
+NYC Metro,Metro,population_growth_rate,1.04,%,2024-07-01,annual,NYC Planning Department,Year-over-year growth
+NYC Metro,Metro,5yr_population_growth_rate,0.70,%,2024-07-01,5-year,NYC Census estimates,2019-2024 compound annual growth
+NYC Metro,Metro,employment,4800000,count,2024-12-01,monthly,Partnership for NYC,All-time high
+NYC Metro,Metro,private_sector_employment,4250000,count,2024-12-01,monthly,NYCEDC State of Economy,Record high
+NYC Metro,Metro,unemployment_rate,5.40,%,2024-12-01,monthly,Partnership for NYC,Current unemployment
+NYC Metro,Metro,unemployment_rate_2019,4.10,%,2019-12-01,monthly,Partnership for NYC,Pre-COVID benchmark
+NYC Metro,Metro,job_growth_2024,115000,count,2024-12-31,annual,NYCEDC,2024 job gains
+NYC Metro,Metro,job_growth_financial_services,10500,count,2024-12-31,annual,Partnership for NYC,Financial services sector
+NYC Metro,Metro,job_growth_tech,23700,count,2024-12-31,annual,Partnership for NYC,Information sector
+NYC Metro,Metro,job_growth_healthcare,15900,count,2024-12-31,annual,Partnership for NYC,Healthcare sector
+NYC Metro,Metro,job_growth_hospitality,13400,count,2024-12-31,annual,Partnership for NYC,Hospitality/leisure sector
+NYC Metro,Metro,job_growth_professional_services,6100,count,2024-12-31,annual,Partnership for NYC,Professional services
+NYC Metro,Metro,job_growth_construction,12200,count,2024-12-31,annual,Partnership for NYC,Construction sector
+NYC Metro,Metro,median_household_income,82700,USD,2024-01-01,annual,NCH Statistics,2024 median household income
+NYC Metro,Metro,income_growth_rate,5.80,%,2024-01-01,annual,NCH Statistics,Year-over-year income growth
+NYC Metro,Metro,median_home_price,775000,USD,2024-12-01,monthly,Statista,Median home price
+NYC Metro,Metro,median_rent_1br,4200,USD/month,2024-11-01,monthly,Corcoran,1-bedroom median rent
+NYC Metro,Metro,median_rent_2br,5300,USD/month,2024-11-01,monthly,Corcoran,2-bedroom median rent
+NYC Metro,Metro,rent_to_income_ratio,31.0,%,2024-01-01,annual,Market analysis,Rent as % of median income
+NYC Metro,Metro,cost_of_living_index,182,index,2024-01-01,annual,Market analysis,U.S. average = 100
+NYC Metro,Metro,housing_affordability_vs_national,-47.0,%,2024-01-01,annual,Market analysis,Below national average
+NYC Metro,Metro,net_domestic_migration,-42400,count,2024-12-31,annual,NYC Planning Department,Outflow to other U.S. states
+NYC Metro,Metro,international_migration,78000,count,2024-12-31,annual,NYC Planning Department,Inflow from abroad
+NYC Metro,Metro,walk_score,88,score,2024-01-01,annual,Walk Score,Walkability index
+NYC Metro,Metro,transit_score,84,score,2024-01-01,annual,Walk Score,Public transit access
+NYC Metro,Metro,school_rating_avg,8.5,rating,2024-01-01,annual,School rating services,Average rating out of 10
+NYC Metro,Metro,office_visit_rate,86.2,%,2024-10-01,monthly,Office metrics,% of pre-pandemic levels
+Manhattan,Borough,population,1694251,count,2024-07-01,annual,NYC Planning Department,Manhattan population
+Manhattan,Borough,vacancy_rate_multifamily,2.33,%,2023-12-01,annual,NYC Rent Guidelines Board,2023 Housing Vacancy Survey
+Manhattan,Borough,median_rent,4500,USD/month,2024-11-01,monthly,Corcoran,Overall median rent
+Brooklyn,Borough,population,2736074,count,2024-07-01,annual,NYC Planning Department,Brooklyn population
+Brooklyn,Borough,vacancy_rate_multifamily,1.27,%,2023-12-01,annual,NYC Rent Guidelines Board,2023 Housing Vacancy Survey
+Queens,Borough,population,2405464,count,2024-07-01,annual,NYC Planning Department,Queens population
+Queens,Borough,vacancy_rate_multifamily,0.88,%,2023-12-01,annual,NYC Rent Guidelines Board,2023 Housing Vacancy Survey
+Bronx,Borough,population,1472654,count,2024-07-01,annual,NYC Planning Department,Bronx population
+Bronx,Borough,vacancy_rate_multifamily,0.82,%,2023-12-01,annual,NYC Rent Guidelines Board,2023 Housing Vacancy Survey
+Miami Metro,Metro,population,6340000,count,2024-01-01,annual,Miami Realtors Association,Miami metropolitan area
+Miami Metro,Metro,5yr_population_growth_rate,6.50,%,2024-01-01,5-year,Miami Realtors Association,2019-2024 growth
+Miami Metro,Metro,net_domestic_migration,61000,count,2024-12-31,annual,Miami Realtors Association,Inflow from other states
+Miami Metro,Metro,international_migration,32000,count,2024-12-31,annual,Miami estimates,Inflow from abroad
+Miami Metro,Metro,population_age_25_44_pct,28.0,%,2024-01-01,annual,Miami demographics,Key demographic cohort
+Miami Metro,Metro,household_formation_rate,2.70,%,2024-01-01,annual,Miami housing data,Year-over-year growth
+Miami Metro,Metro,employment,3180000,count,2024-12-01,monthly,BLS Miami data,Total employment
+Miami Metro,Metro,unemployment_rate,3.00,%,2024-12-01,monthly,BLS Miami data,Current unemployment
+Miami Metro,Metro,unemployment_rate_2019,3.20,%,2019-12-01,monthly,BLS Miami data,Pre-COVID benchmark
+Miami Metro,Metro,job_growth_rate,3.20,%,2024-07-01,annual,Miami Realtors Association,12-month job growth
+Miami Metro,Metro,job_growth_financial_services,8800,count,2024-12-31,annual,Miami economic data,Financial services sector
+Miami Metro,Metro,job_growth_tech,6200,count,2024-12-31,annual,Miami economic data,Tech sector
+Miami Metro,Metro,job_growth_healthcare,6100,count,2024-12-31,annual,Miami economic data,Healthcare sector
+Miami Metro,Metro,job_growth_hospitality,14700,count,2024-12-31,annual,Miami economic data,Hospitality/leisure sector
+Miami Metro,Metro,job_growth_professional_services,5800,count,2024-12-31,annual,Miami economic data,Professional services
+Miami Metro,Metro,median_household_income,67300,USD,2024-01-01,annual,Miami economic data,2024 median household income
+Miami Metro,Metro,income_growth_rate,6.20,%,2024-01-01,annual,Miami economic data,Year-over-year income growth
+Miami Metro,Metro,median_home_price,595000,USD,2024-12-01,monthly,Zillow Miami,Median home price
+Miami Metro,Metro,median_rent_1br,2900,USD/month,2024-07-01,monthly,RentCafe,1-bedroom median rent
+Miami Metro,Metro,median_rent_2br,3900,USD/month,2024-07-01,monthly,RentCafe,2-bedroom median rent
+Miami Metro,Metro,rent_to_income_ratio,26.0,%,2024-01-01,annual,Market analysis,Rent as % of median income
+Miami Metro,Metro,cost_of_living_index,124,index,2024-01-01,annual,Market analysis,U.S. average = 100
+Miami Metro,Metro,housing_affordability_vs_national,-31.0,%,2024-01-01,annual,Market analysis,Below national average
+Miami Metro,Metro,walk_score,78,score,2024-01-01,annual,Walk Score,Walkability index
+Miami Metro,Metro,transit_score,59,score,2024-01-01,annual,Walk Score,Public transit access
+Miami Metro,Metro,school_rating_avg,7.6,rating,2024-01-01,annual,School rating services,Average rating out of 10
+Miami-Dade,County,population,2716940,count,2024-01-01,annual,Miami Realtors Association,Miami-Dade County
+Miami-Dade,County,vacancy_rate_multifamily,6.20,%,2024-07-01,monthly,Miami Realtors Association,Up from 6.0% in July 2023
+Miami-Dade,County,rent_growth_yoy,-4.20,%,2024-07-01,annual,Miami Realtors Association,Year-over-year rent change
+Broward,County,population,1952778,count,2024-01-01,annual,Miami Realtors Association,Broward County
+Broward,County,vacancy_rate_multifamily,6.20,%,2024-07-01,monthly,Miami Realtors Association,Up from 5.2% in July 2023
+Broward,County,rent_growth_yoy,-4.40,%,2024-07-01,annual,Miami Realtors Association,Year-over-year rent change
+Palm Beach,County,population,1496770,count,2024-01-01,annual,Miami Realtors Association,Palm Beach County
+Palm Beach,County,vacancy_rate_multifamily,6.40,%,2024-07-01,monthly,Miami Realtors Association,Up from 6.0% in July 2023
+Palm Beach,County,rent_growth_yoy,-3.80,%,2024-07-01,annual,Miami Realtors Association,Year-over-year rent change
+NYC Metro,Metro,sofr_rate,5.32,%,2024-12-01,daily,Federal Reserve,Secured Overnight Financing Rate
+NYC Metro,Metro,10yr_treasury_yield,4.36,%,2024-12-01,daily,Federal Reserve,10-year Treasury yield
+NYC Metro,Metro,5yr_treasury_yield,3.91,%,2024-12-01,daily,Federal Reserve,5-year Treasury yield
+NYC Metro,Metro,7yr_treasury_yield,4.13,%,2024-12-01,daily,Federal Reserve,7-year Treasury yield
+NYC Metro,Metro,fannie_mae_rate_5yr,5.17,%,2024-10-31,monthly,Fannie Mae,5-year fixed over $6M
+NYC Metro,Metro,fannie_mae_rate_7yr,5.22,%,2024-10-31,monthly,Fannie Mae,7-year fixed over $6M
+NYC Metro,Metro,fannie_mae_rate_10yr,5.30,%,2024-10-31,monthly,Fannie Mae,10-year fixed over $6M
+NYC Metro,Metro,freddie_mac_rate_5yr,5.82,%,2024-12-01,monthly,Freddie Mac,5-year fixed rate
+NYC Metro,Metro,freddie_mac_rate_7yr,5.86,%,2024-12-01,monthly,Freddie Mac,7-year fixed rate
+NYC Metro,Metro,freddie_mac_rate_10yr,5.77,%,2024-12-01,monthly,Freddie Mac,10-year fixed rate
+NYC Metro,Metro,cmbs_rate_10yr,6.50,%,2024-12-01,monthly,CMBS Loans,10-year CMBS loan rate midpoint
+NYC Metro,Metro,multifamily_construction_cost_psf_low,330,$/SF,2024-12-01,annual,Multiple sources,Low-rise wood frame
+NYC Metro,Metro,multifamily_construction_cost_psf_mid,420,$/SF,2024-12-01,annual,Multiple sources,Mid-rise concrete
+NYC Metro,Metro,multifamily_construction_cost_psf_high,650,$/SF,2024-12-01,annual,Multiple sources,High-rise concrete/steel
+NYC Metro,Metro,multifamily_construction_cost_psf_luxury,1100,$/SF,2024-12-01,annual,Multiple sources,Super high-rise luxury
+NYC Metro,Metro,office_construction_cost_psf_class_a,1000,$/SF,2024-12-01,annual,Market estimates,Class A new construction
+NYC Metro,Metro,labor_cost_union,165,$/hour,2024-12-01,annual,NYC Estimating Services,Union commercial labor
+NYC Metro,Metro,labor_cost_nonunion,95,$/hour,2024-12-01,annual,NYC Estimating Services,Non-union residential labor
+NYC Metro,Metro,concrete_cost_3000psi,125,$/cubic yard,2024-12-01,annual,NYC Estimating Services,3000 PSI concrete
+NYC Metro,Metro,steel_cost,912,$/ton,2024-12-01,annual,NYC Estimating Services,Steel cost per ton
+Miami Metro,Metro,multifamily_construction_cost_psf_low,200,$/SF,2024-12-01,annual,Estimator Florida,Low-rise wood frame
+Miami Metro,Metro,multifamily_construction_cost_psf_mid,290,$/SF,2024-12-01,annual,Estimator Florida,Mid-rise concrete
+Miami Metro,Metro,multifamily_construction_cost_psf_high,410,$/SF,2024-12-01,annual,Estimator Florida,High-rise concrete/steel
+Miami Metro,Metro,multifamily_construction_cost_psf_luxury,1200,$/SF,2024-12-01,annual,Estimator Florida,Super high-rise luxury
+Miami Metro,Metro,office_construction_cost_psf_class_a,650,$/SF,2024-12-01,annual,Market estimates,Class A new construction
+Miami Metro,Metro,labor_cost_skilled,40,$/hour,2024-12-01,annual,Estimator Florida,Skilled trades average
+Miami Metro,Metro,concrete_cost_avg,128,$/cubic yard,2024-12-01,annual,Estimator Florida,Average concrete cost
+Miami Metro,Metro,insurance_cost_increase_10yr,252.96,%,2024-12-01,10-year,Crown and Oak Capital,10-year insurance increase
+NYC Metro,Metro,insurance_cost_increase_yoy,21.70,%,2024-03-01,annual,NYC Rent Guidelines Board,Year-over-year increase 2024
+NYC Metro,Metro,property_tax_increase_yoy,3.20,%,2024-03-01,annual,NYC Rent Guidelines Board,Year-over-year increase 2024
+NYC Metro,Metro,operating_expense_increase_yoy,3.90,%,2024-03-01,annual,NYC Rent Guidelines Board,Year-over-year increase 2024
+Miami Metro,Metro,operating_expense_increase_yoy,11.30,%,2024-01-01,annual,IMGRE,Year-over-year expense growth

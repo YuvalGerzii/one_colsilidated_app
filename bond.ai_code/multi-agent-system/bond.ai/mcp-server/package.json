@@ -1,0 +1,35 @@
+{
+  "name": "@bondai/mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Bond.AI providing rich context and AI agent access",
+  "main": "index.ts",
+  "bin": {
+    "bondai-mcp": "./index.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "networking",
+    "bond-ai"
+  ],
+  "author": "Bond.AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "pg": "^8.11.3",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.9",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

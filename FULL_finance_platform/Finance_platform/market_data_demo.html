@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Data Integration Demo 📈</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .search-box {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-box h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .card-icon {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+
+        .card-title {
+            font-size: 1.3em;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .metric {
+            margin-bottom: 15px;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .metric-subtext {
+            font-size: 0.85em;
+            color: #999;
+            margin-top: 3px;
+        }
+
+        .trend-positive {
+            color: #10b981;
+        }
+
+        .trend-negative {
+            color: #ef4444;
+        }
+
+        .score-bar {
+            width: 100%;
+            height: 30px;
+            background: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .score-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981, #667eea);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            color: white;
+            font-weight: 600;
+            transition: width 1s ease;
+        }
+
+        .comparables-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .comparables-table th,
+        .comparables-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .comparables-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .comparables-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .amenities-list {
+            list-style: none;
+        }
+
+        .amenities-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .amenities-list li:last-child {
+            border-bottom: none;
+        }
+
+        .amenity-distance {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📈 Market Data Integration Demo</h1>
+            <p>Real-time comparables and benchmarks from CoStar, Zillow, Census, and Walk Score</p>
+        </div>
+
+        <div class="search-box">
+            <h2>Property Search</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="123 Main St" value="123 Market Street">
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="San Francisco" value="San Francisco">
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" placeholder="CA" value="CA">
+                </div>
+                <div class="form-group">
+                    <label for="zip">ZIP Code</label>
+                    <input type="text" id="zip" placeholder="94103" value="94103">
+                </div>
+                <div class="form-group">
+                    <label for="property-type">Property Type</label>
+                    <select id="property-type">
+                        <option value="Multifamily">Multifamily</option>
+                        <option value="SFR">Single Family Residential</option>
+                        <option value="Office">Office</option>
+                        <option value="Retail">Retail</option>
+                        <option value="Industrial">Industrial</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn" onclick="loadMarketData()">Get Market Data</button>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            Loading market data...
+        </div>
+
+        <div id="dashboard" class="dashboard hidden">
+            <!-- CoStar Data -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🏢</div>
+                    <div class="card-title">CoStar Market Data</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Cap Rate</div>
+                    <div class="metric-value" id="cap-rate">-</div>
+                    <div class="metric-subtext">Market average</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Average Rent PSF</div>
+                    <div class="metric-value" id="avg-rent">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Market Trend</div>
+                    <div class="metric-value" id="market-trend">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Vacancy Rate</div>
+                    <div class="metric-value" id="vacancy-rate">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Market Rating</div>
+                    <div class="metric-value" id="market-rating">-</div>
+                </div>
+            </div>
+
+            <!-- Zillow/Redfin Data -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🏠</div>
+                    <div class="card-title">Zillow/Redfin Data</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Property Valuation</div>
+                    <div class="metric-value" id="zestimate">-</div>
+                    <div class="metric-subtext" id="price-trend">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Rent Estimate</div>
+                    <div class="metric-value" id="rent-estimate">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Price per Sq Ft</div>
+                    <div class="metric-value" id="price-sqft">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Days on Market</div>
+                    <div class="metric-value" id="days-market">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Market Competition</div>
+                    <div class="metric-value" id="competition">-</div>
+                </div>
+            </div>
+
+            <!-- Census Data -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">👥</div>
+                    <div class="card-title">Census Demographics</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Population</div>
+                    <div class="metric-value" id="population">-</div>
+                    <div class="metric-subtext" id="pop-growth">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Median Income</div>
+                    <div class="metric-value" id="median-income">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Employment Rate</div>
+                    <div class="metric-value" id="employment">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Median Age</div>
+                    <div class="metric-value" id="median-age">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Bachelor's Degree +</div>
+                    <div class="metric-value" id="education">-</div>
+                </div>
+            </div>
+
+            <!-- Walk Score Data -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🚶</div>
+                    <div class="card-title">Walk Score</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Walk Score</div>
+                    <div class="score-bar">
+                        <div class="score-fill" id="walk-score-bar" style="width: 0%">0</div>
+                    </div>
+                    <div class="metric-subtext" id="walk-description">-</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Transit Score</div>
+                    <div class="score-bar">
+                        <div class="score-fill" id="transit-score-bar" style="width: 0%">0</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Bike Score</div>
+                    <div class="score-bar">
+                        <div class="score-fill" id="bike-score-bar" style="width: 0%">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparable Sales -->
+            <div class="card" style="grid-column: span 2;">
+                <div class="card-header">
+                    <div class="card-icon">📊</div>
+                    <div class="card-title">Comparable Sales (CoStar)</div>
+                </div>
+                <table class="comparables-table" id="comp-sales">
+                    <thead>
+                        <tr>
+                            <th>Address</th>
+                            <th>Price</th>
+                            <th>Cap Rate</th>
+                            <th>Sale Date</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <!-- Nearby Amenities -->
+            <div class="card" style="grid-column: span 2;">
+                <div class="card-header">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-title">Nearby Amenities</div>
+                </div>
+                <ul class="amenities-list" id="amenities-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mock data generator
+        function generateMockData(address, city, state, zip, propertyType) {
+            const random = (min, max) => Math.random() * (max - min) + min;
+            const randomInt = (min, max) => Math.floor(random(min, max));
+
+            return {
+                costar: {
+                    cap_rate: random(4.5, 7.5).toFixed(2),
+                    avg_rent_psf: random(1.50, 3.50).toFixed(2),
+                    market_trend: ['Growing', 'Stable', 'Declining'][randomInt(0, 3)],
+                    vacancy_rate: random(3.0, 12.0).toFixed(1),
+                    market_rating: ['A', 'A-', 'B+', 'B', 'B-'][randomInt(0, 5)],
+                    comparable_sales: [
+                        {
+                            address: `${randomInt(100, 9999)} Main St`,
+                            price: randomInt(500000, 5000000),
+                            cap_rate: random(4.0, 8.0).toFixed(2),
+                            sale_date: '2024-10-15'
+                        },
+                        {
+                            address: `${randomInt(100, 9999)} Oak Ave`,
+                            price: randomInt(500000, 5000000),
+                            cap_rate: random(4.0, 8.0).toFixed(2),
+                            sale_date: '2024-09-22'
+                        },
+                        {
+                            address: `${randomInt(100, 9999)} Pine St`,
+                            price: randomInt(500000, 5000000),
+                            cap_rate: random(4.0, 8.0).toFixed(2),
+                            sale_date: '2024-08-10'
+                        }
+                    ]
+                },
+                zillow: {
+                    zestimate: randomInt(200000, 1500000),
+                    rent_estimate: randomInt(1500, 8000),
+                    price_sqft: random(150, 800).toFixed(2),
+                    price_change_30d: random(-5.0, 10.0).toFixed(2),
+                    days_on_market: randomInt(1, 120),
+                    competition: ['High', 'Medium', 'Low'][randomInt(0, 3)]
+                },
+                census: {
+                    population: randomInt(50000, 1000000),
+                    population_growth: random(-2.0, 15.0).toFixed(2),
+                    median_income: randomInt(35000, 120000),
+                    employment_rate: random(88.0, 97.0).toFixed(1),
+                    median_age: random(28.0, 45.0).toFixed(1),
+                    education: random(20.0, 60.0).toFixed(1)
+                },
+                walkscore: {
+                    walk_score: randomInt(20, 100),
+                    transit_score: randomInt(10, 100),
+                    bike_score: randomInt(15, 100),
+                    amenities: [
+                        { type: 'Grocery Stores', count: randomInt(2, 8), distance: random(0.1, 1.0).toFixed(2) },
+                        { type: 'Restaurants', count: randomInt(5, 20), distance: random(0.1, 0.8).toFixed(2) },
+                        { type: 'Coffee Shops', count: randomInt(3, 10), distance: random(0.1, 0.6).toFixed(2) },
+                        { type: 'Parks', count: randomInt(1, 5), distance: random(0.2, 1.5).toFixed(2) },
+                        { type: 'Schools', count: randomInt(2, 6), distance: random(0.3, 2.0).toFixed(2) },
+                        { type: 'Banks', count: randomInt(2, 8), distance: random(0.1, 1.0).toFixed(2) },
+                        { type: 'Gyms', count: randomInt(1, 5), distance: random(0.2, 1.2).toFixed(2) }
+                    ]
+                }
+            };
+        }
+
+        function getWalkDescription(score) {
+            if (score >= 90) return "Walker's Paradise";
+            if (score >= 70) return "Very Walkable";
+            if (score >= 50) return "Somewhat Walkable";
+            if (score >= 25) return "Car-Dependent";
+            return "Very Car-Dependent";
+        }
+
+        function formatCurrency(value) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(value);
+        }
+
+        function formatNumber(value) {
+            return new Intl.NumberFormat('en-US').format(value);
+        }
+
+        function loadMarketData() {
+            const address = document.getElementById('address').value;
+            const city = document.getElementById('city').value;
+            const state = document.getElementById('state').value;
+            const zip = document.getElementById('zip').value;
+            const propertyType = document.getElementById('property-type').value;
+
+            // Show loading
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('dashboard').classList.add('hidden');
+
+            // Simulate API call delay
+            setTimeout(() => {
+                const data = generateMockData(address, city, state, zip, propertyType);
+
+                // Update CoStar data
+                document.getElementById('cap-rate').textContent = data.costar.cap_rate + '%';
+                document.getElementById('avg-rent').textContent = '$' + data.costar.avg_rent_psf + '/sqft';
+                document.getElementById('market-trend').textContent = data.costar.market_trend;
+                document.getElementById('vacancy-rate').textContent = data.costar.vacancy_rate + '%';
+                document.getElementById('market-rating').textContent = data.costar.market_rating;
+
+                // Update Zillow/Redfin data
+                document.getElementById('zestimate').textContent = formatCurrency(data.zillow.zestimate);
+                const priceChange = data.zillow.price_change_30d;
+                const trendClass = priceChange >= 0 ? 'trend-positive' : 'trend-negative';
+                document.getElementById('price-trend').innerHTML = `<span class="${trendClass}">${priceChange >= 0 ? '+' : ''}${priceChange}% (30 days)</span>`;
+                document.getElementById('rent-estimate').textContent = formatCurrency(data.zillow.rent_estimate) + '/mo';
+                document.getElementById('price-sqft').textContent = '$' + data.zillow.price_sqft;
+                document.getElementById('days-market').textContent = data.zillow.days_on_market + ' days';
+                document.getElementById('competition').textContent = data.zillow.competition;
+
+                // Update Census data
+                document.getElementById('population').textContent = formatNumber(data.census.population);
+                const popGrowth = data.census.population_growth;
+                const growthClass = popGrowth >= 0 ? 'trend-positive' : 'trend-negative';
+                document.getElementById('pop-growth').innerHTML = `<span class="${growthClass}">${popGrowth >= 0 ? '+' : ''}${popGrowth}% growth (5yr)</span>`;
+                document.getElementById('median-income').textContent = formatCurrency(data.census.median_income);
+                document.getElementById('employment').textContent = data.census.employment_rate + '%';
+                document.getElementById('median-age').textContent = data.census.median_age + ' years';
+                document.getElementById('education').textContent = data.census.education + '%';
+
+                // Update Walk Score data
+                const walkScore = data.walkscore.walk_score;
+                const transitScore = data.walkscore.transit_score;
+                const bikeScore = data.walkscore.bike_score;
+
+                document.getElementById('walk-score-bar').style.width = walkScore + '%';
+                document.getElementById('walk-score-bar').textContent = walkScore;
+                document.getElementById('transit-score-bar').style.width = transitScore + '%';
+                document.getElementById('transit-score-bar').textContent = transitScore;
+                document.getElementById('bike-score-bar').style.width = bikeScore + '%';
+                document.getElementById('bike-score-bar').textContent = bikeScore;
+                document.getElementById('walk-description').textContent = getWalkDescription(walkScore);
+
+                // Update comparable sales
+                const compSalesTable = document.getElementById('comp-sales').querySelector('tbody');
+                compSalesTable.innerHTML = '';
+                data.costar.comparable_sales.forEach(comp => {
+                    const row = compSalesTable.insertRow();
+                    row.innerHTML = `
+                        <td>${comp.address}</td>
+                        <td>${formatCurrency(comp.price)}</td>
+                        <td>${comp.cap_rate}%</td>
+                        <td>${comp.sale_date}</td>
+                    `;
+                });
+
+                // Update amenities
+                const amenitiesList = document.getElementById('amenities-list');
+                amenitiesList.innerHTML = '';
+                data.walkscore.amenities.forEach(amenity => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <span>${amenity.type} (${amenity.count})</span>
+                        <span class="amenity-distance">${amenity.distance} mi</span>
+                    `;
+                    amenitiesList.appendChild(li);
+                });
+
+                // Hide loading, show dashboard
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('dashboard').classList.remove('hidden');
+            }, 1500);
+        }
+
+        // Load initial data
+        window.addEventListener('load', () => {
+            loadMarketData();
+        });
+    </script>
+</body>
+</html>

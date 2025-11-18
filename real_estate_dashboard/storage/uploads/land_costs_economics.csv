@@ -1,0 +1,91 @@
+market,zone_type,land_price_per_sf,land_price_per_developable_sf,land_as_pct_of_total_cost,estimated_construction_cost_per_sf,pro_forma_yield_on_cost_pct,data_source,period
+"New York City, NY",R-1,18,4.5,25.0,192,6.6,CoStar/CBRE Market Reports,2024-Q3
+"New York City, NY",R-3,79,26.15,14.4,209,7.22,CoStar/CBRE Market Reports,2024-Q3
+"New York City, NY",R-5,117,23.92,17.3,317,7.03,CoStar/CBRE Market Reports,2024-Q3
+"New York City, NY",C-2,64,29.41,31.8,327,6.23,CoStar/CBRE Market Reports,2024-Q3
+"New York City, NY",MX-2,181,46.56,20.8,355,5.95,CoStar/CBRE Market Reports,2024-Q3
+"New York City, NY",MX-3,493,86.12,31.7,314,7.16,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",R-1,68,16.97,32.7,178,6.04,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",R-3,66,12.65,34.6,206,8.36,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",R-5,298,130.95,22.7,434,6.35,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",C-2,126,23.42,19.5,269,7.16,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",MX-2,276,135.84,16.6,244,7.19,CoStar/CBRE Market Reports,2024-Q3
+"Los Angeles, CA",MX-3,506,157.36,26.3,330,6.89,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",R-1,78,14.56,32.2,248,8.35,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",R-3,124,61.82,27.1,200,8.05,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",R-5,210,42.78,14.4,288,7.09,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",C-2,46,15.58,23.3,304,5.68,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",MX-2,71,11.86,28.4,284,5.78,CoStar/CBRE Market Reports,2024-Q3
+"San Francisco, CA",MX-3,479,84.26,32.6,462,7.06,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",R-1,62,13.33,15.0,208,6.38,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",R-3,120,22.21,33.3,185,6.68,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",R-5,133,24.96,19.5,379,6.86,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",C-2,79,26.92,33.7,300,5.91,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",MX-2,84,16.53,14.5,376,5.82,CoStar/CBRE Market Reports,2024-Q3
+"Miami, FL",MX-3,188,49.5,19.2,411,5.86,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",R-1,60,12.45,25.9,248,6.15,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",R-3,51,9.4,15.4,232,7.63,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",R-5,242,41.2,21.1,368,5.65,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",C-2,112,35.05,30.9,230,6.02,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",MX-2,88,15.15,31.7,265,7.17,CoStar/CBRE Market Reports,2024-Q3
+"Chicago, IL",MX-3,436,103.8,14.2,511,5.81,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",R-1,32,7.37,33.1,165,5.72,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",R-3,26,4.34,16.5,182,7.44,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",R-5,198,37.81,14.1,283,8.04,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",C-2,95,18.15,14.8,302,8.33,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",MX-2,160,72.64,33.3,400,6.8,CoStar/CBRE Market Reports,2024-Q3
+"Boston, MA",MX-3,211,43.08,23.4,449,6.65,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,R-1,69,21.7,21.5,172,7.15,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,R-3,70,31.2,18.4,202,5.91,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,R-5,180,64.34,32.3,320,7.08,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,C-2,116,25.65,30.4,314,7.88,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,MX-2,103,17.29,30.0,233,6.58,CoStar/CBRE Market Reports,2024-Q3
+Washington DC,MX-3,376,89.99,23.1,465,8.24,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",R-1,79,13.24,24.2,191,7.8,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",R-3,74,12.34,34.4,209,5.8,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",R-5,177,38.25,18.1,256,7.95,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",C-2,126,22.23,13.3,256,8.49,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",MX-2,72,25.02,31.5,296,7.89,CoStar/CBRE Market Reports,2024-Q3
+"Seattle, WA",MX-3,184,53.81,31.3,507,8.04,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",R-1,37,6.39,31.2,180,7.93,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",R-3,100,17.0,24.5,215,6.03,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",R-5,268,124.54,13.3,401,7.3,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",C-2,52,25.0,23.0,290,6.5,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",MX-2,210,47.12,30.5,369,6.52,CoStar/CBRE Market Reports,2024-Q3
+"Austin, TX",MX-3,270,99.64,30.5,444,8.1,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",R-1,22,4.57,27.2,152,7.26,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",R-3,43,12.85,19.4,250,8.43,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",R-5,157,31.85,22.0,448,7.42,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",C-2,73,18.49,19.3,334,7.62,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",MX-2,285,67.09,32.5,318,7.34,CoStar/CBRE Market Reports,2024-Q3
+"Denver, CO",MX-3,199,58.06,27.3,395,7.94,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",R-1,63,10.54,34.2,189,5.6,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",R-3,118,26.76,33.2,263,8.4,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",R-5,235,81.5,25.0,282,8.31,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",C-2,90,35.12,29.1,200,6.21,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",MX-2,244,41.15,15.9,371,8.16,CoStar/CBRE Market Reports,2024-Q3
+"Dallas, TX",MX-3,525,222.94,28.3,517,7.42,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",R-1,57,16.08,28.8,207,8.41,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",R-3,26,4.69,23.3,208,6.64,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",R-5,192,45.89,14.3,313,6.94,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",C-2,62,11.36,27.0,289,7.56,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",MX-2,130,49.05,13.7,252,8.04,CoStar/CBRE Market Reports,2024-Q3
+"Atlanta, GA",MX-3,126,39.63,19.3,312,8.35,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",R-1,24,11.3,33.7,193,5.99,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",R-3,46,8.27,15.6,223,5.8,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",R-5,167,59.17,16.4,437,7.59,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",C-2,64,13.09,28.8,340,6.3,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",MX-2,88,28.15,17.5,311,5.65,CoStar/CBRE Market Reports,2024-Q3
+"Phoenix, AZ",MX-3,619,144.39,31.3,480,5.96,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",R-1,61,13.4,34.5,150,6.92,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",R-3,79,32.09,30.1,186,6.91,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",R-5,235,42.12,18.1,419,7.43,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",C-2,167,47.04,20.5,251,6.64,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",MX-2,89,32.41,13.0,231,6.82,CoStar/CBRE Market Reports,2024-Q3
+"Nashville, TN",MX-3,336,110.03,31.3,343,7.19,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",R-1,34,15.15,20.9,246,7.07,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",R-3,114,19.45,27.8,260,8.31,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",R-5,134,31.23,17.4,271,6.4,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",C-2,133,37.16,31.6,338,5.6,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",MX-2,170,39.67,23.9,375,7.21,CoStar/CBRE Market Reports,2024-Q3
+"Charlotte, NC",MX-3,357,60.19,15.4,441,8.35,CoStar/CBRE Market Reports,2024-Q3

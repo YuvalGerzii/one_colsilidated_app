@@ -1,0 +1,122 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# AI & ML (LOCAL ONLY - NO PAID APIs!)
+# NOTE: OpenAI/Anthropic dependencies REMOVED - using free local LLMs via Ollama
+langchain==0.1.4
+langchain-community==0.0.16
+llama-index==0.9.48
+transformers==4.37.0
+torch==2.1.2
+sentence-transformers==2.3.1
+
+# Vector Databases
+qdrant-client==1.7.3
+chromadb==0.4.22
+pinecone-client==3.0.2
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# Cache & Queue
+redis==5.0.1
+celery==5.3.6
+python-rq==1.15.1
+
+# Document Processing
+pypdf2==3.0.1
+python-docx==1.1.0
+openpyxl==3.1.2
+python-pptx==0.6.23
+pandas==2.1.4
+tabula-py==2.9.0
+pdfplumber==0.10.3
+pytesseract==0.3.10
+pillow==10.2.0
+
+# Web Scraping & Automation
+selenium==4.17.2
+beautifulsoup4==4.12.3
+playwright==1.41.1
+pyautogui==0.9.54
+
+# Legacy System Integration
+paramiko==3.4.0
+pyodbc==5.0.1
+cx-Oracle==8.3.0
+ibm-db==3.2.3
+sap-nw-rfc==2.3.0
+
+# API & HTTP
+httpx==0.26.0
+requests==2.31.0
+aiohttp==3.9.1
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==42.0.0
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
+loguru==0.7.2
+sentry-sdk==1.40.0
+
+# Graph & Knowledge Base
+networkx==3.2.1
+neo4j==5.16.0
+rdflib==7.0.0
+
+# Workflow & Orchestration
+prefect==2.14.21
+airflow==2.8.1
+temporal-sdk==1.5.1
+
+# Data Validation
+marshmallow==3.20.2
+cerberus==1.3.5
+jsonschema==4.21.1
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx-mock==0.16.1
+
+# Code Quality
+black==24.1.1
+ruff==0.1.14
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Utilities
+python-dotenv==1.0.1
+click==8.1.7
+rich==13.7.0
+tenacity==8.2.3
+croniter==2.0.1
+arrow==1.3.0
+pyyaml==6.0.1
+toml==0.10.2
+jinja2==3.1.3
+
+# Cloud & Infrastructure
+boto3==1.34.34
+azure-storage-blob==12.19.0
+google-cloud-storage==2.14.0
+kubernetes==29.0.0
+
+# Async & Concurrency
+asyncio==3.4.3
+aiofiles==23.2.1
+aiocache==0.12.2

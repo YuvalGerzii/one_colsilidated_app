@@ -1,0 +1,31 @@
+market,initiative_name,status,expected_adoption,area_affected,impact_description,data_source
+"New York City, NY",City of Yes - Economic Opportunity,Under review,2025-Q2,Commercial district reforms,"Enable 15K jobs, streamline approvals",Municipal Planning Department
+"New York City, NY",Mandatory Inclusionary Housing Expansion,Proposed,2025-Q3,Increase IZ areas,Expand to more neighborhoods,Municipal Planning Department
+"San Francisco, CA",Housing Element Implementation,In progress,2026-01-31,RHNA compliance rezoning,"82,000 units capacity by 2031",Municipal Planning Department
+"San Francisco, CA",Downtown Adaptive Reuse Streamlining,Adopted,2024-Q4,Office to residential,Expedited approvals for conversions,Municipal Planning Department
+"Los Angeles, CA",Community Plan Updates,Rolling adoption,2025-2027,Form-based code citywide,Implement new zoning code city-wide,Municipal Planning Department
+"Los Angeles, CA",Hollywood Community Plan,Council approval,2025-Q1,Upzone Hollywood,Enable 56K new units in Hollywood,Municipal Planning Department
+"Miami, FL",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Miami, FL",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Chicago, IL",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Chicago, IL",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Boston, MA",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Boston, MA",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+Washington DC,Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+Washington DC,TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Seattle, WA",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Seattle, WA",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Austin, TX",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Austin, TX",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Denver, CO",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Denver, CO",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Dallas, TX",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Dallas, TX",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Atlanta, GA",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Atlanta, GA",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Phoenix, AZ",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Phoenix, AZ",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Nashville, TN",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Nashville, TN",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning
+"Charlotte, NC",Comprehensive Plan Update,In progress,2025-Q4,Citywide,Update land use and zoning for next 10-20 years,Municipal Planning Department
+"Charlotte, NC",TOD District Expansion,Proposed,2025-Q2,Transit corridors,Expand TOD overlay zones around new transit,Transit Authority/Planning

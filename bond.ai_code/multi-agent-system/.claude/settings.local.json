@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(PGPASSWORD='' psql:*)",
+      "Bash(docker ps:*)",
+      "Bash(\"/Users/yuvalgerzi/Documents/personal projects/bond.ai_code/multi-agent-system/bond.ai/bondai_backup.sql\")",
+      "Bash(docker stop:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker-compose down:*)",
+      "Bash(docker volume rm:*)",
+      "Bash(docker start:*)",
+      "Bash(killall node:*)",
+      "Bash(PGPASSWORD='bondai_password' psql:*)",
+      "Bash(python3:*)",
+      "Bash(docker-compose restart:*)",
+      "Bash(timeout 5 curl:*)",
+      "Bash(git fetch:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

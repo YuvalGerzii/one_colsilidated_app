@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ model.label }} Financial Model</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem 1.75rem 4rem;
+        background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 55%),
+          #0f172a;
+        color: #f8fafc;
+      }
+
+      a {
+        color: #38bdf8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .page-header {
+        max-width: 1100px;
+        margin: 0 auto 2rem;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.95rem;
+        color: #93c5fd;
+        margin-bottom: 0.75rem;
+      }
+
+      .page-header h1 {
+        margin: 0;
+        font-size: clamp(2rem, 3vw, 2.6rem);
+        font-weight: 700;
+      }
+
+      .lede {
+        margin: 0.75rem 0 1.5rem;
+        max-width: 760px;
+        color: #cbd5f5;
+        line-height: 1.5;
+      }
+
+      .quick-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        align-items: center;
+        font-size: 0.9rem;
+        color: #94a3b8;
+      }
+
+      .quick-links a {
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        background: rgba(148, 163, 184, 0.14);
+        color: #e2e8f0;
+        transition: background 0.2s ease;
+      }
+
+      .quick-links a:hover {
+        background: rgba(56, 189, 248, 0.2);
+      }
+
+      .content-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: minmax(320px, 360px) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .panel {
+        background: rgba(15, 23, 42, 0.75);
+        border-radius: 20px;
+        border: 1px solid rgba(148, 163, 184, 0.12);
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45);
+        backdrop-filter: blur(8px);
+      }
+
+      .form-panel {
+        padding: 1.5rem;
+        position: sticky;
+        top: 1.5rem;
+        max-height: calc(100vh - 3rem);
+        overflow-y: auto;
+      }
+
+      .results-panel {
+        padding: 1.75rem;
+      }
+
+      .form-panel h2,
+      .results-panel h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .input-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+      }
+
+      .input-section:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .input-section h3 {
+        margin: 0;
+        font-size: 1rem;
+        color: #bae6fd;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .fields-grid {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        font-size: 0.82rem;
+        color: #cbd5f5;
+      }
+
+      .input-wrapper {
+        position: relative;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 0.55rem 0.65rem;
+        border-radius: 10px;
+        border: 1px solid rgba(148, 163, 184, 0.28);
+        background: rgba(15, 23, 42, 0.65);
+        color: #f8fafc;
+        font-size: 0.9rem;
+      }
+
+      input:focus,
+      select:focus {
+        outline: none;
+        border-color: #38bdf8;
+        box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.25);
+      }
+
+      .input-wrapper.with-addon input {
+        padding-right: 2.3rem;
+      }
+
+      .addon {
+        position: absolute;
+        inset: 0.15rem 0.4rem 0.15rem auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.8rem;
+        border-radius: 8px;
+        background: rgba(148, 163, 184, 0.18);
+        color: #e2e8f0;
+        font-size: 0.78rem;
+        pointer-events: none;
+      }
+
+      .form-actions {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+      }
+
+      .primary,
+      .secondary {
+        border: none;
+        border-radius: 12px;
+        padding: 0.65rem 1.4rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.15s ease, filter 0.2s ease;
+      }
+
+      .primary {
+        background: linear-gradient(120deg, #38bdf8, #818cf8);
+        color: #0f172a;
+      }
+
+      .secondary {
+        background: rgba(148, 163, 184, 0.18);
+        color: #e2e8f0;
+      }
+
+      .primary:hover,
+      .secondary:hover {
+        transform: translateY(-1px);
+        filter: brightness(1.05);
+      }
+
+      .results-header {
+        margin-bottom: 1.5rem;
+      }
+
+      .results-header p {
+        margin: 0.5rem 0 0;
+        color: #cbd5f5;
+        font-size: 0.95rem;
+        max-width: 620px;
+      }
+
+      .results-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .placeholder,
+      .loading {
+        margin: 0;
+        padding: 1rem;
+        border-radius: 12px;
+        background: rgba(148, 163, 184, 0.12);
+        color: #cbd5f5;
+        text-align: center;
+      }
+
+      .tables-stack {
+        display: grid;
+        gap: 1.35rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 14px;
+        overflow: hidden;
+        background: rgba(15, 23, 42, 0.72);
+        border: 1px solid rgba(148, 163, 184, 0.16);
+      }
+
+      table thead {
+        background: rgba(129, 140, 248, 0.18);
+      }
+
+      th,
+      td {
+        padding: 0.65rem 0.85rem;
+        font-size: 0.9rem;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+        text-align: left;
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      .metrics-block {
+        background: rgba(56, 189, 248, 0.08);
+        border: 1px solid rgba(56, 189, 248, 0.18);
+        border-radius: 14px;
+        padding: 1rem 1.1rem;
+      }
+
+      .metrics-block h3 {
+        margin: 0 0 0.75rem;
+        font-size: 1.05rem;
+        color: #bae6fd;
+      }
+
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 0.75rem;
+      }
+
+      .metric-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 0.75rem;
+        border-radius: 12px;
+        background: rgba(15, 23, 42, 0.65);
+        border: 1px solid rgba(56, 189, 248, 0.15);
+      }
+
+      .metric-card span:first-child {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7dd3fc;
+      }
+
+      .metric-card span:last-child {
+        font-size: 1.05rem;
+        font-weight: 600;
+      }
+
+      .chart-grid {
+        display: grid;
+        gap: 1.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .chart-card {
+        background: rgba(15, 23, 42, 0.72);
+        border-radius: 14px;
+        padding: 1rem 1.2rem 1.4rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+      }
+
+      .chart-card h3 {
+        margin: 0 0 0.75rem;
+        font-size: 1.05rem;
+        color: #cbd5f5;
+      }
+
+      canvas {
+        width: 100% !important;
+        height: 320px !important;
+      }
+
+      @media (max-width: 1024px) {
+        body {
+          padding: 1.5rem 1.25rem 3rem;
+        }
+
+        .content-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .form-panel {
+          position: static;
+          max-height: none;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .page-header {
+          margin-bottom: 1.5rem;
+        }
+
+        .form-actions {
+          flex-direction: column;
+        }
+
+        canvas {
+          height: 260px !important;
+        }
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="back-link" href="/api/v1/real-estate/tools">&#8592; All real estate models</a>
+      <h1>{{ model.label }} financial model</h1>
+      <p class="lede">{{ model.description }}</p>
+      {% if other_models %}
+      <div class="quick-links">
+        <span>Jump to:</span>
+        {% for item in other_models %}
+        <a href="/api/v1/real-estate/tools/{{ item.slug }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </header>
+
+    <main class="content-grid">
+      <section class="panel form-panel">
+        <h2>Key assumptions</h2>
+        <form id="model-form">
+          {% for section in model.sections %}
+          <div class="input-section">
+            <h3>{{ section.label }}</h3>
+            <div class="fields-grid">
+              {% for field in section.fields %}
+              <label for="field-{{ field.name }}">
+                <span class="field-label">{{ field.label }}</span>
+                {% if field.options %}
+                <select
+                  id="field-{{ field.name }}"
+                  name="{{ field.name }}"
+                  data-name="{{ field.name }}"
+                  data-default="{{ model.defaults[field.name] }}"
+                >
+                  {% for option in field.options %}
+                  <option value="{{ option }}" {% if model.defaults[field.name] == option %}selected{% endif %}>
+                    {{ option }}
+                  </option>
+                  {% endfor %}
+                </select>
+                {% else %}
+                <div class="input-wrapper {% if field.get('format') == 'percentage' %}with-addon{% endif %}">
+                  <input
+                    id="field-{{ field.name }}"
+                    type="{{ field.type }}"
+                    name="{{ field.name }}"
+                    {% if field.get('step') is not none %}step="{{ field.get('step') }}"{% endif %}
+                    {% if field.get('min') is not none %}min="{{ field.get('min') }}"{% endif %}
+                    {% if field.get('max') is not none %}max="{{ field.get('max') }}"{% endif %}
+                    value="{{ model.defaults[field.name] }}"
+                    data-name="{{ field.name }}"
+                    data-default="{{ model.defaults[field.name] }}"
+                    data-format="{{ field.get('format', '') }}"
+                  />
+                  {% if field.get('format') == 'percentage' %}<span class="addon">%</span>{% endif %}
+                </div>
+                {% endif %}
+              </label>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+          <div class="form-actions">
+            <button type="submit" class="primary">Run model</button>
+            <button type="button" class="secondary" id="reset-button">Reset to defaults</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-header">
+          <h2>{{ model.label }} results</h2>
+          <p>
+            Review the full underwriting output exactly as delivered in the Excel workbook. Tables mirror the original
+            schedules, and interactive charts highlight the key sensitivities and projections.
+          </p>
+        </div>
+        <div id="results-container" class="results-container">
+          <p class="placeholder">Submit the model assumptions to generate schedules and charts.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const model = {{ model|tojson }};
+      const runEndpoint = "/api/v1/real-estate/tools/run";
+      const fieldMap = Object.fromEntries(model.fields.map((field) => [field.name, field]));
+
+      const form = document.getElementById("model-form");
+      const resultsContainer = document.getElementById("results-container");
+      const resetButton = document.getElementById("reset-button");
+
+      const chartsByKey = {};
+
+      function formatDisplayValue(name, value) {
+        if (value === null || value === undefined || value === "") {
+          return "";
+        }
+        const field = fieldMap[name];
+        let display = value;
+        if (field && field.format === "percentage" && typeof value === "number") {
+          display = value * 100;
+        }
+        if (typeof display === "number" && Number.isFinite(display)) {
+          return String(parseFloat(display.toFixed(4)));
+        }
+        return display;
+      }
+
+      function parseSubmissionValue(name, value) {
+        const field = fieldMap[name];
+        if (!field) {
+          return value;
+        }
+        if (field.type === "number") {
+          const numeric = parseFloat(value);
+          if (!Number.isFinite(numeric)) {
+            return null;
+          }
+          if (field.format === "percentage") {
+            return numeric / 100;
+          }
+          return numeric;
+        }
+        return value;
+      }
+
+      function populateForm(values) {
+        Object.entries(values).forEach(([name, value]) => {
+          const element = form.elements.namedItem(name);
+          if (!element) return;
+          if (element instanceof HTMLSelectElement) {
+            element.value = value ?? "";
+          } else {
+            element.value = formatDisplayValue(name, value);
+          }
+        });
+      }
+
+      function serializeForm() {
+        const overrides = {};
+        Array.from(form.elements).forEach((element) => {
+          if (!(element instanceof HTMLInputElement || element instanceof HTMLSelectElement)) return;
+          const name = element.name;
+          if (!name) return;
+          if (element.type === "submit" || element.type === "button") return;
+          const raw = element.value;
+          if (raw === "" || raw === null || raw === undefined) return;
+          const parsed = parseSubmissionValue(name, raw);
+          if (parsed === null) return;
+          overrides[name] = parsed;
+        });
+        return overrides;
+      }
+
+      function setLoading(message) {
+        resultsContainer.innerHTML = "";
+        const paragraph = document.createElement("p");
+        paragraph.className = "loading";
+        paragraph.textContent = message;
+        resultsContainer.appendChild(paragraph);
+      }
+
+      function buildMetricsBlock(table) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "metrics-block";
+        const heading = document.createElement("h3");
+        heading.textContent = table.title;
+        wrapper.appendChild(heading);
+
+        const grid = document.createElement("div");
+        grid.className = "metrics-grid";
+        Object.entries(table.metrics).forEach(([label, value]) => {
+          const card = document.createElement("div");
+          card.className = "metric-card";
+          const labelSpan = document.createElement("span");
+          labelSpan.textContent = label;
+          const valueSpan = document.createElement("span");
+          valueSpan.textContent = value;
+          card.appendChild(labelSpan);
+          card.appendChild(valueSpan);
+          grid.appendChild(card);
+        });
+
+        wrapper.appendChild(grid);
+        return wrapper;
+      }
+
+      function buildTableBlock(table) {
+        const container = document.createElement("div");
+        const heading = document.createElement("h3");
+        heading.textContent = table.title;
+        container.appendChild(heading);
+
+        const tableEl = document.createElement("table");
+        const thead = document.createElement("thead");
+        const headRow = document.createElement("tr");
+        table.columns.forEach((col) => {
+          const th = document.createElement("th");
+          th.textContent = col;
+          headRow.appendChild(th);
+        });
+        thead.appendChild(headRow);
+        tableEl.appendChild(thead);
+
+        const tbody = document.createElement("tbody");
+        table.rows.forEach((row) => {
+          const tr = document.createElement("tr");
+          table.columns.forEach((col) => {
+            const td = document.createElement("td");
+            td.textContent = row[col] ?? row[col.toLowerCase()] ?? "";
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+        tableEl.appendChild(tbody);
+        container.appendChild(tableEl);
+        return container;
+      }
+
+      function renderCharts(slug, charts) {
+        Object.values(chartsByKey).forEach((chart) => chart.destroy());
+        Object.keys(chartsByKey).forEach((key) => delete chartsByKey[key]);
+
+        if (!charts || !charts.length) {
+          return null;
+        }
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "chart-grid";
+
+        charts.forEach((chart) => {
+          const card = document.createElement("div");
+          card.className = "chart-card";
+          const heading = document.createElement("h3");
+          heading.textContent = chart.title;
+          card.appendChild(heading);
+
+          const canvas = document.createElement("canvas");
+          card.appendChild(canvas);
+          wrapper.appendChild(card);
+
+          const config = {
+            type: chart.type === "bar" ? "bar" : "line",
+            data: {
+              labels: chart.labels,
+              datasets:
+                chart.type === "bar"
+                  ? chart.datasets.map((dataset, index) => ({
+                      label: dataset.label,
+                      data: dataset.data,
+                      backgroundColor: ["#38bdf8", "#818cf8", "#fbbf24", "#22d3ee", "#f472b6"][index % 5],
+                    }))
+                  : Object.entries(chart.datasets).map(([label, data]) => ({
+                      label,
+                      data,
+                      borderWidth: 2,
+                      tension: 0.25,
+                    })),
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                x: {
+                  ticks: { color: "#cbd5f5" },
+                  grid: { color: "rgba(148, 163, 184, 0.18)" },
+                  title: { display: Boolean(chart.x_label), text: chart.x_label },
+                },
+                y: {
+                  ticks: { color: "#cbd5f5" },
+                  grid: { color: "rgba(148, 163, 184, 0.18)" },
+                  title: { display: Boolean(chart.y_label), text: chart.y_label },
+                },
+              },
+              plugins: {
+                legend: {
+                  labels: { color: "#e2e8f0" },
+                },
+              },
+            },
+          };
+
+          chartsByKey[chart.key] = new Chart(canvas, config);
+        });
+
+        return wrapper;
+      }
+
+      function renderResults(slug, payload) {
+        resultsContainer.innerHTML = "";
+        const tableWrapper = document.createElement("div");
+        tableWrapper.className = "tables-stack";
+
+        payload.tables.forEach((table) => {
+          if (table.kind === "metrics") {
+            tableWrapper.appendChild(buildMetricsBlock(table));
+          } else {
+            tableWrapper.appendChild(buildTableBlock(table));
+          }
+        });
+
+        resultsContainer.appendChild(tableWrapper);
+
+        const charts = renderCharts(slug, payload.charts || []);
+        if (charts) {
+          resultsContainer.appendChild(charts);
+        }
+      }
+
+      function runAnalysis() {
+        setLoading("Running financial model...");
+        const overrides = serializeForm();
+        fetch(runEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ model: model.slug, values: overrides }),
+        })
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Unable to run model");
+            }
+            return response.json();
+          })
+          .then((payload) => {
+            renderResults(model.slug, payload);
+          })
+          .catch((error) => {
+            resultsContainer.innerHTML = "";
+            const paragraph = document.createElement("p");
+            paragraph.className = "loading";
+            paragraph.style.color = "#fca5a5";
+            paragraph.textContent = error.message;
+            resultsContainer.appendChild(paragraph);
+          });
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        runAnalysis();
+      });
+
+      resetButton.addEventListener("click", () => {
+        populateForm(model.defaults);
+        runAnalysis();
+      });
+
+      window.addEventListener("DOMContentLoaded", () => {
+        populateForm(model.defaults);
+        runAnalysis();
+      });
+    </script>
+  </body>
+</html>

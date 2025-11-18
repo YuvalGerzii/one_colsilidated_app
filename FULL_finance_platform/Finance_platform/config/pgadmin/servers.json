@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Finance Platform - PostgreSQL",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "portfolio_dashboard",
+      "Username": "portfolio_user",
+      "SSLMode": "prefer",
+      "PassFile": "/tmp/pgpassfile"
+    }
+  }
+}

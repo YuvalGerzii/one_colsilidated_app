@@ -1,0 +1,16 @@
+market,avg_str_acquisition_1br_usd,avg_str_acquisition_2br_usd,avg_renovation_cost_per_unit,furnishing_equipment_cost,operating_cost_per_booking,platform_fees_pct_of_booking,cleaning_cost_per_turnover,property_manager_fee_pct,data_source,period
+"New York, NY",508488.0,882273.0,25342.0,13017.0,61.0,17.7,125.0,17.3,Investment Analysis Reports,2024-Q3
+"Los Angeles, CA",327646.0,946546.0,25025.0,33077.0,70.0,17.9,127.0,17.8,Investment Analysis Reports,2024-Q3
+"San Francisco, CA",360547.0,884417.0,47571.0,23989.0,60.0,16.4,110.0,15.1,Investment Analysis Reports,2024-Q3
+"Miami, FL",529972.0,512821.0,38363.0,24785.0,38.0,16.7,116.0,12.6,Investment Analysis Reports,2024-Q3
+"Chicago, IL",458317.0,789043.0,30248.0,18897.0,46.0,17.7,84.0,10.7,Investment Analysis Reports,2024-Q3
+"Boston, MA",571564.0,496506.0,31891.0,13325.0,60.0,17.1,107.0,12.7,Investment Analysis Reports,2024-Q3
+"Washington, DC",366699.0,595039.0,20372.0,22345.0,57.0,17.7,131.0,8.6,Investment Analysis Reports,2024-Q3
+"Seattle, WA",408237.0,740634.0,19186.0,13674.0,83.0,17.9,119.0,10.6,Investment Analysis Reports,2024-Q3
+"Austin, TX",351022.0,900727.0,27096.0,32907.0,48.0,16.0,124.0,17.0,Investment Analysis Reports,2024-Q3
+"Denver, CO",536472.0,904654.0,38869.0,28187.0,59.0,16.2,91.0,11.4,Investment Analysis Reports,2024-Q3
+"Dallas, TX",438525.0,763822.0,27253.0,20272.0,88.0,17.3,129.0,16.7,Investment Analysis Reports,2024-Q3
+"Atlanta, GA",538954.0,589724.0,24094.0,19197.0,38.0,19.3,124.0,8.2,Investment Analysis Reports,2024-Q3
+"Phoenix, AZ",468126.0,729537.0,39600.0,18789.0,47.0,16.2,111.0,10.9,Investment Analysis Reports,2024-Q3
+"Nashville, TN",467218.0,920036.0,28127.0,29557.0,64.0,18.6,124.0,13.5,Investment Analysis Reports,2024-Q3
+"Charlotte, NC",529143.0,606653.0,22199.0,24571.0,46.0,19.4,144.0,19.5,Investment Analysis Reports,2024-Q3

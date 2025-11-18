@@ -1,0 +1,1126 @@
+market_name,neighborhood_name,score_category,score_value,rank_within_market,rank_nationally,data_source,period,notes
+NYC,Manhattan - Upper East Side,accessibility_score,89.0,4,15,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Upper East Side,amenity_score,93.0,4,15,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Upper East Side,demographic_quality_score,90.0,4,15,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Upper East Side,employment_economic_score,85.0,4,15,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Upper East Side,real_estate_momentum_score,78.0,4,15,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Upper East Side,development_investment_score,75.0,4,15,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Upper East Side,livability_safety_score,88.0,4,15,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Upper East Side,cultural_vibrancy_score,89.0,4,15,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Upper East Side,future_growth_catalysts_score,68.0,4,15,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Upper East Side,composite_overall_score,83.9,4,15,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Upper East Side,investor_attractiveness_score,76.5,4,15,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Upper East Side,resident_desirability_score,89.8,4,15,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Upper East Side,value_add_potential_score,84.0,4,15,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Upper East Side,transit_connectivity_score,92.0,4,15,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Upper East Side,restaurant_density_per_1000,74.4,4,15,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Upper East Side,median_household_income_thousands,225.0,4,15,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Upper East Side,bachelor_degree_plus_pct,81.0,4,15,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Upper East Side,job_density_per_sq_mile,42500.0,4,15,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Upper East Side,year_over_year_price_appreciation_pct,11.7,4,15,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Upper East Side,new_construction_permits_ytd,750.0,4,15,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Upper East Side,crime_rate_per_1000_residents,6.0,4,15,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Upper East Side,green_space_acres_per_1000,13.2,4,15,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Upper East Side,walkability_index,89.0,4,15,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Upper East Side,avg_commute_time_minutes,6.0,4,15,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Upper East Side,coffee_shops_per_1000,23.2,4,15,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Upper West Side,accessibility_score,88.0,5,17,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Upper West Side,amenity_score,91.0,5,17,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Upper West Side,demographic_quality_score,88.0,5,17,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Upper West Side,employment_economic_score,82.0,5,17,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Upper West Side,real_estate_momentum_score,79.0,5,17,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Upper West Side,development_investment_score,76.0,5,17,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Upper West Side,livability_safety_score,87.0,5,17,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Upper West Side,cultural_vibrancy_score,88.0,5,17,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Upper West Side,future_growth_catalysts_score,70.0,5,17,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Upper West Side,composite_overall_score,83.2,5,17,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Upper West Side,investor_attractiveness_score,76.8,5,17,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Upper West Side,resident_desirability_score,88.5,5,17,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Upper West Side,value_add_potential_score,80.0,5,17,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Upper West Side,transit_connectivity_score,91.0,5,17,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Upper West Side,restaurant_density_per_1000,72.8,5,17,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Upper West Side,median_household_income_thousands,220.0,5,17,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Upper West Side,bachelor_degree_plus_pct,79.2,5,17,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Upper West Side,job_density_per_sq_mile,41000.0,5,17,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Upper West Side,year_over_year_price_appreciation_pct,11.8,5,17,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Upper West Side,new_construction_permits_ytd,760.0,5,17,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Upper West Side,crime_rate_per_1000_residents,6.5,5,17,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Upper West Side,green_space_acres_per_1000,13.0,5,17,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Upper West Side,walkability_index,88.0,5,17,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Upper West Side,avg_commute_time_minutes,6.0,5,17,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Upper West Side,coffee_shops_per_1000,22.8,5,17,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Greenwich Village,accessibility_score,92.0,6,9,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Greenwich Village,amenity_score,94.0,6,9,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Greenwich Village,demographic_quality_score,86.0,6,9,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Greenwich Village,employment_economic_score,84.0,6,9,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Greenwich Village,real_estate_momentum_score,82.0,6,9,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Greenwich Village,development_investment_score,78.0,6,9,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Greenwich Village,livability_safety_score,84.0,6,9,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Greenwich Village,cultural_vibrancy_score,95.0,6,9,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Greenwich Village,future_growth_catalysts_score,72.0,6,9,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Greenwich Village,composite_overall_score,85.2,6,9,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Greenwich Village,investor_attractiveness_score,79.0,6,9,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Greenwich Village,resident_desirability_score,91.2,6,9,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Greenwich Village,value_add_potential_score,76.0,6,9,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Greenwich Village,transit_connectivity_score,95.0,6,9,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Greenwich Village,restaurant_density_per_1000,75.2,6,9,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Greenwich Village,median_household_income_thousands,215.0,6,9,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Greenwich Village,bachelor_degree_plus_pct,77.4,6,9,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Greenwich Village,job_density_per_sq_mile,42000.0,6,9,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Greenwich Village,year_over_year_price_appreciation_pct,12.3,6,9,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Greenwich Village,new_construction_permits_ytd,780.0,6,9,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Greenwich Village,crime_rate_per_1000_residents,8.0,6,9,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Greenwich Village,green_space_acres_per_1000,12.6,6,9,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Greenwich Village,walkability_index,92.0,6,9,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Greenwich Village,avg_commute_time_minutes,4.0,6,9,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Greenwich Village,coffee_shops_per_1000,23.5,6,9,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - SoHo,accessibility_score,91.0,7,10,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - SoHo,amenity_score,95.0,7,10,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - SoHo,demographic_quality_score,85.0,7,10,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - SoHo,employment_economic_score,86.0,7,10,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - SoHo,real_estate_momentum_score,84.0,7,10,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - SoHo,development_investment_score,80.0,7,10,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - SoHo,livability_safety_score,82.0,7,10,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - SoHo,cultural_vibrancy_score,93.0,7,10,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - SoHo,future_growth_catalysts_score,74.0,7,10,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - SoHo,composite_overall_score,85.6,7,10,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - SoHo,investor_attractiveness_score,81.0,7,10,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - SoHo,resident_desirability_score,90.2,7,10,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - SoHo,value_add_potential_score,72.0,7,10,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - SoHo,transit_connectivity_score,94.0,7,10,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - SoHo,restaurant_density_per_1000,76.0,7,10,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - SoHo,median_household_income_thousands,212.0,7,10,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - SoHo,bachelor_degree_plus_pct,76.5,7,10,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - SoHo,job_density_per_sq_mile,43000.0,7,10,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - SoHo,year_over_year_price_appreciation_pct,12.6,7,10,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - SoHo,new_construction_permits_ytd,800.0,7,10,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - SoHo,crime_rate_per_1000_residents,9.0,7,10,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - SoHo,green_space_acres_per_1000,12.3,7,10,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - SoHo,walkability_index,91.0,7,10,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - SoHo,avg_commute_time_minutes,4.0,7,10,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - SoHo,coffee_shops_per_1000,23.8,7,10,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Chelsea,accessibility_score,90.0,8,11,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Chelsea,amenity_score,92.0,8,11,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Chelsea,demographic_quality_score,84.0,8,11,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Chelsea,employment_economic_score,88.0,8,11,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Chelsea,real_estate_momentum_score,83.0,8,11,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Chelsea,development_investment_score,82.0,8,11,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Chelsea,livability_safety_score,83.0,8,11,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Chelsea,cultural_vibrancy_score,87.0,8,11,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Chelsea,future_growth_catalysts_score,76.0,8,11,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Chelsea,composite_overall_score,85.0,8,11,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Chelsea,investor_attractiveness_score,82.2,8,11,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Chelsea,resident_desirability_score,88.0,8,11,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Chelsea,value_add_potential_score,68.0,8,11,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Chelsea,transit_connectivity_score,93.0,8,11,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Chelsea,restaurant_density_per_1000,73.6,8,11,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Chelsea,median_household_income_thousands,210.0,8,11,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Chelsea,bachelor_degree_plus_pct,75.6,8,11,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Chelsea,job_density_per_sq_mile,44000.0,8,11,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Chelsea,year_over_year_price_appreciation_pct,12.4,8,11,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Chelsea,new_construction_permits_ytd,820.0,8,11,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Chelsea,crime_rate_per_1000_residents,8.5,8,11,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Chelsea,green_space_acres_per_1000,12.4,8,11,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Chelsea,walkability_index,90.0,8,11,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Chelsea,avg_commute_time_minutes,5.0,8,11,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Chelsea,coffee_shops_per_1000,23.0,8,11,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - East Village,accessibility_score,89.0,9,8,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - East Village,amenity_score,90.0,9,8,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - East Village,demographic_quality_score,80.0,9,8,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - East Village,employment_economic_score,82.0,9,8,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - East Village,real_estate_momentum_score,85.0,9,8,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - East Village,development_investment_score,83.0,9,8,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - East Village,livability_safety_score,80.0,9,8,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - East Village,cultural_vibrancy_score,94.0,9,8,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - East Village,future_growth_catalysts_score,78.0,9,8,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - East Village,composite_overall_score,84.6,9,8,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - East Village,investor_attractiveness_score,82.0,9,8,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - East Village,resident_desirability_score,88.2,9,8,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - East Village,value_add_potential_score,64.0,9,8,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - East Village,transit_connectivity_score,92.0,9,8,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - East Village,restaurant_density_per_1000,72.0,9,8,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - East Village,median_household_income_thousands,200.0,9,8,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - East Village,bachelor_degree_plus_pct,72.0,9,8,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - East Village,job_density_per_sq_mile,41000.0,9,8,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - East Village,year_over_year_price_appreciation_pct,12.8,9,8,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - East Village,new_construction_permits_ytd,830.0,9,8,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - East Village,crime_rate_per_1000_residents,10.0,9,8,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - East Village,green_space_acres_per_1000,12.0,9,8,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - East Village,walkability_index,89.0,9,8,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - East Village,avg_commute_time_minutes,6.0,9,8,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - East Village,coffee_shops_per_1000,22.5,9,8,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - NoHo,accessibility_score,88.0,10,7,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - NoHo,amenity_score,91.0,10,7,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - NoHo,demographic_quality_score,82.0,10,7,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - NoHo,employment_economic_score,85.0,10,7,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - NoHo,real_estate_momentum_score,86.0,10,7,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - NoHo,development_investment_score,84.0,10,7,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - NoHo,livability_safety_score,81.0,10,7,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - NoHo,cultural_vibrancy_score,90.0,10,7,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - NoHo,future_growth_catalysts_score,80.0,10,7,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - NoHo,composite_overall_score,85.2,10,7,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - NoHo,investor_attractiveness_score,83.8,10,7,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - NoHo,resident_desirability_score,87.5,10,7,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - NoHo,value_add_potential_score,60.0,10,7,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - NoHo,transit_connectivity_score,91.0,10,7,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - NoHo,restaurant_density_per_1000,72.8,10,7,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - NoHo,median_household_income_thousands,205.0,10,7,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - NoHo,bachelor_degree_plus_pct,73.8,10,7,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - NoHo,job_density_per_sq_mile,42500.0,10,7,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - NoHo,year_over_year_price_appreciation_pct,12.9,10,7,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - NoHo,new_construction_permits_ytd,840.0,10,7,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - NoHo,crime_rate_per_1000_residents,9.5,10,7,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - NoHo,green_space_acres_per_1000,12.2,10,7,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - NoHo,walkability_index,88.0,10,7,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - NoHo,avg_commute_time_minutes,6.0,10,7,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - NoHo,coffee_shops_per_1000,22.8,10,7,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Flatiron,accessibility_score,87.0,11,13,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Flatiron,amenity_score,89.0,11,13,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Flatiron,demographic_quality_score,83.0,11,13,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Flatiron,employment_economic_score,90.0,11,13,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Flatiron,real_estate_momentum_score,80.0,11,13,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Flatiron,development_investment_score,78.0,11,13,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Flatiron,livability_safety_score,82.0,11,13,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Flatiron,cultural_vibrancy_score,85.0,11,13,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Flatiron,future_growth_catalysts_score,72.0,11,13,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Flatiron,composite_overall_score,82.9,11,13,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Flatiron,investor_attractiveness_score,80.0,11,13,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Flatiron,resident_desirability_score,85.8,11,13,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Flatiron,value_add_potential_score,56.0,11,13,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Flatiron,transit_connectivity_score,90.0,11,13,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Flatiron,restaurant_density_per_1000,71.2,11,13,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Flatiron,median_household_income_thousands,208.0,11,13,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Flatiron,bachelor_degree_plus_pct,74.7,11,13,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Flatiron,job_density_per_sq_mile,45000.0,11,13,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Flatiron,year_over_year_price_appreciation_pct,12.0,11,13,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Flatiron,new_construction_permits_ytd,780.0,11,13,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Flatiron,crime_rate_per_1000_residents,9.0,11,13,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Flatiron,green_space_acres_per_1000,12.3,11,13,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Flatiron,walkability_index,87.0,11,13,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Flatiron,avg_commute_time_minutes,6.0,11,13,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Flatiron,coffee_shops_per_1000,22.2,11,13,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Murray Hill,accessibility_score,86.0,12,20,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Murray Hill,amenity_score,88.0,12,20,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Murray Hill,demographic_quality_score,81.0,12,20,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Murray Hill,employment_economic_score,84.0,12,20,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Murray Hill,real_estate_momentum_score,77.0,12,20,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Murray Hill,development_investment_score,74.0,12,20,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Murray Hill,livability_safety_score,84.0,12,20,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Murray Hill,cultural_vibrancy_score,80.0,12,20,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Murray Hill,future_growth_catalysts_score,68.0,12,20,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Murray Hill,composite_overall_score,80.2,12,20,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Murray Hill,investor_attractiveness_score,75.8,12,20,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Murray Hill,resident_desirability_score,84.5,12,20,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Murray Hill,value_add_potential_score,52.0,12,20,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Murray Hill,transit_connectivity_score,89.0,12,20,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Murray Hill,restaurant_density_per_1000,70.4,12,20,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Murray Hill,median_household_income_thousands,202.0,12,20,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Murray Hill,bachelor_degree_plus_pct,72.9,12,20,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Murray Hill,job_density_per_sq_mile,42000.0,12,20,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Murray Hill,year_over_year_price_appreciation_pct,11.5,12,20,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Murray Hill,new_construction_permits_ytd,740.0,12,20,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Murray Hill,crime_rate_per_1000_residents,8.0,12,20,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Murray Hill,green_space_acres_per_1000,12.6,12,20,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Murray Hill,walkability_index,86.0,12,20,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Murray Hill,avg_commute_time_minutes,7.0,12,20,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Murray Hill,coffee_shops_per_1000,22.0,12,20,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Manhattan - Gramercy,accessibility_score,85.0,13,25,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Manhattan - Gramercy,amenity_score,87.0,13,25,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Manhattan - Gramercy,demographic_quality_score,82.0,13,25,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Manhattan - Gramercy,employment_economic_score,80.0,13,25,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Manhattan - Gramercy,real_estate_momentum_score,76.0,13,25,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Manhattan - Gramercy,development_investment_score,72.0,13,25,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Manhattan - Gramercy,livability_safety_score,85.0,13,25,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Manhattan - Gramercy,cultural_vibrancy_score,82.0,13,25,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Manhattan - Gramercy,future_growth_catalysts_score,66.0,13,25,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Manhattan - Gramercy,composite_overall_score,79.4,13,25,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Manhattan - Gramercy,investor_attractiveness_score,73.5,13,25,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Manhattan - Gramercy,resident_desirability_score,84.8,13,25,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Manhattan - Gramercy,value_add_potential_score,48.0,13,25,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Manhattan - Gramercy,transit_connectivity_score,88.0,13,25,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Manhattan - Gramercy,restaurant_density_per_1000,69.6,13,25,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Manhattan - Gramercy,median_household_income_thousands,205.0,13,25,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Manhattan - Gramercy,bachelor_degree_plus_pct,73.8,13,25,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Manhattan - Gramercy,job_density_per_sq_mile,40000.0,13,25,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Manhattan - Gramercy,year_over_year_price_appreciation_pct,11.4,13,25,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Manhattan - Gramercy,new_construction_permits_ytd,720.0,13,25,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Manhattan - Gramercy,crime_rate_per_1000_residents,7.5,13,25,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Manhattan - Gramercy,green_space_acres_per_1000,12.8,13,25,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Manhattan - Gramercy,walkability_index,85.0,13,25,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Manhattan - Gramercy,avg_commute_time_minutes,8.0,13,25,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Manhattan - Gramercy,coffee_shops_per_1000,21.8,13,25,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Brooklyn - Brooklyn Heights,accessibility_score,84.0,14,23,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Brooklyn - Brooklyn Heights,amenity_score,86.0,14,23,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Brooklyn - Brooklyn Heights,demographic_quality_score,84.0,14,23,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Brooklyn - Brooklyn Heights,employment_economic_score,78.0,14,23,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Brooklyn - Brooklyn Heights,real_estate_momentum_score,78.0,14,23,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Brooklyn - Brooklyn Heights,development_investment_score,74.0,14,23,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Brooklyn - Brooklyn Heights,livability_safety_score,86.0,14,23,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Brooklyn - Brooklyn Heights,cultural_vibrancy_score,84.0,14,23,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Brooklyn - Brooklyn Heights,future_growth_catalysts_score,68.0,14,23,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Brooklyn - Brooklyn Heights,composite_overall_score,80.2,14,23,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Brooklyn - Brooklyn Heights,investor_attractiveness_score,74.5,14,23,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Brooklyn - Brooklyn Heights,resident_desirability_score,85.0,14,23,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Brooklyn - Brooklyn Heights,value_add_potential_score,44.0,14,23,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Brooklyn - Brooklyn Heights,transit_connectivity_score,87.0,14,23,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Brooklyn - Brooklyn Heights,restaurant_density_per_1000,68.8,14,23,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Brooklyn - Brooklyn Heights,median_household_income_thousands,210.0,14,23,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Brooklyn - Brooklyn Heights,bachelor_degree_plus_pct,75.6,14,23,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Brooklyn - Brooklyn Heights,job_density_per_sq_mile,39000.0,14,23,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Brooklyn - Brooklyn Heights,year_over_year_price_appreciation_pct,11.7,14,23,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Brooklyn - Brooklyn Heights,new_construction_permits_ytd,740.0,14,23,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Brooklyn - Brooklyn Heights,crime_rate_per_1000_residents,7.0,14,23,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Brooklyn - Brooklyn Heights,green_space_acres_per_1000,12.9,14,23,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Brooklyn - Brooklyn Heights,walkability_index,84.0,14,23,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Brooklyn - Brooklyn Heights,avg_commute_time_minutes,8.0,14,23,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Brooklyn - Brooklyn Heights,coffee_shops_per_1000,21.5,14,23,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Brooklyn - DUMBO,accessibility_score,83.0,15,12,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Brooklyn - DUMBO,amenity_score,88.0,15,12,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Brooklyn - DUMBO,demographic_quality_score,85.0,15,12,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Brooklyn - DUMBO,employment_economic_score,87.0,15,12,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Brooklyn - DUMBO,real_estate_momentum_score,82.0,15,12,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Brooklyn - DUMBO,development_investment_score,85.0,15,12,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Brooklyn - DUMBO,livability_safety_score,83.0,15,12,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Brooklyn - DUMBO,cultural_vibrancy_score,86.0,15,12,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Brooklyn - DUMBO,future_growth_catalysts_score,78.0,15,12,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Brooklyn - DUMBO,composite_overall_score,84.1,15,12,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Brooklyn - DUMBO,investor_attractiveness_score,83.0,15,12,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Brooklyn - DUMBO,resident_desirability_score,85.0,15,12,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Brooklyn - DUMBO,value_add_potential_score,40.0,15,12,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Brooklyn - DUMBO,transit_connectivity_score,86.0,15,12,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Brooklyn - DUMBO,restaurant_density_per_1000,70.4,15,12,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Brooklyn - DUMBO,median_household_income_thousands,212.0,15,12,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Brooklyn - DUMBO,bachelor_degree_plus_pct,76.5,15,12,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Brooklyn - DUMBO,job_density_per_sq_mile,43500.0,15,12,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Brooklyn - DUMBO,year_over_year_price_appreciation_pct,12.3,15,12,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Brooklyn - DUMBO,new_construction_permits_ytd,850.0,15,12,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Brooklyn - DUMBO,crime_rate_per_1000_residents,8.5,15,12,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Brooklyn - DUMBO,green_space_acres_per_1000,12.4,15,12,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Brooklyn - DUMBO,walkability_index,83.0,15,12,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Brooklyn - DUMBO,avg_commute_time_minutes,8.0,15,12,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Brooklyn - DUMBO,coffee_shops_per_1000,22.0,15,12,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Brooklyn - Cobble Hill,accessibility_score,82.0,16,28,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Brooklyn - Cobble Hill,amenity_score,85.0,16,28,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Brooklyn - Cobble Hill,demographic_quality_score,83.0,16,28,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Brooklyn - Cobble Hill,employment_economic_score,76.0,16,28,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Brooklyn - Cobble Hill,real_estate_momentum_score,76.0,16,28,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Brooklyn - Cobble Hill,development_investment_score,72.0,16,28,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Brooklyn - Cobble Hill,livability_safety_score,88.0,16,28,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Brooklyn - Cobble Hill,cultural_vibrancy_score,82.0,16,28,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Brooklyn - Cobble Hill,future_growth_catalysts_score,66.0,16,28,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Brooklyn - Cobble Hill,composite_overall_score,78.9,16,28,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Brooklyn - Cobble Hill,investor_attractiveness_score,72.5,16,28,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Brooklyn - Cobble Hill,resident_desirability_score,84.2,16,28,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Brooklyn - Cobble Hill,value_add_potential_score,36.0,16,28,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Brooklyn - Cobble Hill,transit_connectivity_score,85.0,16,28,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Brooklyn - Cobble Hill,restaurant_density_per_1000,68.0,16,28,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Brooklyn - Cobble Hill,median_household_income_thousands,208.0,16,28,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Brooklyn - Cobble Hill,bachelor_degree_plus_pct,74.7,16,28,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Brooklyn - Cobble Hill,job_density_per_sq_mile,38000.0,16,28,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Brooklyn - Cobble Hill,year_over_year_price_appreciation_pct,11.4,16,28,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Brooklyn - Cobble Hill,new_construction_permits_ytd,720.0,16,28,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Brooklyn - Cobble Hill,crime_rate_per_1000_residents,6.0,16,28,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Brooklyn - Cobble Hill,green_space_acres_per_1000,13.2,16,28,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Brooklyn - Cobble Hill,walkability_index,82.0,16,28,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Brooklyn - Cobble Hill,avg_commute_time_minutes,9.0,16,28,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Brooklyn - Cobble Hill,coffee_shops_per_1000,21.2,16,28,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Brooklyn - Carroll Gardens,accessibility_score,81.0,17,30,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Brooklyn - Carroll Gardens,amenity_score,84.0,17,30,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Brooklyn - Carroll Gardens,demographic_quality_score,82.0,17,30,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Brooklyn - Carroll Gardens,employment_economic_score,75.0,17,30,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Brooklyn - Carroll Gardens,real_estate_momentum_score,77.0,17,30,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Brooklyn - Carroll Gardens,development_investment_score,73.0,17,30,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Brooklyn - Carroll Gardens,livability_safety_score,87.0,17,30,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Brooklyn - Carroll Gardens,cultural_vibrancy_score,81.0,17,30,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Brooklyn - Carroll Gardens,future_growth_catalysts_score,67.0,17,30,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Brooklyn - Carroll Gardens,composite_overall_score,78.6,17,30,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Brooklyn - Carroll Gardens,investor_attractiveness_score,73.0,17,30,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Brooklyn - Carroll Gardens,resident_desirability_score,83.2,17,30,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Brooklyn - Carroll Gardens,value_add_potential_score,32.0,17,30,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Brooklyn - Carroll Gardens,transit_connectivity_score,84.0,17,30,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Brooklyn - Carroll Gardens,restaurant_density_per_1000,67.2,17,30,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Brooklyn - Carroll Gardens,median_household_income_thousands,205.0,17,30,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Brooklyn - Carroll Gardens,bachelor_degree_plus_pct,73.8,17,30,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Brooklyn - Carroll Gardens,job_density_per_sq_mile,37500.0,17,30,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Brooklyn - Carroll Gardens,year_over_year_price_appreciation_pct,11.5,17,30,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Brooklyn - Carroll Gardens,new_construction_permits_ytd,730.0,17,30,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Brooklyn - Carroll Gardens,crime_rate_per_1000_residents,6.5,17,30,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Brooklyn - Carroll Gardens,green_space_acres_per_1000,13.0,17,30,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Brooklyn - Carroll Gardens,walkability_index,81.0,17,30,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Brooklyn - Carroll Gardens,avg_commute_time_minutes,10.0,17,30,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Brooklyn - Carroll Gardens,coffee_shops_per_1000,21.0,17,30,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Queens - Forest Hills,accessibility_score,78.0,18,38,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Queens - Forest Hills,amenity_score,80.0,18,38,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Queens - Forest Hills,demographic_quality_score,79.0,18,38,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Queens - Forest Hills,employment_economic_score,72.0,18,38,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Queens - Forest Hills,real_estate_momentum_score,73.0,18,38,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Queens - Forest Hills,development_investment_score,68.0,18,38,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Queens - Forest Hills,livability_safety_score,84.0,18,38,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Queens - Forest Hills,cultural_vibrancy_score,76.0,18,38,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Queens - Forest Hills,future_growth_catalysts_score,62.0,18,38,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Queens - Forest Hills,composite_overall_score,74.7,18,38,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Queens - Forest Hills,investor_attractiveness_score,68.8,18,38,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Queens - Forest Hills,resident_desirability_score,79.5,18,38,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Queens - Forest Hills,value_add_potential_score,28.0,18,38,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Queens - Forest Hills,transit_connectivity_score,81.0,18,38,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Queens - Forest Hills,restaurant_density_per_1000,64.0,18,38,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Queens - Forest Hills,median_household_income_thousands,198.0,18,38,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Queens - Forest Hills,bachelor_degree_plus_pct,71.1,18,38,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Queens - Forest Hills,job_density_per_sq_mile,36000.0,18,38,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Queens - Forest Hills,year_over_year_price_appreciation_pct,10.9,18,38,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Queens - Forest Hills,new_construction_permits_ytd,680.0,18,38,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Queens - Forest Hills,crime_rate_per_1000_residents,8.0,18,38,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Queens - Forest Hills,green_space_acres_per_1000,12.6,18,38,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Queens - Forest Hills,walkability_index,78.0,18,38,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Queens - Forest Hills,avg_commute_time_minutes,11.0,18,38,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Queens - Forest Hills,coffee_shops_per_1000,20.0,18,38,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Queens - Bayside,accessibility_score,76.0,19,42,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Queens - Bayside,amenity_score,79.0,19,42,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Queens - Bayside,demographic_quality_score,80.0,19,42,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Queens - Bayside,employment_economic_score,70.0,19,42,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Queens - Bayside,real_estate_momentum_score,72.0,19,42,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Queens - Bayside,development_investment_score,67.0,19,42,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Queens - Bayside,livability_safety_score,85.0,19,42,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Queens - Bayside,cultural_vibrancy_score,74.0,19,42,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Queens - Bayside,future_growth_catalysts_score,60.0,19,42,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Queens - Bayside,composite_overall_score,73.7,19,42,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Queens - Bayside,investor_attractiveness_score,67.2,19,42,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Queens - Bayside,resident_desirability_score,78.5,19,42,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Queens - Bayside,value_add_potential_score,24.0,19,42,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Queens - Bayside,transit_connectivity_score,79.0,19,42,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Queens - Bayside,restaurant_density_per_1000,63.2,19,42,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Queens - Bayside,median_household_income_thousands,200.0,19,42,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Queens - Bayside,bachelor_degree_plus_pct,72.0,19,42,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Queens - Bayside,job_density_per_sq_mile,35000.0,19,42,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Queens - Bayside,year_over_year_price_appreciation_pct,10.8,19,42,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Queens - Bayside,new_construction_permits_ytd,670.0,19,42,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Queens - Bayside,crime_rate_per_1000_residents,7.5,19,42,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Queens - Bayside,green_space_acres_per_1000,12.8,19,42,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Queens - Bayside,walkability_index,76.0,19,42,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Queens - Bayside,avg_commute_time_minutes,12.0,19,42,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Queens - Bayside,coffee_shops_per_1000,19.8,19,42,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+NYC,Bronx - Riverdale,accessibility_score,75.0,20,35,Walk Score / Transit Data,2025-01-01,Walkability and transit access
+NYC,Bronx - Riverdale,amenity_score,78.0,20,35,Google Places / Yelp,2025-01-01,"Restaurants, retail, entertainment density"
+NYC,Bronx - Riverdale,demographic_quality_score,78.0,20,35,Census ACS 2024,2024-12-31,"Income, education, age demographics"
+NYC,Bronx - Riverdale,employment_economic_score,68.0,20,35,Labor Bureau / Tech Data,2024-12-31,"Job density, high-paying industries"
+NYC,Bronx - Riverdale,real_estate_momentum_score,76.0,20,35,Zillow / Redfin,2024-11-01,"Price appreciation, rent growth"
+NYC,Bronx - Riverdale,development_investment_score,74.0,20,35,City Planning / CRE,2024-12-31,"Construction, redevelopment projects"
+NYC,Bronx - Riverdale,livability_safety_score,83.0,20,35,FBI Crime Data / NYPD,2024-11-01,"Crime rates, public safety"
+NYC,Bronx - Riverdale,cultural_vibrancy_score,75.0,20,35,Cultural Institutions,2024-12-31,"Arts, music, events, nightlife"
+NYC,Bronx - Riverdale,future_growth_catalysts_score,68.0,20,35,Development Pipeline,2024-12-31,"Planned transit, redevelopment"
+NYC,Bronx - Riverdale,composite_overall_score,75.0,20,35,Weighted Average,2024-12-31,Overall neighborhood quality
+NYC,Bronx - Riverdale,investor_attractiveness_score,71.5,20,35,Investment Analysis,2024-12-31,Investment opportunity rating
+NYC,Bronx - Riverdale,resident_desirability_score,77.8,20,35,Lifestyle Index,2024-12-31,Quality of life for residents
+NYC,Bronx - Riverdale,value_add_potential_score,20.0,20,35,Growth Potential,2024-12-31,Value appreciation opportunity
+NYC,Bronx - Riverdale,transit_connectivity_score,78.0,20,35,MTA / Transit Authority,2025-01-01,"Subway/bus lines, frequency"
+NYC,Bronx - Riverdale,restaurant_density_per_1000,62.4,20,35,Yelp API,2025-01-01,Restaurants per 1000 residents
+NYC,Bronx - Riverdale,median_household_income_thousands,195.0,20,35,Census ACS 2024,2024-12-31,Median HHI in thousands USD
+NYC,Bronx - Riverdale,bachelor_degree_plus_pct,70.2,20,35,Census ACS 2024,2024-12-31,% with bachelor's degree or higher
+NYC,Bronx - Riverdale,job_density_per_sq_mile,34000.0,20,35,BLS / LEHD,2024-12-31,Jobs per square mile
+NYC,Bronx - Riverdale,year_over_year_price_appreciation_pct,11.4,20,35,Zillow Home Value Index,2024-11-01,YoY home price appreciation %
+NYC,Bronx - Riverdale,new_construction_permits_ytd,740.0,20,35,NYC DOB,2024-12-31,New construction permits YTD 2024
+NYC,Bronx - Riverdale,crime_rate_per_1000_residents,8.5,20,35,NYPD CompStat,2024-11-01,Crimes per 1000 residents (lower is better)
+NYC,Bronx - Riverdale,green_space_acres_per_1000,12.4,20,35,NYC Parks Dept,2024-12-31,Park/green space acres per 1000 residents
+NYC,Bronx - Riverdale,walkability_index,75.0,20,35,Walk Score,2025-01-01,Walk Score walkability index
+NYC,Bronx - Riverdale,avg_commute_time_minutes,12.0,20,35,Census ACS,2024-12-31,Average commute time to Manhattan CBD
+NYC,Bronx - Riverdale,coffee_shops_per_1000,19.5,20,35,Yelp / Google Places,2025-01-01,Coffee shops per 1000 residents
+Miami,Miami - Design District,accessibility_score,84.0,11,6,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - Design District,amenity_score,89.0,11,6,Google Places / Yelp,2025-01-01,
+Miami,Miami - Design District,demographic_quality_score,79.0,11,6,Census ACS 2024,2024-12-31,
+Miami,Miami - Design District,employment_economic_score,86.0,11,6,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - Design District,real_estate_momentum_score,88.0,11,6,Zillow / Redfin,2024-11-01,
+Miami,Miami - Design District,development_investment_score,90.0,11,6,City Planning / CRE,2024-12-31,
+Miami,Miami - Design District,livability_safety_score,77.0,11,6,Crime Data / MPD,2024-11-01,
+Miami,Miami - Design District,cultural_vibrancy_score,93.0,11,6,Cultural Institutions,2024-12-31,
+Miami,Miami - Design District,future_growth_catalysts_score,85.0,11,6,Development Pipeline,2024-12-31,
+Miami,Miami - Design District,composite_overall_score,85.7,11,6,Weighted Average,2024-12-31,
+Miami,Miami - Design District,investor_attractiveness_score,87.2,11,6,Investment Analysis,2024-12-31,
+Miami,Miami - Design District,resident_desirability_score,85.8,11,6,Lifestyle Index,2024-12-31,
+Miami,Miami - Design District,value_add_potential_score,56.0,11,6,Growth Potential,2024-12-31,
+Miami,Miami - Design District,transit_connectivity_score,86.0,11,6,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - Design District,restaurant_density_per_1000,66.8,11,6,Yelp API,2025-01-01,
+Miami,Miami - Design District,median_household_income_thousands,174.0,11,6,Census ACS 2024,2024-12-31,
+Miami,Miami - Design District,bachelor_degree_plus_pct,67.1,11,6,Census ACS 2024,2024-12-31,
+Miami,Miami - Design District,job_density_per_sq_mile,38700.0,11,6,BLS / LEHD,2024-12-31,
+Miami,Miami - Design District,year_over_year_price_appreciation_pct,15.8,11,6,Zillow Home Value Index,2024-11-01,
+Miami,Miami - Design District,new_construction_permits_ytd,1080.0,11,6,Miami-Dade Building,2024-12-31,
+Miami,Miami - Design District,crime_rate_per_1000_residents,12.7,11,6,Miami PD,2024-11-01,
+Miami,Miami - Design District,waterfront_proximity_score,80.1,11,6,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - Design District,walkability_index,84.0,11,6,Walk Score,2025-01-01,
+Miami,Miami - Design District,avg_commute_time_minutes,7.0,11,6,Census ACS,2024-12-31,
+Miami,Miami - Design District,coffee_shops_per_1000,19.6,11,6,Yelp / Google Places,2025-01-01,
+Miami,Miami - South Beach,accessibility_score,86.0,12,18,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - South Beach,amenity_score,93.0,12,18,Google Places / Yelp,2025-01-01,
+Miami,Miami - South Beach,demographic_quality_score,82.0,12,18,Census ACS 2024,2024-12-31,
+Miami,Miami - South Beach,employment_economic_score,78.0,12,18,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - South Beach,real_estate_momentum_score,76.0,12,18,Zillow / Redfin,2024-11-01,
+Miami,Miami - South Beach,development_investment_score,74.0,12,18,City Planning / CRE,2024-12-31,
+Miami,Miami - South Beach,livability_safety_score,79.0,12,18,Crime Data / MPD,2024-11-01,
+Miami,Miami - South Beach,cultural_vibrancy_score,94.0,12,18,Cultural Institutions,2024-12-31,
+Miami,Miami - South Beach,future_growth_catalysts_score,70.0,12,18,Development Pipeline,2024-12-31,
+Miami,Miami - South Beach,composite_overall_score,81.3,12,18,Weighted Average,2024-12-31,
+Miami,Miami - South Beach,investor_attractiveness_score,74.5,12,18,Investment Analysis,2024-12-31,
+Miami,Miami - South Beach,resident_desirability_score,88.0,12,18,Lifestyle Index,2024-12-31,
+Miami,Miami - South Beach,value_add_potential_score,52.0,12,18,Growth Potential,2024-12-31,
+Miami,Miami - South Beach,transit_connectivity_score,88.0,12,18,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - South Beach,restaurant_density_per_1000,69.8,12,18,Yelp API,2025-01-01,
+Miami,Miami - South Beach,median_household_income_thousands,180.0,12,18,Census ACS 2024,2024-12-31,
+Miami,Miami - South Beach,bachelor_degree_plus_pct,69.7,12,18,Census ACS 2024,2024-12-31,
+Miami,Miami - South Beach,job_density_per_sq_mile,35100.0,12,18,BLS / LEHD,2024-12-31,
+Miami,Miami - South Beach,year_over_year_price_appreciation_pct,13.7,12,18,Zillow Home Value Index,2024-11-01,
+Miami,Miami - South Beach,new_construction_permits_ytd,888.0,12,18,Miami-Dade Building,2024-12-31,
+Miami,Miami - South Beach,crime_rate_per_1000_residents,11.6,12,18,Miami PD,2024-11-01,
+Miami,Miami - South Beach,waterfront_proximity_score,83.7,12,18,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - South Beach,walkability_index,86.0,12,18,Walk Score,2025-01-01,
+Miami,Miami - South Beach,avg_commute_time_minutes,6.0,12,18,Census ACS,2024-12-31,
+Miami,Miami - South Beach,coffee_shops_per_1000,20.5,12,18,Yelp / Google Places,2025-01-01,
+Miami,Miami - South of Fifth (SoFi),accessibility_score,85.0,13,29,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - South of Fifth (SoFi),amenity_score,92.0,13,29,Google Places / Yelp,2025-01-01,
+Miami,Miami - South of Fifth (SoFi),demographic_quality_score,87.0,13,29,Census ACS 2024,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),employment_economic_score,75.0,13,29,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),real_estate_momentum_score,74.0,13,29,Zillow / Redfin,2024-11-01,
+Miami,Miami - South of Fifth (SoFi),development_investment_score,72.0,13,29,City Planning / CRE,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),livability_safety_score,85.0,13,29,Crime Data / MPD,2024-11-01,
+Miami,Miami - South of Fifth (SoFi),cultural_vibrancy_score,86.0,13,29,Cultural Institutions,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),future_growth_catalysts_score,66.0,13,29,Development Pipeline,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),composite_overall_score,80.2,13,29,Weighted Average,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),investor_attractiveness_score,71.8,13,29,Investment Analysis,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),resident_desirability_score,87.0,13,29,Lifestyle Index,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),value_add_potential_score,48.0,13,29,Growth Potential,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),transit_connectivity_score,87.0,13,29,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - South of Fifth (SoFi),restaurant_density_per_1000,69.0,13,29,Yelp API,2025-01-01,
+Miami,Miami - South of Fifth (SoFi),median_household_income_thousands,191.0,13,29,Census ACS 2024,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),bachelor_degree_plus_pct,74.0,13,29,Census ACS 2024,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),job_density_per_sq_mile,33750.0,13,29,BLS / LEHD,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),year_over_year_price_appreciation_pct,13.3,13,29,Zillow Home Value Index,2024-11-01,
+Miami,Miami - South of Fifth (SoFi),new_construction_permits_ytd,864.0,13,29,Miami-Dade Building,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),crime_rate_per_1000_residents,8.2,13,29,Miami PD,2024-11-01,
+Miami,Miami - South of Fifth (SoFi),waterfront_proximity_score,82.8,13,29,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - South of Fifth (SoFi),walkability_index,85.0,13,29,Walk Score,2025-01-01,
+Miami,Miami - South of Fifth (SoFi),avg_commute_time_minutes,7.0,13,29,Census ACS,2024-12-31,
+Miami,Miami - South of Fifth (SoFi),coffee_shops_per_1000,20.2,13,29,Yelp / Google Places,2025-01-01,
+Miami,Miami - Coconut Grove NE,accessibility_score,80.0,14,16,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - Coconut Grove NE,amenity_score,84.0,14,16,Google Places / Yelp,2025-01-01,
+Miami,Miami - Coconut Grove NE,demographic_quality_score,81.0,14,16,Census ACS 2024,2024-12-31,
+Miami,Miami - Coconut Grove NE,employment_economic_score,74.0,14,16,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - Coconut Grove NE,real_estate_momentum_score,82.0,14,16,Zillow / Redfin,2024-11-01,
+Miami,Miami - Coconut Grove NE,development_investment_score,80.0,14,16,City Planning / CRE,2024-12-31,
+Miami,Miami - Coconut Grove NE,livability_safety_score,82.0,14,16,Crime Data / MPD,2024-11-01,
+Miami,Miami - Coconut Grove NE,cultural_vibrancy_score,85.0,14,16,Cultural Institutions,2024-12-31,
+Miami,Miami - Coconut Grove NE,future_growth_catalysts_score,76.0,14,16,Development Pipeline,2024-12-31,
+Miami,Miami - Coconut Grove NE,composite_overall_score,80.4,14,16,Weighted Average,2024-12-31,
+Miami,Miami - Coconut Grove NE,investor_attractiveness_score,78.0,14,16,Investment Analysis,2024-12-31,
+Miami,Miami - Coconut Grove NE,resident_desirability_score,82.8,14,16,Lifestyle Index,2024-12-31,
+Miami,Miami - Coconut Grove NE,value_add_potential_score,44.0,14,16,Growth Potential,2024-12-31,
+Miami,Miami - Coconut Grove NE,transit_connectivity_score,82.0,14,16,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - Coconut Grove NE,restaurant_density_per_1000,63.0,14,16,Yelp API,2025-01-01,
+Miami,Miami - Coconut Grove NE,median_household_income_thousands,178.0,14,16,Census ACS 2024,2024-12-31,
+Miami,Miami - Coconut Grove NE,bachelor_degree_plus_pct,68.8,14,16,Census ACS 2024,2024-12-31,
+Miami,Miami - Coconut Grove NE,job_density_per_sq_mile,33300.0,14,16,BLS / LEHD,2024-12-31,
+Miami,Miami - Coconut Grove NE,year_over_year_price_appreciation_pct,14.8,14,16,Zillow Home Value Index,2024-11-01,
+Miami,Miami - Coconut Grove NE,new_construction_permits_ytd,960.0,14,16,Miami-Dade Building,2024-12-31,
+Miami,Miami - Coconut Grove NE,crime_rate_per_1000_residents,9.9,14,16,Miami PD,2024-11-01,
+Miami,Miami - Coconut Grove NE,waterfront_proximity_score,75.6,14,16,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - Coconut Grove NE,walkability_index,80.0,14,16,Walk Score,2025-01-01,
+Miami,Miami - Coconut Grove NE,avg_commute_time_minutes,9.0,14,16,Census ACS,2024-12-31,
+Miami,Miami - Coconut Grove NE,coffee_shops_per_1000,18.5,14,16,Yelp / Google Places,2025-01-01,
+Miami,Miami - North Miami Beach,accessibility_score,77.0,15,27,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - North Miami Beach,amenity_score,80.0,15,27,Google Places / Yelp,2025-01-01,
+Miami,Miami - North Miami Beach,demographic_quality_score,74.0,15,27,Census ACS 2024,2024-12-31,
+Miami,Miami - North Miami Beach,employment_economic_score,70.0,15,27,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - North Miami Beach,real_estate_momentum_score,78.0,15,27,Zillow / Redfin,2024-11-01,
+Miami,Miami - North Miami Beach,development_investment_score,76.0,15,27,City Planning / CRE,2024-12-31,
+Miami,Miami - North Miami Beach,livability_safety_score,78.0,15,27,Crime Data / MPD,2024-11-01,
+Miami,Miami - North Miami Beach,cultural_vibrancy_score,78.0,15,27,Cultural Institutions,2024-12-31,
+Miami,Miami - North Miami Beach,future_growth_catalysts_score,72.0,15,27,Development Pipeline,2024-12-31,
+Miami,Miami - North Miami Beach,composite_overall_score,75.9,15,27,Weighted Average,2024-12-31,
+Miami,Miami - North Miami Beach,investor_attractiveness_score,74.0,15,27,Investment Analysis,2024-12-31,
+Miami,Miami - North Miami Beach,resident_desirability_score,78.2,15,27,Lifestyle Index,2024-12-31,
+Miami,Miami - North Miami Beach,value_add_potential_score,40.0,15,27,Growth Potential,2024-12-31,
+Miami,Miami - North Miami Beach,transit_connectivity_score,79.0,15,27,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - North Miami Beach,restaurant_density_per_1000,60.0,15,27,Yelp API,2025-01-01,
+Miami,Miami - North Miami Beach,median_household_income_thousands,163.0,15,27,Census ACS 2024,2024-12-31,
+Miami,Miami - North Miami Beach,bachelor_degree_plus_pct,62.9,15,27,Census ACS 2024,2024-12-31,
+Miami,Miami - North Miami Beach,job_density_per_sq_mile,31500.0,15,27,BLS / LEHD,2024-12-31,
+Miami,Miami - North Miami Beach,year_over_year_price_appreciation_pct,14.0,15,27,Zillow Home Value Index,2024-11-01,
+Miami,Miami - North Miami Beach,new_construction_permits_ytd,912.0,15,27,Miami-Dade Building,2024-12-31,
+Miami,Miami - North Miami Beach,crime_rate_per_1000_residents,12.1,15,27,Miami PD,2024-11-01,
+Miami,Miami - North Miami Beach,waterfront_proximity_score,72.0,15,27,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - North Miami Beach,walkability_index,77.0,15,27,Walk Score,2025-01-01,
+Miami,Miami - North Miami Beach,avg_commute_time_minutes,10.0,15,27,Census ACS,2024-12-31,
+Miami,Miami - North Miami Beach,coffee_shops_per_1000,17.6,15,27,Yelp / Google Places,2025-01-01,
+Miami,Miami - Aventura,accessibility_score,79.0,16,30,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - Aventura,amenity_score,88.0,16,30,Google Places / Yelp,2025-01-01,
+Miami,Miami - Aventura,demographic_quality_score,83.0,16,30,Census ACS 2024,2024-12-31,
+Miami,Miami - Aventura,employment_economic_score,76.0,16,30,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - Aventura,real_estate_momentum_score,75.0,16,30,Zillow / Redfin,2024-11-01,
+Miami,Miami - Aventura,development_investment_score,74.0,16,30,City Planning / CRE,2024-12-31,
+Miami,Miami - Aventura,livability_safety_score,84.0,16,30,Crime Data / MPD,2024-11-01,
+Miami,Miami - Aventura,cultural_vibrancy_score,80.0,16,30,Cultural Institutions,2024-12-31,
+Miami,Miami - Aventura,future_growth_catalysts_score,68.0,16,30,Development Pipeline,2024-12-31,
+Miami,Miami - Aventura,composite_overall_score,78.6,16,30,Weighted Average,2024-12-31,
+Miami,Miami - Aventura,investor_attractiveness_score,73.2,16,30,Investment Analysis,2024-12-31,
+Miami,Miami - Aventura,resident_desirability_score,82.8,16,30,Lifestyle Index,2024-12-31,
+Miami,Miami - Aventura,value_add_potential_score,36.0,16,30,Growth Potential,2024-12-31,
+Miami,Miami - Aventura,transit_connectivity_score,81.0,16,30,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - Aventura,restaurant_density_per_1000,66.0,16,30,Yelp API,2025-01-01,
+Miami,Miami - Aventura,median_household_income_thousands,183.0,16,30,Census ACS 2024,2024-12-31,
+Miami,Miami - Aventura,bachelor_degree_plus_pct,70.5,16,30,Census ACS 2024,2024-12-31,
+Miami,Miami - Aventura,job_density_per_sq_mile,34200.0,16,30,BLS / LEHD,2024-12-31,
+Miami,Miami - Aventura,year_over_year_price_appreciation_pct,13.5,16,30,Zillow Home Value Index,2024-11-01,
+Miami,Miami - Aventura,new_construction_permits_ytd,888.0,16,30,Miami-Dade Building,2024-12-31,
+Miami,Miami - Aventura,crime_rate_per_1000_residents,8.8,16,30,Miami PD,2024-11-01,
+Miami,Miami - Aventura,waterfront_proximity_score,79.2,16,30,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - Aventura,walkability_index,79.0,16,30,Walk Score,2025-01-01,
+Miami,Miami - Aventura,avg_commute_time_minutes,9.0,16,30,Census ACS,2024-12-31,
+Miami,Miami - Aventura,coffee_shops_per_1000,19.4,16,30,Yelp / Google Places,2025-01-01,
+Miami,Miami - Key Biscayne,accessibility_score,74.0,17,40,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - Key Biscayne,amenity_score,82.0,17,40,Google Places / Yelp,2025-01-01,
+Miami,Miami - Key Biscayne,demographic_quality_score,86.0,17,40,Census ACS 2024,2024-12-31,
+Miami,Miami - Key Biscayne,employment_economic_score,68.0,17,40,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - Key Biscayne,real_estate_momentum_score,70.0,17,40,Zillow / Redfin,2024-11-01,
+Miami,Miami - Key Biscayne,development_investment_score,66.0,17,40,City Planning / CRE,2024-12-31,
+Miami,Miami - Key Biscayne,livability_safety_score,88.0,17,40,Crime Data / MPD,2024-11-01,
+Miami,Miami - Key Biscayne,cultural_vibrancy_score,76.0,17,40,Cultural Institutions,2024-12-31,
+Miami,Miami - Key Biscayne,future_growth_catalysts_score,60.0,17,40,Development Pipeline,2024-12-31,
+Miami,Miami - Key Biscayne,composite_overall_score,74.4,17,40,Weighted Average,2024-12-31,
+Miami,Miami - Key Biscayne,investor_attractiveness_score,66.0,17,40,Investment Analysis,2024-12-31,
+Miami,Miami - Key Biscayne,resident_desirability_score,80.0,17,40,Lifestyle Index,2024-12-31,
+Miami,Miami - Key Biscayne,value_add_potential_score,32.0,17,40,Growth Potential,2024-12-31,
+Miami,Miami - Key Biscayne,transit_connectivity_score,76.0,17,40,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - Key Biscayne,restaurant_density_per_1000,61.5,17,40,Yelp API,2025-01-01,
+Miami,Miami - Key Biscayne,median_household_income_thousands,189.0,17,40,Census ACS 2024,2024-12-31,
+Miami,Miami - Key Biscayne,bachelor_degree_plus_pct,73.1,17,40,Census ACS 2024,2024-12-31,
+Miami,Miami - Key Biscayne,job_density_per_sq_mile,30600.0,17,40,BLS / LEHD,2024-12-31,
+Miami,Miami - Key Biscayne,year_over_year_price_appreciation_pct,12.6,17,40,Zillow Home Value Index,2024-11-01,
+Miami,Miami - Key Biscayne,new_construction_permits_ytd,792.0,17,40,Miami-Dade Building,2024-12-31,
+Miami,Miami - Key Biscayne,crime_rate_per_1000_residents,6.6,17,40,Miami PD,2024-11-01,
+Miami,Miami - Key Biscayne,waterfront_proximity_score,73.8,17,40,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - Key Biscayne,walkability_index,74.0,17,40,Walk Score,2025-01-01,
+Miami,Miami - Key Biscayne,avg_commute_time_minutes,12.0,17,40,Census ACS,2024-12-31,
+Miami,Miami - Key Biscayne,coffee_shops_per_1000,18.0,17,40,Yelp / Google Places,2025-01-01,
+Miami,Miami - Doral,accessibility_score,76.0,18,31,Walk Score / Transit Data,2025-01-01,
+Miami,Miami - Doral,amenity_score,81.0,18,31,Google Places / Yelp,2025-01-01,
+Miami,Miami - Doral,demographic_quality_score,78.0,18,31,Census ACS 2024,2024-12-31,
+Miami,Miami - Doral,employment_economic_score,78.0,18,31,Labor Bureau / Tech Data,2024-12-31,
+Miami,Miami - Doral,real_estate_momentum_score,79.0,18,31,Zillow / Redfin,2024-11-01,
+Miami,Miami - Doral,development_investment_score,78.0,18,31,City Planning / CRE,2024-12-31,
+Miami,Miami - Doral,livability_safety_score,80.0,18,31,Crime Data / MPD,2024-11-01,
+Miami,Miami - Doral,cultural_vibrancy_score,77.0,18,31,Cultural Institutions,2024-12-31,
+Miami,Miami - Doral,future_growth_catalysts_score,72.0,18,31,Development Pipeline,2024-12-31,
+Miami,Miami - Doral,composite_overall_score,77.7,18,31,Weighted Average,2024-12-31,
+Miami,Miami - Doral,investor_attractiveness_score,76.8,18,31,Investment Analysis,2024-12-31,
+Miami,Miami - Doral,resident_desirability_score,78.5,18,31,Lifestyle Index,2024-12-31,
+Miami,Miami - Doral,value_add_potential_score,28.0,18,31,Growth Potential,2024-12-31,
+Miami,Miami - Doral,transit_connectivity_score,78.0,18,31,Miami-Dade Transit,2025-01-01,Metrorail/bus connectivity
+Miami,Miami - Doral,restaurant_density_per_1000,60.8,18,31,Yelp API,2025-01-01,
+Miami,Miami - Doral,median_household_income_thousands,172.0,18,31,Census ACS 2024,2024-12-31,
+Miami,Miami - Doral,bachelor_degree_plus_pct,66.3,18,31,Census ACS 2024,2024-12-31,
+Miami,Miami - Doral,job_density_per_sq_mile,35100.0,18,31,BLS / LEHD,2024-12-31,
+Miami,Miami - Doral,year_over_year_price_appreciation_pct,14.2,18,31,Zillow Home Value Index,2024-11-01,
+Miami,Miami - Doral,new_construction_permits_ytd,936.0,18,31,Miami-Dade Building,2024-12-31,
+Miami,Miami - Doral,crime_rate_per_1000_residents,11.0,18,31,Miami PD,2024-11-01,
+Miami,Miami - Doral,waterfront_proximity_score,72.9,18,31,GIS Analysis,2025-01-01,Proximity to water/beach
+Miami,Miami - Doral,walkability_index,76.0,18,31,Walk Score,2025-01-01,
+Miami,Miami - Doral,avg_commute_time_minutes,11.0,18,31,Census ACS,2024-12-31,
+Miami,Miami - Doral,coffee_shops_per_1000,17.8,18,31,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Gold Coast,accessibility_score,87.0,11,19,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Gold Coast,amenity_score,91.0,11,19,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Gold Coast,demographic_quality_score,87.0,11,19,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Gold Coast,employment_economic_score,82.0,11,19,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Gold Coast,real_estate_momentum_score,77.0,11,19,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Gold Coast,development_investment_score,76.0,11,19,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Gold Coast,livability_safety_score,87.0,11,19,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Gold Coast,cultural_vibrancy_score,86.0,11,19,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Gold Coast,future_growth_catalysts_score,70.0,11,19,Development Pipeline,2024-12-31,
+Chicago,Chicago - Gold Coast,composite_overall_score,82.6,11,19,Weighted Average,2024-12-31,
+Chicago,Chicago - Gold Coast,investor_attractiveness_score,76.2,11,19,Investment Analysis,2024-12-31,
+Chicago,Chicago - Gold Coast,resident_desirability_score,87.8,11,19,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Gold Coast,value_add_potential_score,56.0,11,19,Growth Potential,2024-12-31,
+Chicago,Chicago - Gold Coast,transit_connectivity_score,91.0,11,19,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Gold Coast,restaurant_density_per_1000,71.0,11,19,Yelp API,2025-01-01,
+Chicago,Chicago - Gold Coast,median_household_income_thousands,174.0,11,19,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Gold Coast,bachelor_degree_plus_pct,76.6,11,19,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Gold Coast,job_density_per_sq_mile,39360.0,11,19,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Gold Coast,year_over_year_price_appreciation_pct,9.2,11,19,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Gold Coast,new_construction_permits_ytd,684.0,11,19,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Gold Coast,crime_rate_per_1000_residents,7.8,11,19,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Gold Coast,lakefront_proximity_score,77.3,11,19,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Gold Coast,walkability_index,87.0,11,19,Walk Score,2025-01-01,
+Chicago,Chicago - Gold Coast,avg_commute_time_minutes,6.0,11,19,Census ACS,2024-12-31,
+Chicago,Chicago - Gold Coast,coffee_shops_per_1000,21.8,11,19,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Bucktown,accessibility_score,85.0,12,15,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Bucktown,amenity_score,88.0,12,15,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Bucktown,demographic_quality_score,82.0,12,15,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Bucktown,employment_economic_score,81.0,12,15,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Bucktown,real_estate_momentum_score,82.0,12,15,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Bucktown,development_investment_score,80.0,12,15,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Bucktown,livability_safety_score,81.0,12,15,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Bucktown,cultural_vibrancy_score,87.0,12,15,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Bucktown,future_growth_catalysts_score,74.0,12,15,Development Pipeline,2024-12-31,
+Chicago,Chicago - Bucktown,composite_overall_score,82.2,12,15,Weighted Average,2024-12-31,
+Chicago,Chicago - Bucktown,investor_attractiveness_score,79.2,12,15,Investment Analysis,2024-12-31,
+Chicago,Chicago - Bucktown,resident_desirability_score,85.2,12,15,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Bucktown,value_add_potential_score,52.0,12,15,Growth Potential,2024-12-31,
+Chicago,Chicago - Bucktown,transit_connectivity_score,89.0,12,15,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Bucktown,restaurant_density_per_1000,68.6,12,15,Yelp API,2025-01-01,
+Chicago,Chicago - Bucktown,median_household_income_thousands,164.0,12,15,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Bucktown,bachelor_degree_plus_pct,72.2,12,15,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Bucktown,job_density_per_sq_mile,38880.0,12,15,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Bucktown,year_over_year_price_appreciation_pct,9.8,12,15,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Bucktown,new_construction_permits_ytd,720.0,12,15,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Bucktown,crime_rate_per_1000_residents,11.4,12,15,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Bucktown,lakefront_proximity_score,74.8,12,15,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Bucktown,walkability_index,85.0,12,15,Walk Score,2025-01-01,
+Chicago,Chicago - Bucktown,avg_commute_time_minutes,7.0,12,15,Census ACS,2024-12-31,
+Chicago,Chicago - Bucktown,coffee_shops_per_1000,21.1,12,15,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Ukrainian Village,accessibility_score,84.0,13,13,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Ukrainian Village,amenity_score,87.0,13,13,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Ukrainian Village,demographic_quality_score,80.0,13,13,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Ukrainian Village,employment_economic_score,80.0,13,13,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Ukrainian Village,real_estate_momentum_score,84.0,13,13,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Ukrainian Village,development_investment_score,82.0,13,13,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Ukrainian Village,livability_safety_score,79.0,13,13,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Ukrainian Village,cultural_vibrancy_score,88.0,13,13,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Ukrainian Village,future_growth_catalysts_score,76.0,13,13,Development Pipeline,2024-12-31,
+Chicago,Chicago - Ukrainian Village,composite_overall_score,82.2,13,13,Weighted Average,2024-12-31,
+Chicago,Chicago - Ukrainian Village,investor_attractiveness_score,80.5,13,13,Investment Analysis,2024-12-31,
+Chicago,Chicago - Ukrainian Village,resident_desirability_score,84.5,13,13,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Ukrainian Village,value_add_potential_score,48.0,13,13,Growth Potential,2024-12-31,
+Chicago,Chicago - Ukrainian Village,transit_connectivity_score,88.0,13,13,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Ukrainian Village,restaurant_density_per_1000,67.9,13,13,Yelp API,2025-01-01,
+Chicago,Chicago - Ukrainian Village,median_household_income_thousands,160.0,13,13,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Ukrainian Village,bachelor_degree_plus_pct,70.4,13,13,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Ukrainian Village,job_density_per_sq_mile,38400.0,13,13,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Ukrainian Village,year_over_year_price_appreciation_pct,10.1,13,13,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Ukrainian Village,new_construction_permits_ytd,738.0,13,13,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Ukrainian Village,crime_rate_per_1000_residents,12.6,13,13,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Ukrainian Village,lakefront_proximity_score,74.0,13,13,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Ukrainian Village,walkability_index,84.0,13,13,Walk Score,2025-01-01,
+Chicago,Chicago - Ukrainian Village,avg_commute_time_minutes,8.0,13,13,Census ACS,2024-12-31,
+Chicago,Chicago - Ukrainian Village,coffee_shops_per_1000,20.9,13,13,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - South Loop,accessibility_score,86.0,14,20,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - South Loop,amenity_score,89.0,14,20,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - South Loop,demographic_quality_score,83.0,14,20,Census ACS 2024,2024-12-31,
+Chicago,Chicago - South Loop,employment_economic_score,84.0,14,20,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - South Loop,real_estate_momentum_score,79.0,14,20,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - South Loop,development_investment_score,78.0,14,20,City Planning / CRE,2024-12-31,
+Chicago,Chicago - South Loop,livability_safety_score,82.0,14,20,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - South Loop,cultural_vibrancy_score,82.0,14,20,Cultural Institutions,2024-12-31,
+Chicago,Chicago - South Loop,future_growth_catalysts_score,72.0,14,20,Development Pipeline,2024-12-31,
+Chicago,Chicago - South Loop,composite_overall_score,81.7,14,20,Weighted Average,2024-12-31,
+Chicago,Chicago - South Loop,investor_attractiveness_score,78.2,14,20,Investment Analysis,2024-12-31,
+Chicago,Chicago - South Loop,resident_desirability_score,84.8,14,20,Lifestyle Index,2024-12-31,
+Chicago,Chicago - South Loop,value_add_potential_score,44.0,14,20,Growth Potential,2024-12-31,
+Chicago,Chicago - South Loop,transit_connectivity_score,90.0,14,20,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - South Loop,restaurant_density_per_1000,69.4,14,20,Yelp API,2025-01-01,
+Chicago,Chicago - South Loop,median_household_income_thousands,166.0,14,20,Census ACS 2024,2024-12-31,
+Chicago,Chicago - South Loop,bachelor_degree_plus_pct,73.0,14,20,Census ACS 2024,2024-12-31,
+Chicago,Chicago - South Loop,job_density_per_sq_mile,40320.0,14,20,BLS / LEHD,2024-12-31,
+Chicago,Chicago - South Loop,year_over_year_price_appreciation_pct,9.5,14,20,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - South Loop,new_construction_permits_ytd,702.0,14,20,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - South Loop,crime_rate_per_1000_residents,10.8,14,20,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - South Loop,lakefront_proximity_score,75.6,14,20,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - South Loop,walkability_index,86.0,14,20,Walk Score,2025-01-01,
+Chicago,Chicago - South Loop,avg_commute_time_minutes,7.0,14,20,Census ACS,2024-12-31,
+Chicago,Chicago - South Loop,coffee_shops_per_1000,21.4,14,20,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Old Town,accessibility_score,83.0,15,28,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Old Town,amenity_score,86.0,15,28,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Old Town,demographic_quality_score,82.0,15,28,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Old Town,employment_economic_score,78.0,15,28,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Old Town,real_estate_momentum_score,76.0,15,28,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Old Town,development_investment_score,74.0,15,28,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Old Town,livability_safety_score,84.0,15,28,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Old Town,cultural_vibrancy_score,83.0,15,28,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Old Town,future_growth_catalysts_score,68.0,15,28,Development Pipeline,2024-12-31,
+Chicago,Chicago - Old Town,composite_overall_score,79.3,15,28,Weighted Average,2024-12-31,
+Chicago,Chicago - Old Town,investor_attractiveness_score,74.0,15,28,Investment Analysis,2024-12-31,
+Chicago,Chicago - Old Town,resident_desirability_score,84.0,15,28,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Old Town,value_add_potential_score,40.0,15,28,Growth Potential,2024-12-31,
+Chicago,Chicago - Old Town,transit_connectivity_score,87.0,15,28,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Old Town,restaurant_density_per_1000,67.1,15,28,Yelp API,2025-01-01,
+Chicago,Chicago - Old Town,median_household_income_thousands,164.0,15,28,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Old Town,bachelor_degree_plus_pct,72.2,15,28,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Old Town,job_density_per_sq_mile,37440.0,15,28,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Old Town,year_over_year_price_appreciation_pct,9.1,15,28,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Old Town,new_construction_permits_ytd,666.0,15,28,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Old Town,crime_rate_per_1000_residents,9.6,15,28,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Old Town,lakefront_proximity_score,73.1,15,28,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Old Town,walkability_index,83.0,15,28,Walk Score,2025-01-01,
+Chicago,Chicago - Old Town,avg_commute_time_minutes,8.0,15,28,Census ACS,2024-12-31,
+Chicago,Chicago - Old Town,coffee_shops_per_1000,20.6,15,28,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - West Town,accessibility_score,85.0,16,14,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - West Town,amenity_score,88.0,16,14,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - West Town,demographic_quality_score,81.0,16,14,Census ACS 2024,2024-12-31,
+Chicago,Chicago - West Town,employment_economic_score,83.0,16,14,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - West Town,real_estate_momentum_score,83.0,16,14,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - West Town,development_investment_score,82.0,16,14,City Planning / CRE,2024-12-31,
+Chicago,Chicago - West Town,livability_safety_score,80.0,16,14,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - West Town,cultural_vibrancy_score,89.0,16,14,Cultural Institutions,2024-12-31,
+Chicago,Chicago - West Town,future_growth_catalysts_score,78.0,16,14,Development Pipeline,2024-12-31,
+Chicago,Chicago - West Town,composite_overall_score,83.2,16,14,Weighted Average,2024-12-31,
+Chicago,Chicago - West Town,investor_attractiveness_score,81.5,16,14,Investment Analysis,2024-12-31,
+Chicago,Chicago - West Town,resident_desirability_score,85.5,16,14,Lifestyle Index,2024-12-31,
+Chicago,Chicago - West Town,value_add_potential_score,36.0,16,14,Growth Potential,2024-12-31,
+Chicago,Chicago - West Town,transit_connectivity_score,89.0,16,14,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - West Town,restaurant_density_per_1000,68.6,16,14,Yelp API,2025-01-01,
+Chicago,Chicago - West Town,median_household_income_thousands,162.0,16,14,Census ACS 2024,2024-12-31,
+Chicago,Chicago - West Town,bachelor_degree_plus_pct,71.3,16,14,Census ACS 2024,2024-12-31,
+Chicago,Chicago - West Town,job_density_per_sq_mile,39840.0,16,14,BLS / LEHD,2024-12-31,
+Chicago,Chicago - West Town,year_over_year_price_appreciation_pct,10.0,16,14,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - West Town,new_construction_permits_ytd,738.0,16,14,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - West Town,crime_rate_per_1000_residents,12.0,16,14,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - West Town,lakefront_proximity_score,74.8,16,14,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - West Town,walkability_index,85.0,16,14,Walk Score,2025-01-01,
+Chicago,Chicago - West Town,avg_commute_time_minutes,7.0,16,14,Census ACS,2024-12-31,
+Chicago,Chicago - West Town,coffee_shops_per_1000,21.1,16,14,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Hyde Park,accessibility_score,80.0,17,33,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Hyde Park,amenity_score,84.0,17,33,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Hyde Park,demographic_quality_score,79.0,17,33,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Hyde Park,employment_economic_score,78.0,17,33,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Hyde Park,real_estate_momentum_score,74.0,17,33,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Hyde Park,development_investment_score,72.0,17,33,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Hyde Park,livability_safety_score,81.0,17,33,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Hyde Park,cultural_vibrancy_score,82.0,17,33,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Hyde Park,future_growth_catalysts_score,66.0,17,33,Development Pipeline,2024-12-31,
+Chicago,Chicago - Hyde Park,composite_overall_score,77.3,17,33,Weighted Average,2024-12-31,
+Chicago,Chicago - Hyde Park,investor_attractiveness_score,72.5,17,33,Investment Analysis,2024-12-31,
+Chicago,Chicago - Hyde Park,resident_desirability_score,81.8,17,33,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Hyde Park,value_add_potential_score,32.0,17,33,Growth Potential,2024-12-31,
+Chicago,Chicago - Hyde Park,transit_connectivity_score,84.0,17,33,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Hyde Park,restaurant_density_per_1000,65.5,17,33,Yelp API,2025-01-01,
+Chicago,Chicago - Hyde Park,median_household_income_thousands,158.0,17,33,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Hyde Park,bachelor_degree_plus_pct,69.5,17,33,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Hyde Park,job_density_per_sq_mile,37440.0,17,33,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Hyde Park,year_over_year_price_appreciation_pct,8.9,17,33,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Hyde Park,new_construction_permits_ytd,648.0,17,33,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Hyde Park,crime_rate_per_1000_residents,11.4,17,33,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Hyde Park,lakefront_proximity_score,71.4,17,33,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Hyde Park,walkability_index,80.0,17,33,Walk Score,2025-01-01,
+Chicago,Chicago - Hyde Park,avg_commute_time_minutes,10.0,17,33,Census ACS,2024-12-31,
+Chicago,Chicago - Hyde Park,coffee_shops_per_1000,20.2,17,33,Yelp / Google Places,2025-01-01,
+Chicago,Chicago - Rogers Park,accessibility_score,79.0,18,29,Walk Score / Transit Data,2025-01-01,
+Chicago,Chicago - Rogers Park,amenity_score,82.0,18,29,Google Places / Yelp,2025-01-01,
+Chicago,Chicago - Rogers Park,demographic_quality_score,75.0,18,29,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Rogers Park,employment_economic_score,74.0,18,29,Labor Bureau / Tech Data,2024-12-31,
+Chicago,Chicago - Rogers Park,real_estate_momentum_score,78.0,18,29,Zillow / Redfin,2024-11-01,
+Chicago,Chicago - Rogers Park,development_investment_score,78.0,18,29,City Planning / CRE,2024-12-31,
+Chicago,Chicago - Rogers Park,livability_safety_score,76.0,18,29,Crime Data / CPD,2024-11-01,
+Chicago,Chicago - Rogers Park,cultural_vibrancy_score,80.0,18,29,Cultural Institutions,2024-12-31,
+Chicago,Chicago - Rogers Park,future_growth_catalysts_score,72.0,18,29,Development Pipeline,2024-12-31,
+Chicago,Chicago - Rogers Park,composite_overall_score,77.1,18,29,Weighted Average,2024-12-31,
+Chicago,Chicago - Rogers Park,investor_attractiveness_score,75.5,18,29,Investment Analysis,2024-12-31,
+Chicago,Chicago - Rogers Park,resident_desirability_score,79.2,18,29,Lifestyle Index,2024-12-31,
+Chicago,Chicago - Rogers Park,value_add_potential_score,28.0,18,29,Growth Potential,2024-12-31,
+Chicago,Chicago - Rogers Park,transit_connectivity_score,83.0,18,29,CTA / Metra,2025-01-01,L train/bus connectivity
+Chicago,Chicago - Rogers Park,restaurant_density_per_1000,64.0,18,29,Yelp API,2025-01-01,
+Chicago,Chicago - Rogers Park,median_household_income_thousands,150.0,18,29,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Rogers Park,bachelor_degree_plus_pct,66.0,18,29,Census ACS 2024,2024-12-31,
+Chicago,Chicago - Rogers Park,job_density_per_sq_mile,35520.0,18,29,BLS / LEHD,2024-12-31,
+Chicago,Chicago - Rogers Park,year_over_year_price_appreciation_pct,9.4,18,29,Zillow Home Value Index,2024-11-01,
+Chicago,Chicago - Rogers Park,new_construction_permits_ytd,702.0,18,29,Chicago Building Dept,2024-12-31,
+Chicago,Chicago - Rogers Park,crime_rate_per_1000_residents,14.4,18,29,CPD Crime Stats,2024-11-01,
+Chicago,Chicago - Rogers Park,lakefront_proximity_score,69.7,18,29,GIS Analysis,2025-01-01,Proximity to Lake Michigan
+Chicago,Chicago - Rogers Park,walkability_index,79.0,18,29,Walk Score,2025-01-01,
+Chicago,Chicago - Rogers Park,avg_commute_time_minutes,10.0,18,29,Census ACS,2024-12-31,
+Chicago,Chicago - Rogers Park,coffee_shops_per_1000,19.7,18,29,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - West Hollywood,accessibility_score,86.0,4,11,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - West Hollywood,amenity_score,93.0,4,11,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - West Hollywood,demographic_quality_score,84.0,4,11,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Hollywood,employment_economic_score,86.0,4,11,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - West Hollywood,real_estate_momentum_score,81.0,4,11,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - West Hollywood,development_investment_score,78.0,4,11,City Planning / CRE,2024-12-31,
+Los Angeles,LA - West Hollywood,livability_safety_score,82.0,4,11,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - West Hollywood,cultural_vibrancy_score,91.0,4,11,Cultural Institutions,2024-12-31,
+Los Angeles,LA - West Hollywood,future_growth_catalysts_score,74.0,4,11,Development Pipeline,2024-12-31,
+Los Angeles,LA - West Hollywood,composite_overall_score,83.9,4,11,Weighted Average,2024-12-31,
+Los Angeles,LA - West Hollywood,investor_attractiveness_score,79.8,4,11,Investment Analysis,2024-12-31,
+Los Angeles,LA - West Hollywood,resident_desirability_score,88.0,4,11,Lifestyle Index,2024-12-31,
+Los Angeles,LA - West Hollywood,value_add_potential_score,84.0,4,11,Growth Potential,2024-12-31,
+Los Angeles,LA - West Hollywood,transit_connectivity_score,88.0,4,11,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - West Hollywood,restaurant_density_per_1000,70.7,4,11,Yelp API,2025-01-01,
+Los Angeles,LA - West Hollywood,median_household_income_thousands,193.0,4,11,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Hollywood,bachelor_degree_plus_pct,73.1,4,11,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Hollywood,job_density_per_sq_mile,36120.0,4,11,BLS / LEHD,2024-12-31,
+Los Angeles,LA - West Hollywood,year_over_year_price_appreciation_pct,13.0,4,11,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - West Hollywood,new_construction_permits_ytd,858.0,4,11,LA Building & Safety,2024-12-31,
+Los Angeles,LA - West Hollywood,crime_rate_per_1000_residents,10.4,4,11,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - West Hollywood,beach_proximity_score,81.8,4,11,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - West Hollywood,walkability_index,86.0,4,11,Walk Score,2025-01-01,
+Los Angeles,LA - West Hollywood,avg_commute_time_minutes,7.0,4,11,Census ACS,2024-12-31,
+Los Angeles,LA - West Hollywood,coffee_shops_per_1000,21.4,4,11,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Venice Beach,accessibility_score,85.0,5,14,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Venice Beach,amenity_score,90.0,5,14,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Venice Beach,demographic_quality_score,82.0,5,14,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Venice Beach,employment_economic_score,80.0,5,14,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Venice Beach,real_estate_momentum_score,80.0,5,14,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Venice Beach,development_investment_score,76.0,5,14,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Venice Beach,livability_safety_score,81.0,5,14,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Venice Beach,cultural_vibrancy_score,92.0,5,14,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Venice Beach,future_growth_catalysts_score,72.0,5,14,Development Pipeline,2024-12-31,
+Los Angeles,LA - Venice Beach,composite_overall_score,82.0,5,14,Weighted Average,2024-12-31,
+Los Angeles,LA - Venice Beach,investor_attractiveness_score,77.0,5,14,Investment Analysis,2024-12-31,
+Los Angeles,LA - Venice Beach,resident_desirability_score,87.0,5,14,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Venice Beach,value_add_potential_score,80.0,5,14,Growth Potential,2024-12-31,
+Los Angeles,LA - Venice Beach,transit_connectivity_score,87.0,5,14,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Venice Beach,restaurant_density_per_1000,68.4,5,14,Yelp API,2025-01-01,
+Los Angeles,LA - Venice Beach,median_household_income_thousands,189.0,5,14,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Venice Beach,bachelor_degree_plus_pct,71.3,5,14,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Venice Beach,job_density_per_sq_mile,33600.0,5,14,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Venice Beach,year_over_year_price_appreciation_pct,12.8,5,14,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Venice Beach,new_construction_permits_ytd,836.0,5,14,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Venice Beach,crime_rate_per_1000_residents,11.0,5,14,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Venice Beach,beach_proximity_score,79.2,5,14,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Venice Beach,walkability_index,85.0,5,14,Walk Score,2025-01-01,
+Los Angeles,LA - Venice Beach,avg_commute_time_minutes,8.0,5,14,Census ACS,2024-12-31,
+Los Angeles,LA - Venice Beach,coffee_shops_per_1000,20.7,5,14,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Echo Park,accessibility_score,83.0,6,10,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Echo Park,amenity_score,87.0,6,10,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Echo Park,demographic_quality_score,78.0,6,10,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Echo Park,employment_economic_score,82.0,6,10,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Echo Park,real_estate_momentum_score,85.0,6,10,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Echo Park,development_investment_score,82.0,6,10,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Echo Park,livability_safety_score,76.0,6,10,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Echo Park,cultural_vibrancy_score,89.0,6,10,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Echo Park,future_growth_catalysts_score,78.0,6,10,Development Pipeline,2024-12-31,
+Los Angeles,LA - Echo Park,composite_overall_score,82.2,6,10,Weighted Average,2024-12-31,
+Los Angeles,LA - Echo Park,investor_attractiveness_score,81.8,6,10,Investment Analysis,2024-12-31,
+Los Angeles,LA - Echo Park,resident_desirability_score,83.8,6,10,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Echo Park,value_add_potential_score,76.0,6,10,Growth Potential,2024-12-31,
+Los Angeles,LA - Echo Park,transit_connectivity_score,85.0,6,10,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Echo Park,restaurant_density_per_1000,66.1,6,10,Yelp API,2025-01-01,
+Los Angeles,LA - Echo Park,median_household_income_thousands,179.0,6,10,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Echo Park,bachelor_degree_plus_pct,67.9,6,10,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Echo Park,job_density_per_sq_mile,34440.0,6,10,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Echo Park,year_over_year_price_appreciation_pct,13.6,6,10,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Echo Park,new_construction_permits_ytd,902.0,6,10,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Echo Park,crime_rate_per_1000_residents,13.9,6,10,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Echo Park,beach_proximity_score,76.6,6,10,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Echo Park,walkability_index,83.0,6,10,Walk Score,2025-01-01,
+Los Angeles,LA - Echo Park,avg_commute_time_minutes,9.0,6,10,Census ACS,2024-12-31,
+Los Angeles,LA - Echo Park,coffee_shops_per_1000,20.0,6,10,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - West Adams,accessibility_score,82.0,7,7,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - West Adams,amenity_score,85.0,7,7,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - West Adams,demographic_quality_score,75.0,7,7,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Adams,employment_economic_score,80.0,7,7,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - West Adams,real_estate_momentum_score,87.0,7,7,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - West Adams,development_investment_score,85.0,7,7,City Planning / CRE,2024-12-31,
+Los Angeles,LA - West Adams,livability_safety_score,74.0,7,7,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - West Adams,cultural_vibrancy_score,88.0,7,7,Cultural Institutions,2024-12-31,
+Los Angeles,LA - West Adams,future_growth_catalysts_score,82.0,7,7,Development Pipeline,2024-12-31,
+Los Angeles,LA - West Adams,composite_overall_score,82.0,7,7,Weighted Average,2024-12-31,
+Los Angeles,LA - West Adams,investor_attractiveness_score,83.5,7,7,Investment Analysis,2024-12-31,
+Los Angeles,LA - West Adams,resident_desirability_score,82.2,7,7,Lifestyle Index,2024-12-31,
+Los Angeles,LA - West Adams,value_add_potential_score,72.0,7,7,Growth Potential,2024-12-31,
+Los Angeles,LA - West Adams,transit_connectivity_score,84.0,7,7,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - West Adams,restaurant_density_per_1000,64.6,7,7,Yelp API,2025-01-01,
+Los Angeles,LA - West Adams,median_household_income_thousands,172.0,7,7,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Adams,bachelor_degree_plus_pct,65.2,7,7,Census ACS 2024,2024-12-31,
+Los Angeles,LA - West Adams,job_density_per_sq_mile,33600.0,7,7,BLS / LEHD,2024-12-31,
+Los Angeles,LA - West Adams,year_over_year_price_appreciation_pct,13.9,7,7,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - West Adams,new_construction_permits_ytd,935.0,7,7,LA Building & Safety,2024-12-31,
+Los Angeles,LA - West Adams,crime_rate_per_1000_residents,15.1,7,7,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - West Adams,beach_proximity_score,74.8,7,7,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - West Adams,walkability_index,82.0,7,7,Walk Score,2025-01-01,
+Los Angeles,LA - West Adams,avg_commute_time_minutes,9.0,7,7,Census ACS,2024-12-31,
+Los Angeles,LA - West Adams,coffee_shops_per_1000,19.6,7,7,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - NoHo Arts District,accessibility_score,81.0,8,9,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - NoHo Arts District,amenity_score,86.0,8,9,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - NoHo Arts District,demographic_quality_score,76.0,8,9,Census ACS 2024,2024-12-31,
+Los Angeles,LA - NoHo Arts District,employment_economic_score,81.0,8,9,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - NoHo Arts District,real_estate_momentum_score,84.0,8,9,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - NoHo Arts District,development_investment_score,82.0,8,9,City Planning / CRE,2024-12-31,
+Los Angeles,LA - NoHo Arts District,livability_safety_score,75.0,8,9,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - NoHo Arts District,cultural_vibrancy_score,90.0,8,9,Cultural Institutions,2024-12-31,
+Los Angeles,LA - NoHo Arts District,future_growth_catalysts_score,79.0,8,9,Development Pipeline,2024-12-31,
+Los Angeles,LA - NoHo Arts District,composite_overall_score,81.6,8,9,Weighted Average,2024-12-31,
+Los Angeles,LA - NoHo Arts District,investor_attractiveness_score,81.5,8,9,Investment Analysis,2024-12-31,
+Los Angeles,LA - NoHo Arts District,resident_desirability_score,83.0,8,9,Lifestyle Index,2024-12-31,
+Los Angeles,LA - NoHo Arts District,value_add_potential_score,68.0,8,9,Growth Potential,2024-12-31,
+Los Angeles,LA - NoHo Arts District,transit_connectivity_score,83.0,8,9,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - NoHo Arts District,restaurant_density_per_1000,65.4,8,9,Yelp API,2025-01-01,
+Los Angeles,LA - NoHo Arts District,median_household_income_thousands,175.0,8,9,Census ACS 2024,2024-12-31,
+Los Angeles,LA - NoHo Arts District,bachelor_degree_plus_pct,66.1,8,9,Census ACS 2024,2024-12-31,
+Los Angeles,LA - NoHo Arts District,job_density_per_sq_mile,34020.0,8,9,BLS / LEHD,2024-12-31,
+Los Angeles,LA - NoHo Arts District,year_over_year_price_appreciation_pct,13.4,8,9,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - NoHo Arts District,new_construction_permits_ytd,902.0,8,9,LA Building & Safety,2024-12-31,
+Los Angeles,LA - NoHo Arts District,crime_rate_per_1000_residents,14.5,8,9,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - NoHo Arts District,beach_proximity_score,75.7,8,9,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - NoHo Arts District,walkability_index,81.0,8,9,Walk Score,2025-01-01,
+Los Angeles,LA - NoHo Arts District,avg_commute_time_minutes,10.0,8,9,Census ACS,2024-12-31,
+Los Angeles,LA - NoHo Arts District,coffee_shops_per_1000,19.8,8,9,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Highland Park,accessibility_score,80.0,9,8,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Highland Park,amenity_score,84.0,9,8,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Highland Park,demographic_quality_score,74.0,9,8,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Highland Park,employment_economic_score,78.0,9,8,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Highland Park,real_estate_momentum_score,86.0,9,8,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Highland Park,development_investment_score,84.0,9,8,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Highland Park,livability_safety_score,73.0,9,8,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Highland Park,cultural_vibrancy_score,87.0,9,8,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Highland Park,future_growth_catalysts_score,80.0,9,8,Development Pipeline,2024-12-31,
+Los Angeles,LA - Highland Park,composite_overall_score,80.7,9,8,Weighted Average,2024-12-31,
+Los Angeles,LA - Highland Park,investor_attractiveness_score,82.0,9,8,Investment Analysis,2024-12-31,
+Los Angeles,LA - Highland Park,resident_desirability_score,81.0,9,8,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Highland Park,value_add_potential_score,64.0,9,8,Growth Potential,2024-12-31,
+Los Angeles,LA - Highland Park,transit_connectivity_score,82.0,9,8,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Highland Park,restaurant_density_per_1000,63.8,9,8,Yelp API,2025-01-01,
+Los Angeles,LA - Highland Park,median_household_income_thousands,170.0,9,8,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Highland Park,bachelor_degree_plus_pct,64.4,9,8,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Highland Park,job_density_per_sq_mile,32760.0,9,8,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Highland Park,year_over_year_price_appreciation_pct,13.8,9,8,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Highland Park,new_construction_permits_ytd,924.0,9,8,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Highland Park,crime_rate_per_1000_residents,15.7,9,8,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Highland Park,beach_proximity_score,73.9,9,8,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Highland Park,walkability_index,80.0,9,8,Walk Score,2025-01-01,
+Los Angeles,LA - Highland Park,avg_commute_time_minutes,10.0,9,8,Census ACS,2024-12-31,
+Los Angeles,LA - Highland Park,coffee_shops_per_1000,19.3,9,8,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Arts District Downtown,accessibility_score,84.0,10,4,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Arts District Downtown,amenity_score,88.0,10,4,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Arts District Downtown,demographic_quality_score,80.0,10,4,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Arts District Downtown,employment_economic_score,88.0,10,4,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Arts District Downtown,real_estate_momentum_score,88.0,10,4,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Arts District Downtown,development_investment_score,90.0,10,4,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Arts District Downtown,livability_safety_score,76.0,10,4,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Arts District Downtown,cultural_vibrancy_score,94.0,10,4,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Arts District Downtown,future_growth_catalysts_score,86.0,10,4,Development Pipeline,2024-12-31,
+Los Angeles,LA - Arts District Downtown,composite_overall_score,86.0,10,4,Weighted Average,2024-12-31,
+Los Angeles,LA - Arts District Downtown,investor_attractiveness_score,88.0,10,4,Investment Analysis,2024-12-31,
+Los Angeles,LA - Arts District Downtown,resident_desirability_score,85.5,10,4,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Arts District Downtown,value_add_potential_score,60.0,10,4,Growth Potential,2024-12-31,
+Los Angeles,LA - Arts District Downtown,transit_connectivity_score,86.0,10,4,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Arts District Downtown,restaurant_density_per_1000,66.9,10,4,Yelp API,2025-01-01,
+Los Angeles,LA - Arts District Downtown,median_household_income_thousands,184.0,10,4,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Arts District Downtown,bachelor_degree_plus_pct,69.6,10,4,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Arts District Downtown,job_density_per_sq_mile,36960.0,10,4,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Arts District Downtown,year_over_year_price_appreciation_pct,14.1,10,4,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Arts District Downtown,new_construction_permits_ytd,990.0,10,4,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Arts District Downtown,crime_rate_per_1000_residents,13.9,10,4,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Arts District Downtown,beach_proximity_score,77.4,10,4,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Arts District Downtown,walkability_index,84.0,10,4,Walk Score,2025-01-01,
+Los Angeles,LA - Arts District Downtown,avg_commute_time_minutes,8.0,10,4,Census ACS,2024-12-31,
+Los Angeles,LA - Arts District Downtown,coffee_shops_per_1000,20.2,10,4,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Culver City,accessibility_score,82.0,11,19,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Culver City,amenity_score,87.0,11,19,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Culver City,demographic_quality_score,81.0,11,19,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Culver City,employment_economic_score,84.0,11,19,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Culver City,real_estate_momentum_score,79.0,11,19,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Culver City,development_investment_score,78.0,11,19,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Culver City,livability_safety_score,81.0,11,19,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Culver City,cultural_vibrancy_score,84.0,11,19,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Culver City,future_growth_catalysts_score,72.0,11,19,Development Pipeline,2024-12-31,
+Los Angeles,LA - Culver City,composite_overall_score,80.9,11,19,Weighted Average,2024-12-31,
+Los Angeles,LA - Culver City,investor_attractiveness_score,78.2,11,19,Investment Analysis,2024-12-31,
+Los Angeles,LA - Culver City,resident_desirability_score,83.5,11,19,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Culver City,value_add_potential_score,56.0,11,19,Growth Potential,2024-12-31,
+Los Angeles,LA - Culver City,transit_connectivity_score,84.0,11,19,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Culver City,restaurant_density_per_1000,66.1,11,19,Yelp API,2025-01-01,
+Los Angeles,LA - Culver City,median_household_income_thousands,186.0,11,19,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Culver City,bachelor_degree_plus_pct,70.5,11,19,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Culver City,job_density_per_sq_mile,35280.0,11,19,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Culver City,year_over_year_price_appreciation_pct,12.6,11,19,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Culver City,new_construction_permits_ytd,858.0,11,19,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Culver City,crime_rate_per_1000_residents,11.0,11,19,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Culver City,beach_proximity_score,76.6,11,19,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Culver City,walkability_index,82.0,11,19,Walk Score,2025-01-01,
+Los Angeles,LA - Culver City,avg_commute_time_minutes,9.0,11,19,Census ACS,2024-12-31,
+Los Angeles,LA - Culver City,coffee_shops_per_1000,20.0,11,19,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Pasadena,accessibility_score,80.0,12,24,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Pasadena,amenity_score,86.0,12,24,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Pasadena,demographic_quality_score,82.0,12,24,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Pasadena,employment_economic_score,78.0,12,24,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Pasadena,real_estate_momentum_score,76.0,12,24,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Pasadena,development_investment_score,74.0,12,24,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Pasadena,livability_safety_score,83.0,12,24,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Pasadena,cultural_vibrancy_score,86.0,12,24,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Pasadena,future_growth_catalysts_score,68.0,12,24,Development Pipeline,2024-12-31,
+Los Angeles,LA - Pasadena,composite_overall_score,79.2,12,24,Weighted Average,2024-12-31,
+Los Angeles,LA - Pasadena,investor_attractiveness_score,74.0,12,24,Investment Analysis,2024-12-31,
+Los Angeles,LA - Pasadena,resident_desirability_score,83.8,12,24,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Pasadena,value_add_potential_score,52.0,12,24,Growth Potential,2024-12-31,
+Los Angeles,LA - Pasadena,transit_connectivity_score,82.0,12,24,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Pasadena,restaurant_density_per_1000,65.4,12,24,Yelp API,2025-01-01,
+Los Angeles,LA - Pasadena,median_household_income_thousands,189.0,12,24,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Pasadena,bachelor_degree_plus_pct,71.3,12,24,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Pasadena,job_density_per_sq_mile,32760.0,12,24,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Pasadena,year_over_year_price_appreciation_pct,12.2,12,24,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Pasadena,new_construction_permits_ytd,814.0,12,24,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Pasadena,crime_rate_per_1000_residents,9.9,12,24,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Pasadena,beach_proximity_score,75.7,12,24,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Pasadena,walkability_index,80.0,12,24,Walk Score,2025-01-01,
+Los Angeles,LA - Pasadena,avg_commute_time_minutes,10.0,12,24,Census ACS,2024-12-31,
+Los Angeles,LA - Pasadena,coffee_shops_per_1000,19.8,12,24,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Long Beach,accessibility_score,78.0,13,30,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Long Beach,amenity_score,84.0,13,30,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Long Beach,demographic_quality_score,76.0,13,30,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Long Beach,employment_economic_score,74.0,13,30,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Long Beach,real_estate_momentum_score,77.0,13,30,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Long Beach,development_investment_score,76.0,13,30,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Long Beach,livability_safety_score,79.0,13,30,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Long Beach,cultural_vibrancy_score,82.0,13,30,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Long Beach,future_growth_catalysts_score,70.0,13,30,Development Pipeline,2024-12-31,
+Los Angeles,LA - Long Beach,composite_overall_score,77.3,13,30,Weighted Average,2024-12-31,
+Los Angeles,LA - Long Beach,investor_attractiveness_score,74.2,13,30,Investment Analysis,2024-12-31,
+Los Angeles,LA - Long Beach,resident_desirability_score,80.8,13,30,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Long Beach,value_add_potential_score,48.0,13,30,Growth Potential,2024-12-31,
+Los Angeles,LA - Long Beach,transit_connectivity_score,80.0,13,30,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Long Beach,restaurant_density_per_1000,63.8,13,30,Yelp API,2025-01-01,
+Los Angeles,LA - Long Beach,median_household_income_thousands,175.0,13,30,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Long Beach,bachelor_degree_plus_pct,66.1,13,30,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Long Beach,job_density_per_sq_mile,31080.0,13,30,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Long Beach,year_over_year_price_appreciation_pct,12.3,13,30,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Long Beach,new_construction_permits_ytd,836.0,13,30,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Long Beach,crime_rate_per_1000_residents,12.2,13,30,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Long Beach,beach_proximity_score,73.9,13,30,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Long Beach,walkability_index,78.0,13,30,Walk Score,2025-01-01,
+Los Angeles,LA - Long Beach,avg_commute_time_minutes,11.0,13,30,Census ACS,2024-12-31,
+Los Angeles,LA - Long Beach,coffee_shops_per_1000,19.3,13,30,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Beverly Hills,accessibility_score,79.0,14,26,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Beverly Hills,amenity_score,94.0,14,26,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Beverly Hills,demographic_quality_score,92.0,14,26,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Beverly Hills,employment_economic_score,78.0,14,26,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Beverly Hills,real_estate_momentum_score,73.0,14,26,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Beverly Hills,development_investment_score,70.0,14,26,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Beverly Hills,livability_safety_score,88.0,14,26,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Beverly Hills,cultural_vibrancy_score,87.0,14,26,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Beverly Hills,future_growth_catalysts_score,64.0,14,26,Development Pipeline,2024-12-31,
+Los Angeles,LA - Beverly Hills,composite_overall_score,80.6,14,26,Weighted Average,2024-12-31,
+Los Angeles,LA - Beverly Hills,investor_attractiveness_score,71.2,14,26,Investment Analysis,2024-12-31,
+Los Angeles,LA - Beverly Hills,resident_desirability_score,87.0,14,26,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Beverly Hills,value_add_potential_score,44.0,14,26,Growth Potential,2024-12-31,
+Los Angeles,LA - Beverly Hills,transit_connectivity_score,81.0,14,26,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Beverly Hills,restaurant_density_per_1000,71.4,14,26,Yelp API,2025-01-01,
+Los Angeles,LA - Beverly Hills,median_household_income_thousands,212.0,14,26,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Beverly Hills,bachelor_degree_plus_pct,80.0,14,26,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Beverly Hills,job_density_per_sq_mile,32760.0,14,26,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Beverly Hills,year_over_year_price_appreciation_pct,11.7,14,26,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Beverly Hills,new_construction_permits_ytd,770.0,14,26,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Beverly Hills,crime_rate_per_1000_residents,7.0,14,26,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Beverly Hills,beach_proximity_score,82.7,14,26,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Beverly Hills,walkability_index,79.0,14,26,Walk Score,2025-01-01,
+Los Angeles,LA - Beverly Hills,avg_commute_time_minutes,11.0,14,26,Census ACS,2024-12-31,
+Los Angeles,LA - Beverly Hills,coffee_shops_per_1000,21.6,14,26,Yelp / Google Places,2025-01-01,
+Los Angeles,LA - Century City,accessibility_score,81.0,15,23,Walk Score / Transit Data,2025-01-01,
+Los Angeles,LA - Century City,amenity_score,89.0,15,23,Google Places / Yelp,2025-01-01,
+Los Angeles,LA - Century City,demographic_quality_score,85.0,15,23,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Century City,employment_economic_score,88.0,15,23,Labor Bureau / Tech Data,2024-12-31,
+Los Angeles,LA - Century City,real_estate_momentum_score,75.0,15,23,Zillow / Redfin,2024-11-01,
+Los Angeles,LA - Century City,development_investment_score,74.0,15,23,City Planning / CRE,2024-12-31,
+Los Angeles,LA - Century City,livability_safety_score,84.0,15,23,Crime Data / LAPD,2024-11-01,
+Los Angeles,LA - Century City,cultural_vibrancy_score,80.0,15,23,Cultural Institutions,2024-12-31,
+Los Angeles,LA - Century City,future_growth_catalysts_score,68.0,15,23,Development Pipeline,2024-12-31,
+Los Angeles,LA - Century City,composite_overall_score,80.4,15,23,Weighted Average,2024-12-31,
+Los Angeles,LA - Century City,investor_attractiveness_score,76.2,15,23,Investment Analysis,2024-12-31,
+Los Angeles,LA - Century City,resident_desirability_score,83.5,15,23,Lifestyle Index,2024-12-31,
+Los Angeles,LA - Century City,value_add_potential_score,40.0,15,23,Growth Potential,2024-12-31,
+Los Angeles,LA - Century City,transit_connectivity_score,83.0,15,23,LA Metro / Transit,2025-01-01,Metro/bus connectivity
+Los Angeles,LA - Century City,restaurant_density_per_1000,67.6,15,23,Yelp API,2025-01-01,
+Los Angeles,LA - Century City,median_household_income_thousands,195.0,15,23,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Century City,bachelor_degree_plus_pct,74.0,15,23,Census ACS 2024,2024-12-31,
+Los Angeles,LA - Century City,job_density_per_sq_mile,36960.0,15,23,BLS / LEHD,2024-12-31,
+Los Angeles,LA - Century City,year_over_year_price_appreciation_pct,12.0,15,23,Zillow Home Value Index,2024-11-01,
+Los Angeles,LA - Century City,new_construction_permits_ytd,814.0,15,23,LA Building & Safety,2024-12-31,
+Los Angeles,LA - Century City,crime_rate_per_1000_residents,9.3,15,23,LAPD Crime Data,2024-11-01,
+Los Angeles,LA - Century City,beach_proximity_score,78.3,15,23,GIS Analysis,2025-01-01,Proximity to beaches/coast
+Los Angeles,LA - Century City,walkability_index,81.0,15,23,Walk Score,2025-01-01,
+Los Angeles,LA - Century City,avg_commute_time_minutes,10.0,15,23,Census ACS,2024-12-31,
+Los Angeles,LA - Century City,coffee_shops_per_1000,20.5,15,23,Yelp / Google Places,2025-01-01,

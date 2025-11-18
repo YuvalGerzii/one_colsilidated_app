@@ -1,0 +1,751 @@
+market,geography_type,indicator_name,indicator_value,indicator_unit,data_source,notes
+Atlanta,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Atlanta,Metro,abatement_programs_count,5,number,Economic Development,Number of active tax abatement/exemption programs
+Atlanta,Metro,affordable_housing_exemption,80,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Atlanta,Metro,appeal_filing_rate,28,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Atlanta,Metro,appeal_resolution_time,8,months,Appeal Board Data,Median time from filing to resolution
+Atlanta,Metro,appeal_success_rate,48,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Atlanta,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Atlanta,Metro,assessment_lag,9,months,Assessor Data,Lag between sale and reflected assessment
+Atlanta,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Atlanta,Metro,assessment_to_sales_ratio,99,%,Assessor Data,Average assessment as % of actual sale price
+Atlanta,Metro,average_appeal_cost,2500,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Atlanta,Metro,avg_appeal_reduction,14.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+Atlanta,Metro,avg_days_delinquent,178,days,County Treasurer,Average days delinquent for late payments
+Atlanta,Metro,bid_district_count,15,number,Economic Development,Number of Business Improvement Districts
+Atlanta,Metro,coefficient_of_dispersion,16.8,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Atlanta,Metro,delinquency_rate,9.2,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Atlanta,Metro,effective_property_tax_rate,2.0,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Atlanta,Metro,historic_property_exemption,35,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Atlanta,Metro,hotel_assessed_value_per_key,115000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Atlanta,Metro,income_approach_usage,52,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Atlanta,Metro,industrial_assessed_value_psf,115,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Atlanta,Metro,industrial_assessment_yoy_growth,16.8,%,Assessor Data,Year-over-year industrial assessment growth
+Atlanta,Metro,industrial_tax_per_sf,2.3,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Atlanta,Metro,late_payment_penalty_rate,12.0,%_annual,County Code,Annual penalty rate for late payment
+Atlanta,Metro,millage_rate,20.0,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Atlanta,Metro,multifamily_assessed_value_per_unit,155000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Atlanta,Metro,multifamily_assessed_value_psf,165,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Atlanta,Metro,multifamily_assessment_yoy_growth,12.8,%,Assessor Data,Year-over-year multifamily assessment growth
+Atlanta,Metro,multifamily_tax_per_unit,3100,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Atlanta,Metro,office_assessed_value_psf,195,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Atlanta,Metro,office_assessment_yoy_growth,4.8,%,Assessor Data,Year-over-year office assessment growth
+Atlanta,Metro,office_tax_per_sf,3.9,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Atlanta,Metro,ontime_payment_rate,90,%,County Treasurer,Commercial property on-time payment rate
+Atlanta,Metro,properties_assessment_spike_15pct,20.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Atlanta,Metro,properties_overassessed_110pct,16.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Atlanta,Metro,properties_receiving_abatements,13.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Atlanta,Metro,property_tax_as_pct_noi,19.5,%,Industry Analysis,Property tax as percentage of net operating income
+Atlanta,Metro,retail_assessed_value_psf,175,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Atlanta,Metro,retail_assessment_yoy_growth,10.2,%,Assessor Data,Year-over-year retail assessment growth
+Atlanta,Metro,retail_tax_per_sf,3.5,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Atlanta,Metro,sales_comparison_usage,48,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Atlanta,Metro,tax_burden_rank,7,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Atlanta,Metro,tax_lien_interest_rate,20.0,%_annual,County Treasurer,Interest rate on tax liens
+Atlanta,Metro,tax_lien_properties_sold,320,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Atlanta,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Atlanta,Metro,tax_rate_5yr_change,22.3,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Atlanta,Metro,tif_district_count,22,number,Economic Development Office,Number of active Tax Increment Financing districts
+Atlanta,Metro,total_abatement_value,125,$MM,Economic Development,Total annual value of tax abatements granted
+Atlanta,Metro,typical_abatement_value,65,%,Economic Development,Typical percentage reduction for major abatement programs
+Atlanta,Metro,typical_bid_assessment,0.35,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Austin,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Austin,Metro,abatement_programs_count,5,number,Economic Development,Number of active tax abatement/exemption programs
+Austin,Metro,affordable_housing_exemption,85,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Austin,Metro,appeal_filing_rate,42,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Austin,Metro,appeal_resolution_time,10,months,Appeal Board Data,Median time from filing to resolution
+Austin,Metro,appeal_success_rate,58,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Austin,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Austin,Metro,assessment_lag,8,months,Assessor Data,Lag between sale and reflected assessment
+Austin,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Austin,Metro,assessment_to_sales_ratio,103,%,Assessor Data,Average assessment as % of actual sale price
+Austin,Metro,average_appeal_cost,2800,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Austin,Metro,avg_appeal_reduction,16.8,%,Appeal Board Data,Average assessment reduction on successful appeal
+Austin,Metro,avg_days_delinquent,138,days,County Treasurer,Average days delinquent for late payments
+Austin,Metro,bid_district_count,6,number,Economic Development,Number of Business Improvement Districts
+Austin,Metro,coefficient_of_dispersion,19.8,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Austin,Metro,delinquency_rate,4.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Austin,Metro,effective_property_tax_rate,2.45,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Austin,Metro,historic_property_exemption,35,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Austin,Metro,hotel_assessed_value_per_key,145000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Austin,Metro,income_approach_usage,45,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Austin,Metro,industrial_assessed_value_psf,165,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Austin,Metro,industrial_assessment_yoy_growth,25.5,%,Assessor Data,Year-over-year industrial assessment growth
+Austin,Metro,industrial_tax_per_sf,4.04,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Austin,Metro,late_payment_penalty_rate,12.0,%_annual,County Code,Annual penalty rate for late payment
+Austin,Metro,millage_rate,24.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Austin,Metro,multifamily_assessed_value_per_unit,235000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Austin,Metro,multifamily_assessed_value_psf,245,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Austin,Metro,multifamily_assessment_yoy_growth,22.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Austin,Metro,multifamily_tax_per_unit,5758,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Austin,Metro,office_assessed_value_psf,285,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Austin,Metro,office_assessment_yoy_growth,8.5,%,Assessor Data,Year-over-year office assessment growth
+Austin,Metro,office_tax_per_sf,6.98,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Austin,Metro,ontime_payment_rate,95,%,County Treasurer,Commercial property on-time payment rate
+Austin,Metro,properties_assessment_spike_15pct,35.2,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Austin,Metro,properties_overassessed_110pct,22.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Austin,Metro,properties_receiving_abatements,14.8,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Austin,Metro,property_tax_as_pct_noi,22.5,%,Industry Analysis,Property tax as percentage of net operating income
+Austin,Metro,retail_assessed_value_psf,245,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Austin,Metro,retail_assessment_yoy_growth,18.5,%,Assessor Data,Year-over-year retail assessment growth
+Austin,Metro,retail_tax_per_sf,6.0,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Austin,Metro,sales_comparison_usage,55,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Austin,Metro,tax_burden_rank,5,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Austin,Metro,tax_lien_interest_rate,12.0,%_annual,County Treasurer,Interest rate on tax liens
+Austin,Metro,tax_lien_properties_sold,125,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Austin,Metro,tax_lien_sale_frequency,Semi-Annual,text,County Treasurer,Frequency of tax lien sales
+Austin,Metro,tax_rate_5yr_change,58.2,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Austin,Metro,tif_district_count,8,number,Economic Development Office,Number of active Tax Increment Financing districts
+Austin,Metro,total_abatement_value,145,$MM,Economic Development,Total annual value of tax abatements granted
+Austin,Metro,typical_abatement_value,60,%,Economic Development,Typical percentage reduction for major abatement programs
+Austin,Metro,typical_bid_assessment,0.35,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Boston,Metro,abatement_duration,25,years,Economic Development,Typical duration of tax abatement in years
+Boston,Metro,abatement_programs_count,6,number,Economic Development,Number of active tax abatement/exemption programs
+Boston,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Boston,Metro,appeal_filing_rate,35,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Boston,Metro,appeal_resolution_time,12,months,Appeal Board Data,Median time from filing to resolution
+Boston,Metro,appeal_success_rate,48,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Boston,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Boston,Metro,assessment_lag,10,months,Assessor Data,Lag between sale and reflected assessment
+Boston,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Boston,Metro,assessment_to_sales_ratio,100,%,Assessor Data,Average assessment as % of actual sale price
+Boston,Metro,average_appeal_cost,4000,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Boston,Metro,avg_appeal_reduction,16.2,%,Appeal Board Data,Average assessment reduction on successful appeal
+Boston,Metro,avg_days_delinquent,152,days,County Treasurer,Average days delinquent for late payments
+Boston,Metro,bid_district_count,12,number,Economic Development,Number of Business Improvement Districts
+Boston,Metro,coefficient_of_dispersion,12.8,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Boston,Metro,delinquency_rate,6.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Boston,Metro,effective_property_tax_rate,3.0,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Boston,Metro,historic_property_exemption,45,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Boston,Metro,hotel_assessed_value_per_key,225000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Boston,Metro,income_approach_usage,65,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Boston,Metro,industrial_assessed_value_psf,245,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Boston,Metro,industrial_assessment_yoy_growth,7.2,%,Assessor Data,Year-over-year industrial assessment growth
+Boston,Metro,industrial_tax_per_sf,7.35,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Boston,Metro,late_payment_penalty_rate,14.0,%_annual,County Code,Annual penalty rate for late payment
+Boston,Metro,millage_rate,30.0,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Boston,Metro,multifamily_assessed_value_per_unit,365000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Boston,Metro,multifamily_assessed_value_psf,385,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Boston,Metro,multifamily_assessment_yoy_growth,5.2,%,Assessor Data,Year-over-year multifamily assessment growth
+Boston,Metro,multifamily_tax_per_unit,10950,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Boston,Metro,office_assessed_value_psf,485,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Boston,Metro,office_assessment_yoy_growth,-2.8,%,Assessor Data,Year-over-year office assessment growth
+Boston,Metro,office_tax_per_sf,14.55,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Boston,Metro,ontime_payment_rate,92,%,County Treasurer,Commercial property on-time payment rate
+Boston,Metro,properties_assessment_spike_15pct,10.2,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Boston,Metro,properties_overassessed_110pct,14.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Boston,Metro,properties_receiving_abatements,10.2,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Boston,Metro,property_tax_as_pct_noi,24.5,%,Industry Analysis,Property tax as percentage of net operating income
+Boston,Metro,retail_assessed_value_psf,415,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Boston,Metro,retail_assessment_yoy_growth,4.8,%,Assessor Data,Year-over-year retail assessment growth
+Boston,Metro,retail_tax_per_sf,12.45,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Boston,Metro,sales_comparison_usage,35,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Boston,Metro,tax_burden_rank,3,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Boston,Metro,tax_lien_interest_rate,N/A,text,County Treasurer,No tax lien sales in this jurisdiction
+Boston,Metro,tax_lien_properties_sold,0,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Boston,Metro,tax_lien_sale_frequency,None,text,County Treasurer,Frequency of tax lien sales
+Boston,Metro,tax_rate_5yr_change,-5.5,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Boston,Metro,tif_district_count,10,number,Economic Development Office,Number of active Tax Increment Financing districts
+Boston,Metro,total_abatement_value,85,$MM,Economic Development,Total annual value of tax abatements granted
+Boston,Metro,typical_abatement_value,55,%,Economic Development,Typical percentage reduction for major abatement programs
+Boston,Metro,typical_bid_assessment,0.72,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Charlotte,Metro,abatement_duration,8,years,Economic Development,Typical duration of tax abatement in years
+Charlotte,Metro,abatement_programs_count,3,number,Economic Development,Number of active tax abatement/exemption programs
+Charlotte,Metro,affordable_housing_exemption,75,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Charlotte,Metro,appeal_filing_rate,24,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Charlotte,Metro,appeal_resolution_time,8,months,Appeal Board Data,Median time from filing to resolution
+Charlotte,Metro,appeal_success_rate,46,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Charlotte,Metro,assessment_frequency,Varies,text,County Assessor,Reassessment cycle frequency
+Charlotte,Metro,assessment_lag,8,months,Assessor Data,Lag between sale and reflected assessment
+Charlotte,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Charlotte,Metro,assessment_to_sales_ratio,99,%,Assessor Data,Average assessment as % of actual sale price
+Charlotte,Metro,average_appeal_cost,2400,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Charlotte,Metro,avg_appeal_reduction,12.8,%,Appeal Board Data,Average assessment reduction on successful appeal
+Charlotte,Metro,avg_days_delinquent,152,days,County Treasurer,Average days delinquent for late payments
+Charlotte,Metro,bid_district_count,6,number,Economic Development,Number of Business Improvement Districts
+Charlotte,Metro,coefficient_of_dispersion,15.2,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Charlotte,Metro,delinquency_rate,6.2,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Charlotte,Metro,effective_property_tax_rate,1.55,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Charlotte,Metro,historic_property_exemption,30,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Charlotte,Metro,hotel_assessed_value_per_key,125000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Charlotte,Metro,income_approach_usage,45,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Charlotte,Metro,industrial_assessed_value_psf,125,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Charlotte,Metro,industrial_assessment_yoy_growth,20.2,%,Assessor Data,Year-over-year industrial assessment growth
+Charlotte,Metro,industrial_tax_per_sf,1.94,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Charlotte,Metro,late_payment_penalty_rate,10.0,%_annual,County Code,Annual penalty rate for late payment
+Charlotte,Metro,millage_rate,15.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Charlotte,Metro,multifamily_assessed_value_per_unit,175000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Charlotte,Metro,multifamily_assessed_value_psf,185,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Charlotte,Metro,multifamily_assessment_yoy_growth,16.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Charlotte,Metro,multifamily_tax_per_unit,2703,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Charlotte,Metro,office_assessed_value_psf,215,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Charlotte,Metro,office_assessment_yoy_growth,7.5,%,Assessor Data,Year-over-year office assessment growth
+Charlotte,Metro,office_tax_per_sf,3.33,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Charlotte,Metro,ontime_payment_rate,93,%,County Treasurer,Commercial property on-time payment rate
+Charlotte,Metro,properties_assessment_spike_15pct,25.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Charlotte,Metro,properties_overassessed_110pct,13.2,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Charlotte,Metro,properties_receiving_abatements,9.8,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Charlotte,Metro,property_tax_as_pct_noi,17.2,%,Industry Analysis,Property tax as percentage of net operating income
+Charlotte,Metro,retail_assessed_value_psf,195,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Charlotte,Metro,retail_assessment_yoy_growth,13.8,%,Assessor Data,Year-over-year retail assessment growth
+Charlotte,Metro,retail_tax_per_sf,3.02,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Charlotte,Metro,sales_comparison_usage,55,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Charlotte,Metro,tax_burden_rank,10,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Charlotte,Metro,tax_lien_interest_rate,12.0,%_annual,County Treasurer,Interest rate on tax liens
+Charlotte,Metro,tax_lien_properties_sold,110,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Charlotte,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Charlotte,Metro,tax_rate_5yr_change,45.2,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Charlotte,Metro,tif_district_count,8,number,Economic Development Office,Number of active Tax Increment Financing districts
+Charlotte,Metro,total_abatement_value,55,$MM,Economic Development,Total annual value of tax abatements granted
+Charlotte,Metro,typical_abatement_value,55,%,Economic Development,Typical percentage reduction for major abatement programs
+Charlotte,Metro,typical_bid_assessment,0.32,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Chicago,Metro,abatement_duration,12,years,Economic Development,Typical duration of tax abatement in years
+Chicago,Metro,abatement_programs_count,7,number,Economic Development,Number of active tax abatement/exemption programs
+Chicago,Metro,affordable_housing_exemption,85,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Chicago,Metro,appeal_filing_rate,68,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Chicago,Metro,appeal_resolution_time,18,months,Appeal Board Data,Median time from filing to resolution
+Chicago,Metro,appeal_success_rate,72,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Chicago,Metro,assessment_frequency,Triennial,text,County Assessor,Reassessment cycle frequency
+Chicago,Metro,assessment_lag,12,months,Assessor Data,Lag between sale and reflected assessment
+Chicago,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Chicago,Metro,assessment_to_sales_ratio,97,%,Assessor Data,Average assessment as % of actual sale price
+Chicago,Metro,average_appeal_cost,3800,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Chicago,Metro,avg_appeal_reduction,18.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+Chicago,Metro,avg_days_delinquent,225,days,County Treasurer,Average days delinquent for late payments
+Chicago,Metro,bid_district_count,33,number,Economic Development,Number of Business Improvement Districts
+Chicago,Metro,coefficient_of_dispersion,22.3,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Chicago,Metro,delinquency_rate,13.2,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Chicago,Metro,effective_property_tax_rate,4.25,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Chicago,Metro,historic_property_exemption,65,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Chicago,Metro,hotel_assessed_value_per_key,145000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Chicago,Metro,income_approach_usage,70,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Chicago,Metro,industrial_assessed_value_psf,145,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Chicago,Metro,industrial_assessment_yoy_growth,4.8,%,Assessor Data,Year-over-year industrial assessment growth
+Chicago,Metro,industrial_tax_per_sf,6.16,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Chicago,Metro,late_payment_penalty_rate,18.0,%_annual,County Code,Annual penalty rate for late payment
+Chicago,Metro,millage_rate,42.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Chicago,Metro,multifamily_assessed_value_per_unit,225000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Chicago,Metro,multifamily_assessed_value_psf,245,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Chicago,Metro,multifamily_assessment_yoy_growth,1.8,%,Assessor Data,Year-over-year multifamily assessment growth
+Chicago,Metro,multifamily_tax_per_unit,9563,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Chicago,Metro,office_assessed_value_psf,285,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Chicago,Metro,office_assessment_yoy_growth,-6.5,%,Assessor Data,Year-over-year office assessment growth
+Chicago,Metro,office_tax_per_sf,12.11,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Chicago,Metro,ontime_payment_rate,86,%,County Treasurer,Commercial property on-time payment rate
+Chicago,Metro,properties_assessment_spike_15pct,7.2,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Chicago,Metro,properties_overassessed_110pct,28.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Chicago,Metro,properties_receiving_abatements,18.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Chicago,Metro,property_tax_as_pct_noi,32.5,%,Industry Analysis,Property tax as percentage of net operating income
+Chicago,Metro,retail_assessed_value_psf,255,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Chicago,Metro,retail_assessment_yoy_growth,2.5,%,Assessor Data,Year-over-year retail assessment growth
+Chicago,Metro,retail_tax_per_sf,10.84,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Chicago,Metro,sales_comparison_usage,30,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Chicago,Metro,tax_burden_rank,1,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Chicago,Metro,tax_lien_interest_rate,18.0,%_annual,County Treasurer,Interest rate on tax liens
+Chicago,Metro,tax_lien_properties_sold,850,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Chicago,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Chicago,Metro,tax_rate_5yr_change,6.2,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Chicago,Metro,tif_district_count,142,number,Economic Development Office,Number of active Tax Increment Financing districts
+Chicago,Metro,total_abatement_value,225,$MM,Economic Development,Total annual value of tax abatements granted
+Chicago,Metro,typical_abatement_value,60,%,Economic Development,Typical percentage reduction for major abatement programs
+Chicago,Metro,typical_bid_assessment,0.55,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Dallas,Metro,abatement_duration,12,years,Economic Development,Typical duration of tax abatement in years
+Dallas,Metro,abatement_programs_count,6,number,Economic Development,Number of active tax abatement/exemption programs
+Dallas,Metro,affordable_housing_exemption,75,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Dallas,Metro,appeal_filing_rate,45,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Dallas,Metro,appeal_resolution_time,9,months,Appeal Board Data,Median time from filing to resolution
+Dallas,Metro,appeal_success_rate,55,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Dallas,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Dallas,Metro,assessment_lag,8,months,Assessor Data,Lag between sale and reflected assessment
+Dallas,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Dallas,Metro,assessment_to_sales_ratio,102,%,Assessor Data,Average assessment as % of actual sale price
+Dallas,Metro,average_appeal_cost,2500,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Dallas,Metro,avg_appeal_reduction,15.2,%,Appeal Board Data,Average assessment reduction on successful appeal
+Dallas,Metro,avg_days_delinquent,168,days,County Treasurer,Average days delinquent for late payments
+Dallas,Metro,bid_district_count,14,number,Economic Development,Number of Business Improvement Districts
+Dallas,Metro,coefficient_of_dispersion,18.5,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Dallas,Metro,delinquency_rate,8.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Dallas,Metro,effective_property_tax_rate,2.65,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Dallas,Metro,historic_property_exemption,30,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Dallas,Metro,hotel_assessed_value_per_key,125000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Dallas,Metro,income_approach_usage,48,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Dallas,Metro,industrial_assessed_value_psf,125,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Dallas,Metro,industrial_assessment_yoy_growth,18.5,%,Assessor Data,Year-over-year industrial assessment growth
+Dallas,Metro,industrial_tax_per_sf,3.31,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Dallas,Metro,late_payment_penalty_rate,12.0,%_annual,County Code,Annual penalty rate for late payment
+Dallas,Metro,millage_rate,26.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Dallas,Metro,multifamily_assessed_value_per_unit,175000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Dallas,Metro,multifamily_assessed_value_psf,185,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Dallas,Metro,multifamily_assessment_yoy_growth,15.8,%,Assessor Data,Year-over-year multifamily assessment growth
+Dallas,Metro,multifamily_tax_per_unit,4638,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Dallas,Metro,office_assessed_value_psf,225,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Dallas,Metro,office_assessment_yoy_growth,6.2,%,Assessor Data,Year-over-year office assessment growth
+Dallas,Metro,office_tax_per_sf,5.96,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Dallas,Metro,ontime_payment_rate,90,%,County Treasurer,Commercial property on-time payment rate
+Dallas,Metro,properties_assessment_spike_15pct,25.8,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Dallas,Metro,properties_overassessed_110pct,19.8,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Dallas,Metro,properties_receiving_abatements,16.8,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Dallas,Metro,property_tax_as_pct_noi,24.2,%,Industry Analysis,Property tax as percentage of net operating income
+Dallas,Metro,retail_assessed_value_psf,195,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Dallas,Metro,retail_assessment_yoy_growth,12.8,%,Assessor Data,Year-over-year retail assessment growth
+Dallas,Metro,retail_tax_per_sf,5.17,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Dallas,Metro,sales_comparison_usage,52,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Dallas,Metro,tax_burden_rank,4,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Dallas,Metro,tax_lien_interest_rate,12.0,%_annual,County Treasurer,Interest rate on tax liens
+Dallas,Metro,tax_lien_properties_sold,285,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Dallas,Metro,tax_lien_sale_frequency,Semi-Annual,text,County Treasurer,Frequency of tax lien sales
+Dallas,Metro,tax_rate_5yr_change,38.5,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Dallas,Metro,tif_district_count,25,number,Economic Development Office,Number of active Tax Increment Financing districts
+Dallas,Metro,total_abatement_value,185,$MM,Economic Development,Total annual value of tax abatements granted
+Dallas,Metro,typical_abatement_value,70,%,Economic Development,Typical percentage reduction for major abatement programs
+Dallas,Metro,typical_bid_assessment,0.32,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Denver,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Denver,Metro,abatement_programs_count,4,number,Economic Development,Number of active tax abatement/exemption programs
+Denver,Metro,affordable_housing_exemption,90,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Denver,Metro,appeal_filing_rate,24,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Denver,Metro,appeal_resolution_time,8,months,Appeal Board Data,Median time from filing to resolution
+Denver,Metro,appeal_success_rate,46,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Denver,Metro,assessment_frequency,Biennial,text,County Assessor,Reassessment cycle frequency
+Denver,Metro,assessment_lag,10,months,Assessor Data,Lag between sale and reflected assessment
+Denver,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Denver,Metro,assessment_to_sales_ratio,100,%,Assessor Data,Average assessment as % of actual sale price
+Denver,Metro,average_appeal_cost,2800,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Denver,Metro,avg_appeal_reduction,13.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+Denver,Metro,avg_days_delinquent,142,days,County Treasurer,Average days delinquent for late payments
+Denver,Metro,bid_district_count,10,number,Economic Development,Number of Business Improvement Districts
+Denver,Metro,coefficient_of_dispersion,15.2,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Denver,Metro,delinquency_rate,5.2,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Denver,Metro,effective_property_tax_rate,1.65,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Denver,Metro,historic_property_exemption,40,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Denver,Metro,hotel_assessed_value_per_key,155000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Denver,Metro,income_approach_usage,50,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Denver,Metro,industrial_assessed_value_psf,175,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Denver,Metro,industrial_assessment_yoy_growth,15.2,%,Assessor Data,Year-over-year industrial assessment growth
+Denver,Metro,industrial_tax_per_sf,2.89,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Denver,Metro,late_payment_penalty_rate,10.0,%_annual,County Code,Annual penalty rate for late payment
+Denver,Metro,millage_rate,16.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Denver,Metro,multifamily_assessed_value_per_unit,265000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Denver,Metro,multifamily_assessed_value_psf,275,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Denver,Metro,multifamily_assessment_yoy_growth,12.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Denver,Metro,multifamily_tax_per_unit,4368,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Denver,Metro,office_assessed_value_psf,295,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Denver,Metro,office_assessment_yoy_growth,2.5,%,Assessor Data,Year-over-year office assessment growth
+Denver,Metro,office_tax_per_sf,4.87,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Denver,Metro,ontime_payment_rate,94,%,County Treasurer,Commercial property on-time payment rate
+Denver,Metro,properties_assessment_spike_15pct,18.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Denver,Metro,properties_overassessed_110pct,13.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Denver,Metro,properties_receiving_abatements,11.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Denver,Metro,property_tax_as_pct_noi,17.8,%,Industry Analysis,Property tax as percentage of net operating income
+Denver,Metro,retail_assessed_value_psf,265,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Denver,Metro,retail_assessment_yoy_growth,10.5,%,Assessor Data,Year-over-year retail assessment growth
+Denver,Metro,retail_tax_per_sf,4.37,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Denver,Metro,sales_comparison_usage,50,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Denver,Metro,tax_burden_rank,8,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Denver,Metro,tax_lien_interest_rate,10.0,%_annual,County Treasurer,Interest rate on tax liens
+Denver,Metro,tax_lien_properties_sold,85,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Denver,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Denver,Metro,tax_rate_5yr_change,25.8,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Denver,Metro,tif_district_count,32,number,Economic Development Office,Number of active Tax Increment Financing districts
+Denver,Metro,total_abatement_value,55,$MM,Economic Development,Total annual value of tax abatements granted
+Denver,Metro,typical_abatement_value,50,%,Economic Development,Typical percentage reduction for major abatement programs
+Denver,Metro,typical_bid_assessment,0.38,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Los Angeles,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Los Angeles,Metro,abatement_programs_count,4,number,Economic Development,Number of active tax abatement/exemption programs
+Los Angeles,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Los Angeles,Metro,appeal_filing_rate,18,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Los Angeles,Metro,appeal_resolution_time,9,months,Appeal Board Data,Median time from filing to resolution
+Los Angeles,Metro,appeal_success_rate,38,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Los Angeles,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Los Angeles,Metro,assessment_lag,6,months,Assessor Data,Lag between sale and reflected assessment
+Los Angeles,Metro,assessment_to_market_ratio,Prop 13,text,County Assessor,California Prop 13: Assessment at acquisition price + max 2% annual
+Los Angeles,Metro,assessment_to_sales_ratio,Prop13,text,Assessor Data,"CA Prop 13: Assessed at acquisition, not market value"
+Los Angeles,Metro,average_appeal_cost,3500,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Los Angeles,Metro,avg_appeal_reduction,12.8,%,Appeal Board Data,Average assessment reduction on successful appeal
+Los Angeles,Metro,avg_days_delinquent,165,days,County Treasurer,Average days delinquent for late payments
+Los Angeles,Metro,bid_district_count,42,number,Economic Development,Number of Business Improvement Districts
+Los Angeles,Metro,coefficient_of_dispersion,14.2,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Los Angeles,Metro,delinquency_rate,8.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Los Angeles,Metro,effective_property_tax_rate,1.2,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Los Angeles,Metro,historic_property_exemption,50,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Los Angeles,Metro,hotel_assessed_value_per_key,165000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Los Angeles,Metro,income_approach_usage,45,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Los Angeles,Metro,industrial_assessed_value_psf,185,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Los Angeles,Metro,industrial_assessment_yoy_growth,8.5,%,Assessor Data,Year-over-year industrial assessment growth
+Los Angeles,Metro,industrial_tax_per_sf,2.22,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Los Angeles,Metro,late_payment_penalty_rate,10.0,%_annual,County Code,Annual penalty rate for late payment
+Los Angeles,Metro,millage_rate,12.0,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Los Angeles,Metro,multifamily_assessed_value_per_unit,285000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Los Angeles,Metro,multifamily_assessed_value_psf,285,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Los Angeles,Metro,multifamily_assessment_yoy_growth,4.8,%,Assessor Data,Year-over-year multifamily assessment growth
+Los Angeles,Metro,multifamily_tax_per_unit,3420,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Los Angeles,Metro,office_assessed_value_psf,385,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Los Angeles,Metro,office_assessment_yoy_growth,-3.2,%,Assessor Data,Year-over-year office assessment growth
+Los Angeles,Metro,office_tax_per_sf,4.62,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Los Angeles,Metro,ontime_payment_rate,90,%,County Treasurer,Commercial property on-time payment rate
+Los Angeles,Metro,properties_assessment_spike_15pct,12.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Los Angeles,Metro,properties_overassessed_110pct,8.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Los Angeles,Metro,properties_receiving_abatements,6.8,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Los Angeles,Metro,property_tax_as_pct_noi,12.5,%,Industry Analysis,Property tax as percentage of net operating income
+Los Angeles,Metro,retail_assessed_value_psf,325,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Los Angeles,Metro,retail_assessment_yoy_growth,5.5,%,Assessor Data,Year-over-year retail assessment growth
+Los Angeles,Metro,retail_tax_per_sf,3.9,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Los Angeles,Metro,sales_comparison_usage,55,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Los Angeles,Metro,tax_burden_rank,13,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Los Angeles,Metro,tax_lien_interest_rate,N/A,text,County Treasurer,No tax lien sales in this jurisdiction
+Los Angeles,Metro,tax_lien_properties_sold,0,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Los Angeles,Metro,tax_lien_sale_frequency,None,text,County Treasurer,Frequency of tax lien sales
+Los Angeles,Metro,tax_rate_5yr_change,10.2,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Los Angeles,Metro,tif_district_count,8,number,Economic Development Office,Number of active Tax Increment Financing districts
+Los Angeles,Metro,total_abatement_value,125,$MM,Economic Development,Total annual value of tax abatements granted
+Los Angeles,Metro,typical_abatement_value,45,%,Economic Development,Typical percentage reduction for major abatement programs
+Los Angeles,Metro,typical_bid_assessment,0.42,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Miami,Metro,abatement_duration,20,years,Economic Development,Typical duration of tax abatement in years
+Miami,Metro,abatement_programs_count,6,number,Economic Development,Number of active tax abatement/exemption programs
+Miami,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Miami,Metro,appeal_filing_rate,28,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Miami,Metro,appeal_resolution_time,8,months,Appeal Board Data,Median time from filing to resolution
+Miami,Metro,appeal_success_rate,45,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Miami,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Miami,Metro,assessment_lag,8,months,Assessor Data,Lag between sale and reflected assessment
+Miami,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Miami,Metro,assessment_to_sales_ratio,98,%,Assessor Data,Average assessment as % of actual sale price
+Miami,Metro,average_appeal_cost,3000,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Miami,Metro,avg_appeal_reduction,14.2,%,Appeal Board Data,Average assessment reduction on successful appeal
+Miami,Metro,avg_days_delinquent,172,days,County Treasurer,Average days delinquent for late payments
+Miami,Metro,bid_district_count,18,number,Economic Development,Number of Business Improvement Districts
+Miami,Metro,coefficient_of_dispersion,17.5,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Miami,Metro,delinquency_rate,7.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Miami,Metro,effective_property_tax_rate,1.15,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Miami,Metro,historic_property_exemption,40,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Miami,Metro,hotel_assessed_value_per_key,185000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Miami,Metro,income_approach_usage,50,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Miami,Metro,industrial_assessed_value_psf,165,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Miami,Metro,industrial_assessment_yoy_growth,15.8,%,Assessor Data,Year-over-year industrial assessment growth
+Miami,Metro,industrial_tax_per_sf,1.9,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Miami,Metro,late_payment_penalty_rate,3.0,%_annual,County Code,Annual penalty rate for late payment
+Miami,Metro,millage_rate,11.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Miami,Metro,multifamily_assessed_value_per_unit,265000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Miami,Metro,multifamily_assessed_value_psf,295,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Miami,Metro,multifamily_assessment_yoy_growth,18.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Miami,Metro,multifamily_tax_per_unit,3048,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Miami,Metro,office_assessed_value_psf,325,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Miami,Metro,office_assessment_yoy_growth,5.2,%,Assessor Data,Year-over-year office assessment growth
+Miami,Metro,office_tax_per_sf,3.74,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Miami,Metro,ontime_payment_rate,91,%,County Treasurer,Commercial property on-time payment rate
+Miami,Metro,properties_assessment_spike_15pct,28.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Miami,Metro,properties_overassessed_110pct,15.8,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Miami,Metro,properties_receiving_abatements,15.2,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Miami,Metro,property_tax_as_pct_noi,14.2,%,Industry Analysis,Property tax as percentage of net operating income
+Miami,Metro,retail_assessed_value_psf,285,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Miami,Metro,retail_assessment_yoy_growth,12.5,%,Assessor Data,Year-over-year retail assessment growth
+Miami,Metro,retail_tax_per_sf,3.28,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Miami,Metro,sales_comparison_usage,50,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Miami,Metro,tax_burden_rank,14,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Miami,Metro,tax_lien_interest_rate,18.0,%_annual,County Treasurer,Interest rate on tax liens
+Miami,Metro,tax_lien_properties_sold,225,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Miami,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Miami,Metro,tax_rate_5yr_change,42.0,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Miami,Metro,tif_district_count,12,number,Economic Development Office,Number of active Tax Increment Financing districts
+Miami,Metro,total_abatement_value,165,$MM,Economic Development,Total annual value of tax abatements granted
+Miami,Metro,typical_abatement_value,75,%,Economic Development,Typical percentage reduction for major abatement programs
+Miami,Metro,typical_bid_assessment,0.38,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Nashville,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Nashville,Metro,abatement_programs_count,3,number,Economic Development,Number of active tax abatement/exemption programs
+Nashville,Metro,affordable_housing_exemption,70,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Nashville,Metro,appeal_filing_rate,26,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Nashville,Metro,appeal_resolution_time,8,months,Appeal Board Data,Median time from filing to resolution
+Nashville,Metro,appeal_success_rate,50,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Nashville,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Nashville,Metro,assessment_lag,7,months,Assessor Data,Lag between sale and reflected assessment
+Nashville,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Nashville,Metro,assessment_to_sales_ratio,100,%,Assessor Data,Average assessment as % of actual sale price
+Nashville,Metro,average_appeal_cost,2400,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Nashville,Metro,avg_appeal_reduction,13.2,%,Appeal Board Data,Average assessment reduction on successful appeal
+Nashville,Metro,avg_days_delinquent,145,days,County Treasurer,Average days delinquent for late payments
+Nashville,Metro,bid_district_count,5,number,Economic Development,Number of Business Improvement Districts
+Nashville,Metro,coefficient_of_dispersion,15.5,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Nashville,Metro,delinquency_rate,5.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Nashville,Metro,effective_property_tax_rate,1.45,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Nashville,Metro,historic_property_exemption,35,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Nashville,Metro,hotel_assessed_value_per_key,135000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Nashville,Metro,income_approach_usage,40,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Nashville,Metro,industrial_assessed_value_psf,135,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Nashville,Metro,industrial_assessment_yoy_growth,22.5,%,Assessor Data,Year-over-year industrial assessment growth
+Nashville,Metro,industrial_tax_per_sf,1.96,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Nashville,Metro,late_payment_penalty_rate,12.0,%_annual,County Code,Annual penalty rate for late payment
+Nashville,Metro,millage_rate,14.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Nashville,Metro,multifamily_assessed_value_per_unit,205000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Nashville,Metro,multifamily_assessed_value_psf,215,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Nashville,Metro,multifamily_assessment_yoy_growth,18.2,%,Assessor Data,Year-over-year multifamily assessment growth
+Nashville,Metro,multifamily_tax_per_unit,2973,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Nashville,Metro,office_assessed_value_psf,235,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Nashville,Metro,office_assessment_yoy_growth,8.8,%,Assessor Data,Year-over-year office assessment growth
+Nashville,Metro,office_tax_per_sf,3.41,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Nashville,Metro,ontime_payment_rate,94,%,County Treasurer,Commercial property on-time payment rate
+Nashville,Metro,properties_assessment_spike_15pct,28.2,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Nashville,Metro,properties_overassessed_110pct,14.8,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Nashville,Metro,properties_receiving_abatements,11.2,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Nashville,Metro,property_tax_as_pct_noi,16.5,%,Industry Analysis,Property tax as percentage of net operating income
+Nashville,Metro,retail_assessed_value_psf,205,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Nashville,Metro,retail_assessment_yoy_growth,15.5,%,Assessor Data,Year-over-year retail assessment growth
+Nashville,Metro,retail_tax_per_sf,2.97,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Nashville,Metro,sales_comparison_usage,60,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Nashville,Metro,tax_burden_rank,11,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Nashville,Metro,tax_lien_interest_rate,10.0,%_annual,County Treasurer,Interest rate on tax liens
+Nashville,Metro,tax_lien_properties_sold,95,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Nashville,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Nashville,Metro,tax_rate_5yr_change,35.8,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Nashville,Metro,tif_district_count,6,number,Economic Development Office,Number of active Tax Increment Financing districts
+Nashville,Metro,total_abatement_value,65,$MM,Economic Development,Total annual value of tax abatements granted
+Nashville,Metro,typical_abatement_value,50,%,Economic Development,Typical percentage reduction for major abatement programs
+Nashville,Metro,typical_bid_assessment,0.3,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+New York,Metro,abatement_duration,15,years,Economic Development,Typical duration of tax abatement in years
+New York,Metro,abatement_programs_count,8,number,Economic Development,Number of active tax abatement/exemption programs
+New York,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+New York,Metro,appeal_filing_rate,32,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+New York,Metro,appeal_resolution_time,14,months,Appeal Board Data,Median time from filing to resolution
+New York,Metro,appeal_success_rate,52,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+New York,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+New York,Metro,assessment_lag,9,months,Assessor Data,Lag between sale and reflected assessment
+New York,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+New York,Metro,assessment_to_sales_ratio,102,%,Assessor Data,Average assessment as % of actual sale price
+New York,Metro,average_appeal_cost,4500,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+New York,Metro,avg_appeal_reduction,15.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+New York,Metro,avg_days_delinquent,185,days,County Treasurer,Average days delinquent for late payments
+New York,Metro,bid_district_count,76,number,Economic Development,Number of Business Improvement Districts
+New York,Metro,coefficient_of_dispersion,18.5,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+New York,Metro,delinquency_rate,9.5,%,County Treasurer,Commercial property delinquency rate (90+ days)
+New York,Metro,effective_property_tax_rate,4.1,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+New York,Metro,historic_property_exemption,35,%,Historic Preservation Office,Typical percentage reduction for historic properties
+New York,Metro,hotel_assessed_value_per_key,285000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+New York,Metro,income_approach_usage,65,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+New York,Metro,industrial_assessed_value_psf,285,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+New York,Metro,industrial_assessment_yoy_growth,5.5,%,Assessor Data,Year-over-year industrial assessment growth
+New York,Metro,industrial_tax_per_sf,11.69,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+New York,Metro,late_payment_penalty_rate,18.0,%_annual,County Code,Annual penalty rate for late payment
+New York,Metro,millage_rate,41.0,mills,County Assessor,"Millage rate per $1,000 assessed value"
+New York,Metro,multifamily_assessed_value_per_unit,385000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+New York,Metro,multifamily_assessed_value_psf,425,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+New York,Metro,multifamily_assessment_yoy_growth,2.5,%,Assessor Data,Year-over-year multifamily assessment growth
+New York,Metro,multifamily_tax_per_unit,15785,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+New York,Metro,office_assessed_value_psf,625,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+New York,Metro,office_assessment_yoy_growth,-8.5,%,Assessor Data,Year-over-year office assessment growth
+New York,Metro,office_tax_per_sf,25.63,$/SF,Calculated from assessed values,Annual property tax per office square foot
+New York,Metro,ontime_payment_rate,89,%,County Treasurer,Commercial property on-time payment rate
+New York,Metro,properties_assessment_spike_15pct,8.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+New York,Metro,properties_overassessed_110pct,18.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+New York,Metro,properties_receiving_abatements,12.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+New York,Metro,property_tax_as_pct_noi,28.5,%,Industry Analysis,Property tax as percentage of net operating income
+New York,Metro,retail_assessed_value_psf,485,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+New York,Metro,retail_assessment_yoy_growth,3.2,%,Assessor Data,Year-over-year retail assessment growth
+New York,Metro,retail_tax_per_sf,19.89,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+New York,Metro,sales_comparison_usage,35,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+New York,Metro,tax_burden_rank,2,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+New York,Metro,tax_lien_interest_rate,18.0,%_annual,County Treasurer,Interest rate on tax liens
+New York,Metro,tax_lien_properties_sold,485,number,County Treasurer,Annual count of commercial properties at tax lien sale
+New York,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+New York,Metro,tax_rate_5yr_change,8.5,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+New York,Metro,tif_district_count,15,number,Economic Development Office,Number of active Tax Increment Financing districts
+New York,Metro,total_abatement_value,285,$MM,Economic Development,Total annual value of tax abatements granted
+New York,Metro,typical_abatement_value,65,%,Economic Development,Typical percentage reduction for major abatement programs
+New York,Metro,typical_bid_assessment,0.85,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Phoenix,Metro,abatement_duration,8,years,Economic Development,Typical duration of tax abatement in years
+Phoenix,Metro,abatement_programs_count,4,number,Economic Development,Number of active tax abatement/exemption programs
+Phoenix,Metro,affordable_housing_exemption,75,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Phoenix,Metro,appeal_filing_rate,22,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Phoenix,Metro,appeal_resolution_time,7,months,Appeal Board Data,Median time from filing to resolution
+Phoenix,Metro,appeal_success_rate,42,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Phoenix,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Phoenix,Metro,assessment_lag,6,months,Assessor Data,Lag between sale and reflected assessment
+Phoenix,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Phoenix,Metro,assessment_to_sales_ratio,101,%,Assessor Data,Average assessment as % of actual sale price
+Phoenix,Metro,average_appeal_cost,2200,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Phoenix,Metro,avg_appeal_reduction,11.8,%,Appeal Board Data,Average assessment reduction on successful appeal
+Phoenix,Metro,avg_days_delinquent,118,days,County Treasurer,Average days delinquent for late payments
+Phoenix,Metro,bid_district_count,8,number,Economic Development,Number of Business Improvement Districts
+Phoenix,Metro,coefficient_of_dispersion,14.8,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Phoenix,Metro,delinquency_rate,2.8,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Phoenix,Metro,effective_property_tax_rate,1.05,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Phoenix,Metro,historic_property_exemption,30,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Phoenix,Metro,hotel_assessed_value_per_key,125000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Phoenix,Metro,income_approach_usage,42,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Phoenix,Metro,industrial_assessed_value_psf,125,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Phoenix,Metro,industrial_assessment_yoy_growth,32.5,%,Assessor Data,Year-over-year industrial assessment growth
+Phoenix,Metro,industrial_tax_per_sf,1.31,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Phoenix,Metro,late_payment_penalty_rate,16.0,%_annual,County Code,Annual penalty rate for late payment
+Phoenix,Metro,millage_rate,10.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Phoenix,Metro,multifamily_assessed_value_per_unit,185000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Phoenix,Metro,multifamily_assessed_value_psf,195,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Phoenix,Metro,multifamily_assessment_yoy_growth,28.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Phoenix,Metro,multifamily_tax_per_unit,1943,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Phoenix,Metro,office_assessed_value_psf,215,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Phoenix,Metro,office_assessment_yoy_growth,12.5,%,Assessor Data,Year-over-year office assessment growth
+Phoenix,Metro,office_tax_per_sf,2.26,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Phoenix,Metro,ontime_payment_rate,97,%,County Treasurer,Commercial property on-time payment rate
+Phoenix,Metro,properties_assessment_spike_15pct,42.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Phoenix,Metro,properties_overassessed_110pct,11.2,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Phoenix,Metro,properties_receiving_abatements,10.8,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Phoenix,Metro,property_tax_as_pct_noi,11.8,%,Industry Analysis,Property tax as percentage of net operating income
+Phoenix,Metro,retail_assessed_value_psf,185,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Phoenix,Metro,retail_assessment_yoy_growth,22.5,%,Assessor Data,Year-over-year retail assessment growth
+Phoenix,Metro,retail_tax_per_sf,1.94,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Phoenix,Metro,sales_comparison_usage,58,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Phoenix,Metro,tax_burden_rank,15,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Phoenix,Metro,tax_lien_interest_rate,16.0,%_annual,County Treasurer,Interest rate on tax liens
+Phoenix,Metro,tax_lien_properties_sold,165,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Phoenix,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Phoenix,Metro,tax_rate_5yr_change,65.2,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Phoenix,Metro,tif_district_count,12,number,Economic Development Office,Number of active Tax Increment Financing districts
+Phoenix,Metro,total_abatement_value,95,$MM,Economic Development,Total annual value of tax abatements granted
+Phoenix,Metro,typical_abatement_value,55,%,Economic Development,Typical percentage reduction for major abatement programs
+Phoenix,Metro,typical_bid_assessment,0.28,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+San Francisco,Metro,abatement_duration,12,years,Economic Development,Typical duration of tax abatement in years
+San Francisco,Metro,abatement_programs_count,5,number,Economic Development,Number of active tax abatement/exemption programs
+San Francisco,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+San Francisco,Metro,appeal_filing_rate,22,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+San Francisco,Metro,appeal_resolution_time,10,months,Appeal Board Data,Median time from filing to resolution
+San Francisco,Metro,appeal_success_rate,35,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+San Francisco,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+San Francisco,Metro,assessment_lag,6,months,Assessor Data,Lag between sale and reflected assessment
+San Francisco,Metro,assessment_to_market_ratio,Prop 13,text,County Assessor,California Prop 13: Assessment at acquisition price + max 2% annual
+San Francisco,Metro,assessment_to_sales_ratio,Prop13,text,Assessor Data,"CA Prop 13: Assessed at acquisition, not market value"
+San Francisco,Metro,average_appeal_cost,4200,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+San Francisco,Metro,avg_appeal_reduction,10.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+San Francisco,Metro,avg_days_delinquent,148,days,County Treasurer,Average days delinquent for late payments
+San Francisco,Metro,bid_district_count,17,number,Economic Development,Number of Business Improvement Districts
+San Francisco,Metro,coefficient_of_dispersion,16.8,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+San Francisco,Metro,delinquency_rate,6.8,%,County Treasurer,Commercial property delinquency rate (90+ days)
+San Francisco,Metro,effective_property_tax_rate,1.25,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+San Francisco,Metro,historic_property_exemption,45,%,Historic Preservation Office,Typical percentage reduction for historic properties
+San Francisco,Metro,hotel_assessed_value_per_key,325000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+San Francisco,Metro,income_approach_usage,60,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+San Francisco,Metro,industrial_assessed_value_psf,385,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+San Francisco,Metro,industrial_assessment_yoy_growth,4.2,%,Assessor Data,Year-over-year industrial assessment growth
+San Francisco,Metro,industrial_tax_per_sf,4.81,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+San Francisco,Metro,late_payment_penalty_rate,10.0,%_annual,County Code,Annual penalty rate for late payment
+San Francisco,Metro,millage_rate,12.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+San Francisco,Metro,multifamily_assessed_value_per_unit,525000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+San Francisco,Metro,multifamily_assessed_value_psf,520,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+San Francisco,Metro,multifamily_assessment_yoy_growth,-2.5,%,Assessor Data,Year-over-year multifamily assessment growth
+San Francisco,Metro,multifamily_tax_per_unit,6563,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+San Francisco,Metro,office_assessed_value_psf,685,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+San Francisco,Metro,office_assessment_yoy_growth,-18.5,%,Assessor Data,Year-over-year office assessment growth
+San Francisco,Metro,office_tax_per_sf,8.56,$/SF,Calculated from assessed values,Annual property tax per office square foot
+San Francisco,Metro,ontime_payment_rate,92,%,County Treasurer,Commercial property on-time payment rate
+San Francisco,Metro,properties_assessment_spike_15pct,6.8,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+San Francisco,Metro,properties_overassessed_110pct,12.2,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+San Francisco,Metro,properties_receiving_abatements,8.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+San Francisco,Metro,property_tax_as_pct_noi,15.8,%,Industry Analysis,Property tax as percentage of net operating income
+San Francisco,Metro,retail_assessed_value_psf,545,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+San Francisco,Metro,retail_assessment_yoy_growth,2.8,%,Assessor Data,Year-over-year retail assessment growth
+San Francisco,Metro,retail_tax_per_sf,6.81,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+San Francisco,Metro,sales_comparison_usage,40,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+San Francisco,Metro,tax_burden_rank,12,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+San Francisco,Metro,tax_lien_interest_rate,N/A,text,County Treasurer,No tax lien sales in this jurisdiction
+San Francisco,Metro,tax_lien_properties_sold,0,number,County Treasurer,Annual count of commercial properties at tax lien sale
+San Francisco,Metro,tax_lien_sale_frequency,None,text,County Treasurer,Frequency of tax lien sales
+San Francisco,Metro,tax_rate_5yr_change,12.5,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+San Francisco,Metro,tif_district_count,6,number,Economic Development Office,Number of active Tax Increment Financing districts
+San Francisco,Metro,total_abatement_value,95,$MM,Economic Development,Total annual value of tax abatements granted
+San Francisco,Metro,typical_abatement_value,50,%,Economic Development,Typical percentage reduction for major abatement programs
+San Francisco,Metro,typical_bid_assessment,0.65,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Seattle,Metro,abatement_duration,8,years,Economic Development,Typical duration of tax abatement in years
+Seattle,Metro,abatement_programs_count,4,number,Economic Development,Number of active tax abatement/exemption programs
+Seattle,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Seattle,Metro,appeal_filing_rate,20,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Seattle,Metro,appeal_resolution_time,9,months,Appeal Board Data,Median time from filing to resolution
+Seattle,Metro,appeal_success_rate,44,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Seattle,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Seattle,Metro,assessment_lag,7,months,Assessor Data,Lag between sale and reflected assessment
+Seattle,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Seattle,Metro,assessment_to_sales_ratio,99,%,Assessor Data,Average assessment as % of actual sale price
+Seattle,Metro,average_appeal_cost,3200,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Seattle,Metro,avg_appeal_reduction,12.2,%,Appeal Board Data,Average assessment reduction on successful appeal
+Seattle,Metro,avg_days_delinquent,125,days,County Treasurer,Average days delinquent for late payments
+Seattle,Metro,bid_district_count,12,number,Economic Development,Number of Business Improvement Districts
+Seattle,Metro,coefficient_of_dispersion,13.2,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Seattle,Metro,delinquency_rate,3.2,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Seattle,Metro,effective_property_tax_rate,1.45,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Seattle,Metro,historic_property_exemption,40,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Seattle,Metro,hotel_assessed_value_per_key,215000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Seattle,Metro,income_approach_usage,55,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Seattle,Metro,industrial_assessed_value_psf,245,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Seattle,Metro,industrial_assessment_yoy_growth,10.5,%,Assessor Data,Year-over-year industrial assessment growth
+Seattle,Metro,industrial_tax_per_sf,3.55,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Seattle,Metro,late_payment_penalty_rate,12.0,%_annual,County Code,Annual penalty rate for late payment
+Seattle,Metro,millage_rate,14.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Seattle,Metro,multifamily_assessed_value_per_unit,385000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Seattle,Metro,multifamily_assessed_value_psf,385,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Seattle,Metro,multifamily_assessment_yoy_growth,8.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Seattle,Metro,multifamily_tax_per_unit,5583,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Seattle,Metro,office_assessed_value_psf,425,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Seattle,Metro,office_assessment_yoy_growth,-5.2,%,Assessor Data,Year-over-year office assessment growth
+Seattle,Metro,office_tax_per_sf,6.16,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Seattle,Metro,ontime_payment_rate,96,%,County Treasurer,Commercial property on-time payment rate
+Seattle,Metro,properties_assessment_spike_15pct,15.8,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Seattle,Metro,properties_overassessed_110pct,10.5,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Seattle,Metro,properties_receiving_abatements,7.2,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Seattle,Metro,property_tax_as_pct_noi,16.2,%,Industry Analysis,Property tax as percentage of net operating income
+Seattle,Metro,retail_assessed_value_psf,365,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Seattle,Metro,retail_assessment_yoy_growth,7.2,%,Assessor Data,Year-over-year retail assessment growth
+Seattle,Metro,retail_tax_per_sf,5.29,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Seattle,Metro,sales_comparison_usage,45,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Seattle,Metro,tax_burden_rank,9,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Seattle,Metro,tax_lien_interest_rate,12.0,%_annual,County Treasurer,Interest rate on tax liens
+Seattle,Metro,tax_lien_properties_sold,45,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Seattle,Metro,tax_lien_sale_frequency,Annual,text,County Treasurer,Frequency of tax lien sales
+Seattle,Metro,tax_rate_5yr_change,28.5,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Seattle,Metro,tif_district_count,8,number,Economic Development Office,Number of active Tax Increment Financing districts
+Seattle,Metro,total_abatement_value,65,$MM,Economic Development,Total annual value of tax abatements granted
+Seattle,Metro,typical_abatement_value,45,%,Economic Development,Typical percentage reduction for major abatement programs
+Seattle,Metro,typical_bid_assessment,0.48,$/SF,BID Reports,Typical Business Improvement District assessment per SF
+Washington DC,Metro,abatement_duration,10,years,Economic Development,Typical duration of tax abatement in years
+Washington DC,Metro,abatement_programs_count,5,number,Economic Development,Number of active tax abatement/exemption programs
+Washington DC,Metro,affordable_housing_exemption,100,%,Housing Authority,Typical exemption percentage for qualifying affordable housing
+Washington DC,Metro,appeal_filing_rate,25,%,Assessor/Appeal Board Data,Percentage of commercial assessments appealed
+Washington DC,Metro,appeal_resolution_time,11,months,Appeal Board Data,Median time from filing to resolution
+Washington DC,Metro,appeal_success_rate,42,%,Appeal Board Data,Percentage of appeals resulting in assessment reduction
+Washington DC,Metro,assessment_frequency,Annual,text,County Assessor,Reassessment cycle frequency
+Washington DC,Metro,assessment_lag,9,months,Assessor Data,Lag between sale and reflected assessment
+Washington DC,Metro,assessment_to_market_ratio,100,%,County Assessor,Target assessment as % of market value
+Washington DC,Metro,assessment_to_sales_ratio,101,%,Assessor Data,Average assessment as % of actual sale price
+Washington DC,Metro,average_appeal_cost,3800,$,Tax Consultant Surveys,Average cost to file and pursue property tax appeal
+Washington DC,Metro,avg_appeal_reduction,13.5,%,Appeal Board Data,Average assessment reduction on successful appeal
+Washington DC,Metro,avg_days_delinquent,145,days,County Treasurer,Average days delinquent for late payments
+Washington DC,Metro,bid_district_count,8,number,Economic Development,Number of Business Improvement Districts
+Washington DC,Metro,coefficient_of_dispersion,14.5,ratio,IAAO Standards,"Coefficient of dispersion (lower = more uniform, target <15)"
+Washington DC,Metro,delinquency_rate,5.8,%,County Treasurer,Commercial property delinquency rate (90+ days)
+Washington DC,Metro,effective_property_tax_rate,2.05,%,Altus Group/Lincoln Institute,Effective commercial property tax rate
+Washington DC,Metro,historic_property_exemption,50,%,Historic Preservation Office,Typical percentage reduction for historic properties
+Washington DC,Metro,hotel_assessed_value_per_key,195000,$/key,CoStar/Assessor Data,Average hotel assessed value per room
+Washington DC,Metro,income_approach_usage,68,%,IAAO/Assessor Reports,Percentage of commercial assessments using income approach
+Washington DC,Metro,industrial_assessed_value_psf,225,$/SF,CoStar/Assessor Data,Average industrial assessed value per square foot
+Washington DC,Metro,industrial_assessment_yoy_growth,8.5,%,Assessor Data,Year-over-year industrial assessment growth
+Washington DC,Metro,industrial_tax_per_sf,4.61,$/SF,Calculated from assessed values,Annual property tax per industrial square foot
+Washington DC,Metro,late_payment_penalty_rate,10.0,%_annual,County Code,Annual penalty rate for late payment
+Washington DC,Metro,millage_rate,20.5,mills,County Assessor,"Millage rate per $1,000 assessed value"
+Washington DC,Metro,multifamily_assessed_value_per_unit,345000,$/unit,CoStar/Assessor Data,Average multifamily assessed value per unit
+Washington DC,Metro,multifamily_assessed_value_psf,365,$/SF,CoStar/Assessor Data,Average multifamily assessed value per square foot
+Washington DC,Metro,multifamily_assessment_yoy_growth,6.5,%,Assessor Data,Year-over-year multifamily assessment growth
+Washington DC,Metro,multifamily_tax_per_unit,7073,$/unit,Calculated from assessed values,Annual property tax per multifamily unit
+Washington DC,Metro,office_assessed_value_psf,445,$/SF,CoStar/Assessor Data,Average office assessed value per square foot
+Washington DC,Metro,office_assessment_yoy_growth,-4.5,%,Assessor Data,Year-over-year office assessment growth
+Washington DC,Metro,office_tax_per_sf,9.12,$/SF,Calculated from assessed values,Annual property tax per office square foot
+Washington DC,Metro,ontime_payment_rate,93,%,County Treasurer,Commercial property on-time payment rate
+Washington DC,Metro,properties_assessment_spike_15pct,11.5,%,Analysis Estimate,Est. % of properties with YoY assessment increase >15%
+Washington DC,Metro,properties_overassessed_110pct,12.8,%,Analysis Estimate,Est. % of properties assessed >110% of recent sale price
+Washington DC,Metro,properties_receiving_abatements,9.5,%,Assessor/Economic Development,Percentage of commercial properties receiving abatements
+Washington DC,Metro,property_tax_as_pct_noi,18.5,%,Industry Analysis,Property tax as percentage of net operating income
+Washington DC,Metro,retail_assessed_value_psf,385,$/SF,CoStar/Assessor Data,Average retail assessed value per square foot
+Washington DC,Metro,retail_assessment_yoy_growth,5.5,%,Assessor Data,Year-over-year retail assessment growth
+Washington DC,Metro,retail_tax_per_sf,7.89,$/SF,Calculated from assessed values,Annual property tax per retail square foot
+Washington DC,Metro,sales_comparison_usage,32,%,IAAO/Assessor Reports,Percentage using sales comparison approach
+Washington DC,Metro,tax_burden_rank,6,rank,Comparative Analysis,Tax burden ranking (1=highest burden)
+Washington DC,Metro,tax_lien_interest_rate,12.0,%_annual,County Treasurer,Interest rate on tax liens
+Washington DC,Metro,tax_lien_properties_sold,35,number,County Treasurer,Annual count of commercial properties at tax lien sale
+Washington DC,Metro,tax_lien_sale_frequency,Biennial,text,County Treasurer,Frequency of tax lien sales
+Washington DC,Metro,tax_rate_5yr_change,15.3,%,Lincoln Institute/Local Data,5-year change in effective tax rate
+Washington DC,Metro,tif_district_count,4,number,Economic Development Office,Number of active Tax Increment Financing districts
+Washington DC,Metro,total_abatement_value,75,$MM,Economic Development,Total annual value of tax abatements granted
+Washington DC,Metro,typical_abatement_value,50,%,Economic Development,Typical percentage reduction for major abatement programs
+Washington DC,Metro,typical_bid_assessment,0.58,$/SF,BID Reports,Typical Business Improvement District assessment per SF

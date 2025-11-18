@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comps Database</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 2rem 1.5rem;
+            background: linear-gradient(145deg, rgba(15, 118, 110, 0.85), rgba(15, 23, 42, 0.95));
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .back-link {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            color: #cbd5f5;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(120deg, #14b8a6, #0d9488);
+            color: #0f172a;
+        }
+
+        .btn-primary:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .filters {
+            background: rgba(15, 23, 42, 0.75);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-group label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        .filter-group select {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            background: rgba(15, 23, 42, 0.6);
+            color: #f8fafc;
+            font-family: inherit;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(15, 23, 42, 0.75);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: rgba(15, 23, 42, 0.9);
+        }
+
+        th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: #cbd5f5;
+            border-bottom: 2px solid rgba(148, 163, 184, 0.2);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        tbody tr:hover {
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        .verified-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .verified-yes {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+            border: 1px solid rgba(34, 197, 94, 0.4);
+        }
+
+        .verified-no {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+        }
+
+        .confidence-indicator {
+            display: flex;
+            gap: 0.25rem;
+        }
+
+        .confidence-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(148, 163, 184, 0.3);
+        }
+
+        .confidence-dot.filled {
+            background: #14b8a6;
+        }
+
+        .action-btn {
+            background: none;
+            border: none;
+            color: #3b82f6;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.9rem;
+            text-decoration: underline;
+        }
+
+        .action-btn:hover {
+            color: #60a5fa;
+        }
+
+        .action-btn.delete {
+            color: #ef4444;
+        }
+
+        .action-btn.delete:hover {
+            color: #f87171;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .close-btn:hover {
+            color: #f8fafc;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            color: #cbd5f5;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            background: rgba(15, 23, 42, 0.6);
+            color: #f8fafc;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+        }
+
+        .btn-secondary {
+            background: rgba(148, 163, 184, 0.2);
+            color: #f8fafc;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(148, 163, 184, 0.3);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .empty-state h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #cbd5f5;
+            margin: 1.5rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/api/v1/crm" class="back-link">← Back to CRM Home</a>
+
+        <header>
+            <h1>Comps Database</h1>
+            <button class="btn btn-primary" onclick="openAddModal()">+ Add Comp</button>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>Property Type</label>
+                <select id="propertyTypeFilter" onchange="filterComps()">
+                    <option value="">All Types</option>
+                    {% for type in property_types %}
+                    <option value="{{ type }}" {% if current_property_type == type %}selected{% endif %}>{{ type }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Market</label>
+                <select id="marketFilter" onchange="filterComps()">
+                    <option value="">All Markets</option>
+                    {% for market in markets %}
+                    <option value="{{ market }}" {% if current_market == market %}selected{% endif %}>{{ market }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        {% if comps %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Type</th>
+                    <th>Market</th>
+                    <th>Sale Date</th>
+                    <th>Sale Price</th>
+                    <th>Price/Unit</th>
+                    <th>Price/SF</th>
+                    <th>Cap Rate</th>
+                    <th>Verified</th>
+                    <th>Confidence</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for comp in comps %}
+                <tr>
+                    <td>
+                        <strong>{{ comp.property_name }}</strong>
+                        {% if comp.property_address %}
+                        <br><small style="color: #94a3b8;">{{ comp.property_address }}</small>
+                        {% endif %}
+                        {% if comp.units %}
+                        <br><small style="color: #94a3b8;">{{ comp.units }} units</small>
+                        {% endif %}
+                    </td>
+                    <td>{{ comp.property_type }}</td>
+                    <td>{{ comp.market or '-' }}</td>
+                    <td>{{ comp.sale_date.strftime('%Y-%m-%d') if comp.sale_date else '-' }}</td>
+                    <td>{{ '${:,.0f}'.format(comp.sale_price) if comp.sale_price else '-' }}</td>
+                    <td>{{ '${:,.0f}'.format(comp.price_per_unit) if comp.price_per_unit else '-' }}</td>
+                    <td>{{ '${:,.0f}'.format(comp.price_per_sf) if comp.price_per_sf else '-' }}</td>
+                    <td>{{ '{:.2f}%'.format(comp.cap_rate) if comp.cap_rate else '-' }}</td>
+                    <td>
+                        <span class="verified-badge verified-{{ 'yes' if comp.verified else 'no' }}">
+                            {{ 'Verified' if comp.verified else 'Unverified' }}
+                        </span>
+                    </td>
+                    <td>
+                        <div class="confidence-indicator">
+                            {% for i in range(1, 6) %}
+                            <div class="confidence-dot {% if i <= (comp.confidence or 3) %}filled{% endif %}"></div>
+                            {% endfor %}
+                        </div>
+                    </td>
+                    <td>
+                        <button class="action-btn" onclick="editComp('{{ comp.id }}')">Edit</button>
+                        <button class="action-btn delete" onclick="deleteComp('{{ comp.id }}', '{{ comp.property_name }}')">Delete</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="empty-state">
+            <h3>No comps found</h3>
+            <p>Start building your comps library by clicking the "Add Comp" button above.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Add/Edit Comp Modal -->
+    <div class="modal" id="compModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add Comp</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="compForm" onsubmit="saveComp(event)">
+                <input type="hidden" id="compId">
+
+                <div class="section-title">Property Information</div>
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label>Property Name *</label>
+                        <input type="text" id="property_name" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Property Address</label>
+                        <input type="text" id="property_address">
+                    </div>
+                    <div class="form-group">
+                        <label>Property Type *</label>
+                        <select id="property_type" required>
+                            <option value="">Select Type</option>
+                            <option value="Multifamily">Multifamily</option>
+                            <option value="Office">Office</option>
+                            <option value="Retail">Retail</option>
+                            <option value="Industrial">Industrial</option>
+                            <option value="Hotel">Hotel</option>
+                            <option value="Land">Land</option>
+                            <option value="Mixed-Use">Mixed-Use</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Market</label>
+                        <input type="text" id="market">
+                    </div>
+                    <div class="form-group">
+                        <label>Submarket</label>
+                        <input type="text" id="submarket">
+                    </div>
+                    <div class="form-group">
+                        <label>Year Built</label>
+                        <input type="number" id="year_built" min="1800" max="2100">
+                    </div>
+                    <div class="form-group">
+                        <label>Year Renovated</label>
+                        <input type="number" id="year_renovated" min="1800" max="2100">
+                    </div>
+                    <div class="form-group">
+                        <label>Units</label>
+                        <input type="number" id="units">
+                    </div>
+                    <div class="form-group">
+                        <label>Square Feet</label>
+                        <input type="number" id="square_feet">
+                    </div>
+                </div>
+
+                <div class="section-title">Transaction Details</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Sale Date</label>
+                        <input type="date" id="sale_date">
+                    </div>
+                    <div class="form-group">
+                        <label>Sale Price ($)</label>
+                        <input type="number" id="sale_price" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Price per Unit ($)</label>
+                        <input type="number" id="price_per_unit" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Price per SF ($)</label>
+                        <input type="number" id="price_per_sf" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Buyer</label>
+                        <input type="text" id="buyer">
+                    </div>
+                    <div class="form-group">
+                        <label>Seller</label>
+                        <input type="text" id="seller">
+                    </div>
+                    <div class="form-group">
+                        <label>Broker</label>
+                        <select id="broker_id">
+                            <option value="">None</option>
+                            {% for broker in brokers %}
+                            <option value="{{ broker.id }}">{{ broker.full_name }} - {{ broker.company or 'N/A' }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="section-title">Financial Metrics</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>NOI ($)</label>
+                        <input type="number" id="noi" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Cap Rate (%)</label>
+                        <input type="number" id="cap_rate" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Occupancy (%)</label>
+                        <input type="number" id="occupancy" step="0.01" min="0" max="100">
+                    </div>
+                </div>
+
+                <div class="section-title">Data Quality</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Data Source</label>
+                        <input type="text" id="data_source" placeholder="e.g., CoStar, Broker, Public Records">
+                    </div>
+                    <div class="form-group">
+                        <label>Confidence (1-5)</label>
+                        <input type="number" id="confidence" min="1" max="5" value="3">
+                    </div>
+                    <div class="form-group">
+                        <label>Verified</label>
+                        <select id="verified">
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Verified Date</label>
+                        <input type="date" id="verified_date">
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Notes</label>
+                        <textarea id="notes"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openAddModal() {
+            document.getElementById('modalTitle').textContent = 'Add Comp';
+            document.getElementById('compForm').reset();
+            document.getElementById('compId').value = '';
+            document.getElementById('compModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('compModal').classList.remove('active');
+        }
+
+        async function editComp(compId) {
+            const response = await fetch(`/api/v1/crm/api/comps/${compId}`);
+            const comp = await response.json();
+
+            document.getElementById('modalTitle').textContent = 'Edit Comp';
+            document.getElementById('compId').value = comp.id;
+
+            // Populate form fields
+            const fields = ['property_name', 'property_address', 'property_type', 'market', 'submarket',
+                          'year_built', 'year_renovated', 'units', 'square_feet', 'sale_date', 'sale_price',
+                          'price_per_unit', 'price_per_sf', 'buyer', 'seller', 'broker_id', 'noi',
+                          'cap_rate', 'occupancy', 'data_source', 'confidence', 'verified', 'verified_date', 'notes'];
+
+            fields.forEach(field => {
+                const element = document.getElementById(field);
+                if (element && comp[field] !== null && comp[field] !== undefined) {
+                    element.value = comp[field];
+                }
+            });
+
+            document.getElementById('compModal').classList.add('active');
+        }
+
+        async function saveComp(event) {
+            event.preventDefault();
+
+            const compId = document.getElementById('compId').value;
+            const formData = {};
+
+            // Collect form data
+            const fields = ['property_name', 'property_address', 'property_type', 'market', 'submarket',
+                          'year_built', 'year_renovated', 'units', 'square_feet', 'sale_date', 'sale_price',
+                          'price_per_unit', 'price_per_sf', 'buyer', 'seller', 'broker_id', 'noi',
+                          'cap_rate', 'occupancy', 'data_source', 'confidence', 'verified', 'verified_date', 'notes'];
+
+            fields.forEach(field => {
+                const value = document.getElementById(field).value;
+                if (value !== '') {
+                    formData[field] = value;
+                }
+            });
+
+            const url = compId ? `/api/v1/crm/api/comps/${compId}` : '/api/v1/crm/api/comps';
+            const method = compId ? 'PUT' : 'POST';
+
+            const response = await fetch(url, {
+                method: method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error saving comp');
+            }
+        }
+
+        async function deleteComp(compId, propertyName) {
+            if (!confirm(`Are you sure you want to delete comp "${propertyName}"?`)) return;
+
+            const response = await fetch(`/api/v1/crm/api/comps/${compId}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error deleting comp');
+            }
+        }
+
+        function filterComps() {
+            const propertyType = document.getElementById('propertyTypeFilter').value;
+            const market = document.getElementById('marketFilter').value;
+
+            const params = new URLSearchParams();
+            if (propertyType) params.append('property_type', propertyType);
+            if (market) params.append('market', market);
+
+            window.location.href = '/api/v1/crm/comps' + (params.toString() ? '?' + params.toString() : '');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+period,metric_category,metric_name,value,unit,data_source,notes
+2020-03,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,0.0,%,Federal Reserve,Emergency cut to zero
+2020-03,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,0.25,%,Federal Reserve,Emergency cut to zero
+2020-03,Balance Sheet,Total Fed Assets Pre-Pandemic,4.2,$T,Federal Reserve,Pre-COVID
+2020-06,Balance Sheet,Total Fed Assets,7.17,$T,Federal Reserve,Rapid QE expansion
+2020-12,Interest Rate Policy,Federal Funds Effective Rate,0.09,%,FRED,Dec 2020
+2021-12,Balance Sheet,Total Fed Assets,8.76,$T,Federal Reserve,Peak QE
+2021-12,Interest Rate Policy,Federal Funds Effective Rate,0.08,%,FRED,Dec 2021
+2022-06,Interest Rate Policy,Federal Funds Effective Rate,1.58,%,FRED,Jun 2022
+2022-06,Balance Sheet,Total Fed Assets Peak,8.97,$T,Federal Reserve,Peak before QT began
+2022-12,Interest Rate Policy,Federal Funds Effective Rate,4.33,%,FRED,Dec 2022
+2023-03,Liquidity Conditions,Overnight Reverse Repo Usage Peak,2400,$B,Federal Reserve,Peak usage
+2023-06,Interest Rate Policy,Federal Funds Effective Rate,5.08,%,FRED,Jun 2023
+2023-07,Forward Guidance,FOMC Statement Sentiment,Hawkish,Rating,Analysis,Terminal rate messaging
+2023-07,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,5.25,%,Federal Reserve,Peak of hiking cycle
+2023-07,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,5.5,%,Federal Reserve,Peak of hiking cycle
+2023-09,Forward Guidance,Dot Plot Median - 2025,3.9,%,FOMC Summary of Economic Projections,Sept 2023 SEP
+2023-09,Forward Guidance,Dot Plot Median - 2024,5.1,%,FOMC Summary of Economic Projections,Sept 2023 SEP
+2023-09,Forward Guidance,Long-Run Neutral Rate (r-star),2.5,%,FOMC Summary of Economic Projections,Sept 2023 SEP
+2023-12,Interest Rate Policy,Federal Funds Effective Rate,5.33,%,FRED,Dec 2023
+2023-12,Balance Sheet,Treasury QT Pace,60,$B/month,Federal Reserve,Full QT pace
+2023-12,Liquidity Conditions,Overnight Reverse Repo Usage,850,$B,Federal Reserve,Declining from peak
+2023-12,Balance Sheet,Total Fed Assets,7.7,$T,Federal Reserve,QT at full pace
+2024-01-01,Financial Conditions,Chicago Fed NFCI,-0.51,Index,Chicago Fed,
+2024-06,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,4.25,%,Federal Reserve,Hold
+2024-06,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,4.5,%,Federal Reserve,Hold
+2024-06,Balance Sheet,Treasury QT Pace,25,$B/month,Federal Reserve,Slowed from $60B
+2024-06,Balance Sheet,MBS QT Pace,35,$B/month,Federal Reserve,
+2024-06-01,Financial Conditions,Chicago Fed NFCI,-0.48,Index,Chicago Fed,
+2024-07,Interest Rate Policy,Federal Funds Effective Rate,4.33,%,FRED,Jul 2024
+2024-08,Interest Rate Policy,Federal Funds Effective Rate,4.33,%,FRED,Aug 2024
+2024-09,Interest Rate Policy,Federal Funds Effective Rate,4.33,%,FRED,Sep 2024
+2024-11-07,Financial Conditions,Chicago Fed NFCI,-0.5562,Index,Chicago Fed,Year-ago comparison
+2024-12,Liquidity Conditions,Bank Reserves at Fed,3.5,$T,Federal Reserve,
+2024-12,Balance Sheet,Total Fed Assets,7.1,$T,Federal Reserve,
+2024-12,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,4.5,%,Federal Reserve,Hold
+2024-12,Forward Guidance,FOMC Statement Sentiment,Neutral,Rating,Analysis,"Patient approach, data-dependent"
+2024-12,Liquidity Conditions,Overnight Reverse Repo Usage,450,$B,Federal Reserve,
+2024-12,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,4.25,%,Federal Reserve,Hold
+2025-01-01,Financial Conditions,Chicago Fed NFCI,-0.4893,Index,Chicago Fed,
+2025-02-01,Inflation Expectations,5-Year Breakeven Inflation Rate,2.66,%,Federal Reserve H.15,Peak on tariff concerns
+2025-04,Credit Conditions,SLOOS - CRE Demand,Weaker for CLD,Direction,Federal Reserve SLOOS,April 2025 survey
+2025-04,Credit Conditions,SLOOS - CRE Office Standards,Tightened All Policies,Direction,Federal Reserve SLOOS,"Higher DSCR, lower LTV"
+2025-04,Credit Conditions,SLOOS - CRE Lending Standards,Tighter,Direction,Federal Reserve SLOOS,April 2025 survey
+2025-04,Inflation Expectations,U Michigan 5-Year Inflation Expectation Peak,3.9,%,University of Michigan,Peak reading in 2025
+2025-04-01,Financial Conditions,Chicago Fed NFCI,-0.3997,Index,Chicago Fed,Tighter than recent levels
+2025-07,Credit Conditions,SLOOS - CRE Demand,Weaker,Direction,Federal Reserve SLOOS,July 2025 survey
+2025-07,Credit Conditions,SLOOS - CRE Lending Standards,Tighter,Direction,Federal Reserve SLOOS,July 2025 survey
+2025-07,Inflation Expectations,Cleveland Fed Survey of Firms - CEOs 1-Year,3.5,%,Cleveland Fed SoFIE,Q3 2025
+2025-07-01,Financial Conditions,Chicago Fed NFCI,-0.5078,Index,Chicago Fed,
+2025-09,Forward Guidance,FOMC Statement Sentiment,Dovish,Rating,Analysis,"First cut, employment focus"
+2025-09,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,4.25,%,Federal Reserve,Sep 18 2025 FOMC decision
+2025-09,Interest Rate Policy,Federal Funds Effective Rate,4.22,%,FRED,Sep 2025
+2025-09,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,4.0,%,Federal Reserve,Sep 18 2025 FOMC decision
+2025-09,Interest Rate Policy,FOMC Decision,-0.25,bps,Federal Reserve,"25 bps cut, Sep 18 2025"
+2025-09-01,Inflation Expectations,10-Year Breakeven Inflation Rate,2.28,%,Federal Reserve H.15,
+2025-09-01,Inflation Expectations,5-Year Breakeven Inflation Rate,2.42,%,Federal Reserve H.15,
+2025-10,Forward Guidance,FOMC Statement Sentiment,Dovish,Rating,Analysis,Emphasizes labor market risks
+2025-10,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,3.75,%,Federal Reserve,Oct 28 2025 FOMC decision
+2025-10,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,4.0,%,Federal Reserve,Oct 28 2025 FOMC decision
+2025-10,Interest Rate Policy,Federal Funds Effective Rate,4.09,%,FRED,Oct 2025
+2025-10,Inflation Expectations,U Michigan 5-Year Inflation Expectation,3.9,%,University of Michigan,
+2025-10,Inflation Expectations,U Michigan 1-Year Inflation Expectation,4.6,%,University of Michigan,
+2025-10,Credit Conditions,SLOOS - Banks Reporting Tighter CRE Standards,12,%,Federal Reserve SLOOS,"Oct 2025, up from 11% Q1"
+2025-10,Credit Conditions,SLOOS - CRE Demand,Weaker,Direction,Federal Reserve SLOOS,Oct 2025 survey
+2025-10,Credit Conditions,SLOOS - CRE Lending Standards,Tighter,Direction,Federal Reserve SLOOS,Oct 2025 survey
+2025-10,Liquidity Conditions,Standing Repo Facility Usage,5.2,$B,Federal Reserve,"Highest usage ever, Oct 29"
+2025-10,Inflation Expectations,Cleveland Fed Survey of Firms - CEOs 1-Year,3.3,%,Cleveland Fed SoFIE,"Q4 2025, down from 3.5%"
+2025-10-01,Financial Conditions,Chicago Fed NFCI,-0.5305,Index,Chicago Fed,
+2025-10-01,Inflation Expectations,5-Year Breakeven Inflation Rate,2.39,%,Federal Reserve H.15,
+2025-10-31,Financial Conditions,Chicago Fed NFCI,-0.5326,Index,Chicago Fed,
+2025-11,Liquidity Conditions,Bank Reserves at Fed,3.2,$T,Federal Reserve,Declining due to QT
+2025-11,Liquidity Conditions,Overnight Reverse Repo Usage,350,$B,Federal Reserve,Declining from peak
+2025-11,Policy Divergence,Fed Funds vs ECB Deposit Rate Spread,125,bps,Central Banks,"Fed 3.875%, ECB 2.625%"
+2025-11,Liquidity Conditions,TED Spread,45,bps,Bloomberg,LIBOR-Treasury spread
+2025-11,Policy Divergence,Fed Funds vs BoE Base Rate Spread,-100,bps,Central Banks,"Fed 3.875%, BoE 4.875%"
+2025-11,Policy Divergence,Fed Funds vs BoC Overnight Rate Spread,0,bps,Central Banks,"Fed 3.875%, BoC 3.875%"
+2025-11,Policy Divergence,Fed Funds vs BoJ Policy Rate Spread,363,bps,Central Banks,"Fed 3.875%, BoJ 0.25%"
+2025-11,Interest Rate Policy,Federal Funds Target Rate - Lower Bound,3.75,%,Federal Reserve,Oct 28 2025 FOMC decision
+2025-11,Forward Guidance,Probability of Dec 2025 Rate Cut,65,%,CME FedWatch,Market pricing 65% chance
+2025-11,Interest Rate Policy,Federal Funds Target Rate - Upper Bound,4.0,%,Federal Reserve,Oct 28 2025 FOMC decision
+2025-11,Interest Rate Policy,Federal Funds Effective Rate,3.89,%,Federal Reserve H.15,Nov 2025 average
+2025-11,Interest Rate Policy,FOMC Decision,-0.25,bps,Federal Reserve,"25 bps cut, Oct 28 2025"
+2025-11,Balance Sheet,Total Fed Assets,6.8,$T,Federal Reserve,QT ongoing
+2025-11,Balance Sheet,QT Ending Date Announced,Dec 1 2025,Date,Federal Reserve,Oct 28 2025 FOMC statement
+2025-11,Balance Sheet,Treasury QT Pace,5,$B/month,Federal Reserve,Slowed from $25B
+2025-11,Forward Guidance,Expected Cuts by End 2025,0.25,bps,Market Pricing,One more 25bp cut expected
+2025-11,Balance Sheet,MBS QT Pace,35,$B/month,Federal Reserve,"Target pace, not always met"
+2025-11,Inflation Expectations,U Michigan 5-Year Inflation Expectation,3.6,%,University of Michigan,Down from 3.9% in Oct
+2025-11,Forward Guidance,Market-Implied Terminal Rate (Fed Funds Futures),3.5,%,CME FedWatch,Expected trough rate
+2025-11,Balance Sheet,MBS Holdings,2.2,$T,Federal Reserve,Declining slowly
+2025-11,Inflation Expectations,U Michigan 1-Year Inflation Expectation,4.7,%,University of Michigan,Up from 4.6% in Oct
+2025-11-07,Financial Conditions,Chicago Fed NFCI,-0.5349,Index,Chicago Fed,"Week ending Nov 7, negative = loose"
+2025-11-10,Inflation Expectations,5-Year Breakeven Inflation Rate,2.38,%,Federal Reserve H.15,
+2025-11-10,Inflation Expectations,10-Year Breakeven Inflation Rate,2.29,%,Federal Reserve H.15,TIPS-Treasury spread
+2025-11-12,Inflation Expectations,5-Year Breakeven Inflation Rate,2.37,%,Federal Reserve H.15,TIPS-Treasury spread

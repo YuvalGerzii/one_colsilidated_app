@@ -1,0 +1,158 @@
+CALCULATOR ROUTING AND MAPPING - FILE PATHS REFERENCE
+
+========================================
+FRONTEND FILES
+========================================
+
+APP ROUTING:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/frontend/src/App.tsx
+  - Contains all 11 calculator route definitions
+  - Lines with calculator routes: /real-estate-models/* paths
+
+CALCULATOR PAGES (in /frontend/src/pages/RealEstate/):
+  - FixAndFlipPage.tsx
+  - SingleFamilyRentalPage.tsx
+  - SmallMultifamilyPage.tsx
+  - ExtendedMultifamilyPage.tsx
+  - HotelPage.tsx
+  - MixedUsePage.tsx
+  - SubdivisionPage.tsx
+  - SmallMultifamilyAcquisitionPage.tsx
+  - LeaseAnalyzerPage.tsx
+  - RenovationBudgetPage.tsx
+  - TaxStrategyPage.tsx
+
+CALCULATOR COMPONENTS (in /frontend/src/components/calculators/):
+  - FixFlipCalculator.tsx (61539 bytes)
+  - SingleFamilyRentalCalculator.tsx (91746 bytes)
+  - SmallMultifamilyCalculator.tsx (78441 bytes)
+  - ExtendedMultifamilyCalculator.tsx (50932 bytes)
+  - HotelCalculator.tsx (81073 bytes)
+  - MixedUseCalculator.tsx (33911 bytes)
+  - SubdivisionCalculator.tsx (81483 bytes)
+  - SmallMultifamilyAcquisitionCalculator.tsx (51042 bytes)
+  - LeaseAnalyzerCalculator.tsx (34233 bytes)
+  - RenovationBudgetCalculator.tsx (40166 bytes)
+  - TaxStrategyCalculator.tsx (39557 bytes)
+
+CALCULATOR SHOWCASE:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/frontend/src/pages/RealEstate/RealEstateTools.tsx
+  - Contains MODELS array with all 11 calculators listed
+  - Each calculator has: id, title, description, icon, path, metrics
+
+SERVICE LAYER:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/frontend/src/services/calculatorService.ts
+  - CalculationType enum (MISSING: Subdivision, TaxStrategy, SmallMultifamilyAcquisition)
+  - SaveCalculation/UpdateCalculation interfaces
+  - Helper methods for specific calculator types
+
+SERVICE CONFIG:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/frontend/src/config/modelConfig.ts
+  - MODEL_CONFIGS object (MISSING: subdivision, tax_strategy, small_multifamily_acquisition)
+  - Contains metadata, descriptions, quick-start guides, key metrics
+  - 8 of 11 configs defined
+
+========================================
+BACKEND FILES
+========================================
+
+API ROUTER CONFIGURATION:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/backend/app/api/router.py
+  - Includes real_estate_tools.router with /real-estate prefix
+  - Routes to POST /real-estate/tools/run endpoint
+
+REAL ESTATE TOOLS ENDPOINT:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/backend/app/api/v1/endpoints/real_estate_tools.py
+  - MODEL_REGISTRY dictionary (lines 154-290)
+  - Contains 10 mappings + 1 extra (portfolio_dashboard)
+  - MISSING: small_multifamily_acquisition
+  
+  MODEL_REGISTRY entries:
+    ✓ "fix_and_flip"
+    ✓ "single_family_rental"
+    ✓ "small_multifamily"
+    ✓ "extended_multifamily"
+    ✓ "hotel"
+    ✓ "mixed_use"
+    ✓ "lease_analyzer"
+    ✓ "renovation_budget"
+    ✓ "subdivision"
+    ✓ "tax_strategy"
+    ✗ "small_multifamily_acquisition" NOT FOUND
+    + "portfolio_dashboard" (extra)
+
+DATABASE MODELS:
+  /Users/yuvalgerzi/Documents/personal\ projects/real_estate_dashboard/backend/app/models/real_estate.py
+  - Base class: RealEstateModelBase (abstract)
+  - 10 model classes defined:
+    ✓ FixAndFlipModel
+    ✓ SingleFamilyRentalModel
+    ✓ SmallMultifamilyModel
+    ✓ HighRiseMultifamilyModel
+    ✓ HotelFinancialModel
+    ✓ MixedUseDevelopmentModel
+    ✓ LeaseAnalyzerModel
+    ✓ RenovationBudgetModel
+    ✓ SubdivisionModel
+    ✓ TaxStrategyModel
+    ✓ PortfolioModel
+    ✗ SmallMultifamilyAcquisitionModel NOT FOUND
+
+BACKEND SCRIPTS (in /backend/app/scripts/real_estate/):
+  - fix_and_flip_cli.py
+  - single_family_rental_cli.py
+  - small_multifamily_cli.py
+  - extended_multifamily_cli.py
+  - hotel_model_cli.py
+  - mixed_use_cli.py
+  - lease_analyzer_cli.py
+  - renovation_budget_cli.py
+  - subdivision_cli.py
+  - tax_strategy_cli.py
+  ✗ small_multifamily_acquisition_cli.py NOT FOUND
+
+========================================
+CRITICAL GAPS
+========================================
+
+1. SmallMultifamilyAcquisition Calculator
+   Missing:
+   - Backend database model (SmallMultifamilyAcquisitionModel)
+   - Backend CLI script (small_multifamily_acquisition_cli.py)
+   - MODEL_REGISTRY entry
+   - Frontend service type enum
+   - Frontend service config
+
+2. Service Layer Incomplete
+   Missing from calculatorService.ts:
+   - SUBDIVISION type enum
+   - TAX_STRATEGY type enum
+   - SMALL_MULTIFAMILY_ACQUISITION type enum
+   
+   Missing from modelConfig.ts:
+   - subdivision config
+   - tax_strategy config
+   - small_multifamily_acquisition config
+
+3. Portfolio Dashboard
+   Backend:
+   - MODEL_REGISTRY entry exists
+   - Database model exists
+   Frontend:
+   - No route defined
+   - No page component
+   - No component defined
+
+========================================
+VERIFICATION SCRIPT OUTPUT
+========================================
+
+Frontend Routes: 11/11 ✓
+Frontend Components: 11/11 ✓
+Frontend Pages: 11/11 ✓
+Backend MODEL_REGISTRY: 10/11 ✗ (missing SmallMultifamilyAcquisition)
+Backend Database Models: 10/11 ✗ (missing SmallMultifamilyAcquisition)
+Frontend Service Types: 8/11 ✗ (missing 3)
+Frontend Service Configs: 8/11 ✗ (missing 3)
+
+Overall Completion: 85%

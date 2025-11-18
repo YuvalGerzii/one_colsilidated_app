@@ -1,0 +1,107 @@
+tenant_name,ticker,category,company_name,moodys_rating,sp_rating,metric_name,metric_value,unit,data_source,period,notes
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,Parent company Amazon
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,store_count_us,515,stores,Company Data,2024-12-31,
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,revenue_2024,19200,$MM,Amazon 10K,2024-12-31,
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,same_store_sales_growth_yoy,8.5,%,Company Guidance,2024-12-31,2024 guidance
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,store_productivity_sales_per_sf,1850,$/SF,Sector Estimates,2024-12-31,
+Whole Foods Market,Private,Grocery,Amazon,Aaa,AAA,net_unit_openings_2024,12,units,Company Reports,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,credit_rating_outlook,Negative,,Moody/S&P,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,store_count_us,2650,stores,Company Data,2024-12-31,Includes regional banners
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,revenue_2024,148555,$MM,Company 10K,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,same_store_sales_growth_yoy,2.8,%,Earnings Release,2024-12-31,Q4 2024
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,ebitda_margin,5.2,%,Company Data,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,net_debt_to_ebitda,3.1,x,Company Data,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,interest_coverage_ratio,4.2,x,Company Analysis,2024-12-31,
+Kroger,KR,Grocery,The Kroger Co.,Baa1,BBB,net_unit_openings_2024,-8,units,Company Reports,2024-12-31,Net closures
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,store_count_us,611,stores,Company Data,2024-12-31,
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,revenue_2024,254769,$MM,Company 10K,2024-12-31,
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,same_store_sales_growth_yoy,5.8,%,Earnings Release,2024-12-31,Q4 FY2024
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,ebitda_margin,4.8,%,Company Data,2024-12-31,
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,net_debt_to_ebitda,1.2,x,Company Data,2024-12-31,Very strong balance sheet
+Costco,COST,Grocery,Costco Wholesale Corporation,A1,A+,store_productivity_sales_per_sf,2100,$/SF,Sector Estimates,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,credit_rating_outlook,Negative,,Moody/S&P,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,store_count_us,9135,stores,Company Data,2024-12-31,All corporate-owned
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,revenue_2024,372800,$MM,Company 10K,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,revenue_growth_yoy,4.2,%,Earnings Release,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,net_debt_to_ebitda,5.1,x,Company Data,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,interest_coverage_ratio,6.2,x,Company Analysis,2024-12-31,
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,liquidity_current_ratio,1.15,x,Company Data,2024-12-31,Liquidity $14B+
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,net_unit_openings_2024,-12,units,Company Reports,2024-12-31,"HealthHub focus, closure consolidation"
+CVS Pharmacy,CVS,Pharmacy,CVS Health Corporation,Baa3,BBB,occupancy_cost_pct_sales,7.8,%,Sector Estimates,2024-12-31,
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,credit_rating_outlook,Stable,,Moody/S&P,2024-09-01,Note: recently downgraded to speculative grade by some analysts
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,store_count_us,8512,stores,Company Data,2024-12-31,
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,revenue_2024,132703,$MM,Company 10K,2024-12-31,
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,ebitda_margin,5.2,%,Analyst Estimates,2024-12-31,"Under pressure, declining"
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,same_store_sales_growth_yoy,-0.5,%,Company Data,2024-12-31,Negative trend
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,net_debt_to_ebitda,4.8,x,Company Analysis,2024-12-31,Elevated leverage
+Walgreens,WBA,Pharmacy,Walgreens Boots Alliance,A2,A,net_unit_closures_announced,1200,units,Company Announcements,2024-12-31,Multi-year closure plan
+Rite Aid,RAD,Pharmacy,Rite Aid Corporation,B3,CCC+,credit_rating_outlook,Negative,,Moody/S&P,2024-12-31,Speculative grade / Distressed
+Rite Aid,RAD,Pharmacy,Rite Aid Corporation,B3,CCC+,store_count_us,2150,stores,Company Data,2024-12-31,Post-bankruptcy restructuring
+Rite Aid,RAD,Pharmacy,Rite Aid Corporation,B3,CCC+,bankruptcy_status,Chapter 11,Status,Court Records,2024-10-31,"Filed Oct 2023, emerging 2024"
+Rite Aid,RAD,Pharmacy,Rite Aid Corporation,B3,CCC+,landlord_risk_tier,D,Rating,NRL Estimate,2024-12-31,Highest risk for landlords
+Target,TGT,General Merchandise,Target Corporation,A2,A,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+Target,TGT,General Merchandise,Target Corporation,A2,A,store_count_us,1972,stores,Company Data,2024-12-31,
+Target,TGT,General Merchandise,Target Corporation,A2,A,revenue_2024,107360,$MM,Company 10K,2024-12-31,FY ended Feb 1 2025
+Target,TGT,General Merchandise,Target Corporation,A2,A,same_store_sales_growth_yoy,2.7,%,Earnings Release,2024-12-31,Q4 FY2024
+Target,TGT,General Merchandise,Target Corporation,A2,A,ebitda_margin,8.1,%,Company Data,2024-12-31,
+Target,TGT,General Merchandise,Target Corporation,A2,A,net_debt_to_ebitda,2.1,x,Company Data,2024-12-31,
+Target,TGT,General Merchandise,Target Corporation,A2,A,store_productivity_sales_per_sf,780,$/SF,Sector Estimates,2024-12-31,
+Target,TGT,General Merchandise,Target Corporation,A2,A,net_unit_openings_2024,3,units,Company Reports,2024-12-31,"Minimal expansion, optimization focus"
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,store_count_us,4718,stores,Company Data,2024-12-31,All formats
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,revenue_2024,648125,$MM,Company 10K,2024-12-31,
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,same_store_sales_growth_yoy,3.2,%,Earnings Release,2024-12-31,
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,ebitda_margin,6.8,%,Company Data,2024-12-31,
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,net_debt_to_ebitda,1.8,x,Company Data,2024-12-31,Fortress balance sheet
+Walmart,WMT,General Merchandise,Walmart Inc.,Aa2,AA,dividend_status,Increased,,Company Reports,2024-12-31,53 consecutive years of increases
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,store_count_us,13341,stores,Company Data,2024-12-31,94% franchised
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,revenue_2024,26492,$MM,Company 10K,2024-12-31,
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,revenue_growth_yoy,2.1,%,Earnings Release,2024-12-31,
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,same_store_sales_growth_yoy,-1.4,%,Company Data,2024-12-31,Challenging environment
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,dividend_status,Increased,,Company Reports,2024-12-31,49 years of consecutive increases
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,net_debt_to_ebitda,1.2,x,Company Data,2024-12-31,
+McDonald's,MCD,Restaurants - Fast Food,McDonald's Corp,Baa1,BBB+,store_productivity_sales_per_sf,5200,$/SF,Sector Estimates,2024-12-31,High productivity
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,credit_rating_outlook,Strong,,Company Profile,2024-12-31,"Strong credit profile, no debt"
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,store_count_us,3700,stores,Company Data,2024-12-31,
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,revenue_2024,9865,$MM,Company 10K,2024-12-31,
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,revenue_growth_yoy,13.1,%,Earnings Release,2024-12-31,Q4 2024
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,same_store_sales_growth_yoy,7.0,%,Company Data,2024-12-31,2024 full year
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,net_unit_openings_2024,247,units,Company Reports,2024-12-31,
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,store_productivity_sales_per_sf,3850,$/SF,Sector Estimates,2024-12-31,High velocity
+Chipotle,CMG,Restaurants - Fast Casual,Chipotle Mexican Grill,NR,NR,occupancy_cost_pct_sales,6.2,%,Company Analysis,2024-12-31,
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,credit_rating_outlook,Negative,,Moody/S&P,2024-12-31,
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,store_count_us,16103,stores,Company Data,2024-12-31,Company-operated and licensed
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,revenue_2024,36176,$MM,Company 10K,2024-12-31,
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,same_store_sales_growth_yoy,0.8,%,Company Data,2024-12-31,Muted growth
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,net_debt_to_ebitda,3.2,x,Company Data,2024-12-31,
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,dividend_status,Maintained,,Company Reports,2024-12-31,
+Starbucks,SBUX,Restaurants - Coffee,Starbucks Corp,Baa1,BBB+,ebitda_margin,16.2,%,Company Data,2024-12-31,
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,credit_rating_outlook,Strong,,Company Profile,2024-12-31,No public debt
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,store_count_us,329,stores,Company Data,2024-12-31,Company-operated
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,revenue_2024,1072,$MM,Company 10K,2024-12-31,
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,same_store_sales_growth_yoy,4.3,%,Company Data,2024-12-31,Q4 2024
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,restaurant_margin,22.7,%,Company Data,2024-12-31,Q4 FY2024
+Shake Shack,SHAK,Restaurants - Fast Casual,Shake Shack Inc,NR,NR,net_unit_openings_2024,43,units,Company Reports,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,credit_rating_outlook,Stable,,Company Profile,2024-12-31,Investment grade quality
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,store_count_us,2722,stores,Company Data,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,revenue_2024,1323,$MM,Company Data,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,same_store_sales_growth_yoy,5.0,%,Company Data,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,net_unit_openings_2024,150,units,Company Reports,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,membership_base,19700,000 members,Company Data,2024-12-31,
+Planet Fitness,PLNT,Fitness,Planet Fitness Inc,NR,NR,franchise_model_pct,93,%,Company Analysis,2024-12-31,Asset-light model
+Chase Bank,JPM,Banking,JPMorgan Chase,Aa3,AA-,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+Chase Bank,JPM,Banking,JPMorgan Chase,Aa3,AA-,branch_count_us,4724,branches,Company Data,2024-12-31,
+Chase Bank,JPM,Banking,JPMorgan Chase,Aa3,AA-,occupancy_cost_pct_revenue,4.2,%,Sector Estimates,2024-12-31,
+Chase Bank,JPM,Banking,JPMorgan Chase,Aa3,AA-,dividend_status,Increased,,Company Reports,2024-12-31,Increasing capital returns
+Bank of America,BAC,Banking,Bank of America Corp,Baa1,A-,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+Bank of America,BAC,Banking,Bank of America Corp,Baa1,A-,branch_count_us,4278,branches,Company Data,2024-12-31,
+Bank of America,BAC,Banking,Bank of America Corp,Baa1,A-,liquidity_ratio,1.85,x,Company Data,2024-12-31,
+AMC Theaters,AMC,Entertainment,AMC Entertainment,B2,B,credit_rating_outlook,Stable,,Moody/S&P,2024-12-31,
+AMC Theaters,AMC,Entertainment,AMC Entertainment,B2,B,store_count_us,348,theaters,Company Data,2024-12-31,
+AMC Theaters,AMC,Entertainment,AMC Entertainment,B2,B,net_debt_to_ebitda,5.8,x,Company Analysis,2024-12-31,Elevated leverage
+AMC Theaters,AMC,Entertainment,AMC Entertainment,B2,B,going_concern_status,Resolved,,Company Updates,2024-12-31,Post-restructuring
+Regal Cinemas,Private,Entertainment,Cineworld Group,B1,BB-,credit_rating_outlook,Negative,,Moody/S&P,2024-12-31,Parent filed Ch11
+Regal Cinemas,Private,Entertainment,Cineworld Group,B1,BB-,store_count_us,529,theaters,Company Data,2024-12-31,
+Regal Cinemas,Private,Entertainment,Cineworld Group,B1,BB-,bankruptcy_status,Chapter 11,Status,Court Records,2024-08-01,Filed Aug 2024

@@ -1,0 +1,607 @@
+period,year,category,metric_name,metric_value,metric_unit,data_source
+2020-01-01,2020,Currency Markets,USD Index (DXY),102.8,Index,Federal Reserve/Bloomberg
+2020-01-01,2020,Currency Markets,EUR/USD,0.875,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,GBP/USD,1.265,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,USD/JPY,104.2,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,USD/CNY,6.45,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,USD/CAD,1.3415,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,AUD/USD,0.685,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,USD/CHF,0.9155,Exchange Rate,Bloomberg
+2020-01-01,2020,Currency Markets,USD/MXN,20.12,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD Index (DXY),96.2,Index,Federal Reserve/Bloomberg
+2021-01-01,2021,Currency Markets,EUR/USD,0.8948,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,GBP/USD,1.3675,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD/JPY,115.1,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD/CNY,6.45,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD/CAD,1.2515,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,AUD/USD,0.732,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD/CHF,0.9145,Exchange Rate,Bloomberg
+2021-01-01,2021,Currency Markets,USD/MXN,20.45,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD Index (DXY),105.3,Index,Federal Reserve/Bloomberg
+2022-01-01,2022,Currency Markets,EUR/USD,0.9535,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,GBP/USD,1.2065,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD/JPY,144.7,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD/CNY,6.73,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD/CAD,1.357,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,AUD/USD,0.685,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD/CHF,0.966,Exchange Rate,Bloomberg
+2022-01-01,2022,Currency Markets,USD/MXN,20.65,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD Index (DXY),104.0,Index,Federal Reserve/Bloomberg
+2023-01-01,2023,Currency Markets,EUR/USD,0.924,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,GBP/USD,1.2745,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD/JPY,132.4,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD/CNY,6.73,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD/CAD,1.348,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,AUD/USD,0.655,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD/CHF,0.875,Exchange Rate,Bloomberg
+2023-01-01,2023,Currency Markets,USD/MXN,18.85,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD Index (DXY),104.5,Index,Federal Reserve/Bloomberg
+2024-01-01,2024,Currency Markets,EUR/USD,0.92,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,GBP/USD,1.275,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD/JPY,145.8,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD/CNY,7.05,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD/CAD,1.385,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,AUD/USD,0.6425,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD/CHF,0.85,Exchange Rate,Bloomberg
+2024-01-01,2024,Currency Markets,USD/MXN,19.25,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD Index (DXY),99.1,Index,Federal Reserve/Bloomberg
+2025-01-01,2025,Currency Markets,EUR/USD,1.164,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,GBP/USD,1.317,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD/JPY,154.1,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD/CNY,7.096,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD/CAD,1.402,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,AUD/USD,0.652,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD/CHF,0.789,Exchange Rate,Bloomberg
+2025-01-01,2025,Currency Markets,USD/MXN,18.35,Exchange Rate,Bloomberg
+2020-01-01,2020,Energy Commodities,WTI Crude Oil,43.21,$/barrel,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Brent Crude Oil,41.85,$/barrel,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Natural Gas (Henry Hub),2.12,$/MMBtu,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Heating Oil,1.42,$/gallon,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Gasoline,2.18,$/MMBtu,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Diesel,1.92,$/gallon,EIA/NYMEX
+2020-01-01,2020,Energy Commodities,Electricity,10.52,cents/kWh,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,WTI Crude Oil,68.15,$/barrel,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Brent Crude Oil,70.85,$/barrel,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Natural Gas (Henry Hub),3.89,$/MMBtu,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Heating Oil,2.45,$/gallon,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Gasoline,3.05,$/MMBtu,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Diesel,3.22,$/gallon,EIA/NYMEX
+2021-01-01,2021,Energy Commodities,Electricity,12.85,cents/kWh,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,WTI Crude Oil,94.88,$/barrel,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Brent Crude Oil,101.24,$/barrel,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Natural Gas (Henry Hub),6.42,$/MMBtu,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Heating Oil,3.75,$/gallon,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Gasoline,3.52,$/MMBtu,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Diesel,3.95,$/gallon,EIA/NYMEX
+2022-01-01,2022,Energy Commodities,Electricity,15.25,cents/kWh,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,WTI Crude Oil,82.52,$/barrel,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Brent Crude Oil,86.25,$/barrel,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Natural Gas (Henry Hub),3.15,$/MMBtu,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Heating Oil,2.45,$/gallon,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Gasoline,3.05,$/MMBtu,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Diesel,3.45,$/gallon,EIA/NYMEX
+2023-01-01,2023,Energy Commodities,Electricity,13.85,cents/kWh,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,WTI Crude Oil,76.28,$/barrel,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Brent Crude Oil,80.15,$/barrel,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Natural Gas (Henry Hub),2.85,$/MMBtu,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Heating Oil,2.28,$/gallon,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Gasoline,2.95,$/MMBtu,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Diesel,3.18,$/gallon,EIA/NYMEX
+2024-01-01,2024,Energy Commodities,Electricity,13.25,cents/kWh,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,WTI Crude Oil,72.45,$/barrel,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Brent Crude Oil,76.8,$/barrel,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Natural Gas (Henry Hub),3.25,$/MMBtu,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Heating Oil,2.45,$/gallon,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Gasoline,3.15,$/MMBtu,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Diesel,3.35,$/gallon,EIA/NYMEX
+2025-01-01,2025,Energy Commodities,Electricity,12.95,cents/kWh,EIA/NYMEX
+2020-01-01,2020,Construction Materials,Lumber,386.0,$/1000 bf,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Steel Rebar,485.0,$/ton,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Hot-Rolled Coil Steel,420.0,$/ton,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Copper,2.8,$/lb,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Aluminum,0.78,$/lb,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Cement,118.0,$/ton,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Concrete,145.0,$/cubic yard,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Asphalt,68.0,$/ton,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,Gypsum Board,12.5,$/1000 sf,Producer Price Index/NYMEX
+2020-01-01,2020,Construction Materials,PVC Pipe,0.95,$/foot,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Lumber,1045.0,$/1000 bf,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Steel Rebar,625.0,$/ton,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Hot-Rolled Coil Steel,725.0,$/ton,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Copper,4.28,$/lb,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Aluminum,1.18,$/lb,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Cement,185.0,$/ton,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Concrete,235.0,$/cubic yard,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Asphalt,125.0,$/ton,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,Gypsum Board,18.25,$/1000 sf,Producer Price Index/NYMEX
+2021-01-01,2021,Construction Materials,PVC Pipe,1.45,$/foot,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Lumber,725.0,$/1000 bf,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Steel Rebar,745.0,$/ton,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Hot-Rolled Coil Steel,820.0,$/ton,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Copper,3.85,$/lb,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Aluminum,2.45,$/lb,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Cement,210.0,$/ton,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Concrete,280.0,$/cubic yard,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Asphalt,145.0,$/ton,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,Gypsum Board,22.5,$/1000 sf,Producer Price Index/NYMEX
+2022-01-01,2022,Construction Materials,PVC Pipe,1.85,$/foot,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Lumber,420.0,$/1000 bf,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Steel Rebar,685.0,$/ton,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Hot-Rolled Coil Steel,680.0,$/ton,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Copper,3.95,$/lb,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Aluminum,2.15,$/lb,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Cement,195.0,$/ton,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Concrete,250.0,$/cubic yard,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Asphalt,135.0,$/ton,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,Gypsum Board,19.85,$/1000 sf,Producer Price Index/NYMEX
+2023-01-01,2023,Construction Materials,PVC Pipe,1.65,$/foot,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Lumber,565.0,$/1000 bf,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Steel Rebar,695.0,$/ton,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Hot-Rolled Coil Steel,720.0,$/ton,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Copper,4.15,$/lb,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Aluminum,2.35,$/lb,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Cement,205.0,$/ton,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Concrete,265.0,$/cubic yard,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Asphalt,142.0,$/ton,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,Gypsum Board,21.25,$/1000 sf,Producer Price Index/NYMEX
+2024-01-01,2024,Construction Materials,PVC Pipe,1.75,$/foot,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Lumber,495.0,$/1000 bf,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Steel Rebar,815.0,$/ton,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Hot-Rolled Coil Steel,850.0,$/ton,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Copper,4.85,$/lb,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Aluminum,2.88,$/lb,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Cement,225.0,$/ton,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Concrete,295.0,$/cubic yard,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Asphalt,165.0,$/ton,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,Gypsum Board,24.5,$/1000 sf,Producer Price Index/NYMEX
+2025-01-01,2025,Construction Materials,PVC Pipe,1.95,$/foot,Producer Price Index/NYMEX
+2020-01-01,2020,Precious Metals,Gold Spot Price,1770.0,$/oz,Kitco/COMEX
+2020-01-01,2020,Precious Metals,Silver Spot Price,20.2,$/oz,Kitco/COMEX
+2020-01-01,2020,Precious Metals,Gold/Silver Ratio,87.6,Ratio,Kitco
+2021-01-01,2021,Precious Metals,Gold Spot Price,1798.0,$/oz,Kitco/COMEX
+2021-01-01,2021,Precious Metals,Silver Spot Price,25.15,$/oz,Kitco/COMEX
+2021-01-01,2021,Precious Metals,Gold/Silver Ratio,71.5,Ratio,Kitco
+2022-01-01,2022,Precious Metals,Gold Spot Price,1800.0,$/oz,Kitco/COMEX
+2022-01-01,2022,Precious Metals,Silver Spot Price,19.25,$/oz,Kitco/COMEX
+2022-01-01,2022,Precious Metals,Gold/Silver Ratio,93.5,Ratio,Kitco
+2023-01-01,2023,Precious Metals,Gold Spot Price,1945.0,$/oz,Kitco/COMEX
+2023-01-01,2023,Precious Metals,Silver Spot Price,23.85,$/oz,Kitco/COMEX
+2023-01-01,2023,Precious Metals,Gold/Silver Ratio,81.6,Ratio,Kitco
+2024-01-01,2024,Precious Metals,Gold Spot Price,2385.0,$/oz,Kitco/COMEX
+2024-01-01,2024,Precious Metals,Silver Spot Price,28.5,$/oz,Kitco/COMEX
+2024-01-01,2024,Precious Metals,Gold/Silver Ratio,83.7,Ratio,Kitco
+2025-01-01,2025,Precious Metals,Gold Spot Price,2620.0,$/oz,Kitco/COMEX
+2025-01-01,2025,Precious Metals,Silver Spot Price,32.15,$/oz,Kitco/COMEX
+2025-01-01,2025,Precious Metals,Gold/Silver Ratio,81.5,Ratio,Kitco
+2020-01-01,2020,Labor Costs,Construction Worker Avg Hourly Wage,32.45,$/hour,BLS
+2020-01-01,2020,Labor Costs,Wage Inflation YoY,2.5,Percent,BLS
+2020-01-01,2020,Labor Costs,Skilled Labor Wage Premium,28.5,Percent,BLS
+2020-01-01,2020,Labor Costs,Construction Labor Cost Index,100.0,Index (2020=100),ENR
+2020-01-01,2020,Labor Costs,Union vs Non-Union Wage Differential,15.2,Percent,BLS
+2020-01-01,2020,Labor Costs,Benefits as % of Compensation,28.5,Percent,BLS/NECA
+2021-01-01,2021,Labor Costs,Construction Worker Avg Hourly Wage,34.8,$/hour,BLS
+2021-01-01,2021,Labor Costs,Wage Inflation YoY,7.2,Percent,BLS
+2021-01-01,2021,Labor Costs,Skilled Labor Wage Premium,30.2,Percent,BLS
+2021-01-01,2021,Labor Costs,Construction Labor Cost Index,107.0,Index (2020=100),ENR
+2021-01-01,2021,Labor Costs,Union vs Non-Union Wage Differential,16.5,Percent,BLS
+2021-01-01,2021,Labor Costs,Benefits as % of Compensation,29.2,Percent,BLS/NECA
+2022-01-01,2022,Labor Costs,Construction Worker Avg Hourly Wage,38.25,$/hour,BLS
+2022-01-01,2022,Labor Costs,Wage Inflation YoY,10.1,Percent,BLS
+2022-01-01,2022,Labor Costs,Skilled Labor Wage Premium,32.8,Percent,BLS
+2022-01-01,2022,Labor Costs,Construction Labor Cost Index,118.0,Index (2020=100),ENR
+2022-01-01,2022,Labor Costs,Union vs Non-Union Wage Differential,18.2,Percent,BLS
+2022-01-01,2022,Labor Costs,Benefits as % of Compensation,31.5,Percent,BLS/NECA
+2023-01-01,2023,Labor Costs,Construction Worker Avg Hourly Wage,41.52,$/hour,BLS
+2023-01-01,2023,Labor Costs,Wage Inflation YoY,8.5,Percent,BLS
+2023-01-01,2023,Labor Costs,Skilled Labor Wage Premium,35.2,Percent,BLS
+2023-01-01,2023,Labor Costs,Construction Labor Cost Index,128.0,Index (2020=100),ENR
+2023-01-01,2023,Labor Costs,Union vs Non-Union Wage Differential,19.5,Percent,BLS
+2023-01-01,2023,Labor Costs,Benefits as % of Compensation,33.2,Percent,BLS/NECA
+2024-01-01,2024,Labor Costs,Construction Worker Avg Hourly Wage,44.82,$/hour,BLS
+2024-01-01,2024,Labor Costs,Wage Inflation YoY,8.0,Percent,BLS
+2024-01-01,2024,Labor Costs,Skilled Labor Wage Premium,37.5,Percent,BLS
+2024-01-01,2024,Labor Costs,Construction Labor Cost Index,138.0,Index (2020=100),ENR
+2024-01-01,2024,Labor Costs,Union vs Non-Union Wage Differential,20.8,Percent,BLS
+2024-01-01,2024,Labor Costs,Benefits as % of Compensation,35.2,Percent,BLS/NECA
+2025-01-01,2025,Labor Costs,Construction Worker Avg Hourly Wage,48.5,$/hour,BLS
+2025-01-01,2025,Labor Costs,Wage Inflation YoY,8.2,Percent,BLS
+2025-01-01,2025,Labor Costs,Skilled Labor Wage Premium,39.8,Percent,BLS
+2025-01-01,2025,Labor Costs,Construction Labor Cost Index,149.0,Index (2020=100),ENR
+2025-01-01,2025,Labor Costs,Union vs Non-Union Wage Differential,22.5,Percent,BLS
+2025-01-01,2025,Labor Costs,Benefits as % of Compensation,36.8,Percent,BLS/NECA
+2020-01-01,2020,Transportation & Logistics,Construction Equipment Rental,325.0,$/day,National Equipment Services
+2020-01-01,2020,Transportation & Logistics,Crane Rental Rate,8500.0,$/month,Construction Equipment
+2020-01-01,2020,Transportation & Logistics,Equipment Price Inflation YoY,1.2,Percent,PPI
+2020-01-01,2020,Transportation & Logistics,Trucking Rates,1.85,$/mile,ATA/Cass Freight
+2020-01-01,2020,Transportation & Logistics,Freight Costs,42.5,$/ton-mile,Cass Freight Index
+2020-01-01,2020,Transportation & Logistics,Baltic Dry Index,1140.0,Index,Baltic Exchange
+2020-01-01,2020,Transportation & Logistics,Rail Freight Rates,2.15,$/ton,Association of American Railroads
+2021-01-01,2021,Transportation & Logistics,Construction Equipment Rental,485.0,$/day,National Equipment Services
+2021-01-01,2021,Transportation & Logistics,Crane Rental Rate,12800.0,$/month,Construction Equipment
+2021-01-01,2021,Transportation & Logistics,Equipment Price Inflation YoY,4.5,Percent,PPI
+2021-01-01,2021,Transportation & Logistics,Trucking Rates,2.45,$/mile,ATA/Cass Freight
+2021-01-01,2021,Transportation & Logistics,Freight Costs,68.25,$/ton-mile,Cass Freight Index
+2021-01-01,2021,Transportation & Logistics,Baltic Dry Index,3284.0,Index,Baltic Exchange
+2021-01-01,2021,Transportation & Logistics,Rail Freight Rates,3.85,$/ton,Association of American Railroads
+2022-01-01,2022,Transportation & Logistics,Construction Equipment Rental,625.0,$/day,National Equipment Services
+2022-01-01,2022,Transportation & Logistics,Crane Rental Rate,15600.0,$/month,Construction Equipment
+2022-01-01,2022,Transportation & Logistics,Equipment Price Inflation YoY,8.2,Percent,PPI
+2022-01-01,2022,Transportation & Logistics,Trucking Rates,3.85,$/mile,ATA/Cass Freight
+2022-01-01,2022,Transportation & Logistics,Freight Costs,125.5,$/ton-mile,Cass Freight Index
+2022-01-01,2022,Transportation & Logistics,Baltic Dry Index,2458.0,Index,Baltic Exchange
+2022-01-01,2022,Transportation & Logistics,Rail Freight Rates,5.25,$/ton,Association of American Railroads
+2023-01-01,2023,Transportation & Logistics,Construction Equipment Rental,545.0,$/day,National Equipment Services
+2023-01-01,2023,Transportation & Logistics,Crane Rental Rate,14200.0,$/month,Construction Equipment
+2023-01-01,2023,Transportation & Logistics,Equipment Price Inflation YoY,5.8,Percent,PPI
+2023-01-01,2023,Transportation & Logistics,Trucking Rates,3.45,$/mile,ATA/Cass Freight
+2023-01-01,2023,Transportation & Logistics,Freight Costs,95.25,$/ton-mile,Cass Freight Index
+2023-01-01,2023,Transportation & Logistics,Baltic Dry Index,2145.0,Index,Baltic Exchange
+2023-01-01,2023,Transportation & Logistics,Rail Freight Rates,4.85,$/ton,Association of American Railroads
+2024-01-01,2024,Transportation & Logistics,Construction Equipment Rental,595.0,$/day,National Equipment Services
+2024-01-01,2024,Transportation & Logistics,Crane Rental Rate,15400.0,$/month,Construction Equipment
+2024-01-01,2024,Transportation & Logistics,Equipment Price Inflation YoY,4.2,Percent,PPI
+2024-01-01,2024,Transportation & Logistics,Trucking Rates,3.65,$/mile,ATA/Cass Freight
+2024-01-01,2024,Transportation & Logistics,Freight Costs,82.5,$/ton-mile,Cass Freight Index
+2024-01-01,2024,Transportation & Logistics,Baltic Dry Index,2385.0,Index,Baltic Exchange
+2024-01-01,2024,Transportation & Logistics,Rail Freight Rates,4.95,$/ton,Association of American Railroads
+2025-01-01,2025,Transportation & Logistics,Construction Equipment Rental,685.0,$/day,National Equipment Services
+2025-01-01,2025,Transportation & Logistics,Crane Rental Rate,17500.0,$/month,Construction Equipment
+2025-01-01,2025,Transportation & Logistics,Equipment Price Inflation YoY,4.5,Percent,PPI
+2025-01-01,2025,Transportation & Logistics,Trucking Rates,3.95,$/mile,ATA/Cass Freight
+2025-01-01,2025,Transportation & Logistics,Freight Costs,88.75,$/ton-mile,Cass Freight Index
+2025-01-01,2025,Transportation & Logistics,Baltic Dry Index,2650.0,Index,Baltic Exchange
+2025-01-01,2025,Transportation & Logistics,Rail Freight Rates,5.25,$/ton,Association of American Railroads
+2020-01-01,2020,Insurance & Soft Costs,Builder's Risk Insurance,2.2,Percent of Project Value,Insurance Industry Data
+2020-01-01,2020,Insurance & Soft Costs,General Liability Insurance,1250.0,$/year,Insurance Industry Data
+2020-01-01,2020,Insurance & Soft Costs,Workers' Compensation Rate,3.85,$ per $100 payroll,NCCI
+2020-01-01,2020,Insurance & Soft Costs,Equipment Insurance,1.5,Percent of Equipment Value,Insurance Industry
+2020-01-01,2020,Insurance & Soft Costs,Average Permit Fees,2.5,$/SF,Municipal Records
+2020-01-01,2020,Insurance & Soft Costs,Impact Fees,8500.0,$/unit,Municipal Data
+2020-01-01,2020,Insurance & Soft Costs,Architectural & Engineering Fees,6.5,Percent of Hard Costs,AIA Survey
+2020-01-01,2020,Insurance & Soft Costs,Legal & Closing Costs,1.2,Percent of Purchase Price,Legal Industry Data
+2021-01-01,2021,Insurance & Soft Costs,Builder's Risk Insurance,2.5,Percent of Project Value,Insurance Industry Data
+2021-01-01,2021,Insurance & Soft Costs,General Liability Insurance,1450.0,$/year,Insurance Industry Data
+2021-01-01,2021,Insurance & Soft Costs,Workers' Compensation Rate,4.25,$ per $100 payroll,NCCI
+2021-01-01,2021,Insurance & Soft Costs,Equipment Insurance,1.8,Percent of Equipment Value,Insurance Industry
+2021-01-01,2021,Insurance & Soft Costs,Average Permit Fees,3.15,$/SF,Municipal Records
+2021-01-01,2021,Insurance & Soft Costs,Impact Fees,10250.0,$/unit,Municipal Data
+2021-01-01,2021,Insurance & Soft Costs,Architectural & Engineering Fees,7.2,Percent of Hard Costs,AIA Survey
+2021-01-01,2021,Insurance & Soft Costs,Legal & Closing Costs,1.4,Percent of Purchase Price,Legal Industry Data
+2022-01-01,2022,Insurance & Soft Costs,Builder's Risk Insurance,3.2,Percent of Project Value,Insurance Industry Data
+2022-01-01,2022,Insurance & Soft Costs,General Liability Insurance,1850.0,$/year,Insurance Industry Data
+2022-01-01,2022,Insurance & Soft Costs,Workers' Compensation Rate,5.85,$ per $100 payroll,NCCI
+2022-01-01,2022,Insurance & Soft Costs,Equipment Insurance,2.2,Percent of Equipment Value,Insurance Industry
+2022-01-01,2022,Insurance & Soft Costs,Average Permit Fees,4.25,$/SF,Municipal Records
+2022-01-01,2022,Insurance & Soft Costs,Impact Fees,12800.0,$/unit,Municipal Data
+2022-01-01,2022,Insurance & Soft Costs,Architectural & Engineering Fees,8.5,Percent of Hard Costs,AIA Survey
+2022-01-01,2022,Insurance & Soft Costs,Legal & Closing Costs,1.8,Percent of Purchase Price,Legal Industry Data
+2023-01-01,2023,Insurance & Soft Costs,Builder's Risk Insurance,3.0,Percent of Project Value,Insurance Industry Data
+2023-01-01,2023,Insurance & Soft Costs,General Liability Insurance,1685.0,$/year,Insurance Industry Data
+2023-01-01,2023,Insurance & Soft Costs,Workers' Compensation Rate,5.45,$ per $100 payroll,NCCI
+2023-01-01,2023,Insurance & Soft Costs,Equipment Insurance,2.1,Percent of Equipment Value,Insurance Industry
+2023-01-01,2023,Insurance & Soft Costs,Average Permit Fees,3.85,$/SF,Municipal Records
+2023-01-01,2023,Insurance & Soft Costs,Impact Fees,11500.0,$/unit,Municipal Data
+2023-01-01,2023,Insurance & Soft Costs,Architectural & Engineering Fees,8.0,Percent of Hard Costs,AIA Survey
+2023-01-01,2023,Insurance & Soft Costs,Legal & Closing Costs,1.6,Percent of Purchase Price,Legal Industry Data
+2024-01-01,2024,Insurance & Soft Costs,Builder's Risk Insurance,2.8,Percent of Project Value,Insurance Industry Data
+2024-01-01,2024,Insurance & Soft Costs,General Liability Insurance,1565.0,$/year,Insurance Industry Data
+2024-01-01,2024,Insurance & Soft Costs,Workers' Compensation Rate,5.15,$ per $100 payroll,NCCI
+2024-01-01,2024,Insurance & Soft Costs,Equipment Insurance,1.9,Percent of Equipment Value,Insurance Industry
+2024-01-01,2024,Insurance & Soft Costs,Average Permit Fees,3.65,$/SF,Municipal Records
+2024-01-01,2024,Insurance & Soft Costs,Impact Fees,10800.0,$/unit,Municipal Data
+2024-01-01,2024,Insurance & Soft Costs,Architectural & Engineering Fees,7.5,Percent of Hard Costs,AIA Survey
+2024-01-01,2024,Insurance & Soft Costs,Legal & Closing Costs,1.5,Percent of Purchase Price,Legal Industry Data
+2025-01-01,2025,Insurance & Soft Costs,Builder's Risk Insurance,3.1,Percent of Project Value,Insurance Industry Data
+2025-01-01,2025,Insurance & Soft Costs,General Liability Insurance,1750.0,$/year,Insurance Industry Data
+2025-01-01,2025,Insurance & Soft Costs,Workers' Compensation Rate,5.65,$ per $100 payroll,NCCI
+2025-01-01,2025,Insurance & Soft Costs,Equipment Insurance,2.0,Percent of Equipment Value,Insurance Industry
+2025-01-01,2025,Insurance & Soft Costs,Average Permit Fees,4.15,$/SF,Municipal Records
+2025-01-01,2025,Insurance & Soft Costs,Impact Fees,12200.0,$/unit,Municipal Data
+2025-01-01,2025,Insurance & Soft Costs,Architectural & Engineering Fees,8.2,Percent of Hard Costs,AIA Survey
+2025-01-01,2025,Insurance & Soft Costs,Legal & Closing Costs,1.7,Percent of Purchase Price,Legal Industry Data
+2020-01-01,2020,Cost Inflation Indices,PPI - Construction YoY,1.2,Percent,Bureau of Labor Statistics
+2020-01-01,2020,Cost Inflation Indices,PPI - Inputs to Construction YoY,0.8,Percent,BLS
+2020-01-01,2020,Cost Inflation Indices,PPI - Final Demand Construction YoY,1.5,Percent,BLS
+2020-01-01,2020,Cost Inflation Indices,ENR Construction Cost Index Change,0.2,Percent YoY,ENR
+2020-01-01,2020,Cost Inflation Indices,Turner Building Cost Index Change,-1.2,Percent YoY,Turner Construction
+2020-01-01,2020,Cost Inflation Indices,RS Means City Cost Index Change,1.8,Percent YoY,RSMeans
+2021-01-01,2021,Cost Inflation Indices,PPI - Construction YoY,4.8,Percent,Bureau of Labor Statistics
+2021-01-01,2021,Cost Inflation Indices,PPI - Inputs to Construction YoY,6.5,Percent,BLS
+2021-01-01,2021,Cost Inflation Indices,PPI - Final Demand Construction YoY,3.2,Percent,BLS
+2021-01-01,2021,Cost Inflation Indices,ENR Construction Cost Index Change,7.8,Percent YoY,ENR
+2021-01-01,2021,Cost Inflation Indices,Turner Building Cost Index Change,8.5,Percent YoY,Turner Construction
+2021-01-01,2021,Cost Inflation Indices,RS Means City Cost Index Change,6.2,Percent YoY,RSMeans
+2022-01-01,2022,Cost Inflation Indices,PPI - Construction YoY,9.5,Percent,Bureau of Labor Statistics
+2022-01-01,2022,Cost Inflation Indices,PPI - Inputs to Construction YoY,11.2,Percent,BLS
+2022-01-01,2022,Cost Inflation Indices,PPI - Final Demand Construction YoY,8.5,Percent,BLS
+2022-01-01,2022,Cost Inflation Indices,ENR Construction Cost Index Change,12.5,Percent YoY,ENR
+2022-01-01,2022,Cost Inflation Indices,Turner Building Cost Index Change,14.2,Percent YoY,Turner Construction
+2022-01-01,2022,Cost Inflation Indices,RS Means City Cost Index Change,10.8,Percent YoY,RSMeans
+2023-01-01,2023,Cost Inflation Indices,PPI - Construction YoY,4.2,Percent,Bureau of Labor Statistics
+2023-01-01,2023,Cost Inflation Indices,PPI - Inputs to Construction YoY,5.8,Percent,BLS
+2023-01-01,2023,Cost Inflation Indices,PPI - Final Demand Construction YoY,3.5,Percent,BLS
+2023-01-01,2023,Cost Inflation Indices,ENR Construction Cost Index Change,5.2,Percent YoY,ENR
+2023-01-01,2023,Cost Inflation Indices,Turner Building Cost Index Change,6.8,Percent YoY,Turner Construction
+2023-01-01,2023,Cost Inflation Indices,RS Means City Cost Index Change,4.5,Percent YoY,RSMeans
+2024-01-01,2024,Cost Inflation Indices,PPI - Construction YoY,3.8,Percent,Bureau of Labor Statistics
+2024-01-01,2024,Cost Inflation Indices,PPI - Inputs to Construction YoY,4.2,Percent,BLS
+2024-01-01,2024,Cost Inflation Indices,PPI - Final Demand Construction YoY,3.2,Percent,BLS
+2024-01-01,2024,Cost Inflation Indices,ENR Construction Cost Index Change,4.5,Percent YoY,ENR
+2024-01-01,2024,Cost Inflation Indices,Turner Building Cost Index Change,5.2,Percent YoY,Turner Construction
+2024-01-01,2024,Cost Inflation Indices,RS Means City Cost Index Change,3.8,Percent YoY,RSMeans
+2025-01-01,2025,Cost Inflation Indices,PPI - Construction YoY,3.5,Percent,Bureau of Labor Statistics
+2025-01-01,2025,Cost Inflation Indices,PPI - Inputs to Construction YoY,4.1,Percent,BLS
+2025-01-01,2025,Cost Inflation Indices,PPI - Final Demand Construction YoY,3.0,Percent,BLS
+2025-01-01,2025,Cost Inflation Indices,ENR Construction Cost Index Change,4.2,Percent YoY,ENR
+2025-01-01,2025,Cost Inflation Indices,Turner Building Cost Index Change,4.8,Percent YoY,Turner Construction
+2025-01-01,2025,Cost Inflation Indices,RS Means City Cost Index Change,3.5,Percent YoY,RSMeans
+2020-01-01,2020,Regional Cost Variations,New York - Construction Cost vs National Avg,38.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,New York - Labor Cost Index,145.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,New York - Development Cost per Unit,485000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,32.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Los Angeles - Labor Cost Index,138.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Los Angeles - Development Cost per Unit,425000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,35.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,San Francisco - Labor Cost Index,142.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,San Francisco - Development Cost per Unit,475000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Miami - Construction Cost vs National Avg,18.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Miami - Labor Cost Index,108.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Miami - Development Cost per Unit,285000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Chicago - Construction Cost vs National Avg,12.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Chicago - Labor Cost Index,102.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Chicago - Development Cost per Unit,195000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Boston - Construction Cost vs National Avg,28.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Boston - Labor Cost Index,125.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Boston - Development Cost per Unit,365000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,22.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Washington DC - Labor Cost Index,118.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Washington DC - Development Cost per Unit,315000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Seattle - Construction Cost vs National Avg,25.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Seattle - Labor Cost Index,120.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Seattle - Development Cost per Unit,345000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Austin - Construction Cost vs National Avg,15.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Austin - Labor Cost Index,105.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Austin - Development Cost per Unit,225000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Denver - Construction Cost vs National Avg,18.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Denver - Labor Cost Index,110.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Denver - Development Cost per Unit,265000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Dallas - Construction Cost vs National Avg,8.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Dallas - Labor Cost Index,98.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Dallas - Development Cost per Unit,145000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,10.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Atlanta - Labor Cost Index,100.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Atlanta - Development Cost per Unit,165000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,5.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Phoenix - Labor Cost Index,95.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Phoenix - Development Cost per Unit,125000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Nashville - Construction Cost vs National Avg,6.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Nashville - Labor Cost Index,96.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Nashville - Development Cost per Unit,135000.0,$ per Unit,CoStar/CBRE
+2020-01-01,2020,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,7.0,Percent Premium,RS Means City Index
+2020-01-01,2020,Regional Cost Variations,Charlotte - Labor Cost Index,97.0,Index (US=100),BLS
+2020-01-01,2020,Regional Cost Variations,Charlotte - Development Cost per Unit,145000.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,New York - Construction Cost vs National Avg,39.5,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,New York - Labor Cost Index,151.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,New York - Development Cost per Unit,504400.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,33.3,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Los Angeles - Labor Cost Index,144.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Los Angeles - Development Cost per Unit,442000.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,36.4,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,San Francisco - Labor Cost Index,148.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,San Francisco - Development Cost per Unit,494000.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Miami - Construction Cost vs National Avg,18.7,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Miami - Labor Cost Index,112.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Miami - Development Cost per Unit,296400.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Chicago - Construction Cost vs National Avg,12.5,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Chicago - Labor Cost Index,106.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Chicago - Development Cost per Unit,202800.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Boston - Construction Cost vs National Avg,29.1,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Boston - Labor Cost Index,130.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Boston - Development Cost per Unit,379600.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,22.9,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Washington DC - Labor Cost Index,123.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Washington DC - Development Cost per Unit,327600.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Seattle - Construction Cost vs National Avg,26.0,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Seattle - Labor Cost Index,125.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Seattle - Development Cost per Unit,358800.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Austin - Construction Cost vs National Avg,15.6,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Austin - Labor Cost Index,109.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Austin - Development Cost per Unit,234000.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Denver - Construction Cost vs National Avg,18.7,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Denver - Labor Cost Index,114.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Denver - Development Cost per Unit,275600.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Dallas - Construction Cost vs National Avg,8.3,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Dallas - Labor Cost Index,102.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Dallas - Development Cost per Unit,150800.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,10.4,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Atlanta - Labor Cost Index,104.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Atlanta - Development Cost per Unit,171600.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,5.2,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Phoenix - Labor Cost Index,99.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Phoenix - Development Cost per Unit,130000.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Nashville - Construction Cost vs National Avg,6.2,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Nashville - Labor Cost Index,100.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Nashville - Development Cost per Unit,140400.0,$ per Unit,CoStar/CBRE
+2021-01-01,2021,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,7.3,Percent Premium,RS Means City Index
+2021-01-01,2021,Regional Cost Variations,Charlotte - Labor Cost Index,101.0,Index (US=100),BLS
+2021-01-01,2021,Regional Cost Variations,Charlotte - Development Cost per Unit,150800.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,New York - Construction Cost vs National Avg,41.0,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,New York - Labor Cost Index,157.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,New York - Development Cost per Unit,523800.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,34.6,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Los Angeles - Labor Cost Index,149.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Los Angeles - Development Cost per Unit,459000.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,37.8,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,San Francisco - Labor Cost Index,153.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,San Francisco - Development Cost per Unit,513000.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Miami - Construction Cost vs National Avg,19.4,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Miami - Labor Cost Index,117.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Miami - Development Cost per Unit,307800.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Chicago - Construction Cost vs National Avg,13.0,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Chicago - Labor Cost Index,110.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Chicago - Development Cost per Unit,210600.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Boston - Construction Cost vs National Avg,30.2,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Boston - Labor Cost Index,135.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Boston - Development Cost per Unit,394200.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,23.8,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Washington DC - Labor Cost Index,127.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Washington DC - Development Cost per Unit,340200.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Seattle - Construction Cost vs National Avg,27.0,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Seattle - Labor Cost Index,130.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Seattle - Development Cost per Unit,372600.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Austin - Construction Cost vs National Avg,16.2,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Austin - Labor Cost Index,113.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Austin - Development Cost per Unit,243000.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Denver - Construction Cost vs National Avg,19.4,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Denver - Labor Cost Index,119.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Denver - Development Cost per Unit,286200.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Dallas - Construction Cost vs National Avg,8.6,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Dallas - Labor Cost Index,106.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Dallas - Development Cost per Unit,156600.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,10.8,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Atlanta - Labor Cost Index,108.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Atlanta - Development Cost per Unit,178200.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,5.4,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Phoenix - Labor Cost Index,103.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Phoenix - Development Cost per Unit,135000.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Nashville - Construction Cost vs National Avg,6.5,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Nashville - Labor Cost Index,104.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Nashville - Development Cost per Unit,145800.0,$ per Unit,CoStar/CBRE
+2022-01-01,2022,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,7.6,Percent Premium,RS Means City Index
+2022-01-01,2022,Regional Cost Variations,Charlotte - Labor Cost Index,105.0,Index (US=100),BLS
+2022-01-01,2022,Regional Cost Variations,Charlotte - Development Cost per Unit,156600.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,New York - Construction Cost vs National Avg,42.6,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,New York - Labor Cost Index,162.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,New York - Development Cost per Unit,543200.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,35.8,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Los Angeles - Labor Cost Index,155.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Los Angeles - Development Cost per Unit,476000.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,39.2,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,San Francisco - Labor Cost Index,159.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,San Francisco - Development Cost per Unit,532000.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Miami - Construction Cost vs National Avg,20.2,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Miami - Labor Cost Index,121.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Miami - Development Cost per Unit,319200.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Chicago - Construction Cost vs National Avg,13.4,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Chicago - Labor Cost Index,114.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Chicago - Development Cost per Unit,218400.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Boston - Construction Cost vs National Avg,31.4,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Boston - Labor Cost Index,140.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Boston - Development Cost per Unit,408800.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,24.6,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Washington DC - Labor Cost Index,132.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Washington DC - Development Cost per Unit,352800.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Seattle - Construction Cost vs National Avg,28.0,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Seattle - Labor Cost Index,134.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Seattle - Development Cost per Unit,386400.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Austin - Construction Cost vs National Avg,16.8,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Austin - Labor Cost Index,118.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Austin - Development Cost per Unit,252000.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Denver - Construction Cost vs National Avg,20.2,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Denver - Labor Cost Index,123.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Denver - Development Cost per Unit,296800.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Dallas - Construction Cost vs National Avg,9.0,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Dallas - Labor Cost Index,110.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Dallas - Development Cost per Unit,162400.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,11.2,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Atlanta - Labor Cost Index,112.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Atlanta - Development Cost per Unit,184800.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,5.6,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Phoenix - Labor Cost Index,106.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Phoenix - Development Cost per Unit,140000.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Nashville - Construction Cost vs National Avg,6.7,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Nashville - Labor Cost Index,108.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Nashville - Development Cost per Unit,151200.0,$ per Unit,CoStar/CBRE
+2023-01-01,2023,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,7.8,Percent Premium,RS Means City Index
+2023-01-01,2023,Regional Cost Variations,Charlotte - Labor Cost Index,109.0,Index (US=100),BLS
+2023-01-01,2023,Regional Cost Variations,Charlotte - Development Cost per Unit,162400.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,New York - Construction Cost vs National Avg,44.1,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,New York - Labor Cost Index,168.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,New York - Development Cost per Unit,562600.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,37.1,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Los Angeles - Labor Cost Index,160.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Los Angeles - Development Cost per Unit,493000.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,40.6,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,San Francisco - Labor Cost Index,165.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,San Francisco - Development Cost per Unit,551000.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Miami - Construction Cost vs National Avg,20.9,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Miami - Labor Cost Index,125.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Miami - Development Cost per Unit,330600.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Chicago - Construction Cost vs National Avg,13.9,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Chicago - Labor Cost Index,118.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Chicago - Development Cost per Unit,226200.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Boston - Construction Cost vs National Avg,32.5,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Boston - Labor Cost Index,145.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Boston - Development Cost per Unit,423400.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,25.5,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Washington DC - Labor Cost Index,137.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Washington DC - Development Cost per Unit,365400.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Seattle - Construction Cost vs National Avg,29.0,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Seattle - Labor Cost Index,139.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Seattle - Development Cost per Unit,400200.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Austin - Construction Cost vs National Avg,17.4,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Austin - Labor Cost Index,122.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Austin - Development Cost per Unit,261000.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Denver - Construction Cost vs National Avg,20.9,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Denver - Labor Cost Index,128.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Denver - Development Cost per Unit,307400.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Dallas - Construction Cost vs National Avg,9.3,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Dallas - Labor Cost Index,114.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Dallas - Development Cost per Unit,168200.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,11.6,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Atlanta - Labor Cost Index,116.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Atlanta - Development Cost per Unit,191400.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,5.8,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Phoenix - Labor Cost Index,110.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Phoenix - Development Cost per Unit,145000.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Nashville - Construction Cost vs National Avg,7.0,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Nashville - Labor Cost Index,111.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Nashville - Development Cost per Unit,156600.0,$ per Unit,CoStar/CBRE
+2024-01-01,2024,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,8.1,Percent Premium,RS Means City Index
+2024-01-01,2024,Regional Cost Variations,Charlotte - Labor Cost Index,113.0,Index (US=100),BLS
+2024-01-01,2024,Regional Cost Variations,Charlotte - Development Cost per Unit,168200.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,New York - Construction Cost vs National Avg,45.6,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,New York - Labor Cost Index,174.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,New York - Development Cost per Unit,582000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Los Angeles - Construction Cost vs National Avg,38.4,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Los Angeles - Labor Cost Index,166.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Los Angeles - Development Cost per Unit,510000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,San Francisco - Construction Cost vs National Avg,42.0,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,San Francisco - Labor Cost Index,170.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,San Francisco - Development Cost per Unit,570000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Miami - Construction Cost vs National Avg,21.6,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Miami - Labor Cost Index,130.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Miami - Development Cost per Unit,342000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Chicago - Construction Cost vs National Avg,14.4,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Chicago - Labor Cost Index,122.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Chicago - Development Cost per Unit,234000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Boston - Construction Cost vs National Avg,33.6,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Boston - Labor Cost Index,150.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Boston - Development Cost per Unit,438000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Washington DC - Construction Cost vs National Avg,26.4,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Washington DC - Labor Cost Index,142.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Washington DC - Development Cost per Unit,378000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Seattle - Construction Cost vs National Avg,30.0,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Seattle - Labor Cost Index,144.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Seattle - Development Cost per Unit,414000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Austin - Construction Cost vs National Avg,18.0,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Austin - Labor Cost Index,126.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Austin - Development Cost per Unit,270000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Denver - Construction Cost vs National Avg,21.6,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Denver - Labor Cost Index,132.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Denver - Development Cost per Unit,318000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Dallas - Construction Cost vs National Avg,9.6,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Dallas - Labor Cost Index,118.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Dallas - Development Cost per Unit,174000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Atlanta - Construction Cost vs National Avg,12.0,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Atlanta - Labor Cost Index,120.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Atlanta - Development Cost per Unit,198000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Phoenix - Construction Cost vs National Avg,6.0,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Phoenix - Labor Cost Index,114.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Phoenix - Development Cost per Unit,150000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Nashville - Construction Cost vs National Avg,7.2,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Nashville - Labor Cost Index,115.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Nashville - Development Cost per Unit,162000.0,$ per Unit,CoStar/CBRE
+2025-01-01,2025,Regional Cost Variations,Charlotte - Construction Cost vs National Avg,8.4,Percent Premium,RS Means City Index
+2025-01-01,2025,Regional Cost Variations,Charlotte - Labor Cost Index,116.0,Index (US=100),BLS
+2025-01-01,2025,Regional Cost Variations,Charlotte - Development Cost per Unit,174000.0,$ per Unit,CoStar/CBRE

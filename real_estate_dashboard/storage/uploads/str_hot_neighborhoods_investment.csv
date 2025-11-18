@@ -1,0 +1,376 @@
+market,neighborhood_rank,neighborhood_name,avg_annual_revenue_per_listing,avg_occupancy_rate_pct,avg_revpar,growth_stage,revenue_category,data_source,analysis_date
+"New York, NY",1,Brooklyn - Williamsburg,62500.0,72.0,4750.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",2,Manhattan - Lower East Side,58000.0,70.0,4350.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",3,Queens - Astoria,45000.0,68.0,3060.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",4,Manhattan - Upper West Side,55000.0,65.0,3575.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",5,Brooklyn - Park Slope,52000.0,70.0,3640.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",6,Manhattan - Midtown,48000.0,68.0,3264.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",7,Brooklyn - DUMBO,61000.0,71.0,4331.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",8,Manhattan - Chelsea,50000.0,66.0,3300.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",9,Queens - Long Island City,51000.0,69.0,3519.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",10,Manhattan - Greenwich Village,55000.0,68.0,3740.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",11,Brooklyn - Fort Greene,48000.0,67.0,3216.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",12,Manhattan - East Village,52000.0,70.0,3640.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",13,Brooklyn - Prospect Heights,49000.0,69.0,3381.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",14,Manhattan - SoHo,58000.0,65.0,3770.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",15,Queens - Flushing,42000.0,62.0,2604.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",16,Manhattan - NoLita,56000.0,67.0,3752.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",17,Brooklyn - Red Hook,47000.0,66.0,3102.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",18,Manhattan - Upper East Side,51000.0,64.0,3264.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",19,Brooklyn - Crown Heights,45000.0,68.0,3060.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",20,Manhattan - West Village,59000.0,70.0,4130.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",21,Queens - Jackson Heights,40000.0,60.0,2400.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",22,Manhattan - Tribeca,61000.0,68.0,4148.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",23,Brooklyn - Bay Ridge,43000.0,65.0,2795.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",24,Manhattan - Hell's Kitchen,50000.0,69.0,3450.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"New York, NY",25,Brooklyn - Sunset Park,44000.0,64.0,2816.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",1,Santa Monica,58000.0,70.0,4060.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",2,Venice Beach,62000.0,72.0,4464.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",3,Downtown LA,48000.0,68.0,3264.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",4,Silver Lake,52000.0,70.0,3640.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",5,West Hollywood,56000.0,71.0,3976.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",6,Long Beach,50000.0,69.0,3450.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",7,Culver City,51000.0,68.0,3468.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",8,Pasadena,49000.0,67.0,3283.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",9,Mar Vista,47000.0,66.0,3102.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",10,Koreatown,43000.0,65.0,2795.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",11,Griffith Park Area,45000.0,68.0,3060.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",12,Beverly Hills,61000.0,72.0,4392.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",13,Studio City,50000.0,69.0,3450.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",14,Beachwood Canyon,54000.0,70.0,3780.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",15,Highland Park,46000.0,67.0,3082.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",16,Los Feliz,51000.0,69.0,3519.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",17,Echo Park,48000.0,68.0,3264.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",18,Burbank,45000.0,66.0,2970.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",19,Glendale,44000.0,65.0,2860.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",20,Sherman Oaks,47000.0,67.0,3149.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",21,Malibu,65000.0,68.0,4420.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",22,Brentwood,58000.0,71.0,4118.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",23,Encino,56000.0,70.0,3920.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",24,Topanga Canyon,53000.0,69.0,3657.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Los Angeles, CA",25,Calabasas,50000.0,68.0,3400.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",1,San Francisco - Neighborhood 1,60921.0,60.5,1229.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",2,San Francisco - Neighborhood 2,45196.0,70.8,1067.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",3,San Francisco - Neighborhood 3,59616.0,60.7,1206.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",4,San Francisco - Neighborhood 4,60124.0,66.6,1335.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",5,San Francisco - Neighborhood 5,60958.0,63.9,1298.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",6,San Francisco - Neighborhood 6,45354.0,66.0,998.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",7,San Francisco - Neighborhood 7,46316.0,73.7,1138.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",8,San Francisco - Neighborhood 8,64423.0,59.8,1284.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",9,San Francisco - Neighborhood 9,42007.0,70.5,987.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",10,San Francisco - Neighborhood 10,44545.0,64.5,958.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",11,San Francisco - Neighborhood 11,46582.0,68.3,1061.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",12,San Francisco - Neighborhood 12,49860.0,55.7,926.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",13,San Francisco - Neighborhood 13,63961.0,61.6,1313.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",14,San Francisco - Neighborhood 14,61226.0,63.8,1302.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",15,San Francisco - Neighborhood 15,62313.0,55.3,1149.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",16,San Francisco - Neighborhood 16,47299.0,68.1,1074.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",17,San Francisco - Neighborhood 17,37245.0,70.6,876.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",18,San Francisco - Neighborhood 18,45157.0,68.9,1037.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",19,San Francisco - Neighborhood 19,60553.0,72.0,1453.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",20,San Francisco - Neighborhood 20,46400.0,61.3,948.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",21,San Francisco - Neighborhood 21,61171.0,55.7,1136.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",22,San Francisco - Neighborhood 22,42043.0,68.7,963.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",23,San Francisco - Neighborhood 23,64923.0,69.9,1513.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",24,San Francisco - Neighborhood 24,64350.0,70.2,1506.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"San Francisco, CA",25,San Francisco - Neighborhood 25,48310.0,68.9,1110.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",1,Miami - Neighborhood 1,36380.0,70.9,860.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",2,Miami - Neighborhood 2,45754.0,63.6,970.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",3,Miami - Neighborhood 3,50935.0,66.3,1126.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",4,Miami - Neighborhood 4,40100.0,56.6,757.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",5,Miami - Neighborhood 5,53591.0,59.8,1068.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",6,Miami - Neighborhood 6,39294.0,64.2,841.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",7,Miami - Neighborhood 7,48787.0,68.3,1111.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",8,Miami - Neighborhood 8,62036.0,68.6,1419.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",9,Miami - Neighborhood 9,37216.0,73.9,917.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",10,Miami - Neighborhood 10,43975.0,74.2,1088.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",11,Miami - Neighborhood 11,48705.0,61.0,990.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",12,Miami - Neighborhood 12,60600.0,57.1,1153.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",13,Miami - Neighborhood 13,52158.0,66.5,1156.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",14,Miami - Neighborhood 14,35658.0,71.6,851.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",15,Miami - Neighborhood 15,43234.0,66.3,955.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",16,Miami - Neighborhood 16,62319.0,69.9,1452.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",17,Miami - Neighborhood 17,58272.0,59.6,1158.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",18,Miami - Neighborhood 18,41570.0,58.8,815.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",19,Miami - Neighborhood 19,55333.0,69.4,1280.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",20,Miami - Neighborhood 20,53847.0,73.1,1312.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",21,Miami - Neighborhood 21,44268.0,63.8,941.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",22,Miami - Neighborhood 22,45946.0,57.6,882.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",23,Miami - Neighborhood 23,44802.0,63.3,945.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",24,Miami - Neighborhood 24,38965.0,65.8,855.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Miami, FL",25,Miami - Neighborhood 25,50926.0,73.3,1244.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",1,Chicago - Neighborhood 1,42709.0,71.5,1018.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",2,Chicago - Neighborhood 2,64022.0,60.9,1300.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",3,Chicago - Neighborhood 3,59127.0,64.4,1269.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",4,Chicago - Neighborhood 4,39223.0,74.3,971.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",5,Chicago - Neighborhood 5,64018.0,71.1,1517.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",6,Chicago - Neighborhood 6,37709.0,62.9,791.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",7,Chicago - Neighborhood 7,51097.0,64.1,1092.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",8,Chicago - Neighborhood 8,52537.0,71.4,1250.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",9,Chicago - Neighborhood 9,38250.0,59.7,761.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",10,Chicago - Neighborhood 10,53586.0,73.9,1320.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",11,Chicago - Neighborhood 11,62458.0,59.4,1237.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",12,Chicago - Neighborhood 12,54062.0,64.3,1159.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",13,Chicago - Neighborhood 13,54477.0,57.3,1041.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",14,Chicago - Neighborhood 14,63388.0,61.1,1291.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",15,Chicago - Neighborhood 15,38484.0,59.7,766.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",16,Chicago - Neighborhood 16,39070.0,64.1,835.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",17,Chicago - Neighborhood 17,47574.0,69.8,1107.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",18,Chicago - Neighborhood 18,61562.0,68.1,1397.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",19,Chicago - Neighborhood 19,53470.0,73.8,1315.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",20,Chicago - Neighborhood 20,35981.0,62.4,748.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",21,Chicago - Neighborhood 21,48341.0,59.7,962.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",22,Chicago - Neighborhood 22,37981.0,68.7,870.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",23,Chicago - Neighborhood 23,62051.0,67.9,1404.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",24,Chicago - Neighborhood 24,46944.0,58.8,920.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Chicago, IL",25,Chicago - Neighborhood 25,63470.0,71.5,1513.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",1,Boston - Neighborhood 1,54883.0,67.8,1240.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",2,Boston - Neighborhood 2,64133.0,56.0,1197.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",3,Boston - Neighborhood 3,42307.0,57.5,811.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",4,Boston - Neighborhood 4,41156.0,71.6,982.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",5,Boston - Neighborhood 5,41215.0,59.3,815.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",6,Boston - Neighborhood 6,44857.0,58.0,867.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",7,Boston - Neighborhood 7,35085.0,72.2,844.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",8,Boston - Neighborhood 8,64626.0,65.8,1417.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",9,Boston - Neighborhood 9,38298.0,72.3,923.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",10,Boston - Neighborhood 10,35446.0,70.8,837.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",11,Boston - Neighborhood 11,52666.0,55.3,971.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",12,Boston - Neighborhood 12,36572.0,69.8,851.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",13,Boston - Neighborhood 13,38409.0,56.3,721.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",14,Boston - Neighborhood 14,58341.0,65.3,1270.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",15,Boston - Neighborhood 15,48560.0,59.4,961.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",16,Boston - Neighborhood 16,36301.0,70.7,855.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",17,Boston - Neighborhood 17,44049.0,67.9,997.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",18,Boston - Neighborhood 18,36825.0,64.6,793.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",19,Boston - Neighborhood 19,47788.0,57.2,911.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",20,Boston - Neighborhood 20,37205.0,56.6,702.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",21,Boston - Neighborhood 21,39450.0,57.5,756.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",22,Boston - Neighborhood 22,53992.0,66.0,1188.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",23,Boston - Neighborhood 23,46427.0,66.9,1035.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",24,Boston - Neighborhood 24,48611.0,67.1,1087.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Boston, MA",25,Boston - Neighborhood 25,58793.0,57.3,1123.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",1,Washington - Neighborhood 1,56625.0,59.3,1119.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",2,Washington - Neighborhood 2,61643.0,63.3,1301.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",3,Washington - Neighborhood 3,46962.0,69.6,1090.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",4,Washington - Neighborhood 4,47803.0,68.3,1088.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",5,Washington - Neighborhood 5,63608.0,68.7,1457.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",6,Washington - Neighborhood 6,37014.0,71.6,883.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",7,Washington - Neighborhood 7,47956.0,69.9,1117.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",8,Washington - Neighborhood 8,59353.0,66.1,1308.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",9,Washington - Neighborhood 9,63699.0,66.2,1406.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",10,Washington - Neighborhood 10,47324.0,72.5,1144.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",11,Washington - Neighborhood 11,61043.0,69.4,1412.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",12,Washington - Neighborhood 12,53012.0,62.0,1096.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",13,Washington - Neighborhood 13,50222.0,58.1,973.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",14,Washington - Neighborhood 14,41727.0,57.2,796.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",15,Washington - Neighborhood 15,46027.0,70.3,1079.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",16,Washington - Neighborhood 16,41785.0,63.6,886.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",17,Washington - Neighborhood 17,64236.0,71.4,1529.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",18,Washington - Neighborhood 18,55249.0,66.1,1217.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",19,Washington - Neighborhood 19,62873.0,71.6,1501.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",20,Washington - Neighborhood 20,35869.0,60.5,723.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",21,Washington - Neighborhood 21,62646.0,62.0,1295.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",22,Washington - Neighborhood 22,61096.0,66.3,1350.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",23,Washington - Neighborhood 23,37088.0,69.8,863.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",24,Washington - Neighborhood 24,37753.0,65.6,826.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Washington, DC",25,Washington - Neighborhood 25,47595.0,61.8,980.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",1,Seattle - Neighborhood 1,44349.0,61.5,909.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",2,Seattle - Neighborhood 2,52887.0,72.7,1282.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",3,Seattle - Neighborhood 3,39722.0,67.4,892.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",4,Seattle - Neighborhood 4,43163.0,68.2,981.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",5,Seattle - Neighborhood 5,53212.0,63.3,1123.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",6,Seattle - Neighborhood 6,57648.0,57.3,1101.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",7,Seattle - Neighborhood 7,38327.0,68.6,876.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",8,Seattle - Neighborhood 8,49599.0,68.3,1129.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",9,Seattle - Neighborhood 9,41616.0,74.7,1036.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",10,Seattle - Neighborhood 10,35231.0,61.0,716.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",11,Seattle - Neighborhood 11,58020.0,70.3,1360.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",12,Seattle - Neighborhood 12,44844.0,55.2,825.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",13,Seattle - Neighborhood 13,40271.0,62.6,840.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",14,Seattle - Neighborhood 14,50008.0,71.7,1195.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",15,Seattle - Neighborhood 15,37162.0,72.2,894.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",16,Seattle - Neighborhood 16,48087.0,64.2,1029.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",17,Seattle - Neighborhood 17,60863.0,66.5,1349.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",18,Seattle - Neighborhood 18,47133.0,67.8,1065.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",19,Seattle - Neighborhood 19,38455.0,55.4,710.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",20,Seattle - Neighborhood 20,40156.0,74.0,991.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",21,Seattle - Neighborhood 21,59961.0,73.4,1467.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",22,Seattle - Neighborhood 22,48101.0,57.1,916.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",23,Seattle - Neighborhood 23,52666.0,65.5,1150.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",24,Seattle - Neighborhood 24,61116.0,69.9,1424.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Seattle, WA",25,Seattle - Neighborhood 25,44992.0,58.4,876.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",1,Austin - Neighborhood 1,53997.0,65.6,1181.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",2,Austin - Neighborhood 2,62178.0,62.0,1285.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",3,Austin - Neighborhood 3,42088.0,57.9,812.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",4,Austin - Neighborhood 4,40205.0,58.1,779.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",5,Austin - Neighborhood 5,40314.0,70.5,947.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",6,Austin - Neighborhood 6,48919.0,66.3,1081.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",7,Austin - Neighborhood 7,48467.0,73.5,1187.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",8,Austin - Neighborhood 8,54290.0,74.7,1352.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",9,Austin - Neighborhood 9,60927.0,67.5,1371.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",10,Austin - Neighborhood 10,48193.0,64.4,1035.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",11,Austin - Neighborhood 11,58890.0,66.8,1311.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",12,Austin - Neighborhood 12,50220.0,61.2,1024.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",13,Austin - Neighborhood 13,36128.0,62.4,751.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",14,Austin - Neighborhood 14,37302.0,72.3,899.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",15,Austin - Neighborhood 15,53450.0,65.1,1160.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",16,Austin - Neighborhood 16,52410.0,74.1,1295.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",17,Austin - Neighborhood 17,48492.0,71.2,1151.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",18,Austin - Neighborhood 18,44646.0,64.5,960.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",19,Austin - Neighborhood 19,63732.0,64.0,1360.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",20,Austin - Neighborhood 20,64472.0,56.7,1219.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",21,Austin - Neighborhood 21,36174.0,69.2,834.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",22,Austin - Neighborhood 22,50722.0,67.2,1136.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",23,Austin - Neighborhood 23,46186.0,60.7,934.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",24,Austin - Neighborhood 24,58234.0,68.6,1332.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Austin, TX",25,Austin - Neighborhood 25,58677.0,67.9,1328.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",1,Denver - Neighborhood 1,44891.0,66.2,991.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",2,Denver - Neighborhood 2,43524.0,69.5,1008.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",3,Denver - Neighborhood 3,61198.0,61.7,1259.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",4,Denver - Neighborhood 4,54908.0,73.3,1342.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",5,Denver - Neighborhood 5,64031.0,69.0,1473.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",6,Denver - Neighborhood 6,38869.0,69.2,897.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",7,Denver - Neighborhood 7,44287.0,62.5,923.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",8,Denver - Neighborhood 8,59396.0,68.4,1354.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",9,Denver - Neighborhood 9,37804.0,68.4,862.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",10,Denver - Neighborhood 10,45855.0,62.3,952.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",11,Denver - Neighborhood 11,63535.0,61.8,1309.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",12,Denver - Neighborhood 12,40760.0,75.0,1019.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",13,Denver - Neighborhood 13,37315.0,71.9,894.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",14,Denver - Neighborhood 14,50231.0,65.8,1102.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",15,Denver - Neighborhood 15,36132.0,61.7,743.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",16,Denver - Neighborhood 16,38931.0,62.5,811.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",17,Denver - Neighborhood 17,40425.0,68.9,928.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",18,Denver - Neighborhood 18,59271.0,58.3,1152.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",19,Denver - Neighborhood 19,36311.0,62.3,754.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",20,Denver - Neighborhood 20,64088.0,67.2,1436.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",21,Denver - Neighborhood 21,42020.0,59.8,838.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",22,Denver - Neighborhood 22,62119.0,58.9,1220.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",23,Denver - Neighborhood 23,64533.0,64.2,1381.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",24,Denver - Neighborhood 24,58344.0,65.1,1266.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Denver, CO",25,Denver - Neighborhood 25,63988.0,71.3,1521.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",1,Dallas - Neighborhood 1,39152.0,60.0,783.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",2,Dallas - Neighborhood 2,61224.0,66.1,1349.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",3,Dallas - Neighborhood 3,56342.0,65.3,1226.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",4,Dallas - Neighborhood 4,43552.0,70.3,1021.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",5,Dallas - Neighborhood 5,48480.0,65.3,1055.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",6,Dallas - Neighborhood 6,37751.0,73.2,921.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",7,Dallas - Neighborhood 7,61539.0,73.6,1510.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",8,Dallas - Neighborhood 8,36598.0,65.0,793.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",9,Dallas - Neighborhood 9,46585.0,56.6,879.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",10,Dallas - Neighborhood 10,35846.0,73.6,879.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",11,Dallas - Neighborhood 11,58741.0,57.8,1132.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",12,Dallas - Neighborhood 12,62522.0,64.4,1342.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",13,Dallas - Neighborhood 13,57765.0,64.4,1240.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",14,Dallas - Neighborhood 14,35158.0,56.6,663.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",15,Dallas - Neighborhood 15,41470.0,58.0,802.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",16,Dallas - Neighborhood 16,50833.0,57.2,969.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",17,Dallas - Neighborhood 17,42129.0,57.4,806.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",18,Dallas - Neighborhood 18,47595.0,70.9,1125.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",19,Dallas - Neighborhood 19,36884.0,71.7,882.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",20,Dallas - Neighborhood 20,52902.0,55.3,975.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",21,Dallas - Neighborhood 21,52251.0,69.4,1209.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",22,Dallas - Neighborhood 22,47877.0,67.3,1074.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",23,Dallas - Neighborhood 23,52120.0,58.7,1020.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",24,Dallas - Neighborhood 24,50705.0,62.2,1051.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Dallas, TX",25,Dallas - Neighborhood 25,51322.0,70.7,1209.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",1,Atlanta - Neighborhood 1,51625.0,62.8,1081.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",2,Atlanta - Neighborhood 2,36306.0,62.7,759.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",3,Atlanta - Neighborhood 3,42610.0,55.3,785.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",4,Atlanta - Neighborhood 4,45344.0,69.7,1053.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",5,Atlanta - Neighborhood 5,58145.0,69.7,1351.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",6,Atlanta - Neighborhood 6,39002.0,62.0,806.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",7,Atlanta - Neighborhood 7,59405.0,58.5,1158.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",8,Atlanta - Neighborhood 8,64425.0,64.6,1387.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",9,Atlanta - Neighborhood 9,59345.0,56.3,1114.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",10,Atlanta - Neighborhood 10,36110.0,59.0,710.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",11,Atlanta - Neighborhood 11,61574.0,61.3,1258.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",12,Atlanta - Neighborhood 12,50462.0,74.8,1258.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",13,Atlanta - Neighborhood 13,49202.0,55.7,914.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",14,Atlanta - Neighborhood 14,43583.0,72.2,1049.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",15,Atlanta - Neighborhood 15,60974.0,61.6,1252.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",16,Atlanta - Neighborhood 16,58980.0,63.7,1252.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",17,Atlanta - Neighborhood 17,57299.0,72.9,1392.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",18,Atlanta - Neighborhood 18,45171.0,58.7,884.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",19,Atlanta - Neighborhood 19,46020.0,70.9,1088.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",20,Atlanta - Neighborhood 20,59034.0,69.5,1368.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",21,Atlanta - Neighborhood 21,47918.0,74.9,1196.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",22,Atlanta - Neighborhood 22,51364.0,61.4,1051.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",23,Atlanta - Neighborhood 23,44838.0,60.9,910.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",24,Atlanta - Neighborhood 24,53079.0,63.5,1124.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Atlanta, GA",25,Atlanta - Neighborhood 25,45546.0,55.8,847.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",1,Phoenix - Neighborhood 1,53446.0,63.7,1135.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",2,Phoenix - Neighborhood 2,37251.0,67.8,842.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",3,Phoenix - Neighborhood 3,50393.0,70.0,1176.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",4,Phoenix - Neighborhood 4,63584.0,57.9,1227.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",5,Phoenix - Neighborhood 5,55343.0,63.8,1177.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",6,Phoenix - Neighborhood 6,37017.0,70.6,871.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",7,Phoenix - Neighborhood 7,45865.0,74.0,1131.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",8,Phoenix - Neighborhood 8,53153.0,68.6,1215.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",9,Phoenix - Neighborhood 9,46160.0,70.3,1082.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",10,Phoenix - Neighborhood 10,39131.0,62.3,813.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",11,Phoenix - Neighborhood 11,54487.0,60.0,1090.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",12,Phoenix - Neighborhood 12,35777.0,58.7,700.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",13,Phoenix - Neighborhood 13,46610.0,66.2,1029.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",14,Phoenix - Neighborhood 14,58249.0,69.1,1342.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",15,Phoenix - Neighborhood 15,64891.0,60.7,1313.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",16,Phoenix - Neighborhood 16,41005.0,57.7,789.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",17,Phoenix - Neighborhood 17,48561.0,73.0,1182.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",18,Phoenix - Neighborhood 18,64918.0,71.2,1541.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",19,Phoenix - Neighborhood 19,55035.0,69.2,1269.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",20,Phoenix - Neighborhood 20,51265.0,72.8,1244.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",21,Phoenix - Neighborhood 21,56354.0,73.5,1381.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",22,Phoenix - Neighborhood 22,58811.0,65.2,1278.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",23,Phoenix - Neighborhood 23,64554.0,70.8,1523.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",24,Phoenix - Neighborhood 24,58711.0,55.5,1086.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Phoenix, AZ",25,Phoenix - Neighborhood 25,52168.0,64.3,1118.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",1,Nashville - Neighborhood 1,38893.0,72.7,943.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",2,Nashville - Neighborhood 2,44279.0,75.0,1107.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",3,Nashville - Neighborhood 3,50771.0,70.4,1191.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",4,Nashville - Neighborhood 4,37213.0,74.4,923.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",5,Nashville - Neighborhood 5,48499.0,68.6,1109.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",6,Nashville - Neighborhood 6,38850.0,71.6,927.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",7,Nashville - Neighborhood 7,54194.0,58.6,1059.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",8,Nashville - Neighborhood 8,47979.0,73.2,1171.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",9,Nashville - Neighborhood 9,59942.0,65.4,1307.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",10,Nashville - Neighborhood 10,39940.0,61.5,819.0,Accelerating,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",11,Nashville - Neighborhood 11,45381.0,73.8,1116.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",12,Nashville - Neighborhood 12,60378.0,60.0,1208.0,High Growth,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",13,Nashville - Neighborhood 13,43234.0,67.5,973.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",14,Nashville - Neighborhood 14,51004.0,65.1,1107.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",15,Nashville - Neighborhood 15,52754.0,66.6,1171.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",16,Nashville - Neighborhood 16,54762.0,69.4,1267.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",17,Nashville - Neighborhood 17,45129.0,73.5,1106.0,Emerging,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",18,Nashville - Neighborhood 18,59757.0,55.6,1107.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",19,Nashville - Neighborhood 19,63456.0,70.4,1489.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",20,Nashville - Neighborhood 20,54534.0,70.3,1278.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",21,Nashville - Neighborhood 21,53543.0,55.6,992.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",22,Nashville - Neighborhood 22,43690.0,74.1,1079.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",23,Nashville - Neighborhood 23,42346.0,71.1,1004.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",24,Nashville - Neighborhood 24,43923.0,56.5,827.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Nashville, TN",25,Nashville - Neighborhood 25,39742.0,63.3,839.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",1,Charlotte - Neighborhood 1,41121.0,67.1,920.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",2,Charlotte - Neighborhood 2,60845.0,61.4,1245.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",3,Charlotte - Neighborhood 3,64261.0,57.6,1234.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",4,Charlotte - Neighborhood 4,50449.0,57.1,960.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",5,Charlotte - Neighborhood 5,48994.0,60.3,985.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",6,Charlotte - Neighborhood 6,39226.0,56.0,732.0,Mature,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",7,Charlotte - Neighborhood 7,60925.0,63.4,1288.0,Accelerating,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",8,Charlotte - Neighborhood 8,59404.0,73.7,1459.0,Stable,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",9,Charlotte - Neighborhood 9,40695.0,58.2,789.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",10,Charlotte - Neighborhood 10,49004.0,72.6,1186.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",11,Charlotte - Neighborhood 11,35695.0,73.9,879.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",12,Charlotte - Neighborhood 12,48717.0,59.8,971.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",13,Charlotte - Neighborhood 13,45587.0,56.0,851.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",14,Charlotte - Neighborhood 14,52926.0,71.9,1268.0,Mature,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",15,Charlotte - Neighborhood 15,43572.0,55.2,802.0,Emerging,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",16,Charlotte - Neighborhood 16,47928.0,72.6,1160.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",17,Charlotte - Neighborhood 17,57916.0,62.3,1203.0,Mature,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",18,Charlotte - Neighborhood 18,36535.0,66.2,806.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",19,Charlotte - Neighborhood 19,51597.0,56.5,972.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",20,Charlotte - Neighborhood 20,48511.0,66.0,1067.0,High Growth,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",21,Charlotte - Neighborhood 21,55412.0,57.4,1060.0,Emerging,High,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",22,Charlotte - Neighborhood 22,46817.0,70.9,1106.0,Stable,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",23,Charlotte - Neighborhood 23,51735.0,62.3,1074.0,Accelerating,Medium,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",24,Charlotte - Neighborhood 24,40972.0,65.2,890.0,High Growth,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14
+"Charlotte, NC",25,Charlotte - Neighborhood 25,36208.0,55.8,673.0,Stable,Moderate,Inside Airbnb/AirROI Analysis,2024-11-14

@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ model.label }} | Corporate Finance Models</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f172a;
+        --surface: rgba(15, 23, 42, 0.88);
+        --panel: rgba(15, 23, 42, 0.92);
+        --border: rgba(148, 163, 184, 0.25);
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --primary: #38bdf8;
+        --accent: #818cf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), transparent 40%), var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        padding-bottom: 80px;
+      }
+
+      header {
+        padding: 48px clamp(24px, 8vw, 96px) 24px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      header h1 {
+        margin: 0 0 12px;
+        font-size: clamp(30px, 5vw, 46px);
+      }
+
+      header p {
+        margin: 0;
+        color: var(--muted);
+        max-width: 760px;
+        line-height: 1.65;
+      }
+
+      header .model-switcher {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      header .model-switcher a {
+        padding: 8px 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+      }
+
+      header .model-switcher a.active,
+      header .model-switcher a:hover {
+        background: rgba(56, 189, 248, 0.14);
+        color: white;
+        border-color: rgba(56, 189, 248, 0.5);
+      }
+
+      main {
+        padding: 32px clamp(24px, 8vw, 96px);
+        display: grid;
+        grid-template-columns: minmax(280px, 380px) minmax(360px, 1fr);
+        gap: 32px;
+        align-items: flex-start;
+      }
+
+      @media (max-width: 1080px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
+      }
+
+      .panel h2 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-size: 20px;
+      }
+
+      .panel p {
+        margin-top: 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      form .section {
+        margin-bottom: 24px;
+      }
+
+      form .section h3 {
+        margin: 0 0 12px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(226, 232, 240, 0.72);
+      }
+
+      .field {
+        margin-bottom: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      label {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      input,
+      select {
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid rgba(148, 163, 184, 0.35);
+        background: rgba(15, 23, 42, 0.65);
+        color: white;
+        font-size: 15px;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      input:focus,
+      select:focus {
+        outline: none;
+        border-color: rgba(56, 189, 248, 0.65);
+        box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
+      }
+
+      .form-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .form-actions button {
+        flex: 1 1 0;
+        padding: 12px 16px;
+        border-radius: 999px;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      }
+
+      .form-actions .primary {
+        background: linear-gradient(135deg, rgba(56, 189, 248, 0.95), rgba(129, 140, 248, 0.95));
+        color: #0f172a;
+        box-shadow: 0 12px 30px rgba(56, 189, 248, 0.25);
+      }
+
+      .form-actions .primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 16px 40px rgba(129, 140, 248, 0.35);
+      }
+
+      .form-actions .secondary {
+        background: rgba(15, 23, 42, 0.8);
+        color: var(--muted);
+        border: 1px solid rgba(148, 163, 184, 0.35);
+      }
+
+      .results-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .tables-stack {
+        display: grid;
+        gap: 18px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(15, 23, 42, 0.75);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+
+      table thead {
+        background: rgba(56, 189, 248, 0.12);
+        color: var(--primary);
+      }
+
+      table th,
+      table td {
+        padding: 12px 16px;
+        text-align: left;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+      }
+
+      table tbody tr:last-child td {
+        border-bottom: none;
+      }
+
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+      }
+
+      .metric-card {
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 16px;
+        padding: 16px;
+      }
+
+      .metric-card h4 {
+        margin: 0 0 8px;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(148, 163, 184, 0.85);
+      }
+
+      .metric-card p {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .charts-grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .chart-card {
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        border-radius: 16px;
+        padding: 18px;
+      }
+
+      .chart-card h3 {
+        margin: 0 0 12px;
+        font-size: 16px;
+      }
+
+      .placeholder,
+      .loading {
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .breakdowns {
+        margin-top: 32px;
+        display: grid;
+        gap: 16px;
+      }
+
+      details {
+        background: rgba(15, 23, 42, 0.78);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        border-radius: 16px;
+        padding: 16px 20px;
+      }
+
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+      }
+
+      details summary::marker,
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+
+      details summary span {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      details summary span::after {
+        content: '▸';
+        transform: rotate(0deg);
+        transition: transform 0.2s ease;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      details[open] summary span::after {
+        transform: rotate(90deg);
+      }
+
+      .details-content {
+        margin-top: 16px;
+        display: grid;
+        gap: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ model.label }}</h1>
+      <p>{{ model.description }}</p>
+      <div class="model-switcher">
+        {% for other in other_models %}
+        <a href="/api/v1/finance/models/{{ other.slug }}" class="{{ 'active' if other.slug == model.slug else '' }}"
+          >{{ other.label }}</a
+        >
+        {% endfor %}
+      </div>
+    </header>
+    <main>
+      <section class="panel">
+        <h2>Inputs</h2>
+        <p>
+          Update the assumption drivers below. The model mirrors our Excel workflows and recalculates valuation tables and charts
+          instantly when you run it.
+        </p>
+        <form id="model-form">
+          {% for section in model.sections %}
+          <div class="section">
+            <h3>{{ section.label }}</h3>
+            {% for field in section.fields %}
+            <div class="field">
+              <label for="{{ field.name }}">{{ field.label }}</label>
+              {% if field.type == 'select' %}
+              <select name="{{ field.name }}" id="{{ field.name }}">
+                {% for option in field.options %}
+                <option value="{{ option }}">{{ option }}</option>
+                {% endfor %}
+              </select>
+              {% else %}
+              <input
+                type="{{ field.type }}"
+                name="{{ field.name }}"
+                id="{{ field.name }}"
+                step="{{ field.step if field.step is defined else 'any' }}"
+                min="{{ field.min if field.min is defined else '' }}"
+                max="{{ field.max if field.max is defined else '' }}"
+              />
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% endfor %}
+          <div class="form-actions">
+            <button type="submit" class="primary">Run model</button>
+            <button type="button" class="secondary" id="reset-button">Reset to defaults</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-header">
+          <h2>{{ model.label }} results</h2>
+          <p>
+            Review the full valuation output exactly as provided in the Excel files. Tables mirror the underwriting schedules and
+            charts highlight the key drivers and sensitivities for investment committees.
+          </p>
+        </div>
+        <div id="results-container" class="results-container">
+          <p class="placeholder">Submit the model assumptions to generate schedules and charts.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const model = {{ model|tojson }};
+      const runEndpoint = "/api/v1/finance/models/run";
+      const fieldMap = Object.fromEntries(model.fields.map((field) => [field.name, field]));
+
+      const form = document.getElementById("model-form");
+      const resultsContainer = document.getElementById("results-container");
+      const resetButton = document.getElementById("reset-button");
+
+      const chartsByKey = {};
+
+      function formatDisplayValue(name, value) {
+        if (value === null || value === undefined || value === "") {
+          return "";
+        }
+        const field = fieldMap[name];
+        let display = value;
+        if (field && field.format === "percentage" && typeof value === "number") {
+          display = value * 100;
+        }
+        if (typeof display === "number" && Number.isFinite(display)) {
+          return String(parseFloat(display.toFixed(4)));
+        }
+        return display;
+      }
+
+      function parseSubmissionValue(name, value) {
+        const field = fieldMap[name];
+        if (!field) {
+          return value;
+        }
+        if (field.type === "number") {
+          const numeric = parseFloat(value);
+          if (!Number.isFinite(numeric)) {
+            return null;
+          }
+          if (field.format === "percentage") {
+            return numeric / 100;
+          }
+          return numeric;
+        }
+        return value;
+      }
+
+      function populateForm(values) {
+        Object.entries(values).forEach(([name, value]) => {
+          const element = form.elements.namedItem(name);
+          if (!element) return;
+          if (element instanceof HTMLSelectElement) {
+            element.value = value ?? "";
+          } else {
+            element.value = formatDisplayValue(name, value);
+          }
+        });
+      }
+
+      function serializeForm() {
+        const overrides = {};
+        Array.from(form.elements).forEach((element) => {
+          if (!(element instanceof HTMLInputElement || element instanceof HTMLSelectElement)) {
+            return;
+          }
+          if (!element.name) return;
+          overrides[element.name] = parseSubmissionValue(element.name, element.value);
+        });
+        return overrides;
+      }
+
+      function setLoading(message) {
+        resultsContainer.innerHTML = "";
+        const paragraph = document.createElement("p");
+        paragraph.className = "loading";
+        paragraph.textContent = message;
+        resultsContainer.appendChild(paragraph);
+      }
+
+      function buildTableBlock(table) {
+        const wrapper = document.createElement("div");
+        const title = document.createElement("h3");
+        title.textContent = table.title;
+        wrapper.appendChild(title);
+
+        const tableEl = document.createElement("table");
+        const thead = document.createElement("thead");
+        const headerRow = document.createElement("tr");
+        table.columns.forEach((column) => {
+          const th = document.createElement("th");
+          th.textContent = column;
+          headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        tableEl.appendChild(thead);
+
+        const tbody = document.createElement("tbody");
+        table.rows.forEach((row) => {
+          const tr = document.createElement("tr");
+          table.columns.forEach((column) => {
+            const td = document.createElement("td");
+            td.textContent = row[column] ?? "";
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+        tableEl.appendChild(tbody);
+        wrapper.appendChild(tableEl);
+        return wrapper;
+      }
+
+      function buildMetricsBlock(table) {
+        const wrapper = document.createElement("div");
+        const title = document.createElement("h3");
+        title.textContent = table.title;
+        wrapper.appendChild(title);
+
+        const grid = document.createElement("div");
+        grid.className = "metrics-grid";
+        Object.entries(table.metrics).forEach(([label, value]) => {
+          const card = document.createElement("div");
+          card.className = "metric-card";
+
+          const heading = document.createElement("h4");
+          heading.textContent = label;
+          const metricValue = document.createElement("p");
+          metricValue.textContent = value;
+
+          card.appendChild(heading);
+          card.appendChild(metricValue);
+          grid.appendChild(card);
+        });
+
+        wrapper.appendChild(grid);
+        return wrapper;
+      }
+
+      function renderCharts(keyPrefix, charts) {
+        if (!charts || charts.length === 0) {
+          return null;
+        }
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "charts-grid";
+
+        charts.forEach((chart) => {
+          const card = document.createElement("div");
+          card.className = "chart-card";
+
+          const title = document.createElement("h3");
+          title.textContent = chart.title;
+          card.appendChild(title);
+
+          const canvas = document.createElement("canvas");
+          const canvasId = `${keyPrefix}-${chart.key}`;
+          canvas.id = canvasId;
+          card.appendChild(canvas);
+          wrapper.appendChild(card);
+
+          const existing = chartsByKey[canvasId];
+          if (existing) {
+            existing.destroy();
+          }
+
+          const config = {
+            type: chart.type === "bar" ? "bar" : "line",
+            data: {
+              labels: chart.labels,
+              datasets:
+                chart.type === "bar"
+                  ? chart.datasets.map((dataset, index) => ({
+                      label: dataset.label,
+                      data: dataset.data,
+                      backgroundColor: ["#38bdf8", "#818cf8", "#fbbf24", "#22d3ee", "#f472b6"][index % 5],
+                    }))
+                  : Object.entries(chart.datasets).map(([label, data]) => ({
+                      label,
+                      data,
+                      borderWidth: 2,
+                      tension: 0.25,
+                    })),
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                x: {
+                  ticks: { color: "#cbd5f5" },
+                  grid: { color: "rgba(148, 163, 184, 0.18)" },
+                  title: { display: Boolean(chart.x_label), text: chart.x_label },
+                },
+                y: {
+                  ticks: { color: "#cbd5f5" },
+                  grid: { color: "rgba(148, 163, 184, 0.18)" },
+                  title: { display: Boolean(chart.y_label), text: chart.y_label },
+                },
+              },
+              plugins: {
+                legend: {
+                  labels: { color: "#e2e8f0" },
+                },
+              },
+            },
+          };
+
+          chartsByKey[canvasId] = new Chart(canvas, config);
+        });
+
+        return wrapper;
+      }
+
+      function renderTables(container, tables) {
+        tables.forEach((table) => {
+          if (table.kind === "metrics") {
+            container.appendChild(buildMetricsBlock(table));
+          } else {
+            container.appendChild(buildTableBlock(table));
+          }
+        });
+      }
+
+      function renderBreakdowns(slug, payload) {
+        if (!payload || (!payload.dcf && !payload.lbo)) {
+          return;
+        }
+        const wrapper = document.createElement("div");
+        wrapper.className = "breakdowns";
+
+        if (payload.dcf) {
+          const detail = document.createElement("details");
+          const summary = document.createElement("summary");
+          summary.innerHTML = '<span>View underlying DCF schedules</span>';
+          detail.appendChild(summary);
+
+          const content = document.createElement("div");
+          content.className = "details-content";
+          const tablesBlock = document.createElement("div");
+          tablesBlock.className = "tables-stack";
+          renderTables(tablesBlock, payload.dcf.tables || []);
+          content.appendChild(tablesBlock);
+          const chartsBlock = renderCharts(`${slug}-dcf`, payload.dcf.charts || []);
+          if (chartsBlock) {
+            content.appendChild(chartsBlock);
+          }
+          detail.appendChild(content);
+          wrapper.appendChild(detail);
+        }
+
+        if (payload.lbo) {
+          const detail = document.createElement("details");
+          const summary = document.createElement("summary");
+          summary.innerHTML = '<span>View underlying LBO schedules</span>';
+          detail.appendChild(summary);
+
+          const content = document.createElement("div");
+          content.className = "details-content";
+          const tablesBlock = document.createElement("div");
+          tablesBlock.className = "tables-stack";
+          renderTables(tablesBlock, payload.lbo.tables || []);
+          content.appendChild(tablesBlock);
+          const chartsBlock = renderCharts(`${slug}-lbo`, payload.lbo.charts || []);
+          if (chartsBlock) {
+            content.appendChild(chartsBlock);
+          }
+          detail.appendChild(content);
+          wrapper.appendChild(detail);
+        }
+
+        resultsContainer.appendChild(wrapper);
+      }
+
+      function renderResults(slug, payload) {
+        resultsContainer.innerHTML = "";
+        const tableWrapper = document.createElement("div");
+        tableWrapper.className = "tables-stack";
+        renderTables(tableWrapper, payload.tables || []);
+        resultsContainer.appendChild(tableWrapper);
+
+        const charts = renderCharts(slug, payload.charts || []);
+        if (charts) {
+          resultsContainer.appendChild(charts);
+        }
+
+        renderBreakdowns(slug, payload);
+      }
+
+      function runAnalysis() {
+        setLoading("Running financial model...");
+        const overrides = serializeForm();
+        fetch(runEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ model: model.slug, values: overrides }),
+        })
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Unable to run model");
+            }
+            return response.json();
+          })
+          .then((payload) => {
+            renderResults(model.slug, payload);
+          })
+          .catch((error) => {
+            resultsContainer.innerHTML = "";
+            const paragraph = document.createElement("p");
+            paragraph.className = "loading";
+            paragraph.style.color = "#fca5a5";
+            paragraph.textContent = error.message;
+            resultsContainer.appendChild(paragraph);
+          });
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        runAnalysis();
+      });
+
+      resetButton.addEventListener("click", () => {
+        populateForm(model.defaults);
+        runAnalysis();
+      });
+
+      window.addEventListener("DOMContentLoaded", () => {
+        populateForm(model.defaults);
+        runAnalysis();
+      });
+    </script>
+  </body>
+</html>

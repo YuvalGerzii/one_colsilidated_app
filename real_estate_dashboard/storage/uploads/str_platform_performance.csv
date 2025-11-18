@@ -1,0 +1,16 @@
+market,airbnb_market_share_pct,vrbo_market_share_pct,booking_com_market_share_pct,other_platforms_market_share_pct,avg_airbnb_platform_commission_pct,avg_vrbo_platform_commission_pct,channel_manager_usage_pct,data_source,period
+"New York, NY",67.6,21.0,7.6,9.5,15.2,10.3,41.6,Platform Analysis,2024-Q3
+"Los Angeles, CA",75.9,18.3,4.1,10.0,14.6,8.2,56.4,Platform Analysis,2024-Q3
+"San Francisco, CA",59.6,26.8,5.9,9.7,14.9,11.3,31.8,Platform Analysis,2024-Q3
+"Miami, FL",69.2,16.3,2.7,9.7,15.0,8.2,54.6,Platform Analysis,2024-Q3
+"Chicago, IL",62.5,15.7,2.6,6.0,15.9,10.7,26.9,Platform Analysis,2024-Q3
+"Boston, MA",77.3,27.6,2.9,8.9,17.5,9.9,45.4,Platform Analysis,2024-Q3
+"Washington, DC",73.1,16.6,3.7,3.5,17.1,10.6,30.4,Platform Analysis,2024-Q3
+"Seattle, WA",72.8,25.6,2.2,11.3,15.7,11.4,55.6,Platform Analysis,2024-Q3
+"Austin, TX",58.7,25.4,6.7,4.7,17.0,11.5,32.4,Platform Analysis,2024-Q3
+"Denver, CO",58.7,16.8,5.6,11.4,15.3,9.8,45.1,Platform Analysis,2024-Q3
+"Dallas, TX",68.5,26.2,2.8,7.5,15.1,11.2,33.9,Platform Analysis,2024-Q3
+"Atlanta, GA",72.6,22.4,6.3,3.1,15.3,9.2,46.3,Platform Analysis,2024-Q3
+"Phoenix, AZ",61.9,21.8,5.8,6.6,15.7,9.3,36.4,Platform Analysis,2024-Q3
+"Nashville, TN",59.9,27.7,4.9,11.4,14.0,9.5,38.1,Platform Analysis,2024-Q3
+"Charlotte, NC",63.3,17.3,5.5,8.2,15.0,9.4,30.5,Platform Analysis,2024-Q3

@@ -1,0 +1,16 @@
+market,regulation_type,registration_required,license_permit_required,license_cost_usd,primary_residence_requirement,max_rental_days_per_year,occupancy_tax_rate_pct,platform_collects_taxes,enforcement_level,fine_per_violation_usd,data_source,effective_date
+"New York, NY",Heavily Restricted,True,True,1250,True,10,2.8,True,Strict,2500,Municipal Codes/STRisker,2024-01-01
+"Los Angeles, CA",Heavily Restricted,True,True,685,False,90,3.1,True,Strict,2000,Municipal Codes/STRisker,2024-01-01
+"San Francisco, CA",Banned/Heavily Restricted,True,True,4500,True,14,4.7,True,Strict,5000,Municipal Codes/STRisker,2024-01-01
+"Miami, FL",Moderately Regulated,True,True,350,False,180,5.7,False,Moderate,1500,Municipal Codes/STRisker,2024-01-01
+"Chicago, IL",Heavily Restricted,True,True,500,True,30,2.8,True,Strict,2000,Municipal Codes/STRisker,2024-01-01
+"Boston, MA",Heavily Restricted,True,True,1200,True,30,7.0,True,Strict,1500,Municipal Codes/STRisker,2024-01-01
+"Washington, DC",Moderately Regulated,True,True,400,False,90,3.0,True,Moderate,1000,Municipal Codes/STRisker,2024-01-01
+"Seattle, WA",Moderately Regulated,True,True,275,True,180,3.2,True,Moderate,1500,Municipal Codes/STRisker,2024-01-01
+"Austin, TX",Lightly Regulated,True,False,0,False,365,5.8,False,Lax,500,Municipal Codes/STRisker,2024-01-01
+"Denver, CO",Moderately Regulated,True,True,600,True,180,3.7,False,Moderate,1000,Municipal Codes/STRisker,2024-01-01
+"Dallas, TX",Lightly Regulated,True,False,0,False,365,4.6,True,Lax,500,Municipal Codes/STRisker,2024-01-01
+"Atlanta, GA",Lightly Regulated,True,False,0,False,180,4.1,False,Moderate,500,Municipal Codes/STRisker,2024-01-01
+"Phoenix, AZ",Lightly Regulated,False,False,0,False,365,7.9,True,Lax,300,Municipal Codes/STRisker,2024-01-01
+"Nashville, TN",Lightly Regulated,False,False,0,False,365,5.6,True,Lax,500,Municipal Codes/STRisker,2024-01-01
+"Charlotte, NC",Lightly Regulated,False,False,0,False,365,5.9,False,Lax,400,Municipal Codes/STRisker,2024-01-01

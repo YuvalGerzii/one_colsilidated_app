@@ -1,0 +1,136 @@
+market,zone_type,projects_under_construction,units_under_construction,sf_under_construction,permits_issued_ytd_2024,units_permitted_ytd,sf_permitted_ytd,permit_value_mm,applications_pending,avg_approval_timeline_months,approval_success_rate_pct,data_source,period
+"New York City, NY",R-3,72,4195,1134689,67,10207,3145298,184,27,15,73.3,Municipal Building Department,2024-Q3
+"New York City, NY",R-4,120,7354,2869165,184,8360,2582031,1184,17,9,70.9,Municipal Building Department,2024-Q3
+"New York City, NY",R-5,120,2616,3176389,105,7256,3254705,177,117,7,76.1,Municipal Building Department,2024-Q3
+"New York City, NY",C-2,32,3419,2445385,85,1854,3425928,1117,130,23,65.3,Municipal Building Department,2024-Q3
+"New York City, NY",C-3,87,6023,2687900,42,2758,996023,891,110,16,75.6,Municipal Building Department,2024-Q3
+"New York City, NY",MX-1,54,6634,730101,62,10520,4455829,907,143,7,56.7,Municipal Building Department,2024-Q3
+"New York City, NY",MX-2,25,6295,1521873,133,9158,4018497,390,50,16,89.5,Municipal Building Department,2024-Q3
+"New York City, NY",MX-3,48,1781,1773170,169,5552,3006705,1123,145,23,73.1,Municipal Building Department,2024-Q3
+"New York City, NY",I-1,80,2905,2116843,16,6685,2963639,1464,43,19,76.6,Municipal Building Department,2024-Q3
+"Los Angeles, CA",R-3,109,7812,3167230,173,1086,4166151,628,73,7,76.6,Municipal Building Department,2024-Q3
+"Los Angeles, CA",R-4,29,4744,2763323,170,6879,1424632,1767,77,7,76.2,Municipal Building Department,2024-Q3
+"Los Angeles, CA",R-5,97,1350,925207,16,7875,2816443,942,53,19,80.5,Municipal Building Department,2024-Q3
+"Los Angeles, CA",C-2,60,4560,3375469,168,8376,707453,1530,50,22,62.7,Municipal Building Department,2024-Q3
+"Los Angeles, CA",C-3,49,5874,2131433,146,6823,2816947,439,132,23,67.7,Municipal Building Department,2024-Q3
+"Los Angeles, CA",MX-1,53,5986,3362959,176,4981,4246597,478,78,14,75.6,Municipal Building Department,2024-Q3
+"Los Angeles, CA",MX-2,36,8162,1373285,85,4046,4287055,734,137,17,75.7,Municipal Building Department,2024-Q3
+"Los Angeles, CA",MX-3,109,6361,1271964,85,2646,3370105,893,103,10,65.7,Municipal Building Department,2024-Q3
+"Los Angeles, CA",I-1,44,8275,3120325,32,6324,3895919,1428,80,21,62.9,Municipal Building Department,2024-Q3
+"San Francisco, CA",R-3,113,4862,1262213,155,5100,1336529,308,76,13,56.9,Municipal Building Department,2024-Q3
+"San Francisco, CA",R-4,123,4800,1071535,175,4464,625327,290,120,16,81.5,Municipal Building Department,2024-Q3
+"San Francisco, CA",R-5,20,6030,3357827,47,734,1509905,918,136,21,79.1,Municipal Building Department,2024-Q3
+"San Francisco, CA",C-2,104,8346,1329793,94,5326,681291,1659,37,24,63.6,Municipal Building Department,2024-Q3
+"San Francisco, CA",C-3,102,6373,281440,56,7496,1659622,159,116,21,61.9,Municipal Building Department,2024-Q3
+"San Francisco, CA",MX-1,103,8331,1339112,21,801,2688095,1248,42,16,65.5,Municipal Building Department,2024-Q3
+"San Francisco, CA",MX-2,90,4900,2324151,138,2848,4414642,1043,84,12,84.9,Municipal Building Department,2024-Q3
+"San Francisco, CA",MX-3,50,1781,3191536,129,11271,2343094,1556,62,6,82.3,Municipal Building Department,2024-Q3
+"San Francisco, CA",I-1,109,2866,2506447,184,3814,1657158,1336,118,19,74.1,Municipal Building Department,2024-Q3
+"Miami, FL",R-3,19,3733,2932062,36,3677,1364537,1062,97,13,55.3,Municipal Building Department,2024-Q3
+"Miami, FL",R-4,57,2379,1998744,80,6050,2717905,1277,17,14,79.2,Municipal Building Department,2024-Q3
+"Miami, FL",R-5,96,2385,385568,182,2586,4089016,713,55,18,80.4,Municipal Building Department,2024-Q3
+"Miami, FL",C-2,122,7722,3075932,91,11959,1169954,1393,90,17,77.7,Municipal Building Department,2024-Q3
+"Miami, FL",C-3,36,8292,685228,134,3159,4001637,1616,110,19,81.0,Municipal Building Department,2024-Q3
+"Miami, FL",MX-1,124,4307,3301558,149,11530,2017169,1645,78,8,74.4,Municipal Building Department,2024-Q3
+"Miami, FL",MX-2,75,6215,1642435,31,9893,1126275,211,144,12,76.2,Municipal Building Department,2024-Q3
+"Miami, FL",MX-3,27,1797,1501225,145,7889,1160091,1478,67,24,73.1,Municipal Building Department,2024-Q3
+"Miami, FL",I-1,123,4630,1993489,26,8079,1291829,1136,121,20,75.9,Municipal Building Department,2024-Q3
+"Chicago, IL",R-3,79,4237,2946792,90,1006,3506458,606,15,12,76.4,Municipal Building Department,2024-Q3
+"Chicago, IL",R-4,13,3920,1570058,28,9516,690460,226,135,7,65.6,Municipal Building Department,2024-Q3
+"Chicago, IL",R-5,31,6749,693029,176,11232,3711251,851,112,20,87.2,Municipal Building Department,2024-Q3
+"Chicago, IL",C-2,124,3542,1700571,32,11835,1300599,1423,104,9,61.6,Municipal Building Department,2024-Q3
+"Chicago, IL",C-3,76,3669,2343126,44,4298,214136,1633,20,15,72.1,Municipal Building Department,2024-Q3
+"Chicago, IL",MX-1,100,4910,1903921,148,6864,2111561,591,132,17,60.7,Municipal Building Department,2024-Q3
+"Chicago, IL",MX-2,32,8129,3165970,40,1177,3701845,1344,19,13,62.6,Municipal Building Department,2024-Q3
+"Chicago, IL",MX-3,20,5315,265829,126,10444,593326,586,26,18,71.2,Municipal Building Department,2024-Q3
+"Chicago, IL",I-1,77,2229,3289122,26,2945,4411984,677,74,24,66.8,Municipal Building Department,2024-Q3
+"Boston, MA",R-3,84,6778,2945803,94,4531,2716383,378,71,19,66.1,Municipal Building Department,2024-Q3
+"Boston, MA",R-4,15,5010,2606631,56,10906,3768618,1223,141,7,91.0,Municipal Building Department,2024-Q3
+"Boston, MA",R-5,90,5949,1723678,146,5872,3677384,921,53,15,68.9,Municipal Building Department,2024-Q3
+"Boston, MA",C-2,104,4856,2111081,73,4342,2707759,1841,51,20,88.8,Municipal Building Department,2024-Q3
+"Boston, MA",C-3,79,3830,1871960,154,9333,1309851,880,77,14,62.5,Municipal Building Department,2024-Q3
+"Boston, MA",MX-1,90,1097,2011542,106,2164,1782875,190,83,18,79.9,Municipal Building Department,2024-Q3
+"Boston, MA",MX-2,85,773,430279,60,10276,2005466,1066,68,16,66.2,Municipal Building Department,2024-Q3
+"Boston, MA",MX-3,124,575,1013386,60,2572,4202479,581,67,18,88.9,Municipal Building Department,2024-Q3
+"Boston, MA",I-1,78,3084,3377740,84,6886,4096192,1177,106,15,64.7,Municipal Building Department,2024-Q3
+Washington DC,R-3,73,7681,2210732,131,2265,4123371,1644,96,12,68.7,Municipal Building Department,2024-Q3
+Washington DC,R-4,60,824,2484399,68,3040,321062,619,121,15,60.6,Municipal Building Department,2024-Q3
+Washington DC,R-5,50,2334,1718163,157,4676,4373444,1212,101,14,83.2,Municipal Building Department,2024-Q3
+Washington DC,C-2,70,8367,3159821,176,8687,4050713,429,105,11,60.2,Municipal Building Department,2024-Q3
+Washington DC,C-3,77,4450,896952,150,11165,677680,1158,23,8,90.0,Municipal Building Department,2024-Q3
+Washington DC,MX-1,93,847,3330869,13,7406,1338362,1810,74,8,81.2,Municipal Building Department,2024-Q3
+Washington DC,MX-2,9,2241,2246197,128,6764,692092,1350,138,21,55.6,Municipal Building Department,2024-Q3
+Washington DC,MX-3,76,4969,1850278,15,924,2489692,1182,88,6,73.6,Municipal Building Department,2024-Q3
+Washington DC,I-1,97,5971,1930954,57,2403,992939,1158,53,13,62.1,Municipal Building Department,2024-Q3
+"Seattle, WA",R-3,75,2517,1611633,80,7152,847861,849,118,20,75.9,Municipal Building Department,2024-Q3
+"Seattle, WA",R-4,97,2300,1383184,32,11360,450788,276,118,18,69.0,Municipal Building Department,2024-Q3
+"Seattle, WA",R-5,68,909,2795715,14,3457,878621,1108,126,16,75.9,Municipal Building Department,2024-Q3
+"Seattle, WA",C-2,117,8427,524976,147,1347,2112421,517,136,14,56.7,Municipal Building Department,2024-Q3
+"Seattle, WA",C-3,17,6056,1300969,151,9882,461000,452,95,6,90.6,Municipal Building Department,2024-Q3
+"Seattle, WA",MX-1,83,1631,3280183,113,1910,2695516,417,76,24,85.9,Municipal Building Department,2024-Q3
+"Seattle, WA",MX-2,57,5996,2392283,96,6938,1358990,1703,35,22,82.6,Municipal Building Department,2024-Q3
+"Seattle, WA",MX-3,52,889,534723,123,4453,822687,782,116,16,56.1,Municipal Building Department,2024-Q3
+"Seattle, WA",I-1,42,6868,2014744,137,4387,3169760,1217,111,19,61.9,Municipal Building Department,2024-Q3
+"Austin, TX",R-3,82,5862,1719140,33,10785,2662822,1719,78,8,58.0,Municipal Building Department,2024-Q3
+"Austin, TX",R-4,27,3562,3109990,174,3177,3453386,733,107,9,58.4,Municipal Building Department,2024-Q3
+"Austin, TX",R-5,47,4093,1634603,81,2324,1296549,263,62,19,71.6,Municipal Building Department,2024-Q3
+"Austin, TX",C-2,79,4647,1836461,38,1080,936777,809,38,16,87.0,Municipal Building Department,2024-Q3
+"Austin, TX",C-3,9,2840,1860645,111,2037,2221271,1256,58,18,61.3,Municipal Building Department,2024-Q3
+"Austin, TX",MX-1,42,2916,1250779,138,3040,715723,427,126,14,70.6,Municipal Building Department,2024-Q3
+"Austin, TX",MX-2,69,6861,447631,104,4773,2253547,1561,141,12,71.9,Municipal Building Department,2024-Q3
+"Austin, TX",MX-3,25,2945,153384,113,6093,3371747,1731,99,20,67.4,Municipal Building Department,2024-Q3
+"Austin, TX",I-1,112,7196,2855646,164,2880,2705233,741,66,21,66.6,Municipal Building Department,2024-Q3
+"Denver, CO",R-3,58,8385,1463560,86,11019,4303867,1264,77,16,68.9,Municipal Building Department,2024-Q3
+"Denver, CO",R-4,112,6887,1773089,105,2515,1861044,1297,61,23,56.0,Municipal Building Department,2024-Q3
+"Denver, CO",R-5,101,4231,3096106,65,7833,2628863,1787,32,19,79.9,Municipal Building Department,2024-Q3
+"Denver, CO",C-2,25,5638,1395172,73,4789,1478047,1549,123,18,57.7,Municipal Building Department,2024-Q3
+"Denver, CO",C-3,84,4375,2567108,114,9405,4434774,1501,122,23,56.4,Municipal Building Department,2024-Q3
+"Denver, CO",MX-1,54,6197,2376946,164,11105,897880,308,78,17,61.2,Municipal Building Department,2024-Q3
+"Denver, CO",MX-2,86,812,2487317,177,11749,3537236,1626,99,19,58.9,Municipal Building Department,2024-Q3
+"Denver, CO",MX-3,20,2569,1056140,142,9149,2039148,997,110,18,72.1,Municipal Building Department,2024-Q3
+"Denver, CO",I-1,94,5271,3020903,140,3119,3078796,135,138,9,65.9,Municipal Building Department,2024-Q3
+"Dallas, TX",R-3,125,8328,485101,41,2971,3106992,723,102,20,84.0,Municipal Building Department,2024-Q3
+"Dallas, TX",R-4,74,4406,1585877,133,2249,3860602,1563,130,16,57.5,Municipal Building Department,2024-Q3
+"Dallas, TX",R-5,13,7087,3106223,41,1020,3062946,1412,42,11,89.4,Municipal Building Department,2024-Q3
+"Dallas, TX",C-2,102,2448,2289235,56,9692,1528315,762,124,20,63.6,Municipal Building Department,2024-Q3
+"Dallas, TX",C-3,59,5608,898646,59,11143,3810006,895,22,12,71.6,Municipal Building Department,2024-Q3
+"Dallas, TX",MX-1,62,3635,143664,66,4021,2519925,1625,31,24,58.8,Municipal Building Department,2024-Q3
+"Dallas, TX",MX-2,119,4848,909166,105,5990,1838178,1022,44,14,79.8,Municipal Building Department,2024-Q3
+"Dallas, TX",MX-3,70,4773,2805615,92,10430,3445142,1336,115,24,59.2,Municipal Building Department,2024-Q3
+"Dallas, TX",I-1,53,7376,2045406,170,3476,2680148,1343,36,10,66.6,Municipal Building Department,2024-Q3
+"Atlanta, GA",R-3,38,2951,615519,58,6766,1370801,1131,114,19,77.1,Municipal Building Department,2024-Q3
+"Atlanta, GA",R-4,81,3593,1899353,59,8623,1638198,1221,57,21,65.7,Municipal Building Department,2024-Q3
+"Atlanta, GA",R-5,31,3027,2016635,170,1528,3196838,104,139,10,62.2,Municipal Building Department,2024-Q3
+"Atlanta, GA",C-2,57,8345,2480445,141,11349,4337108,922,140,19,81.3,Municipal Building Department,2024-Q3
+"Atlanta, GA",C-3,64,4453,826511,33,9913,443878,1714,71,15,56.2,Municipal Building Department,2024-Q3
+"Atlanta, GA",MX-1,36,4854,1335771,55,8142,4339989,1210,145,9,76.2,Municipal Building Department,2024-Q3
+"Atlanta, GA",MX-2,42,6799,2402952,105,9530,534054,1641,127,23,63.1,Municipal Building Department,2024-Q3
+"Atlanta, GA",MX-3,62,1288,3211960,179,4705,2682363,151,130,14,67.9,Municipal Building Department,2024-Q3
+"Atlanta, GA",I-1,112,1162,1966592,42,4532,1945585,1745,104,19,61.1,Municipal Building Department,2024-Q3
+"Phoenix, AZ",R-3,25,6879,991625,64,1622,3127853,1175,86,23,61.2,Municipal Building Department,2024-Q3
+"Phoenix, AZ",R-4,98,2847,1338551,158,5030,983806,362,120,7,91.7,Municipal Building Department,2024-Q3
+"Phoenix, AZ",R-5,118,5823,657207,45,4740,1411778,1541,97,13,83.2,Municipal Building Department,2024-Q3
+"Phoenix, AZ",C-2,94,3667,2177938,48,10110,2439162,1370,121,18,71.7,Municipal Building Department,2024-Q3
+"Phoenix, AZ",C-3,89,6959,3349934,35,7250,2518926,1507,109,20,90.2,Municipal Building Department,2024-Q3
+"Phoenix, AZ",MX-1,49,5217,135372,35,8161,3189990,1826,31,23,69.7,Municipal Building Department,2024-Q3
+"Phoenix, AZ",MX-2,62,7207,1013569,138,5049,2893389,1781,87,16,75.3,Municipal Building Department,2024-Q3
+"Phoenix, AZ",MX-3,24,5087,2160654,99,11832,591086,179,40,20,55.6,Municipal Building Department,2024-Q3
+"Phoenix, AZ",I-1,117,1744,1975887,128,661,3773640,499,48,15,60.9,Municipal Building Department,2024-Q3
+"Nashville, TN",R-3,120,2694,516496,179,6555,2285417,253,110,11,56.9,Municipal Building Department,2024-Q3
+"Nashville, TN",R-4,88,2952,3170015,71,7682,950034,1526,39,6,62.9,Municipal Building Department,2024-Q3
+"Nashville, TN",R-5,17,1537,2615072,69,9160,3918491,104,17,16,85.2,Municipal Building Department,2024-Q3
+"Nashville, TN",C-2,118,3909,3035977,45,8476,779150,553,113,8,82.0,Municipal Building Department,2024-Q3
+"Nashville, TN",C-3,21,1295,1439291,106,5552,1335323,868,49,10,57.5,Municipal Building Department,2024-Q3
+"Nashville, TN",MX-1,80,519,2684864,178,3338,3876821,804,69,10,89.0,Municipal Building Department,2024-Q3
+"Nashville, TN",MX-2,86,6074,1980492,67,2070,1027762,371,46,24,82.0,Municipal Building Department,2024-Q3
+"Nashville, TN",MX-3,52,8340,1925986,92,2940,2263582,652,36,13,75.5,Municipal Building Department,2024-Q3
+"Nashville, TN",I-1,84,6357,2673430,84,11962,410019,1821,92,12,74.2,Municipal Building Department,2024-Q3
+"Charlotte, NC",R-3,73,1995,3261683,112,5492,642759,1690,76,21,69.3,Municipal Building Department,2024-Q3
+"Charlotte, NC",R-4,38,4542,2801311,164,1813,286225,824,96,10,69.3,Municipal Building Department,2024-Q3
+"Charlotte, NC",R-5,115,5106,1890229,105,9601,1634302,1647,135,8,55.6,Municipal Building Department,2024-Q3
+"Charlotte, NC",C-2,16,562,1224684,67,1302,692249,1701,116,22,65.6,Municipal Building Department,2024-Q3
+"Charlotte, NC",C-3,99,4554,3342492,118,7589,3559547,253,54,14,58.1,Municipal Building Department,2024-Q3
+"Charlotte, NC",MX-1,18,4638,977272,51,9438,2925980,885,31,15,80.9,Municipal Building Department,2024-Q3
+"Charlotte, NC",MX-2,101,8260,1125917,26,4655,908205,974,44,20,77.7,Municipal Building Department,2024-Q3
+"Charlotte, NC",MX-3,15,2983,2918740,180,3527,1186960,110,50,6,61.1,Municipal Building Department,2024-Q3
+"Charlotte, NC",I-1,52,4734,2294389,78,3385,3304466,344,83,9,83.5,Municipal Building Department,2024-Q3

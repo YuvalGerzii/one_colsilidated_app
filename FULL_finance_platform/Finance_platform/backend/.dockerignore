@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.tmp
+*.log
+.env
+.env.*
+venv/
+.mypy_cache/
+.pytest_cache/
+.git/
+.idea/
+.vscode/
+**/tests/

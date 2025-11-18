@@ -1,0 +1,158 @@
+RESIDENTIAL PROPERTIES - STUDY GUIDE
+=====================================
+
+DEFINITION
+----------
+Residential properties are real estate assets designed for people to live in, including apartments, houses, condos, townhouses, and multi-family buildings (duplexes, triplexes, and small apartment buildings).
+
+KEY CHARACTERISTICS
+-------------------
+• Primary use: Housing for individuals and families
+• Zoning: Designated for residential use
+• Typical lease terms: 6-12 months for rentals
+• High liquidity compared to commercial properties
+• Larger buyer pool (both investors and owner-occupiers)
+• Emotional factors influence pricing
+
+
+INVESTMENT STRATEGIES
+---------------------
+
+1. Buy and Hold (Rental Income)
+   - Purchase property and rent to tenants
+   - Generate monthly cash flow
+   - Build equity through mortgage paydown
+   - Benefit from property appreciation
+
+2. House Flipping
+   - Buy undervalued properties
+   - Renovate and improve
+   - Sell quickly for profit
+   - Requires market timing and renovation expertise
+
+3. House Hacking
+   - Live in one unit while renting others
+   - Offset mortgage with rental income
+   - Good strategy for first-time investors
+   - Common in multi-family properties
+
+4. BRRRR Method
+   - Buy, Rehab, Rent, Refinance, Repeat
+   - Extract equity through refinancing
+   - Recycle capital into next investment
+
+
+KEY CALCULATIONS & METRICS
+---------------------------
+
+1. Gross Rental Yield
+   Formula: (Annual Rental Income / Property Price) × 100
+   Example: (₪60,000 / ₪1,500,000) × 100 = 4%
+   Purpose: Quick assessment of rental return
+
+2. Net Rental Yield
+   Formula: [(Annual Rent - Annual Expenses) / Property Price] × 100
+   Include: Property tax, insurance, maintenance, vacancy, management fees
+   Purpose: More accurate return measurement
+
+3. Cash-on-Cash Return
+   Formula: (Annual Pre-Tax Cash Flow / Total Cash Invested) × 100
+   Purpose: Measures return on actual money invested (down payment + costs)
+
+4. Capitalization Rate (Cap Rate)
+   Formula: (Net Operating Income / Property Value) × 100
+   NOI = Rental Income - Operating Expenses (excluding mortgage)
+   Purpose: Compare investment opportunities
+
+5. Debt Service Coverage Ratio (DSCR)
+   Formula: Net Operating Income / Annual Debt Service
+   Lenders typically require: DSCR ≥ 1.25
+   Purpose: Measures ability to cover mortgage payments
+
+6. 1% Rule (Quick Screening)
+   Rule: Monthly rent should be ≥ 1% of purchase price
+   Example: ₪1,500,000 property should rent for ≥ ₪15,000/month
+   Purpose: Fast filter for potentially good investments
+
+7. Break-Even Occupancy
+   Formula: (Operating Expenses + Debt Service) / Gross Potential Income
+   Purpose: Minimum occupancy needed to cover costs
+
+
+EXPENSE CATEGORIES TO CONSIDER
+-------------------------------
+• Property Tax (Arnona in Israel)
+• Insurance (building and contents)
+• Maintenance and repairs (typically 1-2% of property value annually)
+• Property management fees (8-10% of rental income)
+• Vacancy allowance (5-10% of potential income)
+• Utilities (if landlord-paid)
+• HOA/Vaad Bayit fees
+• Mortgage interest and principal
+
+
+RISKS & CONSIDERATIONS
+-----------------------
+• Market Risk: Property values can decline
+• Vacancy Risk: Periods without tenants = no income
+• Tenant Risk: Problem tenants, damage, non-payment
+• Liquidity Risk: Takes time to sell if you need cash
+• Maintenance Costs: Unexpected repairs can be expensive
+• Interest Rate Risk: Affects mortgage costs and property values
+• Regulatory Risk: Rent control, tenant protection laws
+• Location Sensitivity: Neighborhood changes affect values
+
+
+VALUATION APPROACHES
+---------------------
+
+1. Comparative Market Analysis (CMA)
+   - Compare with similar recently sold properties
+   - Adjust for differences in size, condition, location
+   - Most common for residential
+
+2. Income Approach
+   - Based on potential rental income
+   - More relevant for investment properties
+   - Value = NOI / Cap Rate
+
+3. Cost Approach
+   - Land value + Construction cost - Depreciation
+   - Used for new construction or unique properties
+
+
+DUE DILIGENCE CHECKLIST
+------------------------
+✓ Property inspection (structure, systems, roof, foundation)
+✓ Title search and ownership verification
+✓ Zoning compliance check
+✓ Review rental history and tenant leases
+✓ Assess neighborhood trends and development plans
+✓ Calculate all potential returns and expenses
+✓ Review building permits and code compliance
+✓ Check for liens, encumbrances, or legal issues
+✓ Evaluate comparable sales in the area
+✓ Analyze local rental demand and vacancy rates
+
+
+SUCCESS FACTORS
+----------------
+• Location: The most important factor - proximity to employment, schools, transport
+• Condition: Well-maintained properties command higher rents and values
+• Market Research: Understanding local supply/demand dynamics
+• Financial Discipline: Proper budgeting for expenses and reserves
+• Tenant Screening: Quality tenants reduce problems and vacancy
+• Professional Network: Good contractors, property managers, agents
+• Long-term Perspective: Residential real estate typically appreciates over time
+
+
+COMMON MISTAKES TO AVOID
+-------------------------
+× Underestimating expenses and renovation costs
+× Overleveraging with too much debt
+× Ignoring due diligence to rush a deal
+× Buying in declining neighborhoods
+× Emotional decisions instead of financial analysis
+× Inadequate cash reserves for emergencies
+× Poor property management
+× Confusing gross yield with actual returns

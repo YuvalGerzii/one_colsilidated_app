@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broker/Agent Database</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 2rem 1.5rem;
+            background: linear-gradient(145deg, rgba(15, 118, 110, 0.85), rgba(15, 23, 42, 0.95));
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .back-link {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            color: #cbd5f5;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(120deg, #14b8a6, #0d9488);
+            color: #0f172a;
+        }
+
+        .btn-primary:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .broker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .broker-card {
+            background: rgba(15, 23, 42, 0.75);
+            border-radius: 12px;
+            border: 1px solid rgba(148, 163, 184, 0.15);
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .broker-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(148, 163, 184, 0.3);
+        }
+
+        .broker-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .broker-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 0.25rem 0;
+        }
+
+        .broker-company {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .broker-title {
+            color: #cbd5f5;
+            font-size: 0.9rem;
+            margin: 0.25rem 0 0 0;
+        }
+
+        .broker-contact {
+            margin: 1rem 0;
+            padding: 1rem 0;
+            border-top: 1px solid rgba(148, 163, 184, 0.15);
+            border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #cbd5f5;
+        }
+
+        .broker-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .stat {
+            background: rgba(59, 130, 246, 0.1);
+            border-radius: 8px;
+            padding: 0.75rem;
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .stat-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .relationship-strength {
+            display: flex;
+            gap: 0.25rem;
+            margin: 1rem 0;
+        }
+
+        .relationship-label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            margin-bottom: 0.5rem;
+        }
+
+        .star {
+            color: #cbd5f5;
+            font-size: 1.25rem;
+        }
+
+        .star.filled {
+            color: #fbbf24;
+        }
+
+        .specialties {
+            margin: 1rem 0;
+        }
+
+        .specialties-label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            margin-bottom: 0.5rem;
+        }
+
+        .specialty-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .specialty-tag {
+            background: rgba(168, 85, 247, 0.2);
+            color: #a855f7;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+        }
+
+        .broker-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 0.5rem;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .action-btn.edit {
+            background: rgba(59, 130, 246, 0.2);
+            color: #3b82f6;
+            border: 1px solid rgba(59, 130, 246, 0.4);
+        }
+
+        .action-btn.edit:hover {
+            background: rgba(59, 130, 246, 0.3);
+        }
+
+        .action-btn.delete {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
+        .action-btn.delete:hover {
+            background: rgba(239, 68, 68, 0.3);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .close-btn:hover {
+            color: #f8fafc;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            color: #cbd5f5;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            background: rgba(15, 23, 42, 0.6);
+            color: #f8fafc;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+        }
+
+        .btn-secondary {
+            background: rgba(148, 163, 184, 0.2);
+            color: #f8fafc;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(148, 163, 184, 0.3);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .empty-state h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/api/v1/crm" class="back-link">← Back to CRM Home</a>
+
+        <header>
+            <h1>Broker/Agent Database</h1>
+            <button class="btn btn-primary" onclick="openAddModal()">+ Add Broker</button>
+        </header>
+
+        {% if brokers %}
+        <div class="broker-grid">
+            {% for broker in brokers %}
+            <div class="broker-card">
+                <div class="broker-header">
+                    <div>
+                        <h2 class="broker-name">{{ broker.full_name }}</h2>
+                        {% if broker.company %}
+                        <p class="broker-company">{{ broker.company }}</p>
+                        {% endif %}
+                        {% if broker.title %}
+                        <p class="broker-title">{{ broker.title }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+                {% if broker.email or broker.phone or broker.mobile %}
+                <div class="broker-contact">
+                    {% if broker.email %}
+                    <div class="contact-item">
+                        <span>📧</span> {{ broker.email }}
+                    </div>
+                    {% endif %}
+                    {% if broker.phone %}
+                    <div class="contact-item">
+                        <span>📞</span> {{ broker.phone }}
+                    </div>
+                    {% endif %}
+                    {% if broker.mobile %}
+                    <div class="contact-item">
+                        <span>📱</span> {{ broker.mobile }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                <div class="broker-stats">
+                    <div class="stat">
+                        <div class="stat-label">Total Deals</div>
+                        <div class="stat-value">{{ broker.total_deals }}</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Closed Deals</div>
+                        <div class="stat-value">{{ broker.closed_deals }}</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Success Rate</div>
+                        <div class="stat-value">{{ '{:.0f}'.format(broker.success_rate) }}%</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Volume</div>
+                        <div class="stat-value">${{ '{:,.0f}'.format(broker.total_volume / 1000000) if broker.total_volume else '0' }}M</div>
+                    </div>
+                </div>
+
+                {% if broker.relationship_strength %}
+                <div>
+                    <div class="relationship-label">Relationship Strength</div>
+                    <div class="relationship-strength">
+                        {% for i in range(1, 6) %}
+                        <span class="star {% if i <= broker.relationship_strength %}filled{% endif %}">★</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if broker.specialties %}
+                <div class="specialties">
+                    <div class="specialties-label">Specialties</div>
+                    <div class="specialty-tags">
+                        {% for specialty in broker.specialties.split(',') %}
+                        <span class="specialty-tag">{{ specialty.strip() }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if broker.primary_market %}
+                <div style="margin: 1rem 0; font-size: 0.9rem;">
+                    <span style="color: #94a3b8;">Primary Market:</span> <span style="color: #cbd5f5;">{{ broker.primary_market }}</span>
+                </div>
+                {% endif %}
+
+                <div class="broker-actions">
+                    <button class="action-btn edit" onclick="editBroker('{{ broker.id }}')">Edit</button>
+                    <button class="action-btn delete" onclick="deleteBroker('{{ broker.id }}', '{{ broker.full_name }}')">Delete</button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <h3>No brokers found</h3>
+            <p>Start building your network by clicking the "Add Broker" button above.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Add/Edit Broker Modal -->
+    <div class="modal" id="brokerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add Broker</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="brokerForm" onsubmit="saveBroker(event)">
+                <input type="hidden" id="brokerId">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>First Name *</label>
+                        <input type="text" id="first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name *</label>
+                        <input type="text" id="last_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input type="text" id="company">
+                    </div>
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" id="title">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label>Mobile</label>
+                        <input type="tel" id="mobile">
+                    </div>
+                    <div class="form-group">
+                        <label>Primary Market</label>
+                        <input type="text" id="primary_market">
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Office Address</label>
+                        <input type="text" id="office_address">
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Specialties (comma-separated)</label>
+                        <input type="text" id="specialties" placeholder="e.g., Multifamily, Office, Retail">
+                    </div>
+                    <div class="form-group">
+                        <label>Relationship Strength (1-5)</label>
+                        <input type="number" id="relationship_strength" min="1" max="5" value="3">
+                    </div>
+                    <div class="form-group">
+                        <label>Status</label>
+                        <select id="status">
+                            <option value="active">Active</option>
+                            <option value="inactive">Inactive</option>
+                            <option value="archived">Archived</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Notes</label>
+                        <textarea id="notes"></textarea>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openAddModal() {
+            document.getElementById('modalTitle').textContent = 'Add Broker';
+            document.getElementById('brokerForm').reset();
+            document.getElementById('brokerId').value = '';
+            document.getElementById('brokerModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('brokerModal').classList.remove('active');
+        }
+
+        async function editBroker(brokerId) {
+            const response = await fetch(`/api/v1/crm/api/brokers/${brokerId}`);
+            const broker = await response.json();
+
+            document.getElementById('modalTitle').textContent = 'Edit Broker';
+            document.getElementById('brokerId').value = broker.id;
+
+            // Populate form fields
+            ['first_name', 'last_name', 'company', 'title', 'email', 'phone', 'mobile',
+             'office_address', 'primary_market', 'specialties', 'relationship_strength',
+             'status', 'notes'].forEach(field => {
+                const element = document.getElementById(field);
+                if (element && broker[field] !== null) {
+                    element.value = broker[field];
+                }
+            });
+
+            document.getElementById('brokerModal').classList.add('active');
+        }
+
+        async function saveBroker(event) {
+            event.preventDefault();
+
+            const brokerId = document.getElementById('brokerId').value;
+            const formData = {};
+
+            // Collect form data
+            ['first_name', 'last_name', 'company', 'title', 'email', 'phone', 'mobile',
+             'office_address', 'primary_market', 'specialties', 'relationship_strength',
+             'status', 'notes'].forEach(field => {
+                const value = document.getElementById(field).value;
+                if (value !== '') {
+                    formData[field] = value;
+                }
+            });
+
+            const url = brokerId ? `/api/v1/crm/api/brokers/${brokerId}` : '/api/v1/crm/api/brokers';
+            const method = brokerId ? 'PUT' : 'POST';
+
+            const response = await fetch(url, {
+                method: method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error saving broker');
+            }
+        }
+
+        async function deleteBroker(brokerId, brokerName) {
+            if (!confirm(`Are you sure you want to delete "${brokerName}"?`)) return;
+
+            const response = await fetch(`/api/v1/crm/api/brokers/${brokerId}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error deleting broker');
+            }
+        }
+    </script>
+</body>
+</html>

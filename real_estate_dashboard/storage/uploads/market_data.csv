@@ -1,0 +1,123 @@
+market_name,submarket_name,property_type,property_class,metric_name,metric_value,metric_unit,period,data_source,confidence_level,notes
+NYC,Manhattan,multifamily,A,cap_rate,5.20,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+NYC,Manhattan,multifamily,B,cap_rate,5.50,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+NYC,Manhattan,multifamily,C,cap_rate,5.80,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+NYC,Brooklyn,multifamily,A,cap_rate,5.30,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data - expanded from Q3 2024
+NYC,Brooklyn,multifamily,B,cap_rate,5.60,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+NYC,Brooklyn,multifamily,C,cap_rate,6.00,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+NYC,Queens,multifamily,A,cap_rate,5.50,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Queens,multifamily,B,cap_rate,5.70,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Queens,multifamily,C,cap_rate,6.10,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Bronx,multifamily,A,cap_rate,6.50,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Bronx,multifamily,B,cap_rate,7.10,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Bronx,multifamily,C,cap_rate,7.40,%,2024-12-01,Alpha Realty Q4 2024,high,Q4 2024 market data
+NYC,Manhattan,multifamily,A,cap_rate,5.05,%,2024-09-01,Alpha Realty Q3 2024,high,Q3 2024 market data
+NYC,Manhattan,multifamily,A,cap_rate,4.90,%,2024-03-01,GREA Q1 2024,high,Q1 2024 market data
+NYC,Brooklyn,multifamily,A,cap_rate,4.72,%,2024-03-01,GREA Q1 2024,high,Q1 2024 - pre-expansion
+NYC,Brooklyn,multifamily,A,cap_rate,5.35,%,2024-12-01,Lee Associates Q4 2024,high,63 basis point increase from Q1
+Miami,Brickell/Downtown,multifamily,A,cap_rate,4.90,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+Miami,Brickell/Downtown,multifamily,B,cap_rate,5.20,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+Miami,Brickell/Downtown,multifamily,C,cap_rate,5.90,%,2024-12-01,apartmentloanstore.com,high,Q4 2024 market data
+Miami,Miami Beach,multifamily,A,cap_rate,5.10,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Miami Beach,multifamily,B,cap_rate,5.50,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Miami Beach,multifamily,C,cap_rate,6.20,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Coral Gables,multifamily,A,cap_rate,5.00,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Coral Gables,multifamily,B,cap_rate,5.30,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Coral Gables,multifamily,C,cap_rate,5.80,%,2024-12-01,Lee Associates South Florida,high,Q4 2024 market data
+Miami,Fort Lauderdale,multifamily,A,cap_rate,5.40,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+Miami,Fort Lauderdale,multifamily,B,cap_rate,5.70,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+Miami,Fort Lauderdale,multifamily,C,cap_rate,6.40,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+Miami,West Palm Beach,multifamily,A,cap_rate,5.30,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+Miami,West Palm Beach,multifamily,B,cap_rate,5.70,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+Miami,West Palm Beach,multifamily,C,cap_rate,6.30,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 estimate
+NYC,Manhattan,multifamily,A,rent_per_month_studio,3200,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,A,rent_per_month_1br,4200,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,A,rent_per_month_2br,5300,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,A,rent_per_month_3br,10000,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,B,rent_per_month_studio,2800,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,B,rent_per_month_1br,3600,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,B,rent_per_month_2br,4400,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Manhattan,multifamily,B,rent_per_month_3br,7800,$/unit,2024-11-01,Corcoran Rental Report,medium,November 2024 estimate
+NYC,Brooklyn,multifamily,A,rent_per_month_studio,2300,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Brooklyn,multifamily,A,rent_per_month_1br,3200,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Brooklyn,multifamily,A,rent_per_month_2br,4100,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Brooklyn,multifamily,A,rent_per_month_3br,5800,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Queens,multifamily,A,rent_per_month_studio,2000,$/unit,2024-11-01,Corcoran Rental Report,medium,November 2024 market rent
+NYC,Queens,multifamily,A,rent_per_month_1br,2500,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Queens,multifamily,A,rent_per_month_2br,3000,$/unit,2024-11-01,Corcoran Rental Report,high,November 2024 market rent
+NYC,Queens,multifamily,A,rent_per_month_3br,4900,$/unit,2024-11-01,Corcoran Rental Report,medium,November 2024 market rent
+NYC,Bronx,multifamily,A,rent_per_month_studio,1700,$/unit,2024-11-01,Market estimates,medium,November 2024 estimate
+NYC,Bronx,multifamily,A,rent_per_month_1br,2300,$/unit,2024-11-01,Market estimates,medium,November 2024 estimate
+NYC,Bronx,multifamily,A,rent_per_month_2br,2900,$/unit,2024-11-01,Market estimates,medium,November 2024 estimate
+NYC,Bronx,multifamily,A,rent_per_month_3br,3900,$/unit,2024-11-01,Market estimates,medium,November 2024 estimate
+Miami,Brickell/Downtown,multifamily,A,rent_per_month_studio,2350,$/unit,2024-07-01,RentCafe,high,July 2024 market rent
+Miami,Brickell/Downtown,multifamily,A,rent_per_month_1br,2900,$/unit,2024-07-01,RentCafe,high,July 2024 market rent
+Miami,Brickell/Downtown,multifamily,A,rent_per_month_2br,3900,$/unit,2024-07-01,RentCafe,high,July 2024 market rent
+Miami,Brickell/Downtown,multifamily,A,rent_per_month_3br,5280,$/unit,2024-07-01,RentCafe,medium,July 2024 market rent
+Miami,Miami Beach,multifamily,A,rent_per_month_studio,2700,$/unit,2024-07-01,Miami Realtors Association,high,July 2024 market rent
+Miami,Miami Beach,multifamily,A,rent_per_month_1br,3200,$/unit,2024-07-01,Miami Realtors Association,high,July 2024 market rent
+Miami,Miami Beach,multifamily,A,rent_per_month_2br,4350,$/unit,2024-07-01,Miami Realtors Association,high,July 2024 market rent
+Miami,Miami Beach,multifamily,A,rent_per_month_3br,6200,$/unit,2024-07-01,Miami Realtors Association,medium,July 2024 market rent
+NYC,Manhattan,multifamily,,vacancy_rate,2.33,%,2023-12-01,NYC Rent Guidelines Board,high,2023 Housing Vacancy Survey
+NYC,Brooklyn,multifamily,,vacancy_rate,1.27,%,2023-12-01,NYC Rent Guidelines Board,high,2023 Housing Vacancy Survey
+NYC,Queens,multifamily,,vacancy_rate,0.88,%,2023-12-01,NYC Rent Guidelines Board,high,2023 Housing Vacancy Survey
+NYC,Bronx,multifamily,,vacancy_rate,0.82,%,2023-12-01,NYC Rent Guidelines Board,high,2023 Housing Vacancy Survey
+NYC,Overall,multifamily,,vacancy_rate,1.41,%,2023-12-01,NYC Rent Guidelines Board,high,Citywide average
+Miami,Miami-Dade,multifamily,,vacancy_rate,6.20,%,2024-07-01,Miami Realtors Association,high,Up from 6.0% in July 2023
+Miami,Broward,multifamily,,vacancy_rate,6.20,%,2024-07-01,Miami Realtors Association,high,Up from 5.2% in July 2023
+Miami,Palm Beach,multifamily,,vacancy_rate,6.40,%,2024-07-01,Miami Realtors Association,high,Up from 6.0% in July 2023
+NYC,,multifamily,A,opex_pct_egi,32.5,%,2024-01-01,NYC market reports,medium,Class A operating expenses as % of EGI
+NYC,,multifamily,B,opex_pct_egi,34.5,%,2024-01-01,NYC market reports,medium,Class B operating expenses as % of EGI
+NYC,,multifamily,C,opex_pct_egi,37.5,%,2024-01-01,NYC market reports,medium,Class C operating expenses as % of EGI
+NYC,,multifamily,,property_tax_per_unit,2800,$/unit/year,2024-01-01,NYC Rent Guidelines Board,high,Average property tax per unit
+NYC,,multifamily,,insurance_per_unit,636,$/unit/year,2024-01-01,Yardi Matrix,high,Insurance cost per unit nationally
+NYC,,multifamily,,management_fee_pct,6.0,%,2024-01-01,Industry standards,high,Typical management fee as % of EGI
+Miami,,multifamily,A,opex_pct_egi,32.0,%,2024-01-01,Miami market reports,medium,Class A operating expenses as % of EGI
+Miami,,multifamily,B,opex_pct_egi,36.0,%,2024-01-01,Miami market reports,medium,Class B/C operating expenses
+Miami,,multifamily,,property_tax_per_sf,2.10,$/SF,2024-01-01,Analytics Loan,high,4 & 5-star apartments
+Miami,,multifamily,,insurance_per_unit_high,2500,$/unit/year,2024-01-01,Crown and Oak Capital,high,Hurricane-impacted areas high estimate
+Miami,,multifamily,,insurance_per_unit_low,1300,$/unit/year,2024-01-01,Crown and Oak Capital,high,Hurricane-impacted areas low estimate
+Miami,,multifamily,,management_fee_pct,6.5,%,2024-01-01,Industry standards,high,Typical management fee as % of EGI
+NYC,Midtown,office,A,cap_rate,6.30,%,2024-12-01,Office market reports,medium,Q4 2024 office cap rates
+NYC,Downtown,office,A,cap_rate,6.60,%,2024-12-01,Office market reports,medium,Q4 2024 office cap rates
+NYC,Hudson Yards,office,A,cap_rate,6.00,%,2024-12-01,Office market reports,medium,Q4 2024 new development
+NYC,Midtown,office,B,cap_rate,7.00,%,2024-12-01,Office market reports,medium,Q4 2024 office cap rates
+Miami,Brickell/Downtown,office,A,cap_rate,6.10,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 office cap rates
+Miami,Coral Gables,office,A,cap_rate,6.20,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 office cap rates
+Miami,Fort Lauderdale,office,A,cap_rate,6.30,%,2024-12-01,Lee Associates South Florida,medium,Q4 2024 office cap rates
+NYC,Midtown,office,A,rent_psf_annual,82,$/SF/year,2024-12-01,Offices.net analysis,high,Full service gross asking rent
+NYC,Midtown,office,A,rent_psf_annual_effective,71,$/SF/year,2024-12-01,Offices.net analysis,high,Effective rent after concessions
+NYC,Downtown,office,A,rent_psf_annual,65,$/SF/year,2024-12-01,Offices.net analysis,high,Full service gross asking rent
+NYC,Hudson Yards,office,A,rent_psf_annual,141,$/SF/year,2024-12-01,Offices.net analysis,high,New development premium
+NYC,Manhattan,office,,occupancy_rate,84.0,%,2024-12-01,NMRK Market Reports,high,Physical occupancy down from peak
+Miami,Brickell,office,A,rent_psf_annual,78,$/SF/year,2024-12-01,Lee Associates,medium,Asking rent Class A
+Miami,Coral Gables,office,A,rent_psf_annual,57,$/SF/year,2024-12-01,Lee Associates,medium,Asking rent Class A
+NYC,,multifamily,,units_under_construction,96854,count,2024-12-31,NYC Rent Guidelines Board,high,Total pipeline as of Dec 31 2024
+NYC,Brooklyn,multifamily,,units_under_construction,40247,count,2024-12-31,NYC Rent Guidelines Board,high,41.6% of total pipeline
+NYC,Queens,multifamily,,units_under_construction,22924,count,2024-12-31,NYC Rent Guidelines Board,high,23.7% of total pipeline
+NYC,Manhattan,multifamily,,units_under_construction,17551,count,2024-12-31,NYC Rent Guidelines Board,high,18.1% of total pipeline
+NYC,Bronx,multifamily,,units_under_construction,14894,count,2024-12-31,NYC Rent Guidelines Board,high,15.4% of total pipeline
+NYC,,multifamily,,units_completed_2024,33974,count,2024-12-31,NYC Rent Guidelines Board,high,Most since 1965
+Miami,,multifamily,,units_under_construction,23340,count,2025-01-01,Miami Realtors Association,high,Adding 18% to existing inventory
+Miami,Fort Lauderdale,multifamily,,units_under_construction,9797,count,2025-01-01,Miami Realtors Association,high,Adding 9% to inventory
+Miami,Palm Beach,multifamily,,units_under_construction,3311,count,2025-01-01,Miami Realtors Association,high,Adding 5% to inventory
+Miami,,multifamily,,units_delivered_2024,9352,count,2024-12-31,GREA Winter 2025,high,2024 deliveries
+Miami,,multifamily,,units_expected_2025,8000,count,2025-01-01,GREA Winter 2025,high,Expected 2025 deliveries
+NYC,,multifamily,,median_rent,4500,$/month,2024-11-01,Corcoran,high,Overall median rent November 2024
+Miami,,multifamily,,avg_rent,2727,$/month,2024-07-01,RentCafe,high,Average rent for 890 SF unit
+NYC,,multifamily,,rent_growth_yoy,1.0,%,2024-11-01,Corcoran,high,Year-over-year growth November 2024
+Miami,,multifamily,,rent_growth_yoy,2.8,%,2024-07-01,Miami Realtors,high,Faster than national average
+NYC,,multifamily,,transaction_volume_2024,8900,$ millions,2024-12-31,Ariel Property Advisors,high,Up 14% year-over-year
+NYC,,multifamily,,transaction_count_2024,1107,count,2024-12-31,Ariel Property Advisors,high,Up 4% year-over-year
+NYC,Manhattan,multifamily,,price_per_unit,420000,$/unit,2024-12-31,Ariel Property Advisors,high,2024 average
+NYC,Manhattan,multifamily,,price_per_unit_free_market,483000,$/unit,2024-12-31,Ariel Property Advisors,high,Free market/421-a properties
+NYC,Manhattan,multifamily,,price_per_unit_stabilized,337000,$/unit,2024-12-31,Ariel Property Advisors,high,Rent-stabilized 70%+ properties
+Miami,,multifamily,,price_per_unit,255012,$/unit,2024-10-01,Lee Associates Q4,high,Q4 2024 average sale price per unit
+NYC,,multifamily,,construction_cost_psf_low,330,$/SF,2024-12-01,Multiple sources,medium,Low-rise wood frame
+NYC,,multifamily,,construction_cost_psf_mid,420,$/SF,2024-12-01,Multiple sources,medium,Mid-rise concrete
+NYC,,multifamily,,construction_cost_psf_high,650,$/SF,2024-12-01,Multiple sources,medium,High-rise concrete/steel
+NYC,,multifamily,,construction_cost_psf_luxury,1100,$/SF,2024-12-01,Multiple sources,medium,Super high-rise luxury
+Miami,,multifamily,,construction_cost_psf_low,200,$/SF,2024-12-01,Estimator Florida,medium,Low-rise wood frame
+Miami,,multifamily,,construction_cost_psf_mid,290,$/SF,2024-12-01,Estimator Florida,medium,Mid-rise concrete
+Miami,,multifamily,,construction_cost_psf_high,410,$/SF,2024-12-01,Estimator Florida,medium,High-rise concrete/steel
+Miami,,multifamily,,construction_cost_psf_luxury,1200,$/SF,2024-12-01,Estimator Florida,medium,Super high-rise luxury

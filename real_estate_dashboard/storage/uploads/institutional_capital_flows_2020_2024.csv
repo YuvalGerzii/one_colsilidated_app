@@ -1,0 +1,1201 @@
+geography,geography_type,indicator_name,indicator_value,indicator_unit,period,period_type,data_source,notes
+US National,National,average_daily_transactions,285.0,number,2020-Q1,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,198.0,number,2020-Q2,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,312.0,number,2020-Q3,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,385.0,number,2020-Q4,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,398.0,number,2021-Q1,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,425.0,number,2021-Q2,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,448.0,number,2021-Q3,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,485.0,number,2021-Q4,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,458.0,number,2022-Q1,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,425.0,number,2022-Q2,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,385.0,number,2022-Q3,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,342.0,number,2022-Q4,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,318.0,number,2023-Q1,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,298.0,number,2023-Q2,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,325.0,number,2023-Q3,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,355.0,number,2023-Q4,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,328.0,number,2024-Q1,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,315.0,number,2024-Q2,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,325.0,number,2024-Q3,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_daily_transactions,345.0,number,2024-Q4,quarterly,Real Capital Analytics,Average number of CRE transactions per day
+US National,National,average_dscr_requirement,1.25,ratio,2020-Q1,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.3,ratio,2020-Q2,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.35,ratio,2020-Q3,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.3,ratio,2020-Q4,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.25,ratio,2021-Q1,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.2,ratio,2021-Q2,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.18,ratio,2021-Q3,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.15,ratio,2021-Q4,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.2,ratio,2022-Q1,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.25,ratio,2022-Q2,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.35,ratio,2022-Q3,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.4,ratio,2022-Q4,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.45,ratio,2023-Q1,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.48,ratio,2023-Q2,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.45,ratio,2023-Q3,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.4,ratio,2023-Q4,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.35,ratio,2024-Q1,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.3,ratio,2024-Q2,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.25,ratio,2024-Q3,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_dscr_requirement,1.2,ratio,2024-Q4,quarterly,Lender Surveys,Average debt service coverage ratio requirement
+US National,National,average_loan_size,35.2,$MM,2020-Q1,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,32.5,$MM,2020-Q2,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,38.8,$MM,2020-Q3,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,42.3,$MM,2020-Q4,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,45.8,$MM,2021-Q1,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,48.5,$MM,2021-Q2,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,52.3,$MM,2021-Q3,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,55.8,$MM,2021-Q4,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,58.3,$MM,2022-Q1,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,54.8,$MM,2022-Q2,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,48.5,$MM,2022-Q3,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,42.3,$MM,2022-Q4,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,38.5,$MM,2023-Q1,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,35.2,$MM,2023-Q2,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,38.8,$MM,2023-Q3,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,42.3,$MM,2023-Q4,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,45.8,$MM,2024-Q1,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,48.5,$MM,2024-Q2,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,52.3,$MM,2024-Q3,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_loan_size,55.8,$MM,2024-Q4,quarterly,Mortgage Bankers Association,Average commercial real estate loan size
+US National,National,average_transaction_size,25.3,$MM,2020-Q1,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,22.8,$MM,2020-Q2,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,28.5,$MM,2020-Q3,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,32.1,$MM,2020-Q4,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,35.2,$MM,2021-Q1,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,38.5,$MM,2021-Q2,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,42.3,$MM,2021-Q3,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,48.5,$MM,2021-Q4,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,52.3,$MM,2022-Q1,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,48.2,$MM,2022-Q2,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,42.8,$MM,2022-Q3,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,38.5,$MM,2022-Q4,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,35.2,$MM,2023-Q1,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,32.8,$MM,2023-Q2,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,38.5,$MM,2023-Q3,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,42.3,$MM,2023-Q4,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,45.8,$MM,2024-Q1,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,48.5,$MM,2024-Q2,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,51.2,$MM,2024-Q3,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,average_transaction_size,55.3,$MM,2024-Q4,quarterly,Real Capital Analytics,Average transaction size across all CRE sectors
+US National,National,avg_properties_per_portfolio,42.0,number,2020-Q1,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,44.0,number,2020-Q2,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,46.0,number,2020-Q3,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,45.0,number,2020-Q4,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,44.0,number,2021-Q1,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,42.0,number,2021-Q2,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,40.0,number,2021-Q3,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,38.0,number,2021-Q4,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,35.0,number,2022-Q1,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,36.0,number,2022-Q2,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,38.0,number,2022-Q3,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,40.0,number,2022-Q4,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,42.0,number,2023-Q1,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,43.0,number,2023-Q2,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,42.0,number,2023-Q3,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,41.0,number,2023-Q4,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,40.0,number,2024-Q1,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,39.0,number,2024-Q2,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,38.0,number,2024-Q3,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,avg_properties_per_portfolio,37.0,number,2024-Q4,quarterly,Institutional Investor Surveys,Average number of properties in institutional portfolios
+US National,National,bank_cre_loan_rate,3.95,%,2020-Q1,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.65,%,2020-Q2,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.35,%,2020-Q3,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.45,%,2020-Q4,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.55,%,2021-Q1,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.65,%,2021-Q2,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.75,%,2021-Q3,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,3.85,%,2021-Q4,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,4.35,%,2022-Q1,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,4.95,%,2022-Q2,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,5.75,%,2022-Q3,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.45,%,2022-Q4,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.75,%,2023-Q1,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.85,%,2023-Q2,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.95,%,2023-Q3,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.85,%,2023-Q4,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.65,%,2024-Q1,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,6.35,%,2024-Q2,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,5.95,%,2024-Q3,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,bank_cre_loan_rate,5.65,%,2024-Q4,quarterly,Federal Reserve/MBA,Average bank CRE loan rate
+US National,National,cash_deals_percentage,32.0,%,2020-Q1,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,38.0,%,2020-Q2,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,28.0,%,2020-Q3,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,25.0,%,2020-Q4,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,22.0,%,2021-Q1,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,20.0,%,2021-Q2,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,18.0,%,2021-Q3,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,15.0,%,2021-Q4,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,18.0,%,2022-Q1,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,22.0,%,2022-Q2,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,28.0,%,2022-Q3,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,32.0,%,2022-Q4,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,35.0,%,2023-Q1,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,32.0,%,2023-Q2,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,28.0,%,2023-Q3,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,25.0,%,2023-Q4,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,22.0,%,2024-Q1,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,20.0,%,2024-Q2,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,18.0,%,2024-Q3,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cash_deals_percentage,15.0,%,2024-Q4,quarterly,Mortgage Bankers Association,Percentage of transactions with no financing
+US National,National,cmbs_mortgage_rate,3.45,%,2020-Q1,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.25,%,2020-Q2,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,2.85,%,2020-Q3,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,2.95,%,2020-Q4,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.05,%,2021-Q1,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.15,%,2021-Q2,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.25,%,2021-Q3,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.35,%,2021-Q4,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,3.85,%,2022-Q1,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,4.35,%,2022-Q2,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,5.15,%,2022-Q3,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,5.95,%,2022-Q4,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,6.25,%,2023-Q1,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,6.35,%,2023-Q2,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,6.45,%,2023-Q3,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,6.35,%,2023-Q4,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,6.15,%,2024-Q1,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,5.95,%,2024-Q2,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,5.65,%,2024-Q3,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,cmbs_mortgage_rate,5.35,%,2024-Q4,quarterly,CMBS Servicers/Trepp,Average CMBS loan rate
+US National,National,core_strategy_allocation,35.0,%,2020-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,38.0,%,2020-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,42.0,%,2020-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,40.0,%,2020-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,38.0,%,2021-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,36.0,%,2021-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,35.0,%,2021-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,32.0,%,2021-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,28.0,%,2022-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,30.0,%,2022-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,33.0,%,2022-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,35.0,%,2022-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,38.0,%,2023-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,40.0,%,2023-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,42.0,%,2023-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,44.0,%,2023-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,47.0,%,2024-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,45.0,%,2024-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,43.0,%,2024-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_allocation,41.0,%,2024-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core strategy
+US National,National,core_strategy_avg_hold_period,8.5,years,2020-Q1,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.3,years,2020-Q2,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.2,years,2020-Q3,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.0,years,2020-Q4,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.2,years,2021-Q1,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.5,years,2021-Q2,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.8,years,2021-Q3,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,9.0,years,2021-Q4,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,9.2,years,2022-Q1,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,9.0,years,2022-Q2,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.8,years,2022-Q3,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.5,years,2022-Q4,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.2,years,2023-Q1,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.0,years,2023-Q2,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,7.8,years,2023-Q3,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,7.5,years,2023-Q4,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,7.8,years,2024-Q1,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.0,years,2024-Q2,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.3,years,2024-Q3,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_hold_period,8.5,years,2024-Q4,quarterly,Preqin/PREA,Average hold period for core strategy
+US National,National,core_strategy_avg_ltv,60.0,%,2020-Q1,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,55.0,%,2020-Q2,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,50.0,%,2020-Q3,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,50.0,%,2020-Q4,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,50.0,%,2021-Q1,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,52.0,%,2021-Q2,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,55.0,%,2021-Q3,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,60.0,%,2021-Q4,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,55.0,%,2022-Q1,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,50.0,%,2022-Q2,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,45.0,%,2022-Q3,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,40.0,%,2022-Q4,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,40.0,%,2023-Q1,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,42.0,%,2023-Q2,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,45.0,%,2023-Q3,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,48.0,%,2023-Q4,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,50.0,%,2024-Q1,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,52.0,%,2024-Q2,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,55.0,%,2024-Q3,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,core_strategy_avg_ltv,58.0,%,2024-Q4,quarterly,Lender Surveys,Average LTV ratio for core strategy investments
+US National,National,coreplus_strategy_allocation,28.0,%,2020-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,25.0,%,2020-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,22.0,%,2020-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,24.0,%,2020-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,26.0,%,2021-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,28.0,%,2021-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,30.0,%,2021-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,32.0,%,2021-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,35.0,%,2022-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,34.0,%,2022-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,32.0,%,2022-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,30.0,%,2022-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,28.0,%,2023-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,26.0,%,2023-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,24.0,%,2023-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,22.0,%,2023-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,20.0,%,2024-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,22.0,%,2024-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,24.0,%,2024-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+US National,National,coreplus_strategy_allocation,26.0,%,2024-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to core+ strategy
+Los Angeles,National,cre_investment_volume,4.2,$B,2020-Q1,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,3.8,$B,2020-Q1,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,2.8,$B,2020-Q1,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,1.2,$B,2020-Q1,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,1.5,$B,2020-Q1,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,2.8,$B,2020-Q2,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,2.5,$B,2020-Q2,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,2.2,$B,2020-Q2,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,0.9,$B,2020-Q2,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,1.1,$B,2020-Q2,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,5.5,$B,2020-Q3,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,4.8,$B,2020-Q3,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,3.8,$B,2020-Q3,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,1.5,$B,2020-Q3,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,2.0,$B,2020-Q3,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,6.8,$B,2020-Q4,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,6.2,$B,2020-Q4,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,4.5,$B,2020-Q4,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,2.1,$B,2020-Q4,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,2.8,$B,2020-Q4,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,7.2,$B,2021-Q1,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,6.8,$B,2021-Q1,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,5.2,$B,2021-Q1,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,2.8,$B,2021-Q1,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,3.5,$B,2021-Q1,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,8.5,$B,2021-Q2,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,7.8,$B,2021-Q2,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,6.5,$B,2021-Q2,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,3.5,$B,2021-Q2,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.2,$B,2021-Q2,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,9.2,$B,2021-Q3,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,8.5,$B,2021-Q3,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,7.2,$B,2021-Q3,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,4.2,$B,2021-Q3,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.8,$B,2021-Q3,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,10.5,$B,2021-Q4,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,10.2,$B,2021-Q4,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,8.5,$B,2021-Q4,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,5.2,$B,2021-Q4,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,5.8,$B,2021-Q4,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,9.8,$B,2022-Q1,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,9.5,$B,2022-Q1,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,8.2,$B,2022-Q1,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,5.5,$B,2022-Q1,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,5.5,$B,2022-Q1,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,8.5,$B,2022-Q2,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,8.2,$B,2022-Q2,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,7.5,$B,2022-Q2,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,5.0,$B,2022-Q2,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.8,$B,2022-Q2,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,7.2,$B,2022-Q3,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,7.0,$B,2022-Q3,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,6.8,$B,2022-Q3,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,4.5,$B,2022-Q3,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.0,$B,2022-Q3,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,5.8,$B,2022-Q4,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,5.5,$B,2022-Q4,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,5.5,$B,2022-Q4,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,3.8,$B,2022-Q4,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,3.2,$B,2022-Q4,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,4.5,$B,2023-Q1,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,4.2,$B,2023-Q1,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,4.8,$B,2023-Q1,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,3.2,$B,2023-Q1,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,2.8,$B,2023-Q1,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,4.2,$B,2023-Q2,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,3.8,$B,2023-Q2,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,4.5,$B,2023-Q2,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,3.0,$B,2023-Q2,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,2.5,$B,2023-Q2,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,4.8,$B,2023-Q3,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,4.5,$B,2023-Q3,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,5.2,$B,2023-Q3,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,3.5,$B,2023-Q3,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,3.0,$B,2023-Q3,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,5.5,$B,2023-Q4,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,5.2,$B,2023-Q4,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,6.2,$B,2023-Q4,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,4.2,$B,2023-Q4,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,3.8,$B,2023-Q4,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,5.2,$B,2024-Q1,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,5.0,$B,2024-Q1,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,6.8,$B,2024-Q1,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,4.8,$B,2024-Q1,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.2,$B,2024-Q1,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,5.5,$B,2024-Q2,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,5.5,$B,2024-Q2,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,7.2,$B,2024-Q2,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,5.2,$B,2024-Q2,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,4.8,$B,2024-Q2,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,6.2,$B,2024-Q3,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,6.0,$B,2024-Q3,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,7.8,$B,2024-Q3,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,5.8,$B,2024-Q3,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,5.2,$B,2024-Q3,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+Los Angeles,National,cre_investment_volume,7.5,$B,2024-Q4,quarterly,Real Capital Analytics,CRE investment volume in Los Angeles metro
+New York,National,cre_investment_volume,7.2,$B,2024-Q4,quarterly,Real Capital Analytics,CRE investment volume in New York metro
+Dallas,National,cre_investment_volume,8.5,$B,2024-Q4,quarterly,Real Capital Analytics,CRE investment volume in Dallas metro
+Austin,National,cre_investment_volume,6.5,$B,2024-Q4,quarterly,Real Capital Analytics,CRE investment volume in Austin metro
+Miami,National,cre_investment_volume,6.0,$B,2024-Q4,quarterly,Real Capital Analytics,CRE investment volume in Miami metro
+US National,National,distressed_asset_volume,8.5,$B,2020-Q1,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,12.3,$B,2020-Q2,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,6.8,$B,2020-Q3,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,4.2,$B,2020-Q4,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,3.5,$B,2021-Q1,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,2.8,$B,2021-Q2,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,2.3,$B,2021-Q3,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,1.8,$B,2021-Q4,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,2.5,$B,2022-Q1,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,3.8,$B,2022-Q2,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,5.2,$B,2022-Q3,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,8.5,$B,2022-Q4,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,12.8,$B,2023-Q1,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,15.2,$B,2023-Q2,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,13.5,$B,2023-Q3,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,10.2,$B,2023-Q4,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,8.5,$B,2024-Q1,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,6.8,$B,2024-Q2,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,5.2,$B,2024-Q3,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,distressed_asset_volume,3.8,$B,2024-Q4,quarterly,Trepp/CoStar,Distressed asset acquisition volume
+US National,National,foreclosure_reo_volume,2.3,$B,2020-Q1,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,4.5,$B,2020-Q2,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,3.2,$B,2020-Q3,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,1.8,$B,2020-Q4,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,1.2,$B,2021-Q1,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,0.8,$B,2021-Q2,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,0.6,$B,2021-Q3,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,0.5,$B,2021-Q4,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,0.8,$B,2022-Q1,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,1.5,$B,2022-Q2,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,2.3,$B,2022-Q3,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,3.8,$B,2022-Q4,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,5.2,$B,2023-Q1,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,6.5,$B,2023-Q2,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,5.8,$B,2023-Q3,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,4.2,$B,2023-Q4,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,3.2,$B,2024-Q1,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,2.2,$B,2024-Q2,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,1.5,$B,2024-Q3,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreclosure_reo_volume,0.8,$B,2024-Q4,quarterly,Mortgage Bankers Association/CoStar,Real estate owned (REO) and foreclosure sales
+US National,National,foreign_americas_capital_inflows,0.8,$B,2020-Q1,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,0.6,$B,2020-Q2,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.3,$B,2020-Q3,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.9,$B,2020-Q4,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,2.4,$B,2021-Q1,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,3.0,$B,2021-Q2,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,3.5,$B,2021-Q3,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,5.2,$B,2021-Q4,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,3.8,$B,2022-Q1,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,2.8,$B,2022-Q2,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,2.0,$B,2022-Q3,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.2,$B,2022-Q4,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,0.8,$B,2023-Q1,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,0.7,$B,2023-Q2,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.0,$B,2023-Q3,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.3,$B,2023-Q4,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.3,$B,2024-Q1,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,1.6,$B,2024-Q2,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,2.0,$B,2024-Q3,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_americas_capital_inflows,2.8,$B,2024-Q4,quarterly,AFIRE,Americas (Canada/Mexico) capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.2,$B,2020-Q1,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,0.8,$B,2020-Q2,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.9,$B,2020-Q3,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,2.8,$B,2020-Q4,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,3.8,$B,2021-Q1,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,4.9,$B,2021-Q2,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,5.8,$B,2021-Q3,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,8.5,$B,2021-Q4,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,5.5,$B,2022-Q1,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,3.8,$B,2022-Q2,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,2.8,$B,2022-Q3,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.8,$B,2022-Q4,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.0,$B,2023-Q1,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,0.9,$B,2023-Q2,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.3,$B,2023-Q3,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.8,$B,2023-Q4,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,1.5,$B,2024-Q1,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,2.1,$B,2024-Q2,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,2.7,$B,2024-Q3,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_asia_capital_inflows,3.8,$B,2024-Q4,quarterly,AFIRE,Asia-Pacific capital inflows to U.S. real estate
+US National,National,foreign_capital_inflows,4.2,$B,2020-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,2.8,$B,2020-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,6.5,$B,2020-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,9.3,$B,2020-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,12.5,$B,2021-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,15.8,$B,2021-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,18.3,$B,2021-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,28.5,$B,2021-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,18.3,$B,2022-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,12.5,$B,2022-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,9.2,$B,2022-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,5.8,$B,2022-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,3.5,$B,2023-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,3.2,$B,2023-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,4.8,$B,2023-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,6.2,$B,2023-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,5.8,$B,2024-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,7.2,$B,2024-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,8.9,$B,2024-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_inflows,12.3,$B,2024-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital inflows
+US National,National,foreign_capital_outflows,2.1,$B,2020-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,1.5,$B,2020-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,3.2,$B,2020-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,4.5,$B,2020-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,3.8,$B,2021-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,4.2,$B,2021-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,5.1,$B,2021-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,7.8,$B,2021-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,8.5,$B,2022-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,10.2,$B,2022-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,12.3,$B,2022-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,14.8,$B,2022-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,11.5,$B,2023-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,9.8,$B,2023-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,8.5,$B,2023-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,7.2,$B,2023-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,5.8,$B,2024-Q1,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,4.5,$B,2024-Q2,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,3.8,$B,2024-Q3,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_capital_outflows,2.5,$B,2024-Q4,quarterly,AFIRE/Real Capital Analytics,Foreign investor capital outflows (dispositions)
+US National,National,foreign_europe_capital_inflows,1.5,$B,2020-Q1,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,1.0,$B,2020-Q2,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,2.3,$B,2020-Q3,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,3.2,$B,2020-Q4,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,4.2,$B,2021-Q1,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,5.3,$B,2021-Q2,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,6.2,$B,2021-Q3,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,9.2,$B,2021-Q4,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,6.8,$B,2022-Q1,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,4.8,$B,2022-Q2,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,3.5,$B,2022-Q3,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,2.2,$B,2022-Q4,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,1.3,$B,2023-Q1,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,1.2,$B,2023-Q2,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,1.8,$B,2023-Q3,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,2.3,$B,2023-Q4,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,2.0,$B,2024-Q1,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,2.7,$B,2024-Q2,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,3.2,$B,2024-Q3,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,foreign_europe_capital_inflows,4.5,$B,2024-Q4,quarterly,AFIRE,European capital inflows to U.S. real estate
+US National,National,ftse_nareit_index_return,-17.8,%,2020-Q1,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,14.2,%,2020-Q2,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,8.5,%,2020-Q3,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,12.3,%,2020-Q4,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,8.5,%,2021-Q1,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,6.8,%,2021-Q2,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,4.5,%,2021-Q3,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,5.2,%,2021-Q4,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,-6.8,%,2022-Q1,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,-8.5,%,2022-Q2,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,-10.2,%,2022-Q3,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,-8.3,%,2022-Q4,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,5.2,%,2023-Q1,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,3.8,%,2023-Q2,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,2.1,%,2023-Q3,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,8.5,%,2023-Q4,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,12.3,%,2024-Q1,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,8.5,%,2024-Q2,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,6.2,%,2024-Q3,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,ftse_nareit_index_return,15.8,%,2024-Q4,quarterly,FTSE NAREIT,FTSE NAREIT All Equity REITs Index quarterly return
+US National,National,gateway_market_allocation,45.0,%,2020-Q1,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,48.0,%,2020-Q2,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,50.0,%,2020-Q3,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,48.0,%,2020-Q4,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,46.0,%,2021-Q1,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,44.0,%,2021-Q2,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,42.0,%,2021-Q3,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,40.0,%,2021-Q4,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,38.0,%,2022-Q1,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,39.0,%,2022-Q2,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,40.0,%,2022-Q3,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,42.0,%,2022-Q4,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,44.0,%,2023-Q1,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,43.0,%,2023-Q2,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,41.0,%,2023-Q3,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,39.0,%,2023-Q4,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,38.0,%,2024-Q1,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,36.0,%,2024-Q2,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,35.0,%,2024-Q3,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,gateway_market_allocation,33.0,%,2024-Q4,quarterly,Real Capital Analytics,"Percentage of investment in gateway markets (NYC, LA, Chicago, etc.)"
+US National,National,geographic_herfindahl_index,0.145,index,2020-Q1,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.142,index,2020-Q2,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.138,index,2020-Q3,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.14,index,2020-Q4,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.142,index,2021-Q1,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.145,index,2021-Q2,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.148,index,2021-Q3,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.15,index,2021-Q4,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.152,index,2022-Q1,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.15,index,2022-Q2,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.148,index,2022-Q3,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.145,index,2022-Q4,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.142,index,2023-Q1,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.14,index,2023-Q2,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.138,index,2023-Q3,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.135,index,2023-Q4,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.133,index,2024-Q1,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.135,index,2024-Q2,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.138,index,2024-Q3,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,geographic_herfindahl_index,0.14,index,2024-Q4,quarterly,Institutional Investor Data,"Geographic concentration ratio (0=diversified, 1=concentrated)"
+US National,National,hotel_transaction_volume,5.8,$B,2020-Q1,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,3.2,$B,2020-Q2,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,8.5,$B,2020-Q3,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,12.3,$B,2020-Q4,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,10.5,$B,2021-Q1,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,12.8,$B,2021-Q2,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,15.2,$B,2021-Q3,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,45.8,$B,2021-Q4,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,18.5,$B,2022-Q1,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,15.3,$B,2022-Q2,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,12.8,$B,2022-Q3,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,10.2,$B,2022-Q4,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,7.8,$B,2023-Q1,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,6.5,$B,2023-Q2,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,7.9,$B,2023-Q3,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,9.5,$B,2023-Q4,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,6.8,$B,2024-Q1,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,5.5,$B,2024-Q2,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,6.2,$B,2024-Q3,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,hotel_transaction_volume,8.3,$B,2024-Q4,quarterly,Real Capital Analytics,Hotel/Hospitality property transaction volume
+US National,National,industrial_odce_return,1.45,%,2020-Q1,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,-1.85,%,2020-Q2,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.25,%,2020-Q3,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,2.85,%,2020-Q4,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,4.85,%,2021-Q1,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,5.25,%,2021-Q2,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,5.15,%,2021-Q3,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,4.95,%,2021-Q4,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,3.25,%,2022-Q1,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,0.85,%,2022-Q2,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,-0.95,%,2022-Q3,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,-0.35,%,2022-Q4,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,0.85,%,2023-Q1,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.15,%,2023-Q2,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.35,%,2023-Q3,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.55,%,2023-Q4,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.25,%,2024-Q1,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.45,%,2024-Q2,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.35,%,2024-Q3,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_odce_return,1.92,%,2024-Q4,quarterly,NCREIF,Industrial ODCE quarterly return
+US National,National,industrial_transaction_volume,8.5,$B,2020-Q1,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,6.2,$B,2020-Q2,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,14.8,$B,2020-Q3,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,21.3,$B,2020-Q4,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,18.4,$B,2021-Q1,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,28.5,$B,2021-Q2,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,36.2,$B,2021-Q3,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,104.0,$B,2021-Q4,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,48.3,$B,2022-Q1,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,42.8,$B,2022-Q2,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,35.6,$B,2022-Q3,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,28.5,$B,2022-Q4,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,22.3,$B,2023-Q1,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,19.8,$B,2023-Q2,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,23.4,$B,2023-Q3,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,28.9,$B,2023-Q4,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,26.3,$B,2024-Q1,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,24.8,$B,2024-Q2,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,25.6,$B,2024-Q3,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,industrial_transaction_volume,29.8,$B,2024-Q4,quarterly,Real Capital Analytics,Industrial/Logistics property transaction volume
+US National,National,insurance_company_re_investment,3.2,$B,2020-Q1,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,2.1,$B,2020-Q2,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,4.8,$B,2020-Q3,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,6.5,$B,2020-Q4,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,8.3,$B,2021-Q1,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,9.5,$B,2021-Q2,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,11.2,$B,2021-Q3,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,15.8,$B,2021-Q4,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,12.3,$B,2022-Q1,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,9.2,$B,2022-Q2,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,7.5,$B,2022-Q3,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,5.8,$B,2022-Q4,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,4.5,$B,2023-Q1,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,4.0,$B,2023-Q2,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,5.2,$B,2023-Q3,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,7.2,$B,2023-Q4,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,6.5,$B,2024-Q1,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,7.8,$B,2024-Q2,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,9.2,$B,2024-Q3,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,insurance_company_re_investment,12.5,$B,2024-Q4,quarterly,Insurance Company Real Estate Association,Insurance company real estate investment
+US National,National,life_insurance_cre_rate,3.65,%,2020-Q1,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.35,%,2020-Q2,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.05,%,2020-Q3,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.15,%,2020-Q4,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.25,%,2021-Q1,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.35,%,2021-Q2,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.45,%,2021-Q3,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,3.55,%,2021-Q4,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,4.05,%,2022-Q1,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,4.65,%,2022-Q2,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,5.45,%,2022-Q3,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.15,%,2022-Q4,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.45,%,2023-Q1,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.55,%,2023-Q2,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.65,%,2023-Q3,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.55,%,2023-Q4,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.35,%,2024-Q1,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,6.05,%,2024-Q2,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,5.65,%,2024-Q3,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,life_insurance_cre_rate,5.35,%,2024-Q4,quarterly,ACLI,Average life insurance company CRE loan rate
+US National,National,multifamily_odce_return,1.15,%,2020-Q1,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-2.45,%,2020-Q2,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.85,%,2020-Q3,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,2.35,%,2020-Q4,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,5.12,%,2021-Q1,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,5.45,%,2021-Q2,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,4.88,%,2021-Q3,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,4.25,%,2021-Q4,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,2.85,%,2022-Q1,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-1.25,%,2022-Q2,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-2.95,%,2022-Q3,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-2.15,%,2022-Q4,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-0.95,%,2023-Q1,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-0.65,%,2023-Q2,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,-0.35,%,2023-Q3,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.25,%,2023-Q4,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.18,%,2024-Q1,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.35,%,2024-Q2,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.12,%,2024-Q3,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_odce_return,0.95,%,2024-Q4,quarterly,NCREIF,Multifamily ODCE quarterly return
+US National,National,multifamily_transaction_volume,12.3,$B,2020-Q1,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,8.5,$B,2020-Q2,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,22.4,$B,2020-Q3,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,35.8,$B,2020-Q4,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,28.9,$B,2021-Q1,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,38.5,$B,2021-Q2,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,48.3,$B,2021-Q3,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,183.0,$B,2021-Q4,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,62.8,$B,2022-Q1,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,58.3,$B,2022-Q2,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,48.9,$B,2022-Q3,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,42.5,$B,2022-Q4,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,28.4,$B,2023-Q1,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,24.6,$B,2023-Q2,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,28.9,$B,2023-Q3,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,35.2,$B,2023-Q4,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,32.1,$B,2024-Q1,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,28.5,$B,2024-Q2,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,29.8,$B,2024-Q3,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,multifamily_transaction_volume,38.5,$B,2024-Q4,quarterly,Real Capital Analytics,Multifamily property transaction volume
+US National,National,ncreif_npi_quarterly_return,1.1,%,2020-Q1,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-3.2,%,2020-Q2,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.8,%,2020-Q3,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,2.1,%,2020-Q4,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,4.5,%,2021-Q1,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,4.8,%,2021-Q2,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,4.2,%,2021-Q3,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,3.8,%,2021-Q4,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,2.3,%,2022-Q1,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-1.5,%,2022-Q2,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-2.8,%,2022-Q3,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-1.9,%,2022-Q4,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-0.8,%,2023-Q1,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-0.5,%,2023-Q2,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,-0.4,%,2023-Q3,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.2,%,2023-Q4,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.28,%,2024-Q1,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.45,%,2024-Q2,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.21,%,2024-Q3,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_npi_quarterly_return,0.94,%,2024-Q4,quarterly,NCREIF,NCREIF Property Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.95,%,2020-Q1,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-2.85,%,2020-Q2,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.65,%,2020-Q3,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,1.82,%,2020-Q4,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,3.95,%,2021-Q1,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,4.25,%,2021-Q2,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,3.85,%,2021-Q3,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,3.42,%,2021-Q4,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,2.18,%,2022-Q1,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-1.82,%,2022-Q2,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-3.15,%,2022-Q3,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-2.35,%,2022-Q4,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-1.05,%,2023-Q1,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-0.85,%,2023-Q2,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,-0.42,%,2023-Q3,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.18,%,2023-Q4,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.35,%,2024-Q1,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.52,%,2024-Q2,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,0.25,%,2024-Q3,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,ncreif_odce_quarterly_return,1.16,%,2024-Q4,quarterly,NCREIF,NCREIF ODCE Index quarterly total return
+US National,National,npi_appreciation_return,-0.22,%,2020-Q1,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-4.52,%,2020-Q2,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.45,%,2020-Q3,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,0.75,%,2020-Q4,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,3.08,%,2021-Q1,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,3.42,%,2021-Q2,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,2.85,%,2021-Q3,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,2.48,%,2021-Q4,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,1.05,%,2022-Q1,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-3.72,%,2022-Q2,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-4.1,%,2022-Q3,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-3.25,%,2022-Q4,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-1.95,%,2023-Q1,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-1.62,%,2023-Q2,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-1.58,%,2023-Q3,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.95,%,2023-Q4,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.8,%,2024-Q1,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.6,%,2024-Q2,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.81,%,2024-Q3,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_appreciation_return,-0.23,%,2024-Q4,quarterly,NCREIF,NPI property value appreciation component
+US National,National,npi_income_return,1.32,%,2020-Q1,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.28,%,2020-Q2,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.25,%,2020-Q3,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.35,%,2020-Q4,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.42,%,2021-Q1,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.38,%,2021-Q2,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.35,%,2021-Q3,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.32,%,2021-Q4,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.25,%,2022-Q1,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.22,%,2022-Q2,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.28,%,2022-Q3,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.3,%,2022-Q4,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.15,%,2023-Q1,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.12,%,2023-Q2,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.18,%,2023-Q3,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.17,%,2023-Q4,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.08,%,2024-Q1,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.05,%,2024-Q2,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.02,%,2024-Q3,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,npi_income_return,1.17,%,2024-Q4,quarterly,NCREIF,NPI income (NOI) return component
+US National,National,office_odce_return,0.75,%,2020-Q1,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-4.25,%,2020-Q2,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,0.25,%,2020-Q3,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,1.15,%,2020-Q4,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,2.85,%,2021-Q1,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,3.15,%,2021-Q2,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,2.45,%,2021-Q3,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,1.95,%,2021-Q4,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,0.85,%,2022-Q1,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-3.85,%,2022-Q2,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-5.25,%,2022-Q3,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-4.15,%,2022-Q4,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-2.45,%,2023-Q1,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-2.15,%,2023-Q2,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-1.95,%,2023-Q3,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-1.25,%,2023-Q4,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-0.85,%,2024-Q1,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-0.45,%,2024-Q2,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,-0.35,%,2024-Q3,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_odce_return,0.05,%,2024-Q4,quarterly,NCREIF,Office ODCE quarterly return
+US National,National,office_transaction_volume,14.2,$B,2020-Q1,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,9.8,$B,2020-Q2,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,18.5,$B,2020-Q3,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,22.3,$B,2020-Q4,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,16.8,$B,2021-Q1,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,22.5,$B,2021-Q2,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,28.3,$B,2021-Q3,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,85.2,$B,2021-Q4,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,38.2,$B,2022-Q1,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,32.5,$B,2022-Q2,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,28.6,$B,2022-Q3,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,22.8,$B,2022-Q4,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,15.3,$B,2023-Q1,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,12.8,$B,2023-Q2,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,14.5,$B,2023-Q3,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,18.2,$B,2023-Q4,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,12.5,$B,2024-Q1,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,10.3,$B,2024-Q2,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,11.2,$B,2024-Q3,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,office_transaction_volume,14.8,$B,2024-Q4,quarterly,Real Capital Analytics,Office property transaction volume
+US National,National,opportunistic_strategy_allocation,15.0,%,2020-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,13.0,%,2020-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,11.0,%,2020-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,10.0,%,2020-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,11.0,%,2021-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,12.0,%,2021-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,12.0,%,2021-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,12.0,%,2021-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,11.0,%,2022-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,9.0,%,2022-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,9.0,%,2022-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,10.0,%,2022-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,11.0,%,2023-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,10.0,%,2023-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,8.0,%,2023-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,6.0,%,2023-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,5.0,%,2024-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,6.0,%,2024-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,7.0,%,2024-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_allocation,7.0,%,2024-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.5,years,2020-Q1,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.3,years,2020-Q2,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.0,years,2020-Q3,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,2.8,years,2020-Q4,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.0,years,2021-Q1,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.5,years,2021-Q2,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.0,years,2021-Q3,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.5,years,2021-Q4,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.8,years,2022-Q1,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.5,years,2022-Q2,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.0,years,2022-Q3,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.5,years,2022-Q4,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.0,years,2023-Q1,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,2.8,years,2023-Q2,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,2.5,years,2023-Q3,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,2.2,years,2023-Q4,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,2.5,years,2024-Q1,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.0,years,2024-Q2,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,3.5,years,2024-Q3,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_hold_period,4.0,years,2024-Q4,quarterly,Preqin/PREA,Average hold period for opportunistic strategy
+US National,National,opportunistic_strategy_avg_ltv,75.0,%,2020-Q1,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,70.0,%,2020-Q2,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,65.0,%,2020-Q3,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,60.0,%,2020-Q4,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,58.0,%,2021-Q1,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,62.0,%,2021-Q2,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,68.0,%,2021-Q3,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,72.0,%,2021-Q4,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,70.0,%,2022-Q1,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,62.0,%,2022-Q2,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,55.0,%,2022-Q3,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,48.0,%,2022-Q4,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,45.0,%,2023-Q1,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,48.0,%,2023-Q2,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,55.0,%,2023-Q3,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,62.0,%,2023-Q4,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,65.0,%,2024-Q1,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,68.0,%,2024-Q2,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,70.0,%,2024-Q3,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunistic_strategy_avg_ltv,72.0,%,2024-Q4,quarterly,Lender Surveys,Average LTV ratio for opportunistic strategy investments
+US National,National,opportunity_zone_investment_volume,3.2,$B,2020-Q1,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,2.5,$B,2020-Q2,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,4.8,$B,2020-Q3,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,6.2,$B,2020-Q4,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,7.5,$B,2021-Q1,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,8.8,$B,2021-Q2,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,10.2,$B,2021-Q3,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,12.5,$B,2021-Q4,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,11.8,$B,2022-Q1,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,10.5,$B,2022-Q2,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,9.2,$B,2022-Q3,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,7.8,$B,2022-Q4,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,6.5,$B,2023-Q1,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,5.8,$B,2023-Q2,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,6.2,$B,2023-Q3,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,7.5,$B,2023-Q4,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,8.2,$B,2024-Q1,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,9.5,$B,2024-Q2,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,10.8,$B,2024-Q3,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,opportunity_zone_investment_volume,12.3,$B,2024-Q4,quarterly,Community Development Trust/IRS,Real estate investment in Opportunity Zones
+US National,National,pe_re_fundraising_volume,45.2,$B,2020-Q1,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,38.5,$B,2020-Q2,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,62.8,$B,2020-Q3,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,75.3,$B,2020-Q4,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,92.3,$B,2021-Q1,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,105.8,$B,2021-Q2,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,118.2,$B,2021-Q3,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,142.5,$B,2021-Q4,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,125.3,$B,2022-Q1,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,95.8,$B,2022-Q2,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,78.5,$B,2022-Q3,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,62.3,$B,2022-Q4,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,48.2,$B,2023-Q1,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,42.5,$B,2023-Q2,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,51.3,$B,2023-Q3,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,68.2,$B,2023-Q4,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,72.5,$B,2024-Q1,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,82.3,$B,2024-Q2,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,95.8,$B,2024-Q3,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pe_re_fundraising_volume,125.3,$B,2024-Q4,quarterly,Preqin/PitchBook,Private equity real estate fundraising
+US National,National,pension_fund_re_net_flows,5.2,$B,2020-Q1,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,3.8,$B,2020-Q2,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,8.5,$B,2020-Q3,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,12.3,$B,2020-Q4,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,15.8,$B,2021-Q1,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,18.5,$B,2021-Q2,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,21.3,$B,2021-Q3,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,28.5,$B,2021-Q4,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,22.3,$B,2022-Q1,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,16.5,$B,2022-Q2,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,12.8,$B,2022-Q3,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,9.5,$B,2022-Q4,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,7.3,$B,2023-Q1,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,6.8,$B,2023-Q2,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,8.5,$B,2023-Q3,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,11.8,$B,2023-Q4,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,10.5,$B,2024-Q1,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,11.8,$B,2024-Q2,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,13.5,$B,2024-Q3,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,pension_fund_re_net_flows,16.3,$B,2024-Q4,quarterly,PREA/Pension Real Estate Association,Pension fund net real estate capital flows
+US National,National,property_type_concentration_ratio,0.165,ratio,2020-Q1,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.162,ratio,2020-Q2,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.158,ratio,2020-Q3,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.16,ratio,2020-Q4,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.158,ratio,2021-Q1,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.155,ratio,2021-Q2,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.152,ratio,2021-Q3,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.148,ratio,2021-Q4,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.145,ratio,2022-Q1,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.148,ratio,2022-Q2,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.152,ratio,2022-Q3,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.155,ratio,2022-Q4,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.158,ratio,2023-Q1,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.16,ratio,2023-Q2,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.158,ratio,2023-Q3,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.155,ratio,2023-Q4,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.152,ratio,2024-Q1,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.15,ratio,2024-Q2,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.148,ratio,2024-Q3,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,property_type_concentration_ratio,0.145,ratio,2024-Q4,quarterly,Institutional Investor Surveys,"Property type concentration (0=diversified, 1=concentrated)"
+US National,National,public_reit_capital_raised,8.5,$B,2020-Q1,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,5.2,$B,2020-Q2,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,12.3,$B,2020-Q3,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,18.6,$B,2020-Q4,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,24.3,$B,2021-Q1,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,28.5,$B,2021-Q2,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,32.1,$B,2021-Q3,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,45.8,$B,2021-Q4,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,28.5,$B,2022-Q1,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,18.3,$B,2022-Q2,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,12.5,$B,2022-Q3,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,8.2,$B,2022-Q4,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,6.3,$B,2023-Q1,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,5.8,$B,2023-Q2,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,7.5,$B,2023-Q3,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,10.3,$B,2023-Q4,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,12.5,$B,2024-Q1,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,14.8,$B,2024-Q2,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,18.2,$B,2024-Q3,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,public_reit_capital_raised,26.6,$B,2024-Q4,quarterly,NAREIT/Bloomberg,Public REIT equity and debt capital raised
+US National,National,reit_average_dividend_yield,3.85,%,2020-Q1,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.15,%,2020-Q2,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.95,%,2020-Q3,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.72,%,2020-Q4,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.78,%,2021-Q1,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.68,%,2021-Q2,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.52,%,2021-Q3,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.42,%,2021-Q4,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.45,%,2022-Q1,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.58,%,2022-Q2,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.78,%,2022-Q3,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.05,%,2022-Q4,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.15,%,2023-Q1,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.22,%,2023-Q2,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.28,%,2023-Q3,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.15,%,2023-Q4,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,4.05,%,2024-Q1,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.95,%,2024-Q2,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.82,%,2024-Q3,quarterly,NAREIT,REIT average dividend yield
+US National,National,reit_average_dividend_yield,3.68,%,2024-Q4,quarterly,NAREIT,REIT average dividend yield
+US National,National,retail_odce_return,0.95,%,2020-Q1,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,-3.15,%,2020-Q2,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,0.65,%,2020-Q3,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.85,%,2020-Q4,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,3.45,%,2021-Q1,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,3.95,%,2021-Q2,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,3.25,%,2021-Q3,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,2.95,%,2021-Q4,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.85,%,2022-Q1,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,-1.95,%,2022-Q2,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,-2.85,%,2022-Q3,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,-1.85,%,2022-Q4,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,0.25,%,2023-Q1,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,0.45,%,2023-Q2,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,0.65,%,2023-Q3,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,0.95,%,2023-Q4,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.15,%,2024-Q1,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.45,%,2024-Q2,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.62,%,2024-Q3,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_odce_return,1.95,%,2024-Q4,quarterly,NCREIF,Retail ODCE quarterly return
+US National,National,retail_transaction_volume,10.5,$B,2020-Q1,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,7.2,$B,2020-Q2,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,15.3,$B,2020-Q3,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,18.5,$B,2020-Q4,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,14.2,$B,2021-Q1,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,19.8,$B,2021-Q2,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,21.5,$B,2021-Q3,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,78.3,$B,2021-Q4,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,24.3,$B,2022-Q1,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,21.5,$B,2022-Q2,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,18.9,$B,2022-Q3,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,16.2,$B,2022-Q4,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,12.5,$B,2023-Q1,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,11.3,$B,2023-Q2,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,13.2,$B,2023-Q3,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,15.8,$B,2023-Q4,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,10.8,$B,2024-Q1,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,9.5,$B,2024-Q2,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,10.2,$B,2024-Q3,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,retail_transaction_volume,12.5,$B,2024-Q4,quarterly,Real Capital Analytics,Retail property transaction volume
+US National,National,secondary_market_allocation,20.0,%,2020-Q1,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2020-Q2,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2020-Q3,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2020-Q4,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2021-Q1,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2021-Q2,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2021-Q3,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2021-Q4,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2022-Q1,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2022-Q2,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2022-Q3,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2022-Q4,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2023-Q1,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2023-Q2,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2023-Q3,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2023-Q4,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2024-Q1,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2024-Q2,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2024-Q3,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,secondary_market_allocation,20.0,%,2024-Q4,quarterly,Real Capital Analytics,Percentage of investment in secondary markets
+US National,National,sovereign_wealth_fund_inflows,2.1,$B,2020-Q1,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,1.5,$B,2020-Q2,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,3.5,$B,2020-Q3,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,5.8,$B,2020-Q4,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,8.2,$B,2021-Q1,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,10.5,$B,2021-Q2,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,12.3,$B,2021-Q3,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,18.5,$B,2021-Q4,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,14.2,$B,2022-Q1,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,10.8,$B,2022-Q2,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,8.5,$B,2022-Q3,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,5.3,$B,2022-Q4,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,3.8,$B,2023-Q1,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,3.2,$B,2023-Q2,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,4.5,$B,2023-Q3,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,6.8,$B,2023-Q4,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,5.5,$B,2024-Q1,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,6.8,$B,2024-Q2,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,8.5,$B,2024-Q3,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,sovereign_wealth_fund_inflows,11.3,$B,2024-Q4,quarterly,AFIRE/SWFI,Sovereign wealth fund real estate inflows
+US National,National,special_servicing_portfolio_count,2850.0,number,2020-Q1,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,3150.0,number,2020-Q2,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2980.0,number,2020-Q3,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2650.0,number,2020-Q4,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2350.0,number,2021-Q1,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2100.0,number,2021-Q2,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,1950.0,number,2021-Q3,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,1820.0,number,2021-Q4,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,1950.0,number,2022-Q1,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2150.0,number,2022-Q2,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2550.0,number,2022-Q3,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,3150.0,number,2022-Q4,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,3850.0,number,2023-Q1,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,4250.0,number,2023-Q2,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,4100.0,number,2023-Q3,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,3650.0,number,2023-Q4,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,3150.0,number,2024-Q1,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2650.0,number,2024-Q2,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,2250.0,number,2024-Q3,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,special_servicing_portfolio_count,1950.0,number,2024-Q4,quarterly,Trepp,Number of CMBS loans in special servicing
+US National,National,sunbelt_market_allocation,35.0,%,2020-Q1,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,32.0,%,2020-Q2,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,30.0,%,2020-Q3,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,32.0,%,2020-Q4,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,34.0,%,2021-Q1,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,36.0,%,2021-Q2,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,38.0,%,2021-Q3,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,40.0,%,2021-Q4,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,42.0,%,2022-Q1,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,41.0,%,2022-Q2,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,40.0,%,2022-Q3,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,38.0,%,2022-Q4,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,36.0,%,2023-Q1,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,37.0,%,2023-Q2,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,39.0,%,2023-Q3,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,41.0,%,2023-Q4,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,42.0,%,2024-Q1,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,44.0,%,2024-Q2,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,45.0,%,2024-Q3,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,sunbelt_market_allocation,47.0,%,2024-Q4,quarterly,Real Capital Analytics,Percentage of investment in Sunbelt markets
+US National,National,total_cre_investment_volume,56.2,$B,2020-Q1,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,38.5,$B,2020-Q2,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,96.8,$B,2020-Q3,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,138.6,$B,2020-Q4,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,98.5,$B,2021-Q1,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,125.3,$B,2021-Q2,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,142.8,$B,2021-Q3,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,498.0,$B,2021-Q4,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,189.4,$B,2022-Q1,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,168.7,$B,2022-Q2,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,145.2,$B,2022-Q3,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,128.0,$B,2022-Q4,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,92.3,$B,2023-Q1,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,85.6,$B,2023-Q2,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,96.2,$B,2023-Q3,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,109.8,$B,2023-Q4,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,88.5,$B,2024-Q1,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,78.3,$B,2024-Q2,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,81.2,$B,2024-Q3,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,total_cre_investment_volume,108.5,$B,2024-Q4,quarterly,Real Capital Analytics/CBRE,Total commercial real estate transaction volume
+US National,National,valueadd_capital_deployment,12.3,$B,2020-Q1,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,11.5,$B,2020-Q2,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,13.8,$B,2020-Q3,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,15.2,$B,2020-Q4,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,18.5,$B,2021-Q1,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,20.3,$B,2021-Q2,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,22.8,$B,2021-Q3,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,25.3,$B,2021-Q4,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,24.5,$B,2022-Q1,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,21.8,$B,2022-Q2,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,18.5,$B,2022-Q3,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,15.2,$B,2022-Q4,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,12.8,$B,2023-Q1,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,11.5,$B,2023-Q2,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,13.2,$B,2023-Q3,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,15.8,$B,2023-Q4,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,18.2,$B,2024-Q1,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,20.5,$B,2024-Q2,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,22.8,$B,2024-Q3,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_capital_deployment,25.3,$B,2024-Q4,quarterly,Preqin/PitchBook,Value-add capital deployment by institutional investors
+US National,National,valueadd_strategy_allocation,22.0,%,2020-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,24.0,%,2020-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,25.0,%,2020-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2020-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,25.0,%,2021-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,24.0,%,2021-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,23.0,%,2021-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,24.0,%,2021-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2022-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,27.0,%,2022-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2022-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,25.0,%,2022-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,23.0,%,2023-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,24.0,%,2023-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2023-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,28.0,%,2023-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,28.0,%,2024-Q1,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,27.0,%,2024-Q2,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2024-Q3,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_allocation,26.0,%,2024-Q4,quarterly,Institutional Investor Surveys,Percentage of capital allocated to value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.2,years,2020-Q1,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.0,years,2020-Q2,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.8,years,2020-Q3,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.5,years,2020-Q4,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.8,years,2021-Q1,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.2,years,2021-Q2,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.5,years,2021-Q3,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.8,years,2021-Q4,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,6.0,years,2022-Q1,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.8,years,2022-Q2,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.5,years,2022-Q3,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.2,years,2022-Q4,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.8,years,2023-Q1,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.5,years,2023-Q2,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.2,years,2023-Q3,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.0,years,2023-Q4,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.3,years,2024-Q1,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.5,years,2024-Q2,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,4.8,years,2024-Q3,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_hold_period,5.2,years,2024-Q4,quarterly,Preqin/PREA,Average hold period for value-add strategy
+US National,National,valueadd_strategy_avg_ltv,70.0,%,2020-Q1,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,65.0,%,2020-Q2,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,60.0,%,2020-Q3,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,58.0,%,2020-Q4,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,60.0,%,2021-Q1,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,65.0,%,2021-Q2,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,70.0,%,2021-Q3,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,72.0,%,2021-Q4,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,70.0,%,2022-Q1,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,62.0,%,2022-Q2,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,55.0,%,2022-Q3,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,50.0,%,2022-Q4,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,48.0,%,2023-Q1,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,50.0,%,2023-Q2,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,55.0,%,2023-Q3,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,60.0,%,2023-Q4,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,62.0,%,2024-Q1,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,65.0,%,2024-Q2,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,68.0,%,2024-Q3,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments
+US National,National,valueadd_strategy_avg_ltv,70.0,%,2024-Q4,quarterly,Lender Surveys,Average LTV ratio for value-add strategy investments

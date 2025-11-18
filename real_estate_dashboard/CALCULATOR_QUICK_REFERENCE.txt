@@ -1,0 +1,275 @@
+================================================================================
+CALCULATOR ROUTING & MAPPING - QUICK REFERENCE CARD
+================================================================================
+
+STATUS OVERVIEW (November 16, 2025)
+Overall Completion: 85%
+Routes: 11/11 ✓
+Components: 11/11 ✓
+Pages: 11/11 ✓
+Backend Models: 10/11 ✗
+Database Models: 10/11 ✗
+Service Types: 8/11 ✗
+Service Configs: 8/11 ✗
+
+================================================================================
+CALCULATOR DETAILS
+================================================================================
+
+1. FIX & FLIP
+   Route: /real-estate-models/fix-and-flip
+   Component: FixFlipCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+2. SINGLE FAMILY RENTAL
+   Route: /real-estate-models/single-family-rental
+   Component: SingleFamilyRentalCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+3. SMALL MULTIFAMILY (2-6 units)
+   Route: /real-estate-models/small-multifamily
+   Component: SmallMultifamilyCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+4. EXTENDED MULTIFAMILY (7+ units)
+   Route: /real-estate-models/extended-multifamily
+   Component: ExtendedMultifamilyCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+5. HOTEL
+   Route: /real-estate-models/hotel
+   Component: HotelCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+6. MIXED-USE
+   Route: /real-estate-models/mixed-use
+   Component: MixedUseCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+7. SUBDIVISION / CONDO CONVERSION
+   Route: /real-estate-models/subdivision
+   Component: SubdivisionCalculator.tsx
+   Backend: ✓ MODEL_REGISTRY, ✓ DB model
+   Service: ✗ Missing enum, ✗ Missing config
+   Status: PARTIAL - Can run client-side, missing persistence support
+
+8. LEASE ANALYZER
+   Route: /real-estate-models/lease-analyzer
+   Component: LeaseAnalyzerCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+9. RENOVATION BUDGET
+   Route: /real-estate-models/renovation-budget
+   Component: RenovationBudgetCalculator.tsx
+   Backend: ✓ (MODEL_REGISTRY, DB model, service type, config)
+   Status: COMPLETE
+
+10. TAX STRATEGY
+    Route: /real-estate-models/tax-strategy
+    Component: TaxStrategyCalculator.tsx
+    Backend: ✓ MODEL_REGISTRY, ✓ DB model
+    Service: ✗ Missing enum, ✗ Missing config
+    Status: PARTIAL - Can run client-side, missing persistence support
+
+11. SMALL MULTIFAMILY ACQUISITION
+    Route: /real-estate-models/small-multifamily-acquisition
+    Component: SmallMultifamilyAcquisitionCalculator.tsx
+    Backend: ✗ Missing MODEL_REGISTRY, ✗ Missing DB model
+    Service: ✗ Missing enum, ✗ Missing config
+    Status: INCOMPLETE - Frontend only, no backend support
+
+================================================================================
+KEY FILES
+================================================================================
+
+FRONTEND:
+- App Routes: /frontend/src/App.tsx (lines 155-166)
+- Pages: /frontend/src/pages/RealEstate/*.tsx (11 files)
+- Components: /frontend/src/components/calculators/*.tsx (11 files)
+- Services: /frontend/src/services/calculatorService.ts
+- Config: /frontend/src/config/modelConfig.ts
+
+BACKEND:
+- API Router: /backend/app/api/router.py
+- Endpoint: /backend/app/api/v1/endpoints/real_estate_tools.py (lines 154-290)
+- Models: /backend/app/models/real_estate.py
+- Scripts: /backend/app/scripts/real_estate/*_cli.py
+
+================================================================================
+CRITICAL ISSUES
+================================================================================
+
+ISSUE #1: SmallMultifamilyAcquisition Missing Backend
+  Severity: HIGH
+  Missing:
+    - SmallMultifamilyAcquisitionModel (database)
+    - small_multifamily_acquisition entry in MODEL_REGISTRY
+    - small_multifamily_acquisition_cli.py script
+    - SMALL_MULTIFAMILY_ACQUISITION enum in calculatorService
+    - small_multifamily_acquisition config in modelConfig
+  Impact: Backend will return 404 error, no data persistence
+  Fix Time: 30-45 minutes
+
+ISSUE #2: Service Layer Incomplete
+  Severity: MEDIUM
+  Missing for: Subdivision, TaxStrategy, SmallMultifamilyAcquisition
+    - CalculationType enum values
+    - Helper save/get methods in calculatorService
+    - ModelConfig entries in modelConfig
+  Impact: Cannot save calculations with proper types
+  Fix Time: 20-30 minutes
+
+ISSUE #3: Portfolio Dashboard Not Exposed
+  Severity: LOW
+  Status: Backend only (no frontend route/page/component)
+  Fix Time: 20-30 minutes if implementing as feature
+
+================================================================================
+QUICK TEST CHECKLIST
+================================================================================
+
+For each calculator:
+  [ ] Open /real-estate-models/{path}
+  [ ] Page loads without errors
+  [ ] Calculator renders with default data
+  [ ] Modify inputs
+  [ ] Calculate/Run works
+  [ ] Outputs displayed
+  [ ] Save successful (for fully implemented)
+  [ ] No console errors
+
+Complete check:
+  [ ] All 11 routes accessible
+  [ ] All 11 components render
+  [ ] All 11 appear in RealEstateTools dashboard
+  [ ] Backend /real-estate/tools/run works for all models
+  [ ] Database saves/retrieves properly
+
+================================================================================
+RELATED DOCUMENTATION
+================================================================================
+
+CALCULATOR_ROUTING_VERIFICATION.md (12 KB)
+  - Full analysis with executive summary
+  - Detailed findings per component
+  - Routing flow verification
+  - Recommendations prioritized
+
+CALCULATOR_ROUTING_DETAILS.md (12 KB)
+  - Code references with line numbers
+  - Exact file paths and imports
+  - Template code for missing pieces
+  - Flow diagrams (complete vs broken)
+
+CALCULATOR_FILE_PATHS.txt (5.3 KB)
+  - Quick file location reference
+  - Directory structure guide
+  - Model registry entries list
+  - Database models list
+
+CALCULATOR_VERIFICATION_SUMMARY.md (9.7 KB)
+  - Status summary for each component
+  - Quick reference guide
+  - Recommended fix order
+  - Testing recommendations
+
+================================================================================
+BACKEND MODEL_REGISTRY ENTRIES (9 confirmed, 1 missing)
+================================================================================
+
+✓ fix_and_flip
+✓ single_family_rental
+✓ small_multifamily
+✓ extended_multifamily
+✓ hotel
+✓ mixed_use
+✓ lease_analyzer
+✓ renovation_budget
+✓ subdivision
+✓ tax_strategy
+✗ small_multifamily_acquisition (MISSING)
++ portfolio_dashboard (EXTRA - not exposed in frontend)
+
+================================================================================
+FRONTEND CALCULATOR TYPES MISSING FROM SERVICE
+================================================================================
+
+In calculatorService.ts CalculationType enum, these are MISSING:
+  ✗ SUBDIVISION
+  ✗ TAX_STRATEGY
+  ✗ SMALL_MULTIFAMILY_ACQUISITION
+
+Currently defined: 8 types
+Total needed: 11 types
+
+In modelConfig.ts MODEL_CONFIGS, these are MISSING:
+  ✗ subdivision
+  ✗ tax_strategy
+  ✗ small_multifamily_acquisition
+
+Currently defined: 8 configs
+Total needed: 11 configs
+
+================================================================================
+IMPLEMENTATION PRIORITY
+================================================================================
+
+PRIORITY 1: Fix SmallMultifamilyAcquisition Backend Gap
+  Estimated time: 30-45 minutes
+  Files to modify:
+    - /backend/app/models/real_estate.py (add model class)
+    - /backend/app/api/v1/endpoints/real_estate_tools.py (add registry entry)
+    - /frontend/src/services/calculatorService.ts (add enum)
+    - /frontend/src/config/modelConfig.ts (add config)
+
+PRIORITY 2: Complete Service Mappings
+  Estimated time: 20-30 minutes
+  Files to modify:
+    - /frontend/src/services/calculatorService.ts (add enums, methods)
+    - /frontend/src/config/modelConfig.ts (add 3 configs)
+
+PRIORITY 3: Portfolio Dashboard
+  Estimated time: 20-30 minutes
+  Decision: Feature or remove?
+  If feature: Implement frontend route/page/component
+
+================================================================================
+HOW TO USE THIS REFERENCE
+================================================================================
+
+1. Quick Status Check
+   → See "STATUS OVERVIEW" at top
+   → 10 of 11 working, 1 incomplete
+
+2. Find a Specific Calculator
+   → See "CALCULATOR DETAILS" section
+   → Check status and missing pieces
+
+3. Locate Source Files
+   → See "KEY FILES" section
+   → All file paths listed with line numbers
+
+4. Understand What's Broken
+   → See "CRITICAL ISSUES" section
+   → Severity levels and impact documented
+
+5. Fix Issues
+   → See "IMPLEMENTATION PRIORITY" section
+   → Do Priority 1 first, then 2, then 3
+
+6. Test Changes
+   → Use "QUICK TEST CHECKLIST"
+   → Verify after each fix
+
+================================================================================
+LAST UPDATED: November 16, 2025
+VERIFICATION METHOD: Complete source code analysis
+STATUS: 85% Complete - Ready for fixes
+================================================================================

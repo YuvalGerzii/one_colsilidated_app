@@ -1,0 +1,33 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# Validation & Serialization
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Excel Processing (for real estate models)
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Data Processing (for financial calculations)
+pandas==2.1.4
+numpy==1.26.2
+matplotlib==3.8.4
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3.post1
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+faker==20.1.0

@@ -1,0 +1,107 @@
+period,metric_category,metric_name,value,unit,data_source,notes
+2007-pre-GFC,CMBS Market,CMBS Issuance Pre-GFC,150,$B,Historical,2007 pre-crisis levels
+2021-2022,Leveraged Loans,Average Leverage Ratio Peak,5.3,x Debt/EBITDA,Various,2021-2022 peak
+2023-06,Leveraged Loans,SOFR Rate Peak,5.5,%,Various,June 2023 peak
+2023-09,Leveraged Loans,Avg Loan Spread over SOFR Peak,500,bps,Various,Sept 2023 peak
+2024,CLO Market,CLO Refinancing Activity 2024,308,$B,Various,Refi/reset activity 2024
+2024,Leveraged Loans,Annual Loan Issuance 2024,1320,$B,Various,Record year
+2024,CLO Market,CLO Annual Issuance 2024,202,$B,Various,Record new-issue
+2024,HY Issuance & Market Access,HY Annual Issuance 2024,350,$B,Various,2024 estimate
+2024,IG Issuance & Demand,IG Annual Issuance 2024,1100,$B,Various,2024 estimate
+2024-01,Credit Derivatives,CDX NA IG Start 2024,58,bps,Various,Jan 2024
+2024-01,Credit Derivatives,CDX NA HY Start 2024,364,bps,Various,Jan 2024
+2024-06,IG Bond Yields & Spreads,BBB Corporate Yield,5.4,%,Bloomberg,Est. 2024
+2024-06,IG Bond Yields & Spreads,AA Corporate Yield,4.8,%,Bloomberg,Est. 2024
+2024-06,IG Bond Yields & Spreads,AAA Corporate Yield,4.5,%,Bloomberg,Est. 2024
+2024-06,Leveraged Loans,SOFR Rate,5.33,%,Various,Mid-2024
+2024-06,IG Bond Yields & Spreads,A Corporate Yield,5.0,%,Bloomberg,Est. 2024
+2024-12,Market Technicals,IG Bid-Ask Spread,2,bps,Analysis,Typical IG corporate
+2024-12,Relative Value,HY Spread Historical Percentile,5,%,Analysis,Very compressed
+2024-12,Leveraged Loans,Avg Loan Spread over SOFR,315,bps,Various,Q4 2024
+2024-12,Leveraged Loans,Average Leverage Ratio,4.5,x Debt/EBITDA,Various,2024
+2024-12,CLO Target Return,14.5,%,Various,CLO investor target,
+2024-12,CLO Market,CLO Equity Distribution,16,%,Various,US median 2024 annualized
+2024-12,CLO Equity Distribution Europe,19,%,Various,Europe median 2024,
+2024-12,HY Credit Stress,Expected Default Rate (12-month),3.2,%,Moody's,April 2025 forecast
+2024-12,Relative Value,IG Spread Historical Percentile,1,%,Breckinridge,Historical 20-year low
+2024-12,Market Technicals,Electronic Trading Share,70,%,Analysis,Credit markets
+2024-12,Credit Derivatives,CDX NA IG Year-End,50,bps,Various,"Dec 2024, all-time compression"
+2024-12,Credit Derivatives,CDX NA HY Year-End,289,bps,Various,Dec 2024 compression
+2024-12,Credit Derivatives,iTraxx Europe Main,58,bps,Various,Year-end 2024
+2024-12,Credit Derivatives,iTraxx Europe Crossover,314,bps,Various,HY equivalent Dec 2024
+2024-12,Credit Quality Trends,Upgrade/Downgrade Ratio,1.2,ratio,Analysis,More upgrades than downgrades
+2024-12,Credit Quality Trends,Fallen Angels,5,$B,Analysis,2024 estimate
+2024-12,Credit Quality Trends,Rising Stars,3,$B,Analysis,2024 estimate
+2024-12,CLO Market,CLO AAA Spread to SOFR,125,bps,Various,Q4 2024
+2024-12,HY Credit Stress,HY Recovery Rates,42,cents on dollar,Analysis,Long-term average
+2024-12,Market Technicals,HY Bid-Ask Spread,8,bps,Analysis,Typical HY corporate
+2024-12,HY Credit Stress,HY Default Rate (trailing 12-month),2.7,%,Various,2024 estimate
+2024-12,IG Bond Yields & Spreads,BBB-AAA Spread,130,bps,Analysis,Q4 2024 estimate
+2024-12,IG Issuance & Demand,Avg IG Deal Size,750,$MM,Analysis,2024 average
+2024-12,IG Issuance & Demand,Book-to-Cover Ratio IG,3.5,x times,Various,Strong demand
+2024-12,HY Issuance & Market Access,% HY Market Rated CCC+,18,%,Moody's,2024
+2024-12,HY Issuance & Market Access,Average HY Deal Size,300,$MM,Analysis,2024 average
+2024-12,HY Issuance & Market Access,Covenant-lite Loan Share,65,%,Analysis,2024
+2024-12,HY Bond Yields & Spreads,HY OAS Spread,289,bps,ICE BofA,"Dec 2024, near all-time lows"
+2024-12,IG Bond Yields & Spreads,IG OAS Spread,80,bps,Bloomberg Barclays,"Q4 2024 year-end, 1st percentile"
+2024-12,IG Bond Yields & Spreads,IG Corporate Bond Yield,5.1,%,Bloomberg,Q4 2024
+2024-9M,Leveraged Loans,Loan Issuance Volume (9M),908,$B,Various,First 9 months 2024
+2024-9M,Fixed Income Flows,Loan Fund Inflows (9M),21.4,$B,Various,9M 2024
+2024-H1,CMBS Market,CMBS Issuance (H1),44,$B,Trepp,H1 2024
+2024-H1,CMBS Market,CLO Count,4,deals,Trepp,"H1 2024, 4x increase 2025"
+2024-Q4,IG Issuance & Demand,IG Issuance Volume,180,$B,Various,Q4 2024
+2025-03,HY Credit Stress,Distressed Ratio,7.2,%,Analysis,March 2025 baseline
+2025-04,Relative Value,IG Spread Historical Percentile,15,%,Analysis,April 2025 post-tariff
+2025-04,Credit Derivatives,iTraxx Europe Crossover (stress),430,bps,Various,April 2025 peak
+2025-04,Credit Derivatives,CDX NA IG Peak (tariffs),80,bps,Various,April 2025
+2025-04,IG Bond Yields & Spreads,IG OAS Spread Widening (one-day),8,bps,Bloomberg,"April 3, 2025 largest one-day widening since 2023 crisis"
+2025-04,Credit Derivatives,CDX NA HY Peak (tariffs),475,bps,Various,April 2025 extreme stress
+2025-04,HY Bond Yields & Spreads,HY OAS Spread (tariff spike),475,bps,ICE BofA,April 2025 peak volatility
+2025-04,Credit Derivatives,iTraxx Europe (tariff stress),112,bps,Various,April 2025
+2025-04,IG Bond Yields & Spreads,IG OAS Spread (tariff volatility),96,bps,Bloomberg,April 2025 tariff announcement
+2025-04,Relative Value,HY Spread Historical Percentile,30,%,Analysis,April 2025 stress
+2025-05,HY Credit Stress,Distressed Ratio (>1000bps spread),9.1,%,Analysis,May 2025 US HY
+2025-06,Leveraged Loans,SOFR Rate,4.85,%,Various,June 2025
+2025-07,CLO Market,CLO AAA Spread to SOFR,110,bps,Various,Mid-2025
+2025-07,CLO Market,CLO ETF Assets Under Management,32,$B,Various,"July 2025, up from $6.3B Dec 2023"
+2025-07,CLO Market,CLO BB Spread to SOFR,280,bps,Various,Mid-2025
+2025-08,HY Bond Yields & Spreads,B Rated Yield,8.1,%,Bloomberg,Aug 2025
+2025-08,HY Bond Yields & Spreads,CCC-BB Spread,350,bps,Analysis,Aug 2025
+2025-08,HY Bond Yields & Spreads,BB Rated Yield,6.9,%,Bloomberg,Aug 2025
+2025-08,HY Bond Yields & Spreads,HY OAS Spread,272,bps,ICE BofA,"Aug 2025, tightened 6bps from July"
+2025-08,Leveraged Loans,Repricing/Refinancing Activity,82,%,Various,Of total volume 2025
+2025-08,IG Bond Yields & Spreads,IG Corporate Bond Yield,5.2,%,Bloomberg,Aug 2025
+2025-08,HY Bond Yields & Spreads,CCC Rated Yield,12.4,%,Bloomberg,Aug 2025 estimate
+2025-11-12,HY Bond Yields & Spreads,HY Corporate Bond Yield (Index),8.7,%,ICE BofA,Nov 2025
+2025-11-12,Credit Derivatives,CDX North America HY Index,350,bps,Various,"Nov 12, 2025"
+2025-11-12,HY Bond Yields & Spreads,HY OAS Spread,302,bps,ICE BofA,"Nov 12, 2025"
+2025-11-12,Credit Derivatives,CDX North America IG Index,65,bps,Various,"Nov 12, 2025"
+2025-11-12,IG Bond Yields & Spreads,IG Corporate Bond Yield (Bloomberg Barclays),5.33,%,Bloomberg,Yield-to-worst Q1 2025
+2025-9M,Leveraged Loans,Loan Issuance Volume (9M),813,$B,Various,First 9 months 2025
+2025-9M,Fixed Income Flows,Loan Fund Inflows (9M),6.4,$B,Various,9M 2025
+2025-Annualized,CMBS Market,CMBS Issuance Annualized Pace,120,$B,Trepp,"Current pace, highest since pre-GFC"
+2025-April,CMBS Market,CMBS Benchmark Spread (tariff impact),110,bps,Various,April 2025 peak
+2025-H1,CMBS Market,CLO Balance,17.17,$B,Trepp,H1 2025 deals
+2025-H1,CMBS Market,Blackstone SASB Deals,11.17,$B,Trepp,19% of total H1 issuance
+2025-H1,CMBS Market,SASB Avg Deal Size,758,$MM,Trepp,H1 2025
+2025-H1,CMBS Market,SASB Deals % of Total,72,%,Trepp,"Single-asset, single-borrower"
+2025-H1,CMBS Market,CMBS Issuance (H1),59.55,$B,Trepp,"H1 2025, 35% growth vs 2024"
+2025-H1,CLO Market,CRE CLO Issuance (H1),17,$B,Various,H1 2025 rebound
+2025-H1,CMBS Market,CLO Count (H1),17,deals,Trepp,H1 2025
+2025-Q1,HY Credit Stress,HY Default Rate (12-month),3.2,%,Moody's,Moody's baseline forecast
+2025-Q1,Leveraged Loans,Loan Issuance Volume,144,$B,Various,Q1 2025
+2025-Q1,IG Issuance & Demand,IG Issuance Volume,450,$B,Various,Q1 2025 est.
+2025-Q1,HY Issuance & Market Access,HY Issuance Volume,120,$B,Various,Q1 2025
+2025-Q1,CMBS Market,CMBS Issuance,37.55,$B,Trepp,Q1 2025 record
+2025-Q2,HY Issuance & Market Access,HY Issuance Volume,85,$B,Various,Q2 2025
+2025-Q2,CLO Market,CRE CLO Issuance,8.5,$B,Various,Q2 2025
+2025-Q2,Leveraged Loans,Loan Issuance Volume,80,$B,Various,Q2 2025
+2025-Q2,Leveraged Loans,Avg Loan Spread over SOFR,280,bps,Various,Q2 2025 est.
+2025-Q2,CMBS Market,CMBS Issuance,22.01,$B,Trepp,Q2 2025
+2025-Recent,Relative Value,HY Spread vs Loan Spread,25,bps,Analysis,Relative valuations
+2025-Recent,CMBS Market,CMBS Benchmark Spread at Year-Start,80,bps,Various,Jan 2025
+2025-Recent,Relative Value,CMBS AAA vs IG Corporates,15,bps,Analysis,Spread difference
+2025-Recent,CMBS Market,CMBS Benchmark Spread Current,88.5,bps,Various,Nov 2025 secondary market
+2025-YTD,CLO Market,CLO Issuance (YTD Net),149.6,$B,Various,YTD 2025 net of refi
+2025-YTD,HY Credit Stress,HY Default Rate (YTD 2025),0.68,%,Various,Very low through 2025
+2025-YTD,CLO Market,CLO Issuance (YTD Gross),399.2,$B,Various,Year-to-date 2025

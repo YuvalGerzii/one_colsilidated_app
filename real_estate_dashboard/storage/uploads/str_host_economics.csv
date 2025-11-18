@@ -1,0 +1,16 @@
+market,avg_gross_revenue_per_listing_annual,operating_expenses_pct_of_revenue,occupancy_tax_burden_pct,net_operating_income_per_listing,roi_str_vs_ltr_pct,payback_period_vs_ltr_months,data_source,period
+"New York, NY",61438.0,39.5,7.8,32377,16.0,35,AirROI/Hospitable,2024
+"Los Angeles, CA",51050.0,43.3,3.9,26954,12.2,46,AirROI/Hospitable,2024
+"San Francisco, CA",64643.0,31.6,5.9,40401,13.1,49,AirROI/Hospitable,2024
+"Miami, FL",66762.0,37.4,5.0,38454,10.6,24,AirROI/Hospitable,2024
+"Chicago, IL",62309.0,34.6,6.5,36700,10.3,43,AirROI/Hospitable,2024
+"Boston, MA",60543.0,39.0,5.3,33722,10.5,38,AirROI/Hospitable,2024
+"Washington, DC",32637.0,43.5,7.3,16057,14.6,18,AirROI/Hospitable,2024
+"Seattle, WA",54306.0,38.9,5.1,30411,9.5,41,AirROI/Hospitable,2024
+"Austin, TX",52905.0,38.0,5.2,30050,8.4,35,AirROI/Hospitable,2024
+"Denver, CO",49969.0,46.6,5.2,24085,13.6,25,AirROI/Hospitable,2024
+"Dallas, TX",29155.0,40.6,7.0,15277,13.7,37,AirROI/Hospitable,2024
+"Atlanta, GA",50034.0,39.0,3.5,28769,15.9,25,AirROI/Hospitable,2024
+"Phoenix, AZ",46458.0,30.3,7.2,29036,12.0,36,AirROI/Hospitable,2024
+"Nashville, TN",48355.0,33.5,7.2,28674,15.8,33,AirROI/Hospitable,2024
+"Charlotte, NC",46271.0,30.9,4.0,30122,12.8,26,AirROI/Hospitable,2024

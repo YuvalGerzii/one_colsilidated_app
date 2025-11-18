@@ -1,0 +1,16 @@
+market,tod_overlay_zones_count,tod_overlay_acres,tod_far_bonus,tod_height_bonus_feet,tod_parking_reduction_pct,dev_within_half_mile_transit_units,dev_within_half_mile_transit_sf,tod_pipeline_projects,tod_pipeline_units,tod_pipeline_sf,data_source,period
+"New York City, NY",36,2266,2.9,35,74.0,114466,8966814,31,7296,15456104,Metro Transit Authority/Planning Dept,2024-Q3
+"Los Angeles, CA",13,6446,2.2,77,56.0,117828,22466486,48,25455,3498548,Metro Transit Authority/Planning Dept,2024-Q3
+"San Francisco, CA",13,4029,2.3,60,41.0,44702,19937841,73,64607,1664860,Metro Transit Authority/Planning Dept,2024-Q3
+"Miami, FL",45,5130,2.7,32,46.0,27924,21511737,90,42686,4612288,Metro Transit Authority/Planning Dept,2024-Q3
+"Chicago, IL",14,5459,2.7,75,39.0,78706,32032456,59,62033,15037181,Metro Transit Authority/Planning Dept,2024-Q3
+"Boston, MA",24,3987,2.5,61,55.0,13410,8278064,50,30909,6076894,Metro Transit Authority/Planning Dept,2024-Q3
+Washington DC,33,1167,2.1,81,42.0,39639,4153930,110,35643,10262195,Metro Transit Authority/Planning Dept,2024-Q3
+"Seattle, WA",31,1015,2.0,75,40.0,45245,30781237,77,60745,24610019,Metro Transit Authority/Planning Dept,2024-Q3
+"Austin, TX",14,7968,1.8,44,74.0,66579,28472167,120,25528,10290234,Metro Transit Authority/Planning Dept,2024-Q3
+"Denver, CO",34,5805,2.5,37,47.0,116499,16162370,109,36249,18580911,Metro Transit Authority/Planning Dept,2024-Q3
+"Dallas, TX",31,7575,1.6,75,33.0,49279,26309198,79,30936,5801652,Metro Transit Authority/Planning Dept,2024-Q3
+"Atlanta, GA",41,8053,2.4,36,35.0,117673,9235272,122,8276,9621504,Metro Transit Authority/Planning Dept,2024-Q3
+"Phoenix, AZ",10,4589,1.6,48,60.0,44410,14859839,120,34923,18199228,Metro Transit Authority/Planning Dept,2024-Q3
+"Nashville, TN",33,6055,2.9,68,27.0,57319,18900961,91,33735,7208719,Metro Transit Authority/Planning Dept,2024-Q3
+"Charlotte, NC",38,5657,2.3,47,33.0,42403,27630965,121,49644,4283049,Metro Transit Authority/Planning Dept,2024-Q3

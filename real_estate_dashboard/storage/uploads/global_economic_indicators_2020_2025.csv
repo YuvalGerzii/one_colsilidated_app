@@ -1,0 +1,529 @@
+date,period_type,indicator_name,indicator_value,indicator_unit,data_source,notes
+2020-Q1,quarterly,boe_bank_rate,0.75,%,Bank of England,Bank of England Bank Rate
+2020-Q1,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2020-Q1,quarterly,china_gdp,5.6,$T,National Bureau of Statistics,China nominal GDP
+2020-Q1,quarterly,china_gdp_growth_yoy,6.0,%,National Bureau of Statistics,China real GDP growth year-over-year
+2020-Q1,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2020-Q1,quarterly,epu_index,425.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2020-Q1,quarterly,eurozone_gdp,3.15,$T,Eurostat,Eurozone nominal GDP
+2020-Q1,quarterly,eurozone_gdp_growth_qoq,-3.1,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2020-Q1,quarterly,fdi_into_us,56.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2020-Q1,quarterly,fed_funds_rate,1.61,%,Federal Reserve,Federal Funds Rate (mid-point)
+2020-Q1,quarterly,foreign_cre_investment_us,28.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2020-Q1,quarterly,foreign_treasury_purchases,18.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2020-Q1,quarterly,global_fdi_flows,0.35,$T,UNCTAD,Global foreign direct investment flows
+2020-Q1,quarterly,global_gdp_growth_yoy,2.0,%,IMF World Economic Outlook,Global real GDP growth
+2020-Q1,quarterly,global_pmi_manufacturing,48.5,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2020-Q1,quarterly,japan_gdp,4.88,$T,Cabinet Office,Japan nominal GDP
+2020-Q1,quarterly,us_debt_to_gdp,105.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2020-Q1,quarterly,us_exports_total,95.2,$B,Census Bureau,U.S. total exports (monthly average)
+2020-Q1,quarterly,us_gdp,21.06,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2020-Q1,quarterly,us_gdp_growth_yoy,-1.2,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2020-Q1,quarterly,us_imports_total,143.5,$B,Census Bureau,U.S. total imports (monthly average)
+2020-Q1,quarterly,us_trade_balance,-48.2,$B,Census Bureau,U.S. trade balance in goods and services
+2020-Q1,quarterly,vix_index,30.85,index,CBOE,Volatility Index (VIX)
+2020-Q1,quarterly,wti_oil_price,51.56,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2020-Q2,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2020-Q2,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2020-Q2,quarterly,china_gdp,5.77,$T,National Bureau of Statistics,China nominal GDP
+2020-Q2,quarterly,china_gdp_growth_yoy,3.2,%,National Bureau of Statistics,China real GDP growth year-over-year
+2020-Q2,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2020-Q2,quarterly,epu_index,547.8,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2020-Q2,quarterly,eurozone_gdp,2.98,$T,Eurostat,Eurozone nominal GDP
+2020-Q2,quarterly,eurozone_gdp_growth_qoq,-11.4,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2020-Q2,quarterly,fdi_into_us,42.8,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2020-Q2,quarterly,fed_funds_rate,0.38,%,Federal Reserve,Federal Funds Rate (mid-point)
+2020-Q2,quarterly,foreign_cre_investment_us,22.3,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2020-Q2,quarterly,foreign_treasury_purchases,22.3,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2020-Q2,quarterly,global_fdi_flows,0.28,$T,UNCTAD,Global foreign direct investment flows
+2020-Q2,quarterly,global_gdp_growth_yoy,-3.1,%,IMF World Economic Outlook,Global real GDP growth
+2020-Q2,quarterly,global_pmi_manufacturing,40.5,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2020-Q2,quarterly,japan_gdp,4.73,$T,Cabinet Office,Japan nominal GDP
+2020-Q2,quarterly,us_debt_to_gdp,120.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2020-Q2,quarterly,us_exports_total,82.5,$B,Census Bureau,U.S. total exports (monthly average)
+2020-Q2,quarterly,us_gdp,20.57,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2020-Q2,quarterly,us_gdp_growth_yoy,-28.8,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2020-Q2,quarterly,us_imports_total,124.0,$B,Census Bureau,U.S. total imports (monthly average)
+2020-Q2,quarterly,us_trade_balance,-41.5,$B,Census Bureau,U.S. trade balance in goods and services
+2020-Q2,quarterly,vix_index,22.45,index,CBOE,Volatility Index (VIX)
+2020-Q2,quarterly,wti_oil_price,32.08,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2020-Q3,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2020-Q3,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2020-Q3,quarterly,china_gdp,5.92,$T,National Bureau of Statistics,China nominal GDP
+2020-Q3,quarterly,china_gdp_growth_yoy,4.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2020-Q3,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2020-Q3,quarterly,epu_index,286.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2020-Q3,quarterly,eurozone_gdp,3.08,$T,Eurostat,Eurozone nominal GDP
+2020-Q3,quarterly,eurozone_gdp_growth_qoq,12.7,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2020-Q3,quarterly,fdi_into_us,58.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2020-Q3,quarterly,fed_funds_rate,0.09,%,Federal Reserve,Federal Funds Rate (mid-point)
+2020-Q3,quarterly,foreign_cre_investment_us,32.8,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2020-Q3,quarterly,foreign_treasury_purchases,15.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2020-Q3,quarterly,global_fdi_flows,0.42,$T,UNCTAD,Global foreign direct investment flows
+2020-Q3,quarterly,global_gdp_growth_yoy,-2.8,%,IMF World Economic Outlook,Global real GDP growth
+2020-Q3,quarterly,global_pmi_manufacturing,51.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2020-Q3,quarterly,japan_gdp,4.88,$T,Cabinet Office,Japan nominal GDP
+2020-Q3,quarterly,us_debt_to_gdp,125.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2020-Q3,quarterly,us_exports_total,95.8,$B,Census Bureau,U.S. total exports (monthly average)
+2020-Q3,quarterly,us_gdp,21.17,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2020-Q3,quarterly,us_gdp_growth_yoy,-2.8,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2020-Q3,quarterly,us_imports_total,148.5,$B,Census Bureau,U.S. total imports (monthly average)
+2020-Q3,quarterly,us_trade_balance,-52.8,$B,Census Bureau,U.S. trade balance in goods and services
+2020-Q3,quarterly,vix_index,24.82,index,CBOE,Volatility Index (VIX)
+2020-Q3,quarterly,wti_oil_price,41.96,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2020-Q4,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2020-Q4,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2020-Q4,quarterly,china_gdp,6.09,$T,National Bureau of Statistics,China nominal GDP
+2020-Q4,quarterly,china_gdp_growth_yoy,6.5,%,National Bureau of Statistics,China real GDP growth year-over-year
+2020-Q4,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2020-Q4,quarterly,epu_index,238.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2020-Q4,quarterly,eurozone_gdp,3.12,$T,Eurostat,Eurozone nominal GDP
+2020-Q4,quarterly,eurozone_gdp_growth_qoq,-0.7,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2020-Q4,quarterly,fdi_into_us,72.3,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2020-Q4,quarterly,fed_funds_rate,0.09,%,Federal Reserve,Federal Funds Rate (mid-point)
+2020-Q4,quarterly,foreign_cre_investment_us,42.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2020-Q4,quarterly,foreign_treasury_purchases,12.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2020-Q4,quarterly,global_fdi_flows,0.52,$T,UNCTAD,Global foreign direct investment flows
+2020-Q4,quarterly,global_gdp_growth_yoy,-1.5,%,IMF World Economic Outlook,Global real GDP growth
+2020-Q4,quarterly,global_pmi_manufacturing,53.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2020-Q4,quarterly,japan_gdp,5.01,$T,Cabinet Office,Japan nominal GDP
+2020-Q4,quarterly,us_debt_to_gdp,129.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2020-Q4,quarterly,us_exports_total,108.5,$B,Census Bureau,U.S. total exports (monthly average)
+2020-Q4,quarterly,us_gdp,21.6,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2020-Q4,quarterly,us_gdp_growth_yoy,4.3,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2020-Q4,quarterly,us_imports_total,166.8,$B,Census Bureau,U.S. total imports (monthly average)
+2020-Q4,quarterly,us_trade_balance,-58.2,$B,Census Bureau,U.S. trade balance in goods and services
+2020-Q4,quarterly,vix_index,18.45,index,CBOE,Volatility Index (VIX)
+2020-Q4,quarterly,wti_oil_price,48.52,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2021-Q1,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2021-Q1,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2021-Q1,quarterly,china_gdp,6.3,$T,National Bureau of Statistics,China nominal GDP
+2021-Q1,quarterly,china_gdp_growth_yoy,18.3,%,National Bureau of Statistics,China real GDP growth year-over-year
+2021-Q1,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2021-Q1,quarterly,epu_index,198.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2021-Q1,quarterly,eurozone_gdp,3.18,$T,Eurostat,Eurozone nominal GDP
+2021-Q1,quarterly,eurozone_gdp_growth_qoq,-0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2021-Q1,quarterly,fdi_into_us,85.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2021-Q1,quarterly,fed_funds_rate,0.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2021-Q1,quarterly,foreign_cre_investment_us,52.8,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2021-Q1,quarterly,foreign_treasury_purchases,8.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2021-Q1,quarterly,global_fdi_flows,0.65,$T,UNCTAD,Global foreign direct investment flows
+2021-Q1,quarterly,global_gdp_growth_yoy,5.9,%,IMF World Economic Outlook,Global real GDP growth
+2021-Q1,quarterly,global_pmi_manufacturing,54.3,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2021-Q1,quarterly,japan_gdp,5.15,$T,Cabinet Office,Japan nominal GDP
+2021-Q1,quarterly,us_debt_to_gdp,130.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2021-Q1,quarterly,us_exports_total,118.2,$B,Census Bureau,U.S. total exports (monthly average)
+2021-Q1,quarterly,us_gdp,22.01,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2021-Q1,quarterly,us_gdp_growth_yoy,6.3,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2021-Q1,quarterly,us_imports_total,174.8,$B,Census Bureau,U.S. total imports (monthly average)
+2021-Q1,quarterly,us_trade_balance,-56.5,$B,Census Bureau,U.S. trade balance in goods and services
+2021-Q1,quarterly,vix_index,19.25,index,CBOE,Volatility Index (VIX)
+2021-Q1,quarterly,wti_oil_price,61.57,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2021-Q2,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2021-Q2,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2021-Q2,quarterly,china_gdp,6.54,$T,National Bureau of Statistics,China nominal GDP
+2021-Q2,quarterly,china_gdp_growth_yoy,7.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2021-Q2,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2021-Q2,quarterly,epu_index,158.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2021-Q2,quarterly,eurozone_gdp,3.32,$T,Eurostat,Eurozone nominal GDP
+2021-Q2,quarterly,eurozone_gdp_growth_qoq,2.1,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2021-Q2,quarterly,fdi_into_us,95.8,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2021-Q2,quarterly,fed_funds_rate,0.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2021-Q2,quarterly,foreign_cre_investment_us,65.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2021-Q2,quarterly,foreign_treasury_purchases,5.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2021-Q2,quarterly,global_fdi_flows,0.85,$T,UNCTAD,Global foreign direct investment flows
+2021-Q2,quarterly,global_gdp_growth_yoy,6.1,%,IMF World Economic Outlook,Global real GDP growth
+2021-Q2,quarterly,global_pmi_manufacturing,62.1,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2021-Q2,quarterly,japan_gdp,5.32,$T,Cabinet Office,Japan nominal GDP
+2021-Q2,quarterly,us_debt_to_gdp,128.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2021-Q2,quarterly,us_exports_total,132.5,$B,Census Bureau,U.S. total exports (monthly average)
+2021-Q2,quarterly,us_gdp,22.45,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2021-Q2,quarterly,us_gdp_growth_yoy,6.7,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2021-Q2,quarterly,us_imports_total,195.2,$B,Census Bureau,U.S. total imports (monthly average)
+2021-Q2,quarterly,us_trade_balance,-62.8,$B,Census Bureau,U.S. trade balance in goods and services
+2021-Q2,quarterly,vix_index,16.54,index,CBOE,Volatility Index (VIX)
+2021-Q2,quarterly,wti_oil_price,68.28,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2021-Q3,quarterly,boe_bank_rate,0.1,%,Bank of England,Bank of England Bank Rate
+2021-Q3,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2021-Q3,quarterly,china_gdp,6.82,$T,National Bureau of Statistics,China nominal GDP
+2021-Q3,quarterly,china_gdp_growth_yoy,4.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2021-Q3,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2021-Q3,quarterly,epu_index,142.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2021-Q3,quarterly,eurozone_gdp,3.48,$T,Eurostat,Eurozone nominal GDP
+2021-Q3,quarterly,eurozone_gdp_growth_qoq,3.7,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2021-Q3,quarterly,fdi_into_us,108.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2021-Q3,quarterly,fed_funds_rate,0.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2021-Q3,quarterly,foreign_cre_investment_us,78.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2021-Q3,quarterly,foreign_treasury_purchases,2.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2021-Q3,quarterly,global_fdi_flows,0.98,$T,UNCTAD,Global foreign direct investment flows
+2021-Q3,quarterly,global_gdp_growth_yoy,5.0,%,IMF World Economic Outlook,Global real GDP growth
+2021-Q3,quarterly,global_pmi_manufacturing,59.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2021-Q3,quarterly,japan_gdp,5.5,$T,Cabinet Office,Japan nominal GDP
+2021-Q3,quarterly,us_debt_to_gdp,126.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2021-Q3,quarterly,us_exports_total,145.2,$B,Census Bureau,U.S. total exports (monthly average)
+2021-Q3,quarterly,us_gdp,22.87,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2021-Q3,quarterly,us_gdp_growth_yoy,2.3,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2021-Q3,quarterly,us_imports_total,218.5,$B,Census Bureau,U.S. total imports (monthly average)
+2021-Q3,quarterly,us_trade_balance,-73.2,$B,Census Bureau,U.S. trade balance in goods and services
+2021-Q3,quarterly,vix_index,16.25,index,CBOE,Volatility Index (VIX)
+2021-Q3,quarterly,wti_oil_price,71.59,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2021-Q4,quarterly,boe_bank_rate,0.25,%,Bank of England,Bank of England Bank Rate
+2021-Q4,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2021-Q4,quarterly,china_gdp,7.11,$T,National Bureau of Statistics,China nominal GDP
+2021-Q4,quarterly,china_gdp_growth_yoy,4.0,%,National Bureau of Statistics,China real GDP growth year-over-year
+2021-Q4,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2021-Q4,quarterly,epu_index,138.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2021-Q4,quarterly,eurozone_gdp,3.65,$T,Eurostat,Eurozone nominal GDP
+2021-Q4,quarterly,eurozone_gdp_growth_qoq,5.2,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2021-Q4,quarterly,fdi_into_us,125.3,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2021-Q4,quarterly,fed_funds_rate,0.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2021-Q4,quarterly,foreign_cre_investment_us,95.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2021-Q4,quarterly,foreign_treasury_purchases,-2.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2021-Q4,quarterly,global_fdi_flows,1.15,$T,UNCTAD,Global foreign direct investment flows
+2021-Q4,quarterly,global_gdp_growth_yoy,4.3,%,IMF World Economic Outlook,Global real GDP growth
+2021-Q4,quarterly,global_pmi_manufacturing,55.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2021-Q4,quarterly,japan_gdp,5.68,$T,Cabinet Office,Japan nominal GDP
+2021-Q4,quarterly,us_debt_to_gdp,123.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2021-Q4,quarterly,us_exports_total,158.8,$B,Census Bureau,U.S. total exports (monthly average)
+2021-Q4,quarterly,us_gdp,23.32,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2021-Q4,quarterly,us_gdp_growth_yoy,5.5,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2021-Q4,quarterly,us_imports_total,244.2,$B,Census Bureau,U.S. total imports (monthly average)
+2021-Q4,quarterly,us_trade_balance,-85.5,$B,Census Bureau,U.S. trade balance in goods and services
+2021-Q4,quarterly,vix_index,15.85,index,CBOE,Volatility Index (VIX)
+2021-Q4,quarterly,wti_oil_price,75.87,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2022-Q1,quarterly,boe_bank_rate,0.5,%,Bank of England,Bank of England Bank Rate
+2022-Q1,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2022-Q1,quarterly,china_gdp,7.35,$T,National Bureau of Statistics,China nominal GDP
+2022-Q1,quarterly,china_gdp_growth_yoy,4.8,%,National Bureau of Statistics,China real GDP growth year-over-year
+2022-Q1,quarterly,ecb_deposit_rate,-0.5,%,ECB,ECB Deposit Rate
+2022-Q1,quarterly,epu_index,185.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2022-Q1,quarterly,eurozone_gdp,3.85,$T,Eurostat,Eurozone nominal GDP
+2022-Q1,quarterly,eurozone_gdp_growth_qoq,5.5,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2022-Q1,quarterly,fdi_into_us,138.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2022-Q1,quarterly,fed_funds_rate,0.33,%,Federal Reserve,Federal Funds Rate (mid-point)
+2022-Q1,quarterly,foreign_cre_investment_us,108.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2022-Q1,quarterly,foreign_treasury_purchases,-8.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2022-Q1,quarterly,global_fdi_flows,1.32,$T,UNCTAD,Global foreign direct investment flows
+2022-Q1,quarterly,global_gdp_growth_yoy,3.5,%,IMF World Economic Outlook,Global real GDP growth
+2022-Q1,quarterly,global_pmi_manufacturing,54.5,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2022-Q1,quarterly,japan_gdp,5.92,$T,Cabinet Office,Japan nominal GDP
+2022-Q1,quarterly,us_debt_to_gdp,120.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2022-Q1,quarterly,us_exports_total,168.5,$B,Census Bureau,U.S. total exports (monthly average)
+2022-Q1,quarterly,us_gdp,23.81,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2022-Q1,quarterly,us_gdp_growth_yoy,3.4,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2022-Q1,quarterly,us_imports_total,256.8,$B,Census Bureau,U.S. total imports (monthly average)
+2022-Q1,quarterly,us_trade_balance,-88.2,$B,Census Bureau,U.S. trade balance in goods and services
+2022-Q1,quarterly,vix_index,22.45,index,CBOE,Volatility Index (VIX)
+2022-Q1,quarterly,wti_oil_price,99.8,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2022-Q2,quarterly,boe_bank_rate,1.25,%,Bank of England,Bank of England Bank Rate
+2022-Q2,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2022-Q2,quarterly,china_gdp,7.43,$T,National Bureau of Statistics,China nominal GDP
+2022-Q2,quarterly,china_gdp_growth_yoy,0.4,%,National Bureau of Statistics,China real GDP growth year-over-year
+2022-Q2,quarterly,ecb_deposit_rate,0.0,%,ECB,ECB Deposit Rate
+2022-Q2,quarterly,epu_index,198.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2022-Q2,quarterly,eurozone_gdp,3.92,$T,Eurostat,Eurozone nominal GDP
+2022-Q2,quarterly,eurozone_gdp_growth_qoq,4.0,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2022-Q2,quarterly,fdi_into_us,128.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2022-Q2,quarterly,fed_funds_rate,1.68,%,Federal Reserve,Federal Funds Rate (mid-point)
+2022-Q2,quarterly,foreign_cre_investment_us,98.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2022-Q2,quarterly,foreign_treasury_purchases,-12.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2022-Q2,quarterly,global_fdi_flows,1.28,$T,UNCTAD,Global foreign direct investment flows
+2022-Q2,quarterly,global_gdp_growth_yoy,3.2,%,IMF World Economic Outlook,Global real GDP growth
+2022-Q2,quarterly,global_pmi_manufacturing,51.3,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2022-Q2,quarterly,japan_gdp,6.05,$T,Cabinet Office,Japan nominal GDP
+2022-Q2,quarterly,us_debt_to_gdp,118.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2022-Q2,quarterly,us_exports_total,162.8,$B,Census Bureau,U.S. total exports (monthly average)
+2022-Q2,quarterly,us_gdp,23.99,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2022-Q2,quarterly,us_gdp_growth_yoy,-0.6,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2022-Q2,quarterly,us_imports_total,245.2,$B,Census Bureau,U.S. total imports (monthly average)
+2022-Q2,quarterly,us_trade_balance,-82.5,$B,Census Bureau,U.S. trade balance in goods and services
+2022-Q2,quarterly,vix_index,29.85,index,CBOE,Volatility Index (VIX)
+2022-Q2,quarterly,wti_oil_price,109.58,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2022-Q3,quarterly,boe_bank_rate,2.25,%,Bank of England,Bank of England Bank Rate
+2022-Q3,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2022-Q3,quarterly,china_gdp,7.58,$T,National Bureau of Statistics,China nominal GDP
+2022-Q3,quarterly,china_gdp_growth_yoy,3.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2022-Q3,quarterly,ecb_deposit_rate,1.25,%,ECB,ECB Deposit Rate
+2022-Q3,quarterly,epu_index,215.8,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2022-Q3,quarterly,eurozone_gdp,3.98,$T,Eurostat,Eurozone nominal GDP
+2022-Q3,quarterly,eurozone_gdp_growth_qoq,2.1,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2022-Q3,quarterly,fdi_into_us,115.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2022-Q3,quarterly,fed_funds_rate,3.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2022-Q3,quarterly,foreign_cre_investment_us,85.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2022-Q3,quarterly,foreign_treasury_purchases,-18.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2022-Q3,quarterly,global_fdi_flows,1.15,$T,UNCTAD,Global foreign direct investment flows
+2022-Q3,quarterly,global_gdp_growth_yoy,2.8,%,IMF World Economic Outlook,Global real GDP growth
+2022-Q3,quarterly,global_pmi_manufacturing,48.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2022-Q3,quarterly,japan_gdp,6.15,$T,Cabinet Office,Japan nominal GDP
+2022-Q3,quarterly,us_debt_to_gdp,116.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2022-Q3,quarterly,us_exports_total,158.2,$B,Census Bureau,U.S. total exports (monthly average)
+2022-Q3,quarterly,us_gdp,24.19,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2022-Q3,quarterly,us_gdp_growth_yoy,2.6,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2022-Q3,quarterly,us_imports_total,236.5,$B,Census Bureau,U.S. total imports (monthly average)
+2022-Q3,quarterly,us_trade_balance,-78.2,$B,Census Bureau,U.S. trade balance in goods and services
+2022-Q3,quarterly,vix_index,28.54,index,CBOE,Volatility Index (VIX)
+2022-Q3,quarterly,wti_oil_price,92.77,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2022-Q4,quarterly,boe_bank_rate,3.5,%,Bank of England,Bank of England Bank Rate
+2022-Q4,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2022-Q4,quarterly,china_gdp,7.89,$T,National Bureau of Statistics,China nominal GDP
+2022-Q4,quarterly,china_gdp_growth_yoy,2.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2022-Q4,quarterly,ecb_deposit_rate,2.0,%,ECB,ECB Deposit Rate
+2022-Q4,quarterly,epu_index,228.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2022-Q4,quarterly,eurozone_gdp,4.02,$T,Eurostat,Eurozone nominal GDP
+2022-Q4,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2022-Q4,quarterly,fdi_into_us,98.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2022-Q4,quarterly,fed_funds_rate,4.33,%,Federal Reserve,Federal Funds Rate (mid-point)
+2022-Q4,quarterly,foreign_cre_investment_us,72.3,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2022-Q4,quarterly,foreign_treasury_purchases,-25.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2022-Q4,quarterly,global_fdi_flows,0.95,$T,UNCTAD,Global foreign direct investment flows
+2022-Q4,quarterly,global_gdp_growth_yoy,2.4,%,IMF World Economic Outlook,Global real GDP growth
+2022-Q4,quarterly,global_pmi_manufacturing,48.3,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2022-Q4,quarterly,japan_gdp,6.28,$T,Cabinet Office,Japan nominal GDP
+2022-Q4,quarterly,us_debt_to_gdp,120.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2022-Q4,quarterly,us_exports_total,152.5,$B,Census Bureau,U.S. total exports (monthly average)
+2022-Q4,quarterly,us_gdp,24.5,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2022-Q4,quarterly,us_gdp_growth_yoy,3.2,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2022-Q4,quarterly,us_imports_total,225.2,$B,Census Bureau,U.S. total imports (monthly average)
+2022-Q4,quarterly,us_trade_balance,-72.8,$B,Census Bureau,U.S. trade balance in goods and services
+2022-Q4,quarterly,vix_index,20.15,index,CBOE,Volatility Index (VIX)
+2022-Q4,quarterly,wti_oil_price,76.93,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2023-Q1,quarterly,boe_bank_rate,4.0,%,Bank of England,Bank of England Bank Rate
+2023-Q1,quarterly,boj_policy_rate,-0.1,%,Bank of Japan,Bank of Japan Policy Rate
+2023-Q1,quarterly,china_gdp,8.24,$T,National Bureau of Statistics,China nominal GDP
+2023-Q1,quarterly,china_gdp_growth_yoy,4.5,%,National Bureau of Statistics,China real GDP growth year-over-year
+2023-Q1,quarterly,ecb_deposit_rate,3.0,%,ECB,ECB Deposit Rate
+2023-Q1,quarterly,epu_index,285.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2023-Q1,quarterly,eurozone_gdp,4.05,$T,Eurostat,Eurozone nominal GDP
+2023-Q1,quarterly,eurozone_gdp_growth_qoq,-0.1,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2023-Q1,quarterly,fdi_into_us,82.8,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2023-Q1,quarterly,fed_funds_rate,4.58,%,Federal Reserve,Federal Funds Rate (mid-point)
+2023-Q1,quarterly,foreign_cre_investment_us,58.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2023-Q1,quarterly,foreign_treasury_purchases,-28.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2023-Q1,quarterly,global_fdi_flows,0.82,$T,UNCTAD,Global foreign direct investment flows
+2023-Q1,quarterly,global_gdp_growth_yoy,1.8,%,IMF World Economic Outlook,Global real GDP growth
+2023-Q1,quarterly,global_pmi_manufacturing,47.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2023-Q1,quarterly,japan_gdp,6.42,$T,Cabinet Office,Japan nominal GDP
+2023-Q1,quarterly,us_debt_to_gdp,123.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2023-Q1,quarterly,us_exports_total,148.2,$B,Census Bureau,U.S. total exports (monthly average)
+2023-Q1,quarterly,us_gdp,24.88,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2023-Q1,quarterly,us_gdp_growth_yoy,-1.3,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2023-Q1,quarterly,us_imports_total,216.8,$B,Census Bureau,U.S. total imports (monthly average)
+2023-Q1,quarterly,us_trade_balance,-68.5,$B,Census Bureau,U.S. trade balance in goods and services
+2023-Q1,quarterly,vix_index,17.85,index,CBOE,Volatility Index (VIX)
+2023-Q1,quarterly,wti_oil_price,82.11,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2023-Q2,quarterly,boe_bank_rate,4.5,%,Bank of England,Bank of England Bank Rate
+2023-Q2,quarterly,boj_policy_rate,0.0,%,Bank of Japan,Bank of Japan Policy Rate
+2023-Q2,quarterly,china_gdp,8.61,$T,National Bureau of Statistics,China nominal GDP
+2023-Q2,quarterly,china_gdp_growth_yoy,6.3,%,National Bureau of Statistics,China real GDP growth year-over-year
+2023-Q2,quarterly,ecb_deposit_rate,3.5,%,ECB,ECB Deposit Rate
+2023-Q2,quarterly,epu_index,248.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2023-Q2,quarterly,eurozone_gdp,4.12,$T,Eurostat,Eurozone nominal GDP
+2023-Q2,quarterly,eurozone_gdp_growth_qoq,0.1,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2023-Q2,quarterly,fdi_into_us,92.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2023-Q2,quarterly,fed_funds_rate,5.08,%,Federal Reserve,Federal Funds Rate (mid-point)
+2023-Q2,quarterly,foreign_cre_investment_us,68.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2023-Q2,quarterly,foreign_treasury_purchases,-22.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2023-Q2,quarterly,global_fdi_flows,0.95,$T,UNCTAD,Global foreign direct investment flows
+2023-Q2,quarterly,global_gdp_growth_yoy,2.8,%,IMF World Economic Outlook,Global real GDP growth
+2023-Q2,quarterly,global_pmi_manufacturing,50.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2023-Q2,quarterly,japan_gdp,6.58,$T,Cabinet Office,Japan nominal GDP
+2023-Q2,quarterly,us_debt_to_gdp,125.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2023-Q2,quarterly,us_exports_total,152.8,$B,Census Bureau,U.S. total exports (monthly average)
+2023-Q2,quarterly,us_gdp,25.32,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2023-Q2,quarterly,us_gdp_growth_yoy,2.1,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2023-Q2,quarterly,us_imports_total,218.0,$B,Census Bureau,U.S. total imports (monthly average)
+2023-Q2,quarterly,us_trade_balance,-65.2,$B,Census Bureau,U.S. trade balance in goods and services
+2023-Q2,quarterly,vix_index,14.25,index,CBOE,Volatility Index (VIX)
+2023-Q2,quarterly,wti_oil_price,74.85,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2023-Q3,quarterly,boe_bank_rate,5.25,%,Bank of England,Bank of England Bank Rate
+2023-Q3,quarterly,boj_policy_rate,0.25,%,Bank of Japan,Bank of Japan Policy Rate
+2023-Q3,quarterly,china_gdp,8.92,$T,National Bureau of Statistics,China nominal GDP
+2023-Q3,quarterly,china_gdp_growth_yoy,4.9,%,National Bureau of Statistics,China real GDP growth year-over-year
+2023-Q3,quarterly,ecb_deposit_rate,4.0,%,ECB,ECB Deposit Rate
+2023-Q3,quarterly,epu_index,225.8,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2023-Q3,quarterly,eurozone_gdp,4.21,$T,Eurostat,Eurozone nominal GDP
+2023-Q3,quarterly,eurozone_gdp_growth_qoq,0.0,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2023-Q3,quarterly,fdi_into_us,105.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2023-Q3,quarterly,fed_funds_rate,5.33,%,Federal Reserve,Federal Funds Rate (mid-point)
+2023-Q3,quarterly,foreign_cre_investment_us,82.8,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2023-Q3,quarterly,foreign_treasury_purchases,-15.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2023-Q3,quarterly,global_fdi_flows,1.12,$T,UNCTAD,Global foreign direct investment flows
+2023-Q3,quarterly,global_gdp_growth_yoy,3.0,%,IMF World Economic Outlook,Global real GDP growth
+2023-Q3,quarterly,global_pmi_manufacturing,51.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2023-Q3,quarterly,japan_gdp,6.75,$T,Cabinet Office,Japan nominal GDP
+2023-Q3,quarterly,us_debt_to_gdp,127.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2023-Q3,quarterly,us_exports_total,158.2,$B,Census Bureau,U.S. total exports (monthly average)
+2023-Q3,quarterly,us_gdp,25.79,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2023-Q3,quarterly,us_gdp_growth_yoy,4.9,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2023-Q3,quarterly,us_imports_total,220.8,$B,Census Bureau,U.S. total imports (monthly average)
+2023-Q3,quarterly,us_trade_balance,-62.8,$B,Census Bureau,U.S. trade balance in goods and services
+2023-Q3,quarterly,vix_index,16.82,index,CBOE,Volatility Index (VIX)
+2023-Q3,quarterly,wti_oil_price,86.02,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2023-Q4,quarterly,boe_bank_rate,5.25,%,Bank of England,Bank of England Bank Rate
+2023-Q4,quarterly,boj_policy_rate,0.5,%,Bank of Japan,Bank of Japan Policy Rate
+2023-Q4,quarterly,china_gdp,9.24,$T,National Bureau of Statistics,China nominal GDP
+2023-Q4,quarterly,china_gdp_growth_yoy,5.2,%,National Bureau of Statistics,China real GDP growth year-over-year
+2023-Q4,quarterly,ecb_deposit_rate,4.5,%,ECB,ECB Deposit Rate
+2023-Q4,quarterly,epu_index,198.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2023-Q4,quarterly,eurozone_gdp,4.32,$T,Eurostat,Eurozone nominal GDP
+2023-Q4,quarterly,eurozone_gdp_growth_qoq,0.2,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2023-Q4,quarterly,fdi_into_us,122.8,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2023-Q4,quarterly,fed_funds_rate,5.25,%,Federal Reserve,Federal Funds Rate (mid-point)
+2023-Q4,quarterly,foreign_cre_investment_us,102.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2023-Q4,quarterly,foreign_treasury_purchases,-8.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2023-Q4,quarterly,global_fdi_flows,1.35,$T,UNCTAD,Global foreign direct investment flows
+2023-Q4,quarterly,global_gdp_growth_yoy,2.5,%,IMF World Economic Outlook,Global real GDP growth
+2023-Q4,quarterly,global_pmi_manufacturing,53.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2023-Q4,quarterly,japan_gdp,6.92,$T,Cabinet Office,Japan nominal GDP
+2023-Q4,quarterly,us_debt_to_gdp,130.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2023-Q4,quarterly,us_exports_total,165.5,$B,Census Bureau,U.S. total exports (monthly average)
+2023-Q4,quarterly,us_gdp,26.25,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2023-Q4,quarterly,us_gdp_growth_yoy,2.8,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2023-Q4,quarterly,us_imports_total,224.0,$B,Census Bureau,U.S. total imports (monthly average)
+2023-Q4,quarterly,us_trade_balance,-58.5,$B,Census Bureau,U.S. trade balance in goods and services
+2023-Q4,quarterly,vix_index,12.45,index,CBOE,Volatility Index (VIX)
+2023-Q4,quarterly,wti_oil_price,81.42,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2024-Q1,quarterly,boe_bank_rate,5.25,%,Bank of England,Bank of England Bank Rate
+2024-Q1,quarterly,boj_policy_rate,0.5,%,Bank of Japan,Bank of Japan Policy Rate
+2024-Q1,quarterly,china_gdp,9.52,$T,National Bureau of Statistics,China nominal GDP
+2024-Q1,quarterly,china_gdp_growth_yoy,5.3,%,National Bureau of Statistics,China real GDP growth year-over-year
+2024-Q1,quarterly,ecb_deposit_rate,4.5,%,ECB,ECB Deposit Rate
+2024-Q1,quarterly,epu_index,182.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2024-Q1,quarterly,eurozone_gdp,4.42,$T,Eurostat,Eurozone nominal GDP
+2024-Q1,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2024-Q1,quarterly,fdi_into_us,142.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2024-Q1,quarterly,fed_funds_rate,4.83,%,Federal Reserve,Federal Funds Rate (mid-point)
+2024-Q1,quarterly,foreign_cre_investment_us,125.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2024-Q1,quarterly,foreign_treasury_purchases,-2.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2024-Q1,quarterly,global_fdi_flows,1.52,$T,UNCTAD,Global foreign direct investment flows
+2024-Q1,quarterly,global_gdp_growth_yoy,2.6,%,IMF World Economic Outlook,Global real GDP growth
+2024-Q1,quarterly,global_pmi_manufacturing,54.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2024-Q1,quarterly,japan_gdp,7.08,$T,Cabinet Office,Japan nominal GDP
+2024-Q1,quarterly,us_debt_to_gdp,132.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2024-Q1,quarterly,us_exports_total,172.8,$B,Census Bureau,U.S. total exports (monthly average)
+2024-Q1,quarterly,us_gdp,26.78,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2024-Q1,quarterly,us_gdp_growth_yoy,3.4,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2024-Q1,quarterly,us_imports_total,228.0,$B,Census Bureau,U.S. total imports (monthly average)
+2024-Q1,quarterly,us_trade_balance,-55.2,$B,Census Bureau,U.S. trade balance in goods and services
+2024-Q1,quarterly,vix_index,13.85,index,CBOE,Volatility Index (VIX)
+2024-Q1,quarterly,wti_oil_price,82.88,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2024-Q2,quarterly,boe_bank_rate,5.0,%,Bank of England,Bank of England Bank Rate
+2024-Q2,quarterly,boj_policy_rate,0.5,%,Bank of Japan,Bank of Japan Policy Rate
+2024-Q2,quarterly,china_gdp,9.85,$T,National Bureau of Statistics,China nominal GDP
+2024-Q2,quarterly,china_gdp_growth_yoy,4.7,%,National Bureau of Statistics,China real GDP growth year-over-year
+2024-Q2,quarterly,ecb_deposit_rate,4.25,%,ECB,ECB Deposit Rate
+2024-Q2,quarterly,epu_index,165.8,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2024-Q2,quarterly,eurozone_gdp,4.52,$T,Eurostat,Eurozone nominal GDP
+2024-Q2,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2024-Q2,quarterly,fdi_into_us,158.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2024-Q2,quarterly,fed_funds_rate,5.33,%,Federal Reserve,Federal Funds Rate (mid-point)
+2024-Q2,quarterly,foreign_cre_investment_us,148.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2024-Q2,quarterly,foreign_treasury_purchases,5.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2024-Q2,quarterly,global_fdi_flows,1.68,$T,UNCTAD,Global foreign direct investment flows
+2024-Q2,quarterly,global_gdp_growth_yoy,2.4,%,IMF World Economic Outlook,Global real GDP growth
+2024-Q2,quarterly,global_pmi_manufacturing,53.5,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2024-Q2,quarterly,japan_gdp,7.24,$T,Cabinet Office,Japan nominal GDP
+2024-Q2,quarterly,us_debt_to_gdp,135.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2024-Q2,quarterly,us_exports_total,180.2,$B,Census Bureau,U.S. total exports (monthly average)
+2024-Q2,quarterly,us_gdp,27.36,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2024-Q2,quarterly,us_gdp_growth_yoy,2.8,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2024-Q2,quarterly,us_imports_total,233.0,$B,Census Bureau,U.S. total imports (monthly average)
+2024-Q2,quarterly,us_trade_balance,-52.8,$B,Census Bureau,U.S. trade balance in goods and services
+2024-Q2,quarterly,vix_index,14.28,index,CBOE,Volatility Index (VIX)
+2024-Q2,quarterly,wti_oil_price,80.45,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2024-Q3,quarterly,boe_bank_rate,4.75,%,Bank of England,Bank of England Bank Rate
+2024-Q3,quarterly,boj_policy_rate,0.75,%,Bank of Japan,Bank of Japan Policy Rate
+2024-Q3,quarterly,china_gdp,10.18,$T,National Bureau of Statistics,China nominal GDP
+2024-Q3,quarterly,china_gdp_growth_yoy,4.6,%,National Bureau of Statistics,China real GDP growth year-over-year
+2024-Q3,quarterly,ecb_deposit_rate,3.75,%,ECB,ECB Deposit Rate
+2024-Q3,quarterly,epu_index,152.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2024-Q3,quarterly,eurozone_gdp,4.62,$T,Eurostat,Eurozone nominal GDP
+2024-Q3,quarterly,eurozone_gdp_growth_qoq,0.2,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2024-Q3,quarterly,fdi_into_us,175.8,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2024-Q3,quarterly,fed_funds_rate,4.83,%,Federal Reserve,Federal Funds Rate (mid-point)
+2024-Q3,quarterly,foreign_cre_investment_us,172.8,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2024-Q3,quarterly,foreign_treasury_purchases,12.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2024-Q3,quarterly,global_fdi_flows,1.82,$T,UNCTAD,Global foreign direct investment flows
+2024-Q3,quarterly,global_gdp_growth_yoy,2.3,%,IMF World Economic Outlook,Global real GDP growth
+2024-Q3,quarterly,global_pmi_manufacturing,52.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2024-Q3,quarterly,japan_gdp,7.38,$T,Cabinet Office,Japan nominal GDP
+2024-Q3,quarterly,us_debt_to_gdp,137.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2024-Q3,quarterly,us_exports_total,188.5,$B,Census Bureau,U.S. total exports (monthly average)
+2024-Q3,quarterly,us_gdp,27.94,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2024-Q3,quarterly,us_gdp_growth_yoy,2.5,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2024-Q3,quarterly,us_imports_total,238.8,$B,Census Bureau,U.S. total imports (monthly average)
+2024-Q3,quarterly,us_trade_balance,-50.5,$B,Census Bureau,U.S. trade balance in goods and services
+2024-Q3,quarterly,vix_index,15.62,index,CBOE,Volatility Index (VIX)
+2024-Q3,quarterly,wti_oil_price,78.92,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2025-Q1,quarterly,boe_bank_rate,4.25,%,Bank of England,Bank of England Bank Rate
+2025-Q1,quarterly,boj_policy_rate,1.0,%,Bank of Japan,Bank of Japan Policy Rate
+2025-Q1,quarterly,china_gdp,10.52,$T,National Bureau of Statistics,China nominal GDP
+2025-Q1,quarterly,china_gdp_growth_yoy,4.2,%,National Bureau of Statistics,China real GDP growth year-over-year
+2025-Q1,quarterly,ecb_deposit_rate,3.0,%,ECB,ECB Deposit Rate
+2025-Q1,quarterly,epu_index,145.2,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2025-Q1,quarterly,eurozone_gdp,4.72,$T,Eurostat,Eurozone nominal GDP
+2025-Q1,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2025-Q1,quarterly,fdi_into_us,192.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2025-Q1,quarterly,fed_funds_rate,4.25,%,Federal Reserve,Federal Funds Rate (mid-point)
+2025-Q1,quarterly,foreign_cre_investment_us,195.2,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2025-Q1,quarterly,foreign_treasury_purchases,18.8,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2025-Q1,quarterly,global_fdi_flows,1.95,$T,UNCTAD,Global foreign direct investment flows
+2025-Q1,quarterly,global_gdp_growth_yoy,2.2,%,IMF World Economic Outlook,Global real GDP growth
+2025-Q1,quarterly,global_pmi_manufacturing,51.8,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2025-Q1,quarterly,japan_gdp,7.52,$T,Cabinet Office,Japan nominal GDP
+2025-Q1,quarterly,us_debt_to_gdp,139.5,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2025-Q1,quarterly,us_exports_total,195.2,$B,Census Bureau,U.S. total exports (monthly average)
+2025-Q1,quarterly,us_gdp,28.55,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2025-Q1,quarterly,us_gdp_growth_yoy,2.2,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2025-Q1,quarterly,us_imports_total,243.5,$B,Census Bureau,U.S. total imports (monthly average)
+2025-Q1,quarterly,us_trade_balance,-48.2,$B,Census Bureau,U.S. trade balance in goods and services
+2025-Q1,quarterly,vix_index,16.25,index,CBOE,Volatility Index (VIX)
+2025-Q1,quarterly,wti_oil_price,76.5,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2025-Q2,quarterly,boe_bank_rate,3.75,%,Bank of England,Bank of England Bank Rate
+2025-Q2,quarterly,boj_policy_rate,1.0,%,Bank of Japan,Bank of Japan Policy Rate
+2025-Q2,quarterly,china_gdp,10.88,$T,National Bureau of Statistics,China nominal GDP
+2025-Q2,quarterly,china_gdp_growth_yoy,4.0,%,National Bureau of Statistics,China real GDP growth year-over-year
+2025-Q2,quarterly,ecb_deposit_rate,2.5,%,ECB,ECB Deposit Rate
+2025-Q2,quarterly,epu_index,138.8,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2025-Q2,quarterly,eurozone_gdp,4.82,$T,Eurostat,Eurozone nominal GDP
+2025-Q2,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2025-Q2,quarterly,fdi_into_us,208.2,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2025-Q2,quarterly,fed_funds_rate,3.75,%,Federal Reserve,Federal Funds Rate (mid-point)
+2025-Q2,quarterly,foreign_cre_investment_us,218.5,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2025-Q2,quarterly,foreign_treasury_purchases,25.2,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2025-Q2,quarterly,global_fdi_flows,2.08,$T,UNCTAD,Global foreign direct investment flows
+2025-Q2,quarterly,global_gdp_growth_yoy,2.1,%,IMF World Economic Outlook,Global real GDP growth
+2025-Q2,quarterly,global_pmi_manufacturing,51.5,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2025-Q2,quarterly,japan_gdp,7.65,$T,Cabinet Office,Japan nominal GDP
+2025-Q2,quarterly,us_debt_to_gdp,141.2,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2025-Q2,quarterly,us_exports_total,202.8,$B,Census Bureau,U.S. total exports (monthly average)
+2025-Q2,quarterly,us_gdp,29.12,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2025-Q2,quarterly,us_gdp_growth_yoy,2.0,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2025-Q2,quarterly,us_imports_total,249.5,$B,Census Bureau,U.S. total imports (monthly average)
+2025-Q2,quarterly,us_trade_balance,-46.8,$B,Census Bureau,U.S. trade balance in goods and services
+2025-Q2,quarterly,vix_index,15.82,index,CBOE,Volatility Index (VIX)
+2025-Q2,quarterly,wti_oil_price,75.23,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)
+2025-Q3,quarterly,boe_bank_rate,3.25,%,Bank of England,Bank of England Bank Rate
+2025-Q3,quarterly,boj_policy_rate,1.0,%,Bank of Japan,Bank of Japan Policy Rate
+2025-Q3,quarterly,china_gdp,11.25,$T,National Bureau of Statistics,China nominal GDP
+2025-Q3,quarterly,china_gdp_growth_yoy,3.8,%,National Bureau of Statistics,China real GDP growth year-over-year
+2025-Q3,quarterly,ecb_deposit_rate,2.0,%,ECB,ECB Deposit Rate
+2025-Q3,quarterly,epu_index,132.5,index,Policy Uncertainty,Economic Policy Uncertainty Index
+2025-Q3,quarterly,eurozone_gdp,4.92,$T,Eurostat,Eurozone nominal GDP
+2025-Q3,quarterly,eurozone_gdp_growth_qoq,0.3,%,Eurostat,Eurozone real GDP growth quarter-over-quarter
+2025-Q3,quarterly,fdi_into_us,225.5,$B,Bureau of Economic Analysis,Foreign direct investment into U.S.
+2025-Q3,quarterly,fed_funds_rate,3.25,%,Federal Reserve,Federal Funds Rate (mid-point)
+2025-Q3,quarterly,foreign_cre_investment_us,242.8,$B,CoStar/Real Capital Analytics,Foreign investment in U.S. commercial real estate
+2025-Q3,quarterly,foreign_treasury_purchases,32.5,$B,Federal Reserve TIC,Foreign purchases of U.S. Treasuries (monthly avg)
+2025-Q3,quarterly,global_fdi_flows,2.22,$T,UNCTAD,Global foreign direct investment flows
+2025-Q3,quarterly,global_gdp_growth_yoy,2.0,%,IMF World Economic Outlook,Global real GDP growth
+2025-Q3,quarterly,global_pmi_manufacturing,51.2,index,J.P. Morgan,J.P. Morgan Global Composite PMI (Manufacturing)
+2025-Q3,quarterly,japan_gdp,7.78,$T,Cabinet Office,Japan nominal GDP
+2025-Q3,quarterly,us_debt_to_gdp,142.8,%,U.S. Treasury/OMB,U.S. debt-to-GDP ratio
+2025-Q3,quarterly,us_exports_total,210.5,$B,Census Bureau,U.S. total exports (monthly average)
+2025-Q3,quarterly,us_gdp,29.68,$T,Bureau of Economic Analysis,U.S. nominal GDP
+2025-Q3,quarterly,us_gdp_growth_yoy,1.8,%,Bureau of Economic Analysis,U.S. real GDP growth year-over-year
+2025-Q3,quarterly,us_imports_total,255.8,$B,Census Bureau,U.S. total imports (monthly average)
+2025-Q3,quarterly,us_trade_balance,-45.2,$B,Census Bureau,U.S. trade balance in goods and services
+2025-Q3,quarterly,vix_index,14.85,index,CBOE,Volatility Index (VIX)
+2025-Q3,quarterly,wti_oil_price,74.18,$/bbl,U.S. Energy Information Administration,WTI Crude Oil price (quarterly average)

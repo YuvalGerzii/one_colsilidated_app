@@ -1,0 +1,77 @@
+{
+  "document_id": "0344e239-8782-47b9-b011-170b78290821",
+  "company_id": "meta-platforms-inc",
+  "timestamp": "2025-10-30T21:54:51.974034",
+  "status": "completed",
+  "steps": [
+    {
+      "step": "upload",
+      "status": "success",
+      "url": "/mnt/user-data/uploads/Meta-Reports-Third-Quarter-2025-Results-2025.pdf"
+    },
+    {
+      "step": "document_record",
+      "status": "success",
+      "record_id": "0344e239-8782-47b9-b011-170b78290821"
+    },
+    {
+      "step": "extraction",
+      "status": "success",
+      "statements_found": {
+        "income_statements": 0,
+        "balance_sheets": 0,
+        "cash_flows": 0
+      }
+    },
+    {
+      "step": "validation",
+      "status": "success",
+      "needs_review": true
+    },
+    {
+      "step": "database_storage",
+      "status": "success",
+      "records_created": 0
+    },
+    {
+      "step": "model_update",
+      "status": "success"
+    }
+  ],
+  "extracted_data": {
+    "document_type": "Cash Flow Statement",
+    "periods": [
+      {
+        "period_date": "2025-12-31",
+        "period_type": "Nine Months",
+        "fiscal_year": 2025,
+        "fiscal_quarter": null
+      },
+      {
+        "period_date": "2025-12-31",
+        "period_type": "Unknown",
+        "fiscal_year": 2025,
+        "fiscal_quarter": null
+      },
+      {
+        "period_date": "2024-12-31",
+        "period_type": "Unknown",
+        "fiscal_year": 2024,
+        "fiscal_quarter": null
+      }
+    ],
+    "extraction_timestamp": "2025-10-30T21:54:53.217518",
+    "source_file": "/mnt/user-data/uploads/Meta-Reports-Third-Quarter-2025-Results-2025.pdf",
+    "income_statements": [],
+    "balance_sheets": [],
+    "cash_flows": []
+  },
+  "validation": {
+    "overall_confidence": 0.0,
+    "needs_review": true,
+    "issues": [
+      "Low confidence score: 0.0%"
+    ],
+    "statement_validations": {}
+  }
+}

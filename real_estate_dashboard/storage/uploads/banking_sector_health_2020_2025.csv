@@ -1,0 +1,837 @@
+date,period_type,indicator_name,indicator_value,indicator_unit,data_source,notes
+2020-Q1,quarterly,asset_sensitivity_gap,125.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2020-Q1,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2020-Q1,quarterly,cet1_ratio,10.8,%,Federal Reserve,Common Equity Tier 1 ratio
+2020-Q1,quarterly,construction_dev_loans,295.0,$B,Federal Reserve,Construction & development loans
+2020-Q1,quarterly,cost_of_deposits,0.32,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2020-Q1,quarterly,cre_loan_demand,-8.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2020-Q1,quarterly,cre_loan_growth_yoy,2.5,%,Federal Reserve,CRE loan growth year-over-year
+2020-Q1,quarterly,cre_loan_spreads,215.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2020-Q1,quarterly,cre_loans_total,2485.0,$B,Federal Reserve,Total CRE loans at all banks
+2020-Q1,quarterly,cre_npl_ratio,1.25,%,Federal Reserve,CRE non-performing loan ratio
+2020-Q1,quarterly,cre_pct_total_loans,16.2,%,Federal Reserve,CRE loans as % of total loans
+2020-Q1,quarterly,discount_window_borrowing,2.5,$B,Federal Reserve,Discount Window borrowings
+2020-Q1,quarterly,efficiency_ratio,64.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2020-Q1,quarterly,fdic_fund_balance,56.2,$B,FDIC,FDIC insurance fund balance
+2020-Q1,quarterly,hqla_assets,2.85,$T,Federal Reserve,High-quality liquid assets
+2020-Q1,quarterly,leverage_ratio,7.8,%,Federal Reserve,Leverage ratio
+2020-Q1,quarterly,liquidity_coverage_ratio,143.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2020-Q1,quarterly,loan_loss_reserves,85.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2020-Q1,quarterly,loan_to_deposit_ratio,82.5,%,Federal Reserve,Loan-to-deposit ratio
+2020-Q1,quarterly,multifamily_loans,685.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2020-Q1,quarterly,net_chargeoff_rate,0.35,%,FDIC,Net charge-off rate
+2020-Q1,quarterly,net_interest_margin,3.28,%,Federal Reserve,Net interest margin - average
+2020-Q1,quarterly,net_pct_tightening_cre,2.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2020-Q1,quarterly,nib_deposits_total,4.82,$T,Federal Reserve,Non-interest-bearing deposits
+2020-Q1,quarterly,nonbank_cre_lending,185.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2020-Q1,quarterly,nonbank_market_share_cre,6.9,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2020-Q1,quarterly,npl_ratio,1.02,%,FDIC/Federal Reserve,Non-performing loans ratio
+2020-Q1,quarterly,ppnr_total,55.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2020-Q1,quarterly,private_credit_aum,285.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2020-Q1,quarterly,problem_banks_assets,125.2,$B,FDIC,Total assets of problem banks
+2020-Q1,quarterly,problem_banks_count,52.0,number,FDIC,Number of problem banks on FDIC list
+2020-Q1,quarterly,rate_shock_100bp_nii_impact,-2.1,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2020-Q1,quarterly,roa_industry_avg,0.78,%,Federal Reserve/FDIC,Return on assets - industry average
+2020-Q1,quarterly,roe_industry_avg,7.85,%,Federal Reserve/FDIC,Return on equity - industry average
+2020-Q1,quarterly,tier1_capital_ratio,12.2,%,Federal Reserve,Tier 1 capital ratio
+2020-Q1,quarterly,total_capital_ratio,17.2,%,Federal Reserve,Total capital ratio
+2020-Q1,quarterly,total_deposits,13.85,$T,Federal Reserve,Total deposits at all banks
+2020-Q1,quarterly,uninsured_deposits_pct,28.5,%,Federal Reserve,Uninsured deposits as % of total
+2020-Q2,quarterly,asset_sensitivity_gap,145.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2020-Q2,quarterly,bank_failures_ytd,1.0,number,FDIC,Bank failures year-to-date
+2020-Q2,quarterly,cet1_ratio,11.2,%,Federal Reserve,Common Equity Tier 1 ratio
+2020-Q2,quarterly,construction_dev_loans,315.0,$B,Federal Reserve,Construction & development loans
+2020-Q2,quarterly,cost_of_deposits,0.28,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2020-Q2,quarterly,cre_loan_demand,-32.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2020-Q2,quarterly,cre_loan_growth_yoy,-0.5,%,Federal Reserve,CRE loan growth year-over-year
+2020-Q2,quarterly,cre_loan_spreads,285.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2020-Q2,quarterly,cre_loans_total,2510.0,$B,Federal Reserve,Total CRE loans at all banks
+2020-Q2,quarterly,cre_npl_ratio,1.58,%,Federal Reserve,CRE non-performing loan ratio
+2020-Q2,quarterly,cre_pct_total_loans,16.4,%,Federal Reserve,CRE loans as % of total loans
+2020-Q2,quarterly,discount_window_borrowing,8.2,$B,Federal Reserve,Discount Window borrowings
+2020-Q2,quarterly,efficiency_ratio,72.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2020-Q2,quarterly,fdic_fund_balance,52.8,$B,FDIC,FDIC insurance fund balance
+2020-Q2,quarterly,hqla_assets,3.15,$T,Federal Reserve,High-quality liquid assets
+2020-Q2,quarterly,leverage_ratio,8.2,%,Federal Reserve,Leverage ratio
+2020-Q2,quarterly,liquidity_coverage_ratio,145.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2020-Q2,quarterly,loan_loss_reserves,95.8,$B,FDIC/Federal Reserve,Total loan loss reserves
+2020-Q2,quarterly,loan_to_deposit_ratio,81.2,%,Federal Reserve,Loan-to-deposit ratio
+2020-Q2,quarterly,multifamily_loans,710.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2020-Q2,quarterly,net_chargeoff_rate,0.52,%,FDIC,Net charge-off rate
+2020-Q2,quarterly,net_interest_margin,3.15,%,Federal Reserve,Net interest margin - average
+2020-Q2,quarterly,net_pct_tightening_cre,45.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2020-Q2,quarterly,nib_deposits_total,5.15,$T,Federal Reserve,Non-interest-bearing deposits
+2020-Q2,quarterly,nonbank_cre_lending,175.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2020-Q2,quarterly,nonbank_market_share_cre,6.5,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2020-Q2,quarterly,npl_ratio,1.15,%,FDIC/Federal Reserve,Non-performing loans ratio
+2020-Q2,quarterly,ppnr_total,42.8,$B,Federal Reserve,Pre-provision net revenue - industry total
+2020-Q2,quarterly,private_credit_aum,290.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2020-Q2,quarterly,problem_banks_assets,138.5,$B,FDIC,Total assets of problem banks
+2020-Q2,quarterly,problem_banks_count,55.0,number,FDIC,Number of problem banks on FDIC list
+2020-Q2,quarterly,rate_shock_100bp_nii_impact,-1.8,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2020-Q2,quarterly,roa_industry_avg,0.25,%,Federal Reserve/FDIC,Return on assets - industry average
+2020-Q2,quarterly,roe_industry_avg,2.35,%,Federal Reserve/FDIC,Return on equity - industry average
+2020-Q2,quarterly,tier1_capital_ratio,12.6,%,Federal Reserve,Tier 1 capital ratio
+2020-Q2,quarterly,total_capital_ratio,17.6,%,Federal Reserve,Total capital ratio
+2020-Q2,quarterly,total_deposits,14.52,$T,Federal Reserve,Total deposits at all banks
+2020-Q2,quarterly,uninsured_deposits_pct,29.2,%,Federal Reserve,Uninsured deposits as % of total
+2020-Q3,quarterly,asset_sensitivity_gap,165.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2020-Q3,quarterly,bank_failures_ytd,2.0,number,FDIC,Bank failures year-to-date
+2020-Q3,quarterly,cet1_ratio,11.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2020-Q3,quarterly,construction_dev_loans,335.0,$B,Federal Reserve,Construction & development loans
+2020-Q3,quarterly,cost_of_deposits,0.25,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2020-Q3,quarterly,cre_loan_demand,-15.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2020-Q3,quarterly,cre_loan_growth_yoy,1.2,%,Federal Reserve,CRE loan growth year-over-year
+2020-Q3,quarterly,cre_loan_spreads,265.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2020-Q3,quarterly,cre_loans_total,2535.0,$B,Federal Reserve,Total CRE loans at all banks
+2020-Q3,quarterly,cre_npl_ratio,1.92,%,Federal Reserve,CRE non-performing loan ratio
+2020-Q3,quarterly,cre_pct_total_loans,16.6,%,Federal Reserve,CRE loans as % of total loans
+2020-Q3,quarterly,discount_window_borrowing,5.8,$B,Federal Reserve,Discount Window borrowings
+2020-Q3,quarterly,efficiency_ratio,66.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2020-Q3,quarterly,fdic_fund_balance,48.5,$B,FDIC,FDIC insurance fund balance
+2020-Q3,quarterly,hqla_assets,3.45,$T,Federal Reserve,High-quality liquid assets
+2020-Q3,quarterly,leverage_ratio,8.5,%,Federal Reserve,Leverage ratio
+2020-Q3,quarterly,liquidity_coverage_ratio,148.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2020-Q3,quarterly,loan_loss_reserves,102.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2020-Q3,quarterly,loan_to_deposit_ratio,79.8,%,Federal Reserve,Loan-to-deposit ratio
+2020-Q3,quarterly,multifamily_loans,735.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2020-Q3,quarterly,net_chargeoff_rate,0.48,%,FDIC,Net charge-off rate
+2020-Q3,quarterly,net_interest_margin,3.05,%,Federal Reserve,Net interest margin - average
+2020-Q3,quarterly,net_pct_tightening_cre,35.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2020-Q3,quarterly,nib_deposits_total,5.48,$T,Federal Reserve,Non-interest-bearing deposits
+2020-Q3,quarterly,nonbank_cre_lending,182.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2020-Q3,quarterly,nonbank_market_share_cre,6.7,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2020-Q3,quarterly,npl_ratio,1.28,%,FDIC/Federal Reserve,Non-performing loans ratio
+2020-Q3,quarterly,ppnr_total,52.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2020-Q3,quarterly,private_credit_aum,305.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2020-Q3,quarterly,problem_banks_assets,142.8,$B,FDIC,Total assets of problem banks
+2020-Q3,quarterly,problem_banks_count,54.0,number,FDIC,Number of problem banks on FDIC list
+2020-Q3,quarterly,rate_shock_100bp_nii_impact,-1.5,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2020-Q3,quarterly,roa_industry_avg,0.62,%,Federal Reserve/FDIC,Return on assets - industry average
+2020-Q3,quarterly,roe_industry_avg,6.15,%,Federal Reserve/FDIC,Return on equity - industry average
+2020-Q3,quarterly,tier1_capital_ratio,12.9,%,Federal Reserve,Tier 1 capital ratio
+2020-Q3,quarterly,total_capital_ratio,17.9,%,Federal Reserve,Total capital ratio
+2020-Q3,quarterly,total_deposits,14.95,$T,Federal Reserve,Total deposits at all banks
+2020-Q3,quarterly,uninsured_deposits_pct,30.1,%,Federal Reserve,Uninsured deposits as % of total
+2020-Q4,quarterly,asset_sensitivity_gap,155.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2020-Q4,quarterly,bank_failures_ytd,4.0,number,FDIC,Bank failures year-to-date
+2020-Q4,quarterly,cet1_ratio,11.8,%,Federal Reserve,Common Equity Tier 1 ratio
+2020-Q4,quarterly,construction_dev_loans,355.0,$B,Federal Reserve,Construction & development loans
+2020-Q4,quarterly,cost_of_deposits,0.22,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2020-Q4,quarterly,cre_loan_demand,-5.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2020-Q4,quarterly,cre_loan_growth_yoy,2.8,%,Federal Reserve,CRE loan growth year-over-year
+2020-Q4,quarterly,cre_loan_spreads,235.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2020-Q4,quarterly,cre_loans_total,2560.0,$B,Federal Reserve,Total CRE loans at all banks
+2020-Q4,quarterly,cre_npl_ratio,2.15,%,Federal Reserve,CRE non-performing loan ratio
+2020-Q4,quarterly,cre_pct_total_loans,16.8,%,Federal Reserve,CRE loans as % of total loans
+2020-Q4,quarterly,discount_window_borrowing,2.2,$B,Federal Reserve,Discount Window borrowings
+2020-Q4,quarterly,efficiency_ratio,63.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2020-Q4,quarterly,fdic_fund_balance,45.2,$B,FDIC,FDIC insurance fund balance
+2020-Q4,quarterly,hqla_assets,3.75,$T,Federal Reserve,High-quality liquid assets
+2020-Q4,quarterly,leverage_ratio,8.8,%,Federal Reserve,Leverage ratio
+2020-Q4,quarterly,liquidity_coverage_ratio,150.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2020-Q4,quarterly,loan_loss_reserves,108.3,$B,FDIC/Federal Reserve,Total loan loss reserves
+2020-Q4,quarterly,loan_to_deposit_ratio,78.5,%,Federal Reserve,Loan-to-deposit ratio
+2020-Q4,quarterly,multifamily_loans,760.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2020-Q4,quarterly,net_chargeoff_rate,0.42,%,FDIC,Net charge-off rate
+2020-Q4,quarterly,net_interest_margin,3.02,%,Federal Reserve,Net interest margin - average
+2020-Q4,quarterly,net_pct_tightening_cre,15.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2020-Q4,quarterly,nib_deposits_total,5.82,$T,Federal Reserve,Non-interest-bearing deposits
+2020-Q4,quarterly,nonbank_cre_lending,195.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2020-Q4,quarterly,nonbank_market_share_cre,7.1,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2020-Q4,quarterly,npl_ratio,1.35,%,FDIC/Federal Reserve,Non-performing loans ratio
+2020-Q4,quarterly,ppnr_total,58.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2020-Q4,quarterly,private_credit_aum,325.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2020-Q4,quarterly,problem_banks_assets,135.2,$B,FDIC,Total assets of problem banks
+2020-Q4,quarterly,problem_banks_count,50.0,number,FDIC,Number of problem banks on FDIC list
+2020-Q4,quarterly,rate_shock_100bp_nii_impact,-1.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2020-Q4,quarterly,roa_industry_avg,0.73,%,Federal Reserve/FDIC,Return on assets - industry average
+2020-Q4,quarterly,roe_industry_avg,7.25,%,Federal Reserve/FDIC,Return on equity - industry average
+2020-Q4,quarterly,tier1_capital_ratio,13.2,%,Federal Reserve,Tier 1 capital ratio
+2020-Q4,quarterly,total_capital_ratio,18.2,%,Federal Reserve,Total capital ratio
+2020-Q4,quarterly,total_deposits,15.28,$T,Federal Reserve,Total deposits at all banks
+2020-Q4,quarterly,uninsured_deposits_pct,31.2,%,Federal Reserve,Uninsured deposits as % of total
+2021-Q1,quarterly,asset_sensitivity_gap,145.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2021-Q1,quarterly,bank_failures_ytd,3.0,number,FDIC,Bank failures year-to-date
+2021-Q1,quarterly,cet1_ratio,12.1,%,Federal Reserve,Common Equity Tier 1 ratio
+2021-Q1,quarterly,construction_dev_loans,375.0,$B,Federal Reserve,Construction & development loans
+2021-Q1,quarterly,cost_of_deposits,0.18,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2021-Q1,quarterly,cre_loan_demand,12.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2021-Q1,quarterly,cre_loan_growth_yoy,4.2,%,Federal Reserve,CRE loan growth year-over-year
+2021-Q1,quarterly,cre_loan_spreads,215.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2021-Q1,quarterly,cre_loans_total,2585.0,$B,Federal Reserve,Total CRE loans at all banks
+2021-Q1,quarterly,cre_npl_ratio,2.05,%,Federal Reserve,CRE non-performing loan ratio
+2021-Q1,quarterly,cre_pct_total_loans,17.0,%,Federal Reserve,CRE loans as % of total loans
+2021-Q1,quarterly,discount_window_borrowing,1.2,$B,Federal Reserve,Discount Window borrowings
+2021-Q1,quarterly,efficiency_ratio,60.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2021-Q1,quarterly,fdic_fund_balance,42.8,$B,FDIC,FDIC insurance fund balance
+2021-Q1,quarterly,hqla_assets,4.05,$T,Federal Reserve,High-quality liquid assets
+2021-Q1,quarterly,leverage_ratio,9.1,%,Federal Reserve,Leverage ratio
+2021-Q1,quarterly,liquidity_coverage_ratio,152.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2021-Q1,quarterly,loan_loss_reserves,105.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2021-Q1,quarterly,loan_to_deposit_ratio,77.2,%,Federal Reserve,Loan-to-deposit ratio
+2021-Q1,quarterly,multifamily_loans,785.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2021-Q1,quarterly,net_chargeoff_rate,0.38,%,FDIC,Net charge-off rate
+2021-Q1,quarterly,net_interest_margin,3.05,%,Federal Reserve,Net interest margin - average
+2021-Q1,quarterly,net_pct_tightening_cre,8.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2021-Q1,quarterly,nib_deposits_total,6.15,$T,Federal Reserve,Non-interest-bearing deposits
+2021-Q1,quarterly,nonbank_cre_lending,215.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2021-Q1,quarterly,nonbank_market_share_cre,7.7,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2021-Q1,quarterly,npl_ratio,1.28,%,FDIC/Federal Reserve,Non-performing loans ratio
+2021-Q1,quarterly,ppnr_total,62.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2021-Q1,quarterly,private_credit_aum,355.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2021-Q1,quarterly,problem_banks_assets,128.5,$B,FDIC,Total assets of problem banks
+2021-Q1,quarterly,problem_banks_count,48.0,number,FDIC,Number of problem banks on FDIC list
+2021-Q1,quarterly,rate_shock_100bp_nii_impact,-0.8,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2021-Q1,quarterly,roa_industry_avg,1.02,%,Federal Reserve/FDIC,Return on assets - industry average
+2021-Q1,quarterly,roe_industry_avg,10.25,%,Federal Reserve/FDIC,Return on equity - industry average
+2021-Q1,quarterly,tier1_capital_ratio,13.5,%,Federal Reserve,Tier 1 capital ratio
+2021-Q1,quarterly,total_capital_ratio,18.5,%,Federal Reserve,Total capital ratio
+2021-Q1,quarterly,total_deposits,15.62,$T,Federal Reserve,Total deposits at all banks
+2021-Q1,quarterly,uninsured_deposits_pct,32.5,%,Federal Reserve,Uninsured deposits as % of total
+2021-Q2,quarterly,asset_sensitivity_gap,125.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2021-Q2,quarterly,bank_failures_ytd,2.0,number,FDIC,Bank failures year-to-date
+2021-Q2,quarterly,cet1_ratio,12.3,%,Federal Reserve,Common Equity Tier 1 ratio
+2021-Q2,quarterly,construction_dev_loans,405.0,$B,Federal Reserve,Construction & development loans
+2021-Q2,quarterly,cost_of_deposits,0.15,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2021-Q2,quarterly,cre_loan_demand,25.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2021-Q2,quarterly,cre_loan_growth_yoy,5.5,%,Federal Reserve,CRE loan growth year-over-year
+2021-Q2,quarterly,cre_loan_spreads,185.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2021-Q2,quarterly,cre_loans_total,2620.0,$B,Federal Reserve,Total CRE loans at all banks
+2021-Q2,quarterly,cre_npl_ratio,1.85,%,Federal Reserve,CRE non-performing loan ratio
+2021-Q2,quarterly,cre_pct_total_loans,17.1,%,Federal Reserve,CRE loans as % of total loans
+2021-Q2,quarterly,discount_window_borrowing,0.8,$B,Federal Reserve,Discount Window borrowings
+2021-Q2,quarterly,efficiency_ratio,58.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2021-Q2,quarterly,fdic_fund_balance,45.5,$B,FDIC,FDIC insurance fund balance
+2021-Q2,quarterly,hqla_assets,4.35,$T,Federal Reserve,High-quality liquid assets
+2021-Q2,quarterly,leverage_ratio,9.2,%,Federal Reserve,Leverage ratio
+2021-Q2,quarterly,liquidity_coverage_ratio,154.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2021-Q2,quarterly,loan_loss_reserves,98.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2021-Q2,quarterly,loan_to_deposit_ratio,76.8,%,Federal Reserve,Loan-to-deposit ratio
+2021-Q2,quarterly,multifamily_loans,815.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2021-Q2,quarterly,net_chargeoff_rate,0.32,%,FDIC,Net charge-off rate
+2021-Q2,quarterly,net_interest_margin,3.12,%,Federal Reserve,Net interest margin - average
+2021-Q2,quarterly,net_pct_tightening_cre,2.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2021-Q2,quarterly,nib_deposits_total,6.48,$T,Federal Reserve,Non-interest-bearing deposits
+2021-Q2,quarterly,nonbank_cre_lending,245.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2021-Q2,quarterly,nonbank_market_share_cre,8.5,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2021-Q2,quarterly,npl_ratio,1.15,%,FDIC/Federal Reserve,Non-performing loans ratio
+2021-Q2,quarterly,ppnr_total,68.3,$B,Federal Reserve,Pre-provision net revenue - industry total
+2021-Q2,quarterly,private_credit_aum,395.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2021-Q2,quarterly,problem_banks_assets,115.8,$B,FDIC,Total assets of problem banks
+2021-Q2,quarterly,problem_banks_count,45.0,number,FDIC,Number of problem banks on FDIC list
+2021-Q2,quarterly,rate_shock_100bp_nii_impact,-0.5,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2021-Q2,quarterly,roa_industry_avg,1.18,%,Federal Reserve/FDIC,Return on assets - industry average
+2021-Q2,quarterly,roe_industry_avg,11.85,%,Federal Reserve/FDIC,Return on equity - industry average
+2021-Q2,quarterly,tier1_capital_ratio,13.7,%,Federal Reserve,Tier 1 capital ratio
+2021-Q2,quarterly,total_capital_ratio,18.7,%,Federal Reserve,Total capital ratio
+2021-Q2,quarterly,total_deposits,15.85,$T,Federal Reserve,Total deposits at all banks
+2021-Q2,quarterly,uninsured_deposits_pct,33.8,%,Federal Reserve,Uninsured deposits as % of total
+2021-Q3,quarterly,asset_sensitivity_gap,105.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2021-Q3,quarterly,bank_failures_ytd,1.0,number,FDIC,Bank failures year-to-date
+2021-Q3,quarterly,cet1_ratio,12.4,%,Federal Reserve,Common Equity Tier 1 ratio
+2021-Q3,quarterly,construction_dev_loans,435.0,$B,Federal Reserve,Construction & development loans
+2021-Q3,quarterly,cost_of_deposits,0.12,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2021-Q3,quarterly,cre_loan_demand,35.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2021-Q3,quarterly,cre_loan_growth_yoy,6.8,%,Federal Reserve,CRE loan growth year-over-year
+2021-Q3,quarterly,cre_loan_spreads,165.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2021-Q3,quarterly,cre_loans_total,2655.0,$B,Federal Reserve,Total CRE loans at all banks
+2021-Q3,quarterly,cre_npl_ratio,1.65,%,Federal Reserve,CRE non-performing loan ratio
+2021-Q3,quarterly,cre_pct_total_loans,17.2,%,Federal Reserve,CRE loans as % of total loans
+2021-Q3,quarterly,discount_window_borrowing,0.5,$B,Federal Reserve,Discount Window borrowings
+2021-Q3,quarterly,efficiency_ratio,57.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2021-Q3,quarterly,fdic_fund_balance,48.2,$B,FDIC,FDIC insurance fund balance
+2021-Q3,quarterly,hqla_assets,4.65,$T,Federal Reserve,High-quality liquid assets
+2021-Q3,quarterly,leverage_ratio,9.3,%,Federal Reserve,Leverage ratio
+2021-Q3,quarterly,liquidity_coverage_ratio,156.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2021-Q3,quarterly,loan_loss_reserves,92.8,$B,FDIC/Federal Reserve,Total loan loss reserves
+2021-Q3,quarterly,loan_to_deposit_ratio,76.5,%,Federal Reserve,Loan-to-deposit ratio
+2021-Q3,quarterly,multifamily_loans,845.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2021-Q3,quarterly,net_chargeoff_rate,0.28,%,FDIC,Net charge-off rate
+2021-Q3,quarterly,net_interest_margin,3.18,%,Federal Reserve,Net interest margin - average
+2021-Q3,quarterly,net_pct_tightening_cre,-5.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2021-Q3,quarterly,nib_deposits_total,6.82,$T,Federal Reserve,Non-interest-bearing deposits
+2021-Q3,quarterly,nonbank_cre_lending,285.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2021-Q3,quarterly,nonbank_market_share_cre,9.7,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2021-Q3,quarterly,npl_ratio,1.02,%,FDIC/Federal Reserve,Non-performing loans ratio
+2021-Q3,quarterly,ppnr_total,72.8,$B,Federal Reserve,Pre-provision net revenue - industry total
+2021-Q3,quarterly,private_credit_aum,445.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2021-Q3,quarterly,problem_banks_assets,105.2,$B,FDIC,Total assets of problem banks
+2021-Q3,quarterly,problem_banks_count,42.0,number,FDIC,Number of problem banks on FDIC list
+2021-Q3,quarterly,rate_shock_100bp_nii_impact,-0.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2021-Q3,quarterly,roa_industry_avg,1.25,%,Federal Reserve/FDIC,Return on assets - industry average
+2021-Q3,quarterly,roe_industry_avg,12.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2021-Q3,quarterly,tier1_capital_ratio,13.8,%,Federal Reserve,Tier 1 capital ratio
+2021-Q3,quarterly,total_capital_ratio,18.8,%,Federal Reserve,Total capital ratio
+2021-Q3,quarterly,total_deposits,16.05,$T,Federal Reserve,Total deposits at all banks
+2021-Q3,quarterly,uninsured_deposits_pct,35.2,%,Federal Reserve,Uninsured deposits as % of total
+2021-Q4,quarterly,asset_sensitivity_gap,85.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2021-Q4,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2021-Q4,quarterly,cet1_ratio,12.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2021-Q4,quarterly,construction_dev_loans,465.0,$B,Federal Reserve,Construction & development loans
+2021-Q4,quarterly,cost_of_deposits,0.1,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2021-Q4,quarterly,cre_loan_demand,42.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2021-Q4,quarterly,cre_loan_growth_yoy,7.5,%,Federal Reserve,CRE loan growth year-over-year
+2021-Q4,quarterly,cre_loan_spreads,155.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2021-Q4,quarterly,cre_loans_total,2690.0,$B,Federal Reserve,Total CRE loans at all banks
+2021-Q4,quarterly,cre_npl_ratio,1.45,%,Federal Reserve,CRE non-performing loan ratio
+2021-Q4,quarterly,cre_pct_total_loans,17.3,%,Federal Reserve,CRE loans as % of total loans
+2021-Q4,quarterly,discount_window_borrowing,0.3,$B,Federal Reserve,Discount Window borrowings
+2021-Q4,quarterly,efficiency_ratio,56.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2021-Q4,quarterly,fdic_fund_balance,51.8,$B,FDIC,FDIC insurance fund balance
+2021-Q4,quarterly,hqla_assets,4.95,$T,Federal Reserve,High-quality liquid assets
+2021-Q4,quarterly,leverage_ratio,9.4,%,Federal Reserve,Leverage ratio
+2021-Q4,quarterly,liquidity_coverage_ratio,157.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2021-Q4,quarterly,loan_loss_reserves,88.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2021-Q4,quarterly,loan_to_deposit_ratio,76.2,%,Federal Reserve,Loan-to-deposit ratio
+2021-Q4,quarterly,multifamily_loans,875.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2021-Q4,quarterly,net_chargeoff_rate,0.25,%,FDIC,Net charge-off rate
+2021-Q4,quarterly,net_interest_margin,3.22,%,Federal Reserve,Net interest margin - average
+2021-Q4,quarterly,net_pct_tightening_cre,-8.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2021-Q4,quarterly,nib_deposits_total,7.15,$T,Federal Reserve,Non-interest-bearing deposits
+2021-Q4,quarterly,nonbank_cre_lending,325.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2021-Q4,quarterly,nonbank_market_share_cre,10.8,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2021-Q4,quarterly,npl_ratio,0.95,%,FDIC/Federal Reserve,Non-performing loans ratio
+2021-Q4,quarterly,ppnr_total,78.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2021-Q4,quarterly,private_credit_aum,505.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2021-Q4,quarterly,problem_banks_assets,95.8,$B,FDIC,Total assets of problem banks
+2021-Q4,quarterly,problem_banks_count,40.0,number,FDIC,Number of problem banks on FDIC list
+2021-Q4,quarterly,rate_shock_100bp_nii_impact,0.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2021-Q4,quarterly,roa_industry_avg,1.32,%,Federal Reserve/FDIC,Return on assets - industry average
+2021-Q4,quarterly,roe_industry_avg,13.2,%,Federal Reserve/FDIC,Return on equity - industry average
+2021-Q4,quarterly,tier1_capital_ratio,13.9,%,Federal Reserve,Tier 1 capital ratio
+2021-Q4,quarterly,total_capital_ratio,18.9,%,Federal Reserve,Total capital ratio
+2021-Q4,quarterly,total_deposits,16.25,$T,Federal Reserve,Total deposits at all banks
+2021-Q4,quarterly,uninsured_deposits_pct,36.5,%,Federal Reserve,Uninsured deposits as % of total
+2022-Q1,quarterly,asset_sensitivity_gap,75.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2022-Q1,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2022-Q1,quarterly,cet1_ratio,12.3,%,Federal Reserve,Common Equity Tier 1 ratio
+2022-Q1,quarterly,construction_dev_loans,495.0,$B,Federal Reserve,Construction & development loans
+2022-Q1,quarterly,cost_of_deposits,0.15,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2022-Q1,quarterly,cre_loan_demand,38.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2022-Q1,quarterly,cre_loan_growth_yoy,5.2,%,Federal Reserve,CRE loan growth year-over-year
+2022-Q1,quarterly,cre_loan_spreads,165.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2022-Q1,quarterly,cre_loans_total,2720.0,$B,Federal Reserve,Total CRE loans at all banks
+2022-Q1,quarterly,cre_npl_ratio,1.35,%,Federal Reserve,CRE non-performing loan ratio
+2022-Q1,quarterly,cre_pct_total_loans,17.2,%,Federal Reserve,CRE loans as % of total loans
+2022-Q1,quarterly,discount_window_borrowing,0.5,$B,Federal Reserve,Discount Window borrowings
+2022-Q1,quarterly,efficiency_ratio,56.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2022-Q1,quarterly,fdic_fund_balance,55.2,$B,FDIC,FDIC insurance fund balance
+2022-Q1,quarterly,hqla_assets,4.85,$T,Federal Reserve,High-quality liquid assets
+2022-Q1,quarterly,leverage_ratio,9.2,%,Federal Reserve,Leverage ratio
+2022-Q1,quarterly,liquidity_coverage_ratio,156.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2022-Q1,quarterly,loan_loss_reserves,85.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2022-Q1,quarterly,loan_to_deposit_ratio,76.5,%,Federal Reserve,Loan-to-deposit ratio
+2022-Q1,quarterly,multifamily_loans,895.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2022-Q1,quarterly,net_chargeoff_rate,0.28,%,FDIC,Net charge-off rate
+2022-Q1,quarterly,net_interest_margin,3.38,%,Federal Reserve,Net interest margin - average
+2022-Q1,quarterly,net_pct_tightening_cre,-5.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2022-Q1,quarterly,nib_deposits_total,7.05,$T,Federal Reserve,Non-interest-bearing deposits
+2022-Q1,quarterly,nonbank_cre_lending,365.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2022-Q1,quarterly,nonbank_market_share_cre,11.8,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2022-Q1,quarterly,npl_ratio,0.92,%,FDIC/Federal Reserve,Non-performing loans ratio
+2022-Q1,quarterly,ppnr_total,82.3,$B,Federal Reserve,Pre-provision net revenue - industry total
+2022-Q1,quarterly,private_credit_aum,565.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2022-Q1,quarterly,problem_banks_assets,88.5,$B,FDIC,Total assets of problem banks
+2022-Q1,quarterly,problem_banks_count,38.0,number,FDIC,Number of problem banks on FDIC list
+2022-Q1,quarterly,rate_shock_100bp_nii_impact,0.5,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2022-Q1,quarterly,roa_industry_avg,1.15,%,Federal Reserve/FDIC,Return on assets - industry average
+2022-Q1,quarterly,roe_industry_avg,11.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2022-Q1,quarterly,tier1_capital_ratio,13.7,%,Federal Reserve,Tier 1 capital ratio
+2022-Q1,quarterly,total_capital_ratio,18.7,%,Federal Reserve,Total capital ratio
+2022-Q1,quarterly,total_deposits,16.35,$T,Federal Reserve,Total deposits at all banks
+2022-Q1,quarterly,uninsured_deposits_pct,37.8,%,Federal Reserve,Uninsured deposits as % of total
+2022-Q2,quarterly,asset_sensitivity_gap,95.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2022-Q2,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2022-Q2,quarterly,cet1_ratio,12.1,%,Federal Reserve,Common Equity Tier 1 ratio
+2022-Q2,quarterly,construction_dev_loans,515.0,$B,Federal Reserve,Construction & development loans
+2022-Q2,quarterly,cost_of_deposits,0.35,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2022-Q2,quarterly,cre_loan_demand,28.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2022-Q2,quarterly,cre_loan_growth_yoy,3.8,%,Federal Reserve,CRE loan growth year-over-year
+2022-Q2,quarterly,cre_loan_spreads,195.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2022-Q2,quarterly,cre_loans_total,2745.0,$B,Federal Reserve,Total CRE loans at all banks
+2022-Q2,quarterly,cre_npl_ratio,1.28,%,Federal Reserve,CRE non-performing loan ratio
+2022-Q2,quarterly,cre_pct_total_loans,17.1,%,Federal Reserve,CRE loans as % of total loans
+2022-Q2,quarterly,discount_window_borrowing,0.8,$B,Federal Reserve,Discount Window borrowings
+2022-Q2,quarterly,efficiency_ratio,57.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2022-Q2,quarterly,fdic_fund_balance,58.5,$B,FDIC,FDIC insurance fund balance
+2022-Q2,quarterly,hqla_assets,4.75,$T,Federal Reserve,High-quality liquid assets
+2022-Q2,quarterly,leverage_ratio,9.1,%,Federal Reserve,Leverage ratio
+2022-Q2,quarterly,liquidity_coverage_ratio,155.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2022-Q2,quarterly,loan_loss_reserves,82.8,$B,FDIC/Federal Reserve,Total loan loss reserves
+2022-Q2,quarterly,loan_to_deposit_ratio,77.2,%,Federal Reserve,Loan-to-deposit ratio
+2022-Q2,quarterly,multifamily_loans,910.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2022-Q2,quarterly,net_chargeoff_rate,0.32,%,FDIC,Net charge-off rate
+2022-Q2,quarterly,net_interest_margin,3.52,%,Federal Reserve,Net interest margin - average
+2022-Q2,quarterly,net_pct_tightening_cre,-2.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2022-Q2,quarterly,nib_deposits_total,6.95,$T,Federal Reserve,Non-interest-bearing deposits
+2022-Q2,quarterly,nonbank_cre_lending,385.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2022-Q2,quarterly,nonbank_market_share_cre,12.3,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2022-Q2,quarterly,npl_ratio,0.88,%,FDIC/Federal Reserve,Non-performing loans ratio
+2022-Q2,quarterly,ppnr_total,85.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2022-Q2,quarterly,private_credit_aum,595.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2022-Q2,quarterly,problem_banks_assets,105.2,$B,FDIC,Total assets of problem banks
+2022-Q2,quarterly,problem_banks_count,42.0,number,FDIC,Number of problem banks on FDIC list
+2022-Q2,quarterly,rate_shock_100bp_nii_impact,0.8,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2022-Q2,quarterly,roa_industry_avg,1.08,%,Federal Reserve/FDIC,Return on assets - industry average
+2022-Q2,quarterly,roe_industry_avg,10.8,%,Federal Reserve/FDIC,Return on equity - industry average
+2022-Q2,quarterly,tier1_capital_ratio,13.5,%,Federal Reserve,Tier 1 capital ratio
+2022-Q2,quarterly,total_capital_ratio,18.5,%,Federal Reserve,Total capital ratio
+2022-Q2,quarterly,total_deposits,16.42,$T,Federal Reserve,Total deposits at all banks
+2022-Q2,quarterly,uninsured_deposits_pct,38.5,%,Federal Reserve,Uninsured deposits as % of total
+2022-Q3,quarterly,asset_sensitivity_gap,125.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2022-Q3,quarterly,bank_failures_ytd,1.0,number,FDIC,Bank failures year-to-date
+2022-Q3,quarterly,cet1_ratio,11.9,%,Federal Reserve,Common Equity Tier 1 ratio
+2022-Q3,quarterly,construction_dev_loans,525.0,$B,Federal Reserve,Construction & development loans
+2022-Q3,quarterly,cost_of_deposits,0.65,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2022-Q3,quarterly,cre_loan_demand,12.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2022-Q3,quarterly,cre_loan_growth_yoy,2.1,%,Federal Reserve,CRE loan growth year-over-year
+2022-Q3,quarterly,cre_loan_spreads,235.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2022-Q3,quarterly,cre_loans_total,2760.0,$B,Federal Reserve,Total CRE loans at all banks
+2022-Q3,quarterly,cre_npl_ratio,1.22,%,Federal Reserve,CRE non-performing loan ratio
+2022-Q3,quarterly,cre_pct_total_loans,17.0,%,Federal Reserve,CRE loans as % of total loans
+2022-Q3,quarterly,discount_window_borrowing,1.5,$B,Federal Reserve,Discount Window borrowings
+2022-Q3,quarterly,efficiency_ratio,58.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2022-Q3,quarterly,fdic_fund_balance,62.8,$B,FDIC,FDIC insurance fund balance
+2022-Q3,quarterly,hqla_assets,4.65,$T,Federal Reserve,High-quality liquid assets
+2022-Q3,quarterly,leverage_ratio,9.0,%,Federal Reserve,Leverage ratio
+2022-Q3,quarterly,liquidity_coverage_ratio,153.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2022-Q3,quarterly,loan_loss_reserves,80.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2022-Q3,quarterly,loan_to_deposit_ratio,78.5,%,Federal Reserve,Loan-to-deposit ratio
+2022-Q3,quarterly,multifamily_loans,920.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2022-Q3,quarterly,net_chargeoff_rate,0.35,%,FDIC,Net charge-off rate
+2022-Q3,quarterly,net_interest_margin,3.68,%,Federal Reserve,Net interest margin - average
+2022-Q3,quarterly,net_pct_tightening_cre,5.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2022-Q3,quarterly,nib_deposits_total,6.85,$T,Federal Reserve,Non-interest-bearing deposits
+2022-Q3,quarterly,nonbank_cre_lending,395.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2022-Q3,quarterly,nonbank_market_share_cre,12.5,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2022-Q3,quarterly,npl_ratio,0.85,%,FDIC/Federal Reserve,Non-performing loans ratio
+2022-Q3,quarterly,ppnr_total,82.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2022-Q3,quarterly,private_credit_aum,615.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2022-Q3,quarterly,problem_banks_assets,135.8,$B,FDIC,Total assets of problem banks
+2022-Q3,quarterly,problem_banks_count,50.0,number,FDIC,Number of problem banks on FDIC list
+2022-Q3,quarterly,rate_shock_100bp_nii_impact,1.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2022-Q3,quarterly,roa_industry_avg,0.98,%,Federal Reserve/FDIC,Return on assets - industry average
+2022-Q3,quarterly,roe_industry_avg,9.8,%,Federal Reserve/FDIC,Return on equity - industry average
+2022-Q3,quarterly,tier1_capital_ratio,13.3,%,Federal Reserve,Tier 1 capital ratio
+2022-Q3,quarterly,total_capital_ratio,18.3,%,Federal Reserve,Total capital ratio
+2022-Q3,quarterly,total_deposits,16.35,$T,Federal Reserve,Total deposits at all banks
+2022-Q3,quarterly,uninsured_deposits_pct,39.2,%,Federal Reserve,Uninsured deposits as % of total
+2022-Q4,quarterly,asset_sensitivity_gap,165.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2022-Q4,quarterly,bank_failures_ytd,2.0,number,FDIC,Bank failures year-to-date
+2022-Q4,quarterly,cet1_ratio,11.8,%,Federal Reserve,Common Equity Tier 1 ratio
+2022-Q4,quarterly,construction_dev_loans,535.0,$B,Federal Reserve,Construction & development loans
+2022-Q4,quarterly,cost_of_deposits,1.05,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2022-Q4,quarterly,cre_loan_demand,-5.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2022-Q4,quarterly,cre_loan_growth_yoy,0.5,%,Federal Reserve,CRE loan growth year-over-year
+2022-Q4,quarterly,cre_loan_spreads,285.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2022-Q4,quarterly,cre_loans_total,2775.0,$B,Federal Reserve,Total CRE loans at all banks
+2022-Q4,quarterly,cre_npl_ratio,1.18,%,Federal Reserve,CRE non-performing loan ratio
+2022-Q4,quarterly,cre_pct_total_loans,16.9,%,Federal Reserve,CRE loans as % of total loans
+2022-Q4,quarterly,discount_window_borrowing,2.8,$B,Federal Reserve,Discount Window borrowings
+2022-Q4,quarterly,efficiency_ratio,59.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2022-Q4,quarterly,fdic_fund_balance,66.5,$B,FDIC,FDIC insurance fund balance
+2022-Q4,quarterly,hqla_assets,4.55,$T,Federal Reserve,High-quality liquid assets
+2022-Q4,quarterly,leverage_ratio,8.9,%,Federal Reserve,Leverage ratio
+2022-Q4,quarterly,liquidity_coverage_ratio,152.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2022-Q4,quarterly,loan_loss_reserves,78.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2022-Q4,quarterly,loan_to_deposit_ratio,79.8,%,Federal Reserve,Loan-to-deposit ratio
+2022-Q4,quarterly,multifamily_loans,925.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2022-Q4,quarterly,net_chargeoff_rate,0.38,%,FDIC,Net charge-off rate
+2022-Q4,quarterly,net_interest_margin,3.85,%,Federal Reserve,Net interest margin - average
+2022-Q4,quarterly,net_pct_tightening_cre,15.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2022-Q4,quarterly,nib_deposits_total,6.75,$T,Federal Reserve,Non-interest-bearing deposits
+2022-Q4,quarterly,nonbank_cre_lending,402.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2022-Q4,quarterly,nonbank_market_share_cre,12.6,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2022-Q4,quarterly,npl_ratio,0.82,%,FDIC/Federal Reserve,Non-performing loans ratio
+2022-Q4,quarterly,ppnr_total,78.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2022-Q4,quarterly,private_credit_aum,625.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2022-Q4,quarterly,problem_banks_assets,165.2,$B,FDIC,Total assets of problem banks
+2022-Q4,quarterly,problem_banks_count,62.0,number,FDIC,Number of problem banks on FDIC list
+2022-Q4,quarterly,rate_shock_100bp_nii_impact,1.5,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2022-Q4,quarterly,roa_industry_avg,0.85,%,Federal Reserve/FDIC,Return on assets - industry average
+2022-Q4,quarterly,roe_industry_avg,8.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2022-Q4,quarterly,tier1_capital_ratio,13.2,%,Federal Reserve,Tier 1 capital ratio
+2022-Q4,quarterly,total_capital_ratio,18.2,%,Federal Reserve,Total capital ratio
+2022-Q4,quarterly,total_deposits,16.15,$T,Federal Reserve,Total deposits at all banks
+2022-Q4,quarterly,uninsured_deposits_pct,40.5,%,Federal Reserve,Uninsured deposits as % of total
+2023-Q1,quarterly,asset_sensitivity_gap,185.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2023-Q1,quarterly,bank_failures_ytd,8.0,number,FDIC,Bank failures year-to-date
+2023-Q1,quarterly,cet1_ratio,11.2,%,Federal Reserve,Common Equity Tier 1 ratio
+2023-Q1,quarterly,construction_dev_loans,545.0,$B,Federal Reserve,Construction & development loans
+2023-Q1,quarterly,cost_of_deposits,1.35,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2023-Q1,quarterly,cre_loan_demand,-22.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2023-Q1,quarterly,cre_loan_growth_yoy,-0.8,%,Federal Reserve,CRE loan growth year-over-year
+2023-Q1,quarterly,cre_loan_spreads,335.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2023-Q1,quarterly,cre_loans_total,2795.0,$B,Federal Reserve,Total CRE loans at all banks
+2023-Q1,quarterly,cre_npl_ratio,1.22,%,Federal Reserve,CRE non-performing loan ratio
+2023-Q1,quarterly,cre_pct_total_loans,16.8,%,Federal Reserve,CRE loans as % of total loans
+2023-Q1,quarterly,discount_window_borrowing,12.5,$B,Federal Reserve,Discount Window borrowings
+2023-Q1,quarterly,efficiency_ratio,62.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2023-Q1,quarterly,fdic_fund_balance,62.2,$B,FDIC,FDIC insurance fund balance
+2023-Q1,quarterly,hqla_assets,4.45,$T,Federal Reserve,High-quality liquid assets
+2023-Q1,quarterly,leverage_ratio,8.5,%,Federal Reserve,Leverage ratio
+2023-Q1,quarterly,liquidity_coverage_ratio,151.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2023-Q1,quarterly,loan_loss_reserves,80.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2023-Q1,quarterly,loan_to_deposit_ratio,81.2,%,Federal Reserve,Loan-to-deposit ratio
+2023-Q1,quarterly,multifamily_loans,930.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2023-Q1,quarterly,net_chargeoff_rate,0.42,%,FDIC,Net charge-off rate
+2023-Q1,quarterly,net_interest_margin,3.98,%,Federal Reserve,Net interest margin - average
+2023-Q1,quarterly,net_pct_tightening_cre,35.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2023-Q1,quarterly,nib_deposits_total,6.55,$T,Federal Reserve,Non-interest-bearing deposits
+2023-Q1,quarterly,nonbank_cre_lending,415.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2023-Q1,quarterly,nonbank_market_share_cre,12.9,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2023-Q1,quarterly,npl_ratio,0.85,%,FDIC/Federal Reserve,Non-performing loans ratio
+2023-Q1,quarterly,ppnr_total,65.8,$B,Federal Reserve,Pre-provision net revenue - industry total
+2023-Q1,quarterly,private_credit_aum,645.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2023-Q1,quarterly,problem_banks_assets,285.5,$B,FDIC,Total assets of problem banks
+2023-Q1,quarterly,problem_banks_count,85.0,number,FDIC,Number of problem banks on FDIC list
+2023-Q1,quarterly,rate_shock_100bp_nii_impact,1.8,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2023-Q1,quarterly,roa_industry_avg,0.52,%,Federal Reserve/FDIC,Return on assets - industry average
+2023-Q1,quarterly,roe_industry_avg,5.2,%,Federal Reserve/FDIC,Return on equity - industry average
+2023-Q1,quarterly,tier1_capital_ratio,12.5,%,Federal Reserve,Tier 1 capital ratio
+2023-Q1,quarterly,total_capital_ratio,17.5,%,Federal Reserve,Total capital ratio
+2023-Q1,quarterly,total_deposits,15.82,$T,Federal Reserve,Total deposits at all banks
+2023-Q1,quarterly,uninsured_deposits_pct,42.8,%,Federal Reserve,Uninsured deposits as % of total
+2023-Q2,quarterly,asset_sensitivity_gap,175.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2023-Q2,quarterly,bank_failures_ytd,2.0,number,FDIC,Bank failures year-to-date
+2023-Q2,quarterly,cet1_ratio,11.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2023-Q2,quarterly,construction_dev_loans,550.0,$B,Federal Reserve,Construction & development loans
+2023-Q2,quarterly,cost_of_deposits,1.45,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2023-Q2,quarterly,cre_loan_demand,-18.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2023-Q2,quarterly,cre_loan_growth_yoy,-0.3,%,Federal Reserve,CRE loan growth year-over-year
+2023-Q2,quarterly,cre_loan_spreads,315.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2023-Q2,quarterly,cre_loans_total,2810.0,$B,Federal Reserve,Total CRE loans at all banks
+2023-Q2,quarterly,cre_npl_ratio,1.35,%,Federal Reserve,CRE non-performing loan ratio
+2023-Q2,quarterly,cre_pct_total_loans,16.8,%,Federal Reserve,CRE loans as % of total loans
+2023-Q2,quarterly,discount_window_borrowing,8.5,$B,Federal Reserve,Discount Window borrowings
+2023-Q2,quarterly,efficiency_ratio,61.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2023-Q2,quarterly,fdic_fund_balance,58.8,$B,FDIC,FDIC insurance fund balance
+2023-Q2,quarterly,hqla_assets,4.55,$T,Federal Reserve,High-quality liquid assets
+2023-Q2,quarterly,leverage_ratio,8.7,%,Federal Reserve,Leverage ratio
+2023-Q2,quarterly,liquidity_coverage_ratio,152.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2023-Q2,quarterly,loan_loss_reserves,85.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2023-Q2,quarterly,loan_to_deposit_ratio,80.5,%,Federal Reserve,Loan-to-deposit ratio
+2023-Q2,quarterly,multifamily_loans,932.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2023-Q2,quarterly,net_chargeoff_rate,0.48,%,FDIC,Net charge-off rate
+2023-Q2,quarterly,net_interest_margin,3.85,%,Federal Reserve,Net interest margin - average
+2023-Q2,quarterly,net_pct_tightening_cre,32.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2023-Q2,quarterly,nib_deposits_total,6.45,$T,Federal Reserve,Non-interest-bearing deposits
+2023-Q2,quarterly,nonbank_cre_lending,420.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2023-Q2,quarterly,nonbank_market_share_cre,12.9,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2023-Q2,quarterly,npl_ratio,0.92,%,FDIC/Federal Reserve,Non-performing loans ratio
+2023-Q2,quarterly,ppnr_total,72.3,$B,Federal Reserve,Pre-provision net revenue - industry total
+2023-Q2,quarterly,private_credit_aum,665.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2023-Q2,quarterly,problem_banks_assets,265.8,$B,FDIC,Total assets of problem banks
+2023-Q2,quarterly,problem_banks_count,82.0,number,FDIC,Number of problem banks on FDIC list
+2023-Q2,quarterly,rate_shock_100bp_nii_impact,1.5,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2023-Q2,quarterly,roa_industry_avg,0.68,%,Federal Reserve/FDIC,Return on assets - industry average
+2023-Q2,quarterly,roe_industry_avg,6.8,%,Federal Reserve/FDIC,Return on equity - industry average
+2023-Q2,quarterly,tier1_capital_ratio,12.8,%,Federal Reserve,Tier 1 capital ratio
+2023-Q2,quarterly,total_capital_ratio,17.8,%,Federal Reserve,Total capital ratio
+2023-Q2,quarterly,total_deposits,15.95,$T,Federal Reserve,Total deposits at all banks
+2023-Q2,quarterly,uninsured_deposits_pct,41.2,%,Federal Reserve,Uninsured deposits as % of total
+2023-Q3,quarterly,asset_sensitivity_gap,155.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2023-Q3,quarterly,bank_failures_ytd,1.0,number,FDIC,Bank failures year-to-date
+2023-Q3,quarterly,cet1_ratio,12.0,%,Federal Reserve,Common Equity Tier 1 ratio
+2023-Q3,quarterly,construction_dev_loans,555.0,$B,Federal Reserve,Construction & development loans
+2023-Q3,quarterly,cost_of_deposits,1.52,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2023-Q3,quarterly,cre_loan_demand,-12.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2023-Q3,quarterly,cre_loan_growth_yoy,0.2,%,Federal Reserve,CRE loan growth year-over-year
+2023-Q3,quarterly,cre_loan_spreads,295.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2023-Q3,quarterly,cre_loans_total,2820.0,$B,Federal Reserve,Total CRE loans at all banks
+2023-Q3,quarterly,cre_npl_ratio,1.58,%,Federal Reserve,CRE non-performing loan ratio
+2023-Q3,quarterly,cre_pct_total_loans,16.7,%,Federal Reserve,CRE loans as % of total loans
+2023-Q3,quarterly,discount_window_borrowing,3.2,$B,Federal Reserve,Discount Window borrowings
+2023-Q3,quarterly,efficiency_ratio,59.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2023-Q3,quarterly,fdic_fund_balance,55.5,$B,FDIC,FDIC insurance fund balance
+2023-Q3,quarterly,hqla_assets,4.65,$T,Federal Reserve,High-quality liquid assets
+2023-Q3,quarterly,leverage_ratio,9.0,%,Federal Reserve,Leverage ratio
+2023-Q3,quarterly,liquidity_coverage_ratio,154.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2023-Q3,quarterly,loan_loss_reserves,92.8,$B,FDIC/Federal Reserve,Total loan loss reserves
+2023-Q3,quarterly,loan_to_deposit_ratio,79.8,%,Federal Reserve,Loan-to-deposit ratio
+2023-Q3,quarterly,multifamily_loans,933.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2023-Q3,quarterly,net_chargeoff_rate,0.52,%,FDIC,Net charge-off rate
+2023-Q3,quarterly,net_interest_margin,3.72,%,Federal Reserve,Net interest margin - average
+2023-Q3,quarterly,net_pct_tightening_cre,28.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2023-Q3,quarterly,nib_deposits_total,6.35,$T,Federal Reserve,Non-interest-bearing deposits
+2023-Q3,quarterly,nonbank_cre_lending,425.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2023-Q3,quarterly,nonbank_market_share_cre,13.1,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2023-Q3,quarterly,npl_ratio,1.05,%,FDIC/Federal Reserve,Non-performing loans ratio
+2023-Q3,quarterly,ppnr_total,78.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2023-Q3,quarterly,private_credit_aum,695.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2023-Q3,quarterly,problem_banks_assets,245.2,$B,FDIC,Total assets of problem banks
+2023-Q3,quarterly,problem_banks_count,78.0,number,FDIC,Number of problem banks on FDIC list
+2023-Q3,quarterly,rate_shock_100bp_nii_impact,1.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2023-Q3,quarterly,roa_industry_avg,0.95,%,Federal Reserve/FDIC,Return on assets - industry average
+2023-Q3,quarterly,roe_industry_avg,9.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2023-Q3,quarterly,tier1_capital_ratio,13.2,%,Federal Reserve,Tier 1 capital ratio
+2023-Q3,quarterly,total_capital_ratio,18.2,%,Federal Reserve,Total capital ratio
+2023-Q3,quarterly,total_deposits,16.15,$T,Federal Reserve,Total deposits at all banks
+2023-Q3,quarterly,uninsured_deposits_pct,39.5,%,Federal Reserve,Uninsured deposits as % of total
+2023-Q4,quarterly,asset_sensitivity_gap,135.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2023-Q4,quarterly,bank_failures_ytd,1.0,number,FDIC,Bank failures year-to-date
+2023-Q4,quarterly,cet1_ratio,12.2,%,Federal Reserve,Common Equity Tier 1 ratio
+2023-Q4,quarterly,construction_dev_loans,560.0,$B,Federal Reserve,Construction & development loans
+2023-Q4,quarterly,cost_of_deposits,1.58,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2023-Q4,quarterly,cre_loan_demand,-8.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2023-Q4,quarterly,cre_loan_growth_yoy,0.8,%,Federal Reserve,CRE loan growth year-over-year
+2023-Q4,quarterly,cre_loan_spreads,275.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2023-Q4,quarterly,cre_loans_total,2835.0,$B,Federal Reserve,Total CRE loans at all banks
+2023-Q4,quarterly,cre_npl_ratio,1.85,%,Federal Reserve,CRE non-performing loan ratio
+2023-Q4,quarterly,cre_pct_total_loans,16.7,%,Federal Reserve,CRE loans as % of total loans
+2023-Q4,quarterly,discount_window_borrowing,1.2,$B,Federal Reserve,Discount Window borrowings
+2023-Q4,quarterly,efficiency_ratio,58.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2023-Q4,quarterly,fdic_fund_balance,52.8,$B,FDIC,FDIC insurance fund balance
+2023-Q4,quarterly,hqla_assets,4.75,$T,Federal Reserve,High-quality liquid assets
+2023-Q4,quarterly,leverage_ratio,9.2,%,Federal Reserve,Leverage ratio
+2023-Q4,quarterly,liquidity_coverage_ratio,156.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2023-Q4,quarterly,loan_loss_reserves,98.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2023-Q4,quarterly,loan_to_deposit_ratio,79.2,%,Federal Reserve,Loan-to-deposit ratio
+2023-Q4,quarterly,multifamily_loans,932.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2023-Q4,quarterly,net_chargeoff_rate,0.55,%,FDIC,Net charge-off rate
+2023-Q4,quarterly,net_interest_margin,3.58,%,Federal Reserve,Net interest margin - average
+2023-Q4,quarterly,net_pct_tightening_cre,22.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2023-Q4,quarterly,nib_deposits_total,6.25,$T,Federal Reserve,Non-interest-bearing deposits
+2023-Q4,quarterly,nonbank_cre_lending,430.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2023-Q4,quarterly,nonbank_market_share_cre,13.2,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2023-Q4,quarterly,npl_ratio,1.18,%,FDIC/Federal Reserve,Non-performing loans ratio
+2023-Q4,quarterly,ppnr_total,82.3,$B,Federal Reserve,Pre-provision net revenue - industry total
+2023-Q4,quarterly,private_credit_aum,725.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2023-Q4,quarterly,problem_banks_assets,215.8,$B,FDIC,Total assets of problem banks
+2023-Q4,quarterly,problem_banks_count,72.0,number,FDIC,Number of problem banks on FDIC list
+2023-Q4,quarterly,rate_shock_100bp_nii_impact,0.9,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2023-Q4,quarterly,roa_industry_avg,1.05,%,Federal Reserve/FDIC,Return on assets - industry average
+2023-Q4,quarterly,roe_industry_avg,10.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2023-Q4,quarterly,tier1_capital_ratio,13.5,%,Federal Reserve,Tier 1 capital ratio
+2023-Q4,quarterly,total_capital_ratio,18.5,%,Federal Reserve,Total capital ratio
+2023-Q4,quarterly,total_deposits,16.35,$T,Federal Reserve,Total deposits at all banks
+2023-Q4,quarterly,uninsured_deposits_pct,37.8,%,Federal Reserve,Uninsured deposits as % of total
+2024-Q1,quarterly,asset_sensitivity_gap,115.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2024-Q1,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2024-Q1,quarterly,cet1_ratio,12.4,%,Federal Reserve,Common Equity Tier 1 ratio
+2024-Q1,quarterly,construction_dev_loans,562.0,$B,Federal Reserve,Construction & development loans
+2024-Q1,quarterly,cost_of_deposits,1.62,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2024-Q1,quarterly,cre_loan_demand,-2.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2024-Q1,quarterly,cre_loan_growth_yoy,1.2,%,Federal Reserve,CRE loan growth year-over-year
+2024-Q1,quarterly,cre_loan_spreads,255.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2024-Q1,quarterly,cre_loans_total,2845.0,$B,Federal Reserve,Total CRE loans at all banks
+2024-Q1,quarterly,cre_npl_ratio,2.05,%,Federal Reserve,CRE non-performing loan ratio
+2024-Q1,quarterly,cre_pct_total_loans,16.6,%,Federal Reserve,CRE loans as % of total loans
+2024-Q1,quarterly,discount_window_borrowing,0.8,$B,Federal Reserve,Discount Window borrowings
+2024-Q1,quarterly,efficiency_ratio,57.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2024-Q1,quarterly,fdic_fund_balance,50.2,$B,FDIC,FDIC insurance fund balance
+2024-Q1,quarterly,hqla_assets,4.85,$T,Federal Reserve,High-quality liquid assets
+2024-Q1,quarterly,leverage_ratio,9.3,%,Federal Reserve,Leverage ratio
+2024-Q1,quarterly,liquidity_coverage_ratio,157.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2024-Q1,quarterly,loan_loss_reserves,105.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2024-Q1,quarterly,loan_to_deposit_ratio,78.5,%,Federal Reserve,Loan-to-deposit ratio
+2024-Q1,quarterly,multifamily_loans,930.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2024-Q1,quarterly,net_chargeoff_rate,0.58,%,FDIC,Net charge-off rate
+2024-Q1,quarterly,net_interest_margin,3.42,%,Federal Reserve,Net interest margin - average
+2024-Q1,quarterly,net_pct_tightening_cre,18.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2024-Q1,quarterly,nib_deposits_total,6.15,$T,Federal Reserve,Non-interest-bearing deposits
+2024-Q1,quarterly,nonbank_cre_lending,435.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2024-Q1,quarterly,nonbank_market_share_cre,13.2,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2024-Q1,quarterly,npl_ratio,1.25,%,FDIC/Federal Reserve,Non-performing loans ratio
+2024-Q1,quarterly,ppnr_total,85.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2024-Q1,quarterly,private_credit_aum,765.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2024-Q1,quarterly,problem_banks_assets,185.2,$B,FDIC,Total assets of problem banks
+2024-Q1,quarterly,problem_banks_count,65.0,number,FDIC,Number of problem banks on FDIC list
+2024-Q1,quarterly,rate_shock_100bp_nii_impact,0.6,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2024-Q1,quarterly,roa_industry_avg,1.15,%,Federal Reserve/FDIC,Return on assets - industry average
+2024-Q1,quarterly,roe_industry_avg,11.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2024-Q1,quarterly,tier1_capital_ratio,13.7,%,Federal Reserve,Tier 1 capital ratio
+2024-Q1,quarterly,total_capital_ratio,18.7,%,Federal Reserve,Total capital ratio
+2024-Q1,quarterly,total_deposits,16.52,$T,Federal Reserve,Total deposits at all banks
+2024-Q1,quarterly,uninsured_deposits_pct,36.2,%,Federal Reserve,Uninsured deposits as % of total
+2024-Q2,quarterly,asset_sensitivity_gap,105.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2024-Q2,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2024-Q2,quarterly,cet1_ratio,12.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2024-Q2,quarterly,construction_dev_loans,563.0,$B,Federal Reserve,Construction & development loans
+2024-Q2,quarterly,cost_of_deposits,1.58,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2024-Q2,quarterly,cre_loan_demand,5.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2024-Q2,quarterly,cre_loan_growth_yoy,1.5,%,Federal Reserve,CRE loan growth year-over-year
+2024-Q2,quarterly,cre_loan_spreads,235.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2024-Q2,quarterly,cre_loans_total,2855.0,$B,Federal Reserve,Total CRE loans at all banks
+2024-Q2,quarterly,cre_npl_ratio,2.15,%,Federal Reserve,CRE non-performing loan ratio
+2024-Q2,quarterly,cre_pct_total_loans,16.6,%,Federal Reserve,CRE loans as % of total loans
+2024-Q2,quarterly,discount_window_borrowing,0.5,$B,Federal Reserve,Discount Window borrowings
+2024-Q2,quarterly,efficiency_ratio,57.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2024-Q2,quarterly,fdic_fund_balance,52.5,$B,FDIC,FDIC insurance fund balance
+2024-Q2,quarterly,hqla_assets,4.92,$T,Federal Reserve,High-quality liquid assets
+2024-Q2,quarterly,leverage_ratio,9.4,%,Federal Reserve,Leverage ratio
+2024-Q2,quarterly,liquidity_coverage_ratio,158.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2024-Q2,quarterly,loan_loss_reserves,108.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2024-Q2,quarterly,loan_to_deposit_ratio,78.2,%,Federal Reserve,Loan-to-deposit ratio
+2024-Q2,quarterly,multifamily_loans,928.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2024-Q2,quarterly,net_chargeoff_rate,0.6,%,FDIC,Net charge-off rate
+2024-Q2,quarterly,net_interest_margin,3.28,%,Federal Reserve,Net interest margin - average
+2024-Q2,quarterly,net_pct_tightening_cre,12.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2024-Q2,quarterly,nib_deposits_total,6.08,$T,Federal Reserve,Non-interest-bearing deposits
+2024-Q2,quarterly,nonbank_cre_lending,440.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2024-Q2,quarterly,nonbank_market_share_cre,13.3,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2024-Q2,quarterly,npl_ratio,1.28,%,FDIC/Federal Reserve,Non-performing loans ratio
+2024-Q2,quarterly,ppnr_total,88.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2024-Q2,quarterly,private_credit_aum,805.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2024-Q2,quarterly,problem_banks_assets,162.8,$B,FDIC,Total assets of problem banks
+2024-Q2,quarterly,problem_banks_count,60.0,number,FDIC,Number of problem banks on FDIC list
+2024-Q2,quarterly,rate_shock_100bp_nii_impact,0.4,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2024-Q2,quarterly,roa_industry_avg,1.22,%,Federal Reserve/FDIC,Return on assets - industry average
+2024-Q2,quarterly,roe_industry_avg,12.2,%,Federal Reserve/FDIC,Return on equity - industry average
+2024-Q2,quarterly,tier1_capital_ratio,13.8,%,Federal Reserve,Tier 1 capital ratio
+2024-Q2,quarterly,total_capital_ratio,18.8,%,Federal Reserve,Total capital ratio
+2024-Q2,quarterly,total_deposits,16.68,$T,Federal Reserve,Total deposits at all banks
+2024-Q2,quarterly,uninsured_deposits_pct,35.5,%,Federal Reserve,Uninsured deposits as % of total
+2024-Q3,quarterly,asset_sensitivity_gap,95.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2024-Q3,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2024-Q3,quarterly,cet1_ratio,12.6,%,Federal Reserve,Common Equity Tier 1 ratio
+2024-Q3,quarterly,construction_dev_loans,562.0,$B,Federal Reserve,Construction & development loans
+2024-Q3,quarterly,cost_of_deposits,1.52,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2024-Q3,quarterly,cre_loan_demand,12.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2024-Q3,quarterly,cre_loan_growth_yoy,1.8,%,Federal Reserve,CRE loan growth year-over-year
+2024-Q3,quarterly,cre_loan_spreads,215.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2024-Q3,quarterly,cre_loans_total,2865.0,$B,Federal Reserve,Total CRE loans at all banks
+2024-Q3,quarterly,cre_npl_ratio,2.22,%,Federal Reserve,CRE non-performing loan ratio
+2024-Q3,quarterly,cre_pct_total_loans,16.5,%,Federal Reserve,CRE loans as % of total loans
+2024-Q3,quarterly,discount_window_borrowing,0.3,$B,Federal Reserve,Discount Window borrowings
+2024-Q3,quarterly,efficiency_ratio,56.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2024-Q3,quarterly,fdic_fund_balance,55.2,$B,FDIC,FDIC insurance fund balance
+2024-Q3,quarterly,hqla_assets,5.0,$T,Federal Reserve,High-quality liquid assets
+2024-Q3,quarterly,leverage_ratio,9.5,%,Federal Reserve,Leverage ratio
+2024-Q3,quarterly,liquidity_coverage_ratio,159.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2024-Q3,quarterly,loan_loss_reserves,110.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2024-Q3,quarterly,loan_to_deposit_ratio,77.8,%,Federal Reserve,Loan-to-deposit ratio
+2024-Q3,quarterly,multifamily_loans,925.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2024-Q3,quarterly,net_chargeoff_rate,0.62,%,FDIC,Net charge-off rate
+2024-Q3,quarterly,net_interest_margin,3.15,%,Federal Reserve,Net interest margin - average
+2024-Q3,quarterly,net_pct_tightening_cre,8.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2024-Q3,quarterly,nib_deposits_total,6.02,$T,Federal Reserve,Non-interest-bearing deposits
+2024-Q3,quarterly,nonbank_cre_lending,448.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2024-Q3,quarterly,nonbank_market_share_cre,13.5,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2024-Q3,quarterly,npl_ratio,1.3,%,FDIC/Federal Reserve,Non-performing loans ratio
+2024-Q3,quarterly,ppnr_total,91.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2024-Q3,quarterly,private_credit_aum,855.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2024-Q3,quarterly,problem_banks_assets,145.5,$B,FDIC,Total assets of problem banks
+2024-Q3,quarterly,problem_banks_count,55.0,number,FDIC,Number of problem banks on FDIC list
+2024-Q3,quarterly,rate_shock_100bp_nii_impact,0.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2024-Q3,quarterly,roa_industry_avg,1.25,%,Federal Reserve/FDIC,Return on assets - industry average
+2024-Q3,quarterly,roe_industry_avg,12.5,%,Federal Reserve/FDIC,Return on equity - industry average
+2024-Q3,quarterly,tier1_capital_ratio,13.9,%,Federal Reserve,Tier 1 capital ratio
+2024-Q3,quarterly,total_capital_ratio,18.9,%,Federal Reserve,Total capital ratio
+2024-Q3,quarterly,total_deposits,16.85,$T,Federal Reserve,Total deposits at all banks
+2024-Q3,quarterly,uninsured_deposits_pct,34.8,%,Federal Reserve,Uninsured deposits as % of total
+2025-Q1,quarterly,asset_sensitivity_gap,85.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2025-Q1,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2025-Q1,quarterly,cet1_ratio,12.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2025-Q1,quarterly,construction_dev_loans,560.0,$B,Federal Reserve,Construction & development loans
+2025-Q1,quarterly,cost_of_deposits,1.45,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2025-Q1,quarterly,cre_loan_demand,18.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2025-Q1,quarterly,cre_loan_growth_yoy,1.8,%,Federal Reserve,CRE loan growth year-over-year
+2025-Q1,quarterly,cre_loan_spreads,195.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2025-Q1,quarterly,cre_loans_total,2870.0,$B,Federal Reserve,Total CRE loans at all banks
+2025-Q1,quarterly,cre_npl_ratio,2.18,%,Federal Reserve,CRE non-performing loan ratio
+2025-Q1,quarterly,cre_pct_total_loans,16.5,%,Federal Reserve,CRE loans as % of total loans
+2025-Q1,quarterly,discount_window_borrowing,0.2,$B,Federal Reserve,Discount Window borrowings
+2025-Q1,quarterly,efficiency_ratio,57.2,%,Federal Reserve,Efficiency ratio (lower is better)
+2025-Q1,quarterly,fdic_fund_balance,57.8,$B,FDIC,FDIC insurance fund balance
+2025-Q1,quarterly,hqla_assets,5.08,$T,Federal Reserve,High-quality liquid assets
+2025-Q1,quarterly,leverage_ratio,9.4,%,Federal Reserve,Leverage ratio
+2025-Q1,quarterly,liquidity_coverage_ratio,159.8,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2025-Q1,quarterly,loan_loss_reserves,108.8,$B,FDIC/Federal Reserve,Total loan loss reserves
+2025-Q1,quarterly,loan_to_deposit_ratio,77.5,%,Federal Reserve,Loan-to-deposit ratio
+2025-Q1,quarterly,multifamily_loans,922.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2025-Q1,quarterly,net_chargeoff_rate,0.6,%,FDIC,Net charge-off rate
+2025-Q1,quarterly,net_interest_margin,3.05,%,Federal Reserve,Net interest margin - average
+2025-Q1,quarterly,net_pct_tightening_cre,5.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2025-Q1,quarterly,nib_deposits_total,5.98,$T,Federal Reserve,Non-interest-bearing deposits
+2025-Q1,quarterly,nonbank_cre_lending,455.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2025-Q1,quarterly,nonbank_market_share_cre,13.7,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2025-Q1,quarterly,npl_ratio,1.28,%,FDIC/Federal Reserve,Non-performing loans ratio
+2025-Q1,quarterly,ppnr_total,89.8,$B,Federal Reserve,Pre-provision net revenue - industry total
+2025-Q1,quarterly,private_credit_aum,905.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2025-Q1,quarterly,problem_banks_assets,125.8,$B,FDIC,Total assets of problem banks
+2025-Q1,quarterly,problem_banks_count,48.0,number,FDIC,Number of problem banks on FDIC list
+2025-Q1,quarterly,rate_shock_100bp_nii_impact,0.0,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2025-Q1,quarterly,roa_industry_avg,1.18,%,Federal Reserve/FDIC,Return on assets - industry average
+2025-Q1,quarterly,roe_industry_avg,11.8,%,Federal Reserve/FDIC,Return on equity - industry average
+2025-Q1,quarterly,tier1_capital_ratio,13.8,%,Federal Reserve,Tier 1 capital ratio
+2025-Q1,quarterly,total_capital_ratio,18.8,%,Federal Reserve,Total capital ratio
+2025-Q1,quarterly,total_deposits,16.98,$T,Federal Reserve,Total deposits at all banks
+2025-Q1,quarterly,uninsured_deposits_pct,34.2,%,Federal Reserve,Uninsured deposits as % of total
+2025-Q2,quarterly,asset_sensitivity_gap,75.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2025-Q2,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2025-Q2,quarterly,cet1_ratio,12.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2025-Q2,quarterly,construction_dev_loans,558.0,$B,Federal Reserve,Construction & development loans
+2025-Q2,quarterly,cost_of_deposits,1.38,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2025-Q2,quarterly,cre_loan_demand,22.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2025-Q2,quarterly,cre_loan_growth_yoy,1.7,%,Federal Reserve,CRE loan growth year-over-year
+2025-Q2,quarterly,cre_loan_spreads,185.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2025-Q2,quarterly,cre_loans_total,2875.0,$B,Federal Reserve,Total CRE loans at all banks
+2025-Q2,quarterly,cre_npl_ratio,2.12,%,Federal Reserve,CRE non-performing loan ratio
+2025-Q2,quarterly,cre_pct_total_loans,16.5,%,Federal Reserve,CRE loans as % of total loans
+2025-Q2,quarterly,discount_window_borrowing,0.2,$B,Federal Reserve,Discount Window borrowings
+2025-Q2,quarterly,efficiency_ratio,57.5,%,Federal Reserve,Efficiency ratio (lower is better)
+2025-Q2,quarterly,fdic_fund_balance,60.2,$B,FDIC,FDIC insurance fund balance
+2025-Q2,quarterly,hqla_assets,5.15,$T,Federal Reserve,High-quality liquid assets
+2025-Q2,quarterly,leverage_ratio,9.4,%,Federal Reserve,Leverage ratio
+2025-Q2,quarterly,liquidity_coverage_ratio,160.2,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2025-Q2,quarterly,loan_loss_reserves,106.5,$B,FDIC/Federal Reserve,Total loan loss reserves
+2025-Q2,quarterly,loan_to_deposit_ratio,77.2,%,Federal Reserve,Loan-to-deposit ratio
+2025-Q2,quarterly,multifamily_loans,920.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2025-Q2,quarterly,net_chargeoff_rate,0.58,%,FDIC,Net charge-off rate
+2025-Q2,quarterly,net_interest_margin,3.02,%,Federal Reserve,Net interest margin - average
+2025-Q2,quarterly,net_pct_tightening_cre,2.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2025-Q2,quarterly,nib_deposits_total,5.95,$T,Federal Reserve,Non-interest-bearing deposits
+2025-Q2,quarterly,nonbank_cre_lending,462.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2025-Q2,quarterly,nonbank_market_share_cre,13.9,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2025-Q2,quarterly,npl_ratio,1.25,%,FDIC/Federal Reserve,Non-performing loans ratio
+2025-Q2,quarterly,ppnr_total,91.5,$B,Federal Reserve,Pre-provision net revenue - industry total
+2025-Q2,quarterly,private_credit_aum,955.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2025-Q2,quarterly,problem_banks_assets,115.2,$B,FDIC,Total assets of problem banks
+2025-Q2,quarterly,problem_banks_count,45.0,number,FDIC,Number of problem banks on FDIC list
+2025-Q2,quarterly,rate_shock_100bp_nii_impact,-0.2,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2025-Q2,quarterly,roa_industry_avg,1.2,%,Federal Reserve/FDIC,Return on assets - industry average
+2025-Q2,quarterly,roe_industry_avg,12.0,%,Federal Reserve/FDIC,Return on equity - industry average
+2025-Q2,quarterly,tier1_capital_ratio,13.8,%,Federal Reserve,Tier 1 capital ratio
+2025-Q2,quarterly,total_capital_ratio,18.8,%,Federal Reserve,Total capital ratio
+2025-Q2,quarterly,total_deposits,17.08,$T,Federal Reserve,Total deposits at all banks
+2025-Q2,quarterly,uninsured_deposits_pct,33.8,%,Federal Reserve,Uninsured deposits as % of total
+2025-Q3,quarterly,asset_sensitivity_gap,65.0,$B,Federal Reserve,Rate-sensitive assets - liabilities (100bp shock)
+2025-Q3,quarterly,bank_failures_ytd,0.0,number,FDIC,Bank failures year-to-date
+2025-Q3,quarterly,cet1_ratio,12.5,%,Federal Reserve,Common Equity Tier 1 ratio
+2025-Q3,quarterly,construction_dev_loans,555.0,$B,Federal Reserve,Construction & development loans
+2025-Q3,quarterly,cost_of_deposits,1.32,%,Federal Reserve,Cost of deposits (interest expense / avg deposits)
+2025-Q3,quarterly,cre_loan_demand,25.0,net%,Fed Senior Loan Officer Opinion Survey,Net % reporting stronger CRE loan demand
+2025-Q3,quarterly,cre_loan_growth_yoy,1.5,%,Federal Reserve,CRE loan growth year-over-year
+2025-Q3,quarterly,cre_loan_spreads,175.0,bps,Fed Senior Loan Officer Opinion Survey,CRE loan spreads over cost of funds
+2025-Q3,quarterly,cre_loans_total,2880.0,$B,Federal Reserve,Total CRE loans at all banks
+2025-Q3,quarterly,cre_npl_ratio,2.05,%,Federal Reserve,CRE non-performing loan ratio
+2025-Q3,quarterly,cre_pct_total_loans,16.5,%,Federal Reserve,CRE loans as % of total loans
+2025-Q3,quarterly,discount_window_borrowing,0.1,$B,Federal Reserve,Discount Window borrowings
+2025-Q3,quarterly,efficiency_ratio,57.8,%,Federal Reserve,Efficiency ratio (lower is better)
+2025-Q3,quarterly,fdic_fund_balance,62.8,$B,FDIC,FDIC insurance fund balance
+2025-Q3,quarterly,hqla_assets,5.22,$T,Federal Reserve,High-quality liquid assets
+2025-Q3,quarterly,leverage_ratio,9.4,%,Federal Reserve,Leverage ratio
+2025-Q3,quarterly,liquidity_coverage_ratio,160.5,%,Federal Reserve,Liquidity coverage ratio (LCR)
+2025-Q3,quarterly,loan_loss_reserves,104.2,$B,FDIC/Federal Reserve,Total loan loss reserves
+2025-Q3,quarterly,loan_to_deposit_ratio,77.0,%,Federal Reserve,Loan-to-deposit ratio
+2025-Q3,quarterly,multifamily_loans,918.0,$B,Federal Reserve,Multifamily loan portfolio at all banks
+2025-Q3,quarterly,net_chargeoff_rate,0.55,%,FDIC,Net charge-off rate
+2025-Q3,quarterly,net_interest_margin,3.0,%,Federal Reserve,Net interest margin - average
+2025-Q3,quarterly,net_pct_tightening_cre,-2.0,%,Fed Senior Loan Officer Opinion Survey,Net % banks tightening CRE standards
+2025-Q3,quarterly,nib_deposits_total,5.92,$T,Federal Reserve,Non-interest-bearing deposits
+2025-Q3,quarterly,nonbank_cre_lending,470.0,$B,Federal Reserve/Industry Data,Non-bank CRE lending volume
+2025-Q3,quarterly,nonbank_market_share_cre,14.1,%,Federal Reserve/Industry Data,Non-bank market share in CRE lending
+2025-Q3,quarterly,npl_ratio,1.22,%,FDIC/Federal Reserve,Non-performing loans ratio
+2025-Q3,quarterly,ppnr_total,93.2,$B,Federal Reserve,Pre-provision net revenue - industry total
+2025-Q3,quarterly,private_credit_aum,1005.0,$B,Preqin/Bloomberg,Private credit funds AUM (including CRE exposure)
+2025-Q3,quarterly,problem_banks_assets,105.8,$B,FDIC,Total assets of problem banks
+2025-Q3,quarterly,problem_banks_count,42.0,number,FDIC,Number of problem banks on FDIC list
+2025-Q3,quarterly,rate_shock_100bp_nii_impact,-0.4,%,Federal Reserve,Estimated impact of 100bp rate change on NII
+2025-Q3,quarterly,roa_industry_avg,1.22,%,Federal Reserve/FDIC,Return on assets - industry average
+2025-Q3,quarterly,roe_industry_avg,12.2,%,Federal Reserve/FDIC,Return on equity - industry average
+2025-Q3,quarterly,tier1_capital_ratio,13.8,%,Federal Reserve,Tier 1 capital ratio
+2025-Q3,quarterly,total_capital_ratio,18.8,%,Federal Reserve,Total capital ratio
+2025-Q3,quarterly,total_deposits,17.18,$T,Federal Reserve,Total deposits at all banks
+2025-Q3,quarterly,uninsured_deposits_pct,33.5,%,Federal Reserve,Uninsured deposits as % of total

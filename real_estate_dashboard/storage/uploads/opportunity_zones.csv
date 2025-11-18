@@ -1,0 +1,16 @@
+market,num_opportunity_zones,total_acres_in_oz,investment_in_oz_mm,development_projects_in_oz,oz_residential_units,oz_commercial_sf,avg_cap_rate_compression_bps,oz_designation_date,data_source,period
+"New York City, NY",44,4298,3291,50,7838,10450897,144,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Los Angeles, CA",35,17006,5428,140,24706,4318370,79,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"San Francisco, CA",60,36138,289,29,18035,3069862,127,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Miami, FL",30,41896,194,139,10770,11056316,148,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Chicago, IL",47,44622,2380,241,14836,6700369,103,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Boston, MA",40,16800,3948,179,24690,9584854,150,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+Washington DC,58,40804,963,28,19261,11962480,92,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Seattle, WA",79,44924,4989,169,12280,12332547,58,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Austin, TX",69,6683,2879,166,23491,6304894,80,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Denver, CO",41,22081,1668,101,19450,4881599,52,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Dallas, TX",84,28982,2743,96,26135,1277068,128,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Atlanta, GA",71,21872,2250,239,15757,7364172,139,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Phoenix, AZ",12,40709,4811,122,13744,4580635,132,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Nashville, TN",76,44332,4022,208,19123,5886433,66,2018-04-01,US Treasury/Local Economic Development,2024-Q3
+"Charlotte, NC",79,14370,2531,74,17926,2996546,139,2018-04-01,US Treasury/Local Economic Development,2024-Q3

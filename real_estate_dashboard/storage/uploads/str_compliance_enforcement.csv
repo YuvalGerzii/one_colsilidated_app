@@ -1,0 +1,16 @@
+market,registered_licensed_str_pct,estimated_illegal_unregistered_listings,enforcement_actions_per_year,total_fines_levied_mm,conversions_str_to_ltr_units_per_year,data_source,period
+"New York, NY",40.0,6511,405,0.6,35,City Enforcement Records,2024
+"Los Angeles, CA",48.2,5827,56,0.48,30,City Enforcement Records,2024
+"San Francisco, CA",62.6,1512,95,0.11,65,City Enforcement Records,2024
+"Miami, FL",69.5,2314,255,0.8,37,City Enforcement Records,2024
+"Chicago, IL",49.4,3251,159,1.79,66,City Enforcement Records,2024
+"Boston, MA",38.6,1651,134,2.32,108,City Enforcement Records,2024
+"Washington, DC",74.6,1150,316,1.69,33,City Enforcement Records,2024
+"Seattle, WA",56.3,2228,293,0.64,27,City Enforcement Records,2024
+"Austin, TX",80.4,1883,438,0.44,15,City Enforcement Records,2024
+"Denver, CO",43.3,1951,172,1.53,113,City Enforcement Records,2024
+"Dallas, TX",63.5,1634,162,1.15,67,City Enforcement Records,2024
+"Atlanta, GA",69.4,1643,373,1.07,42,City Enforcement Records,2024
+"Phoenix, AZ",60.0,2573,267,1.15,84,City Enforcement Records,2024
+"Nashville, TN",37.0,5346,236,1.86,85,City Enforcement Records,2024
+"Charlotte, NC",47.5,1679,61,0.65,94,City Enforcement Records,2024

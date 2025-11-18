@@ -1,0 +1,16 @@
+market,housing_units_lost_to_str,housing_units_lost_pct_of_stock,units_removed_from_ltr_market,estimated_rent_increase_attributed_str_pct,estimated_home_price_increase_pct,neighborhood_displacement_effect,data_source,period
+"New York, NY",10852,0.87,8139,4.1,7.0,Low,Housing Impact Analysis,2024
+"Los Angeles, CA",11250,2.8,8437,6.2,6.0,Low,Housing Impact Analysis,2024
+"San Francisco, CA",4043,1.39,3032,3.6,7.1,Moderate,Housing Impact Analysis,2024
+"Miami, FL",7589,2.69,5691,1.8,2.9,Moderate,Housing Impact Analysis,2024
+"Chicago, IL",6425,0.82,4818,4.0,4.2,Very High,Housing Impact Analysis,2024
+"Boston, MA",2689,1.38,2016,4.8,2.1,Very High,Housing Impact Analysis,2024
+"Washington, DC",4528,3.09,3396,1.6,5.2,High,Housing Impact Analysis,2024
+"Seattle, WA",5100,1.14,3825,4.2,3.7,Very High,Housing Impact Analysis,2024
+"Austin, TX",9610,2.47,7207,5.5,7.5,Low,Housing Impact Analysis,2024
+"Denver, CO",3441,2.59,2580,6.1,5.1,Moderate,Housing Impact Analysis,2024
+"Dallas, TX",4479,1.83,3359,2.5,5.2,High,Housing Impact Analysis,2024
+"Atlanta, GA",5370,1.37,4027,2.8,4.4,High,Housing Impact Analysis,2024
+"Phoenix, AZ",6434,2.51,4825,6.3,4.8,Moderate,Housing Impact Analysis,2024
+"Nashville, TN",8487,3.47,6365,6.5,3.4,Low,Housing Impact Analysis,2024
+"Charlotte, NC",3199,2.87,2399,4.8,7.1,Low,Housing Impact Analysis,2024

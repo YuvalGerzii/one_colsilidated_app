@@ -1,0 +1,79 @@
+# Multi-Agent System Configuration
+
+system:
+  name: "MultiAgentSystem"
+  max_agents: 10
+  parallel_execution: true
+  timeout: 300  # seconds
+  log_level: "INFO"
+
+orchestrator:
+  max_workers: 5
+  delegation_strategy: "capability_based"  # capability_based, round_robin, load_balanced
+  result_aggregation: "synthesis"  # synthesis, voting, best_of
+
+learning:
+  enabled: true
+  algorithm: "q_learning"  # q_learning, dqn, policy_gradient
+  learning_rate: 0.1
+  discount_factor: 0.95
+  exploration_rate: 0.2
+  exploration_decay: 0.995
+  min_exploration_rate: 0.01
+  batch_size: 32
+  replay_buffer_size: 10000
+  update_frequency: 10
+  save_frequency: 100  # episodes
+
+memory:
+  short_term_size: 1000
+  long_term_path: "./data/memory"
+  consolidation_interval: 3600  # seconds
+  consolidation_threshold: 0.7  # importance score
+  persistence_enabled: true
+
+communication:
+  message_queue_size: 1000
+  priority_enabled: true
+  broadcast_enabled: true
+  message_ttl: 300  # seconds
+  retry_attempts: 3
+  retry_delay: 1  # seconds
+
+agents:
+  worker_types:
+    - name: "researcher"
+      capabilities: ["web_search", "analysis", "information_gathering"]
+      max_instances: 2
+    - name: "coder"
+      capabilities: ["code_generation", "debugging", "refactoring"]
+      max_instances: 2
+    - name: "tester"
+      capabilities: ["test_creation", "validation", "quality_assurance"]
+      max_instances: 2
+    - name: "data_analyst"
+      capabilities: ["data_processing", "visualization", "statistical_analysis"]
+      max_instances: 1
+
+tools:
+  enabled_tools:
+    - file_operations
+    - code_execution
+    - web_access
+    - data_processing
+  sandbox_mode: true
+  execution_timeout: 60  # seconds
+
+rewards:
+  task_completion: 1.0
+  partial_completion: 0.5
+  task_failure: -0.5
+  efficiency_bonus: 0.2  # per second saved
+  quality_multiplier: 1.5
+  collaboration_bonus: 0.3
+
+paths:
+  data_dir: "./data"
+  models_dir: "./models"
+  logs_dir: "./logs"
+  cache_dir: "./cache"

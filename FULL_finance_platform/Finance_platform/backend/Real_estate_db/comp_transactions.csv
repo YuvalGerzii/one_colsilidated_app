@@ -1,0 +1,37 @@
+address,city,submarket,state,property_type,property_class,sale_date,sale_price,price_per_unit,price_per_sf,cap_rate,units,total_sf,year_built,buyer,seller,financing_type,occupancy_at_sale,deal_type,data_source,source_url,notes
+1 West End Ave,Manhattan,Upper West Side,NY,multifamily,A,2024-10-15,425000000,1728455,1052,0.0520,246,404000,,Undisclosed,Undisclosed,,,Arms Length,Ariel Property Advisors Q4 2024,,Top NYC transaction 2024
+555 Tenth Ave,Manhattan,Midtown West,NY,multifamily,A,2024-09-20,395000000,658333,580,0.0515,600,681000,,Institutional Buyer,Prior Owner,,,Arms Length,Ariel Property Advisors Q4 2024,,Major Hudson Yards area deal
+303 East 33rd St,Manhattan,Murray Hill,NY,multifamily,A,2024-08-12,383000000,767535,1161,0.0530,499,330000,,Real Estate Fund,Seller Entity,,,Arms Length,Ariel Property Advisors Q4 2024,,Prime Murray Hill location
+95 Wall St,Manhattan,Financial District,NY,multifamily,A,2024-07-18,237000000,467456,765,0.0560,507,310000,,Downtown Investor,Prior Owner,,,Arms Length,Ariel Property Advisors Q4 2024,,Financial District conversion
+60 Water St,Brooklyn,DUMBO,NY,multifamily,A,2024-06-25,205000000,561644,675,0.0540,365,304000,,Brooklyn Developer,Seller,,,Arms Length,Ariel Property Advisors Q4 2024,,Waterfront Brooklyn property
+The Hamilton,Miami,Downtown Miami,FL,multifamily,A,2024-12-10,190000000,690909,487,0.0500,275,390000,2020,Institutional Investor,Developer,,,Arms Length,MMG Equity Partners Q4 2024,,Premium downtown high-rise
+The Point at Lakeside,Miami,West Miami-Dade,FL,multifamily,B,2024-11-15,139250000,395596,347,0.0555,352,401000,2018,Miami Investor Group,Prior Owner,,,Arms Length,MMG Equity Partners Q4 2024,,Suburban Miami-Dade
+Palmera,Miami,Dadeland,FL,multifamily,B,2024-10-20,134028285,304609,244,0.0580,440,550000,2016,Real Estate Fund,Seller Entity,,,Arms Length,MMG Equity Partners Q4 2024,,South Miami location
+Pura Vida Apartments,Miami,North Miami,FL,multifamily,A,2024-09-12,95000000,365384,276,0.0520,260,344000,2019,Investor,Prior Owner,,,Arms Length,MMG Equity Partners Q4 2024,,North Miami market
+Town Aventura,Miami,Aventura,FL,multifamily,A,2024-08-08,82500000,289473,300,0.0510,285,275000,2017,Aventura Investor,Seller,,,Arms Length,MMG Equity Partners Q4 2024,,Luxury Aventura market
+245 Park Ave,Manhattan,Midtown,NY,office,A,2024-11-05,1235000000,,706,0.0710,,1750000,1967,SL Green,Prior Owner,,,Arms Length,Manhattan office reports,,Major Midtown trophy
+3 Hudson Blvd,Manhattan,Hudson Yards,NY,office,A,2024-09-15,775000000,,760,0.0690,,1020000,2022,Brookfield,Developer,,,Arms Length,Manhattan office reports,,Hudson Yards new development
+441 Ninth Ave,Manhattan,Manhattan West,NY,office,A,2024-08-22,664000000,,841,0.0670,,790000,2020,KKR,Prior Owner,,,Arms Length,Manhattan office reports,,Manhattan West complex
+375 Hudson St,Manhattan,SoHo,NY,office,A,2024-07-10,591000000,,537,0.0660,,1100000,1930,Norges Bank,Seller,,,Arms Length,Manhattan office reports,,Historic SoHo conversion
+1111 Brickell,Miami,Brickell,FL,office,A,2024-10-18,311000000,,504,0.0720,,617000,2015,Boston Properties,Prior Owner,,,Arms Length,Miami office reports,,Brickell CBD tower
+One Biscayne Tower,Miami,Downtown Miami,FL,office,A,2024-09-05,289000000,,413,0.0730,,700000,2001,Related Group,Seller,,,Arms Length,Miami office reports,,Downtown Miami landmark
+SunTrust Intl Ctr,Miami,Brickell,FL,office,A,2024-07-20,147000000,,350,0.0750,,420000,1987,Parkway Properties,Prior Owner,,,Arms Length,Miami office reports,,Established Brickell building
+98 Flatbush Ave,Brooklyn,Downtown Brooklyn,NY,multifamily,,2024-11-22,39200000,,,,,44000,,,L+M Development,Prior Owner,,,Development Site,Brooklyn development sites,,44000 SF development site
+739 Ocean Dr,Miami,Miami Beach,FL,multifamily,,2024-10-30,70200000,,1131,,,62100,,,Lennar,Prior Owner,,,Development Site,Miami Beach development,,Beach development opportunity
+2200 Biscayne,Miami,Midtown Miami,FL,mixed-use,,2024-09-18,52000000,,83,,,83000,,,Related Group,Seller,,,Development Site,Midtown Miami development,,Mixed-use development site
+Gowanus Canal Redev,Brooklyn,Gowanus,NY,mixed-use,,2024-08-14,93000000,,465,,,200000,,,Tishman Speyer,Prior Owner,,,Development Site,Gowanus rezoning,,Major rezoning area
+Gateway at Wynwood,Miami,Wynwood,FL,mixed-use,,2024-07-25,43725000,,795,,,55000,,,Goldman Sachs,Seller,,,Development Site,Wynwood Arts District,,Arts district development
+123 E Houston St,Manhattan,Lower East Side,NY,multifamily,C,2024-06-15,32500000,271084,,0.0720,120,,,Opportunistic Buyer,Lender,,,Foreclosure,Distressed sales database,,Foreclosure sale 35% discount
+Sunport Tower,Miami,Airport Area,FL,office,B,2024-05-20,18900000,,95,,199000,,,Distressed Buyer,Bankruptcy Trustee,,,Bankruptcy,Distressed sales database,,Hospitality distress 29% discount
+Astoria MF Bundle,Queens,Astoria,NY,multifamily,B,2024-11-08,239000000,487755,,0.0510,490,,,Portfolio Buyer,Multiple Sellers,,,Portfolio,Portfolio transaction reports,,6-property Astoria portfolio
+South FL SFR Fund IV,Miami,Miami/Broward,FL,sfr,,2024-10-12,175000000,546875,,,320,,,Institutional SFR,Fund Sponsor,,,Portfolio,Portfolio transaction reports,,8-property SFR portfolio
+Manhattan MF Portfolio,Manhattan,Various,NY,multifamily,B,2024-09-20,156000000,433333,,0.0560,360,,,Fund Buyer,Prior Owner,,,Portfolio,Portfolio transaction reports,,3-property Manhattan portfolio
+Brooklyn Heights Bundle,Brooklyn,Brooklyn Heights,NY,multifamily,A,2024-08-15,128000000,512000,,0.0520,250,,,Brooklyn Investor,Seller Group,,,Portfolio,Portfolio transaction reports,,2-property Heights portfolio
+Coral Gables Office,Miami,Coral Gables,FL,office,A,2024-11-28,94500000,,450,0.0650,,210000,2005,Coral Gables Fund,Prior Owner,Financed,0.89,Arms Length,Coral Gables transaction reports,,Class A suburban office
+Fort Lauderdale MF,Fort Lauderdale,Downtown,FL,multifamily,A,2024-10-22,78400000,313600,392,0.0560,250,200000,2017,Lauderdale Investor,Seller,Financed,0.94,Arms Length,Broward transaction reports,,Downtown Fort Lauderdale
+West Palm Beach Office,West Palm Beach,Downtown,FL,office,A,2024-09-14,62300000,,297,0.0680,,210000,1998,Palm Beach Fund,Prior Owner,Financed,0.87,Arms Length,Palm Beach reports,,Downtown West Palm office
+Staten Island MF,Staten Island,North Shore,NY,multifamily,B,2024-08-20,45600000,304000,,0.0650,150,,,Staten Island Buyer,Seller,Financed,0.91,Arms Length,Staten Island reports,,North Shore location
+Queens Industrial,Queens,Long Island City,NY,office,B,2024-07-18,38900000,,194,0.0720,,200500,1985,Industrial Fund,Prior Owner,Cash,0.85,Arms Length,Queens transaction reports,,Industrial conversion potential
+Miami Gardens MF,Miami,Miami Gardens,FL,multifamily,C,2024-06-25,28700000,239167,,0.0620,120,,,Local Investor,Prior Owner,Financed,0.88,Arms Length,Miami Gardens reports,,Workforce housing
+Bronx Value-Add,Bronx,South Bronx,NY,multifamily,C,2024-05-30,22400000,186667,,0.0740,120,,,Value-Add Fund,Seller,Financed,0.82,Value-Add,Bronx transaction reports,,Value-add opportunity
+Hialeah MF,Miami,Hialeah,FL,multifamily,B,2024-05-15,31200000,260000,,0.0610,120,,,Hialeah Investor,Prior Owner,Financed,0.90,Arms Length,Hialeah reports,,Hialeah workforce housing

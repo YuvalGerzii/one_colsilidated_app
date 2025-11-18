@@ -1,0 +1,86 @@
+# Market Intelligence Daily Update - Cron Configuration
+#
+# This file contains example cron jobs for updating market intelligence data.
+# Copy the relevant lines to your crontab (crontab -e)
+#
+# IMPORTANT: Adjust paths and times according to your setup
+
+# Set environment variables
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHON=/usr/local/bin/python3
+
+# ============================================================================
+# DAILY UPDATE (Recommended: 6 PM EST after market close)
+# ============================================================================
+
+# Run daily at 6:00 PM EST (18:00)
+0 18 * * * cd /home/user/real_estate_dashboard/backend && /usr/local/bin/python3 scripts/update_market_intelligence.py >> /var/log/market_intelligence/daily_update.log 2>&1
+
+# Alternative: Run daily at 7:00 PM EST (after market data is settled)
+0 19 * * * cd /home/user/real_estate_dashboard/backend && /usr/local/bin/python3 scripts/update_market_intelligence.py
+
+# ============================================================================
+# WEEKEND UPDATE (Optional: Run on weekends for week-ahead data)
+# ============================================================================
+
+# Run Sunday evening at 8:00 PM for economic calendar updates
+0 20 * * 0 cd /home/user/real_estate_dashboard/backend && /usr/local/bin/python3 scripts/update_market_intelligence.py
+
+# ============================================================================
+# RETRY MECHANISM (Optional: Retry if morning update failed)
+# ============================================================================
+
+# Retry at 9:00 PM if 6 PM update had issues
+0 21 * * * cd /home/user/real_estate_dashboard/backend && /usr/local/bin/python3 scripts/update_market_intelligence.py --force
+
+# ============================================================================
+# MONITORING (Optional: Check logs for failures)
+# ============================================================================
+
+# Email notification if update failed (requires mailx)
+5 18 * * * grep "❌" /var/log/market_intelligence/daily_update.log | tail -10 | mail -s "Market Intelligence Update Alert" admin@yourdomain.com
+
+# ============================================================================
+# LOG ROTATION (Clean up old logs)
+# ============================================================================
+
+# Clean logs older than 30 days every Sunday
+0 1 * * 0 find /var/log/market_intelligence -name "*.log" -mtime +30 -delete
+
+# ============================================================================
+# EXAMPLES FOR DIFFERENT TIMEZONES
+# ============================================================================
+
+# For UTC timezone (6 PM EST = 11 PM UTC / 23:00 UTC)
+# 0 23 * * * cd /home/user/real_estate_dashboard/backend && python3 scripts/update_market_intelligence.py
+
+# For PST timezone (6 PM EST = 3 PM PST / 15:00 PST)
+# 0 15 * * * cd /home/user/real_estate_dashboard/backend && python3 scripts/update_market_intelligence.py
+
+# For London time (6 PM EST = 11 PM GMT / 23:00 GMT)
+# 0 23 * * * cd /home/user/real_estate_dashboard/backend && python3 scripts/update_market_intelligence.py
+
+# ============================================================================
+# SETUP INSTRUCTIONS
+# ============================================================================
+#
+# 1. Create log directory:
+#    sudo mkdir -p /var/log/market_intelligence
+#    sudo chown $USER:$USER /var/log/market_intelligence
+#
+# 2. Test the script manually:
+#    cd /home/user/real_estate_dashboard/backend
+#    python3 scripts/update_market_intelligence.py
+#
+# 3. Add to crontab:
+#    crontab -e
+#    # Copy desired line from above
+#
+# 4. Verify crontab:
+#    crontab -l
+#
+# 5. Check logs:
+#    tail -f /var/log/market_intelligence/daily_update.log
+#
+# ============================================================================

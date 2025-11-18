@@ -1,0 +1,143 @@
+# Bond.AI Development Environment
+# Docker Compose for local development
+
+version: '3.8'
+
+services:
+  # PostgreSQL Database with pgvector
+  postgres:
+    image: ankane/pgvector:v0.5.1
+    container_name: bondai-postgres
+    environment:
+      POSTGRES_DB: bondai
+      POSTGRES_USER: bondai_user
+      POSTGRES_PASSWORD: bondai_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./server/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bondai_user -d bondai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: bondai-redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Ollama (Local LLM)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: bondai-ollama
+    ports:
+      - "11435:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # For CPU-only, remove the deploy section and uncomment below:
+    # command: serve
+
+  # Python Agents Service (Enhanced Matching)
+  python-agents:
+    build:
+      context: ./python-agents
+      dockerfile: Dockerfile
+    container_name: bondai-python-agents
+    environment:
+      PYTHONPATH: /app:/app/..
+      LOG_LEVEL: INFO
+    ports:
+      - "8005:8000"
+    volumes:
+      - ./python-agents:/app
+      - ../:/workspace  # Access to multi_agent_system
+    command: python api_server.py
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # API Server
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: bondai-api
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: bondai
+      DB_USER: bondai_user
+      DB_PASSWORD: bondai_password
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: llama2
+      JWT_SECRET: development-secret-key
+      PYTHON_AGENTS_URL: http://python-agents:8000
+      ENABLE_PYTHON_AGENTS: "true"
+      CORS_ORIGIN: http://localhost:5174
+    ports:
+      - "3002:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    command: npm run dev
+
+  # Frontend Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: bondai-frontend
+    environment:
+      VITE_API_URL: http://localhost:3002
+      DOCKER_ENV: "true"
+    ports:
+      - "5174:5173"
+    depends_on:
+      - api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: npm run dev -- --host 0.0.0.0
+
+volumes:
+  postgres-data:
+    driver: local
+  redis-data:
+    driver: local
+  ollama-data:
+    driver: local
+
+networks:
+  default:
+    name: bondai-network

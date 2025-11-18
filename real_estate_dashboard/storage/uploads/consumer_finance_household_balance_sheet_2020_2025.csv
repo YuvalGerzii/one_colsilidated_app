@@ -1,0 +1,95 @@
+period,metric_category,metric_name,value,unit,data_source,notes
+2020-03,Employment & Labor Market,Unemployment Rate,4.4,%,BLS,March 2020 COVID spike
+2020-03,Mortgage Market,Average 30-Year Fixed Rate,3.16,%,Various,Mar 2020 pandemic era
+2020-12,Income & Wages,Median Household Income,81580,$ annual,Census Bureau,2020 estimate
+2021-04,Savings & Wealth,Personal Saving Rate Peak,33.8,% of DPI,BEA,April 2020 COVID peak
+2021-12,Income & Wages,Median Household Income,81270,$ annual,Census Bureau,2021 estimate
+2021-Q4,Savings & Wealth,Household Net Worth Peak,182,$T,FRB,Q4 2021 peak
+2022-06,Consumer Confidence,Michigan Consumer Sentiment Index Low,50.2,Index,U Michigan,June 2022 near historic low
+2022-12,Income & Wages,Median Household Income,79500,$ annual,Census Bureau,2022 estimate
+2022-12,Income & Wages,Real Median Household Income YoY Growth,-2.3,%,Census Bureau,2022 inflation-adjusted decline
+2023-10,Mortgage Market,Average 30-Year Fixed Rate,7.84,%,Various,Peak Oct 2023
+2023-12,Income & Wages,Real Median Household Income YoY Growth,3.8,%,Census Bureau,2023 vs 2022
+2023-12,Employment & Labor Market,Unemployment Rate,3.8,%,BLS,Q4 2023
+2023-12,Housing Affordability,Home Ownership Rate,65.8,%,Census,Q4 2023
+2023-12,Savings & Wealth,Personal Saving Rate,3.9,% of DPI,BEA,2023
+2023-12,Income & Wages,Median Household Income,82690,$ annual,Census Bureau,2023 estimate
+2023-Q4,Savings & Wealth,Household Net Worth,172,$T,FRB,Q4 2023
+2024-04,Mortgage Market,Average 30-Year Fixed Rate,7.0,%,Various,Peak in 2024
+2024-12,Housing Affordability,Home Price-to-Income Ratio,5.2,Ratio,Analysis,Median home/$83.7K income
+2024-12,Credit Quality,% Population with Score >720,45,%,Various,Estimated
+2024-12,Credit Quality,Average Credit Score (FICO),715,Score,Various,Estimated 2024
+2024-12,Generational Wealth,Gen X Average Income,92000,$,Various,Ages 44-59
+2024-12,Consumer Spending,E-commerce as % of Total Retail,15.5,%,Census,Estimated 2024
+2024-12,Housing Affordability,Median Monthly Mortgage Payment,2800,$,MBA,Still elevated vs historical
+2024-12,Income & Wages,Median Household Income,83730,$ annual,Census Bureau,2024 CPI-U dollars
+2024-12,Housing Affordability,Home Ownership Rate,65.0,%,Census,Q4 2024
+2024-12,Housing Affordability,Rent Burden - Median Renter,32,% of income,JCHS,Record high rent burden
+2024-12,Housing Affordability,Cost-Burdened Renters,22.6,millions,JCHS,Paying >30% of income
+2024-12,Housing Affordability,Severely Cost-Burdened Renters,12.1,millions,JCHS,Paying >50% of income
+2024-12,Housing Affordability,Rent Affordability - Below $1000/mo Units,17.2,millions,JCHS,Down 30% from 24.8M in 2013
+2024-12,Generational Wealth,Gen Z Home Ownership Rate,32,%,Various,"Ages 18-27, improving"
+2024-12,Generational Wealth,Millennials Home Ownership Rate,48,%,Various,Ages 28-43
+2024-12,Generational Wealth,Gen X Home Ownership Rate,75,%,Various,Ages 44-59
+2024-12,Generational Wealth,Baby Boomer Home Ownership Rate,82,%,Various,Ages 60+
+2024-12,Generational Wealth,Millennials Average Net Worth,285000,$,Various,Below Baby Boomers
+2024-12,Generational Wealth,Gen X Average Net Worth,920000,$,Various,Peak earning years
+2024-12,Generational Wealth,Baby Boomer Average Net Worth,1215000,$,Various,Pre-retirement
+2024-12,Generational Wealth,Millennials Average Income,68000,$,Various,Ages 28-43
+2024-12,Housing Affordability,Mortgage Payment to Income Ratio,40,%,Analysis,High burden
+2024-12,Mortgage Market,Total Mortgage Loans Expected 2025,6500000,loans,MBA,28% increase in loan count
+2024-12,Generational Wealth,Millennials Student Debt-to-Income,18,%,Various,Higher burden vs Gen X
+2024-12,Mortgage Market,Total Mortgage Originations Expected 2024,1790,$B,MBA,2024 forecast
+2024-12,Consumer Debt,Average Student Loan Debt per Borrower,38189,$,Federal Reserve,8.35x credit card debt
+2024-12,Consumer Debt,Average Auto Loan per Account,15127,$,Federal Reserve,Q3 2024
+2024-12,Mortgage Market,Purchase Originations Expected 2025,1460,$B,MBA,13% increase vs 2024
+2024-12,Employment & Labor Market,Unemployment - Bachelor's Degree+,2.5,%,BLS,Q4 2024
+2024-12,Consumer Debt,Household Debt-to-Income Ratio,82,%,Analysis,Near pre-pandemic 86%
+2024-12,Employment & Labor Market,Employment-to-Population Ratio,59.9,%,BLS,Q4 2024
+2024-12,Employment & Labor Market,Unemployment - Less than HS Diploma,6.1,%,BLS,Q4 2024
+2024-12,Employment & Labor Market,Unemployment Rate,4.2,%,BLS,"Q4 2024, up from 3.8% year-ago"
+2024-12,Income & Wages,Average Hourly Earnings,34.71,$,BLS,Q4 2024
+2024-12,Income & Wages,Real Median Personal Income YoY Growth,4.2,%,Census Bureau,2024 outpaced household
+2024-12,Mortgage Market,Total Mortgage Originations Expected 2025,2300,$B,MBA,28.5% increase vs 2024
+2024-12,Income & Wages,Real Median Household Income YoY Growth,1.2,%,Census Bureau,2024 vs 2023
+2024-12,Employment & Labor Market,Labor Force Participation Rate,62.5,%,BLS,Q4 2024
+2024-12,Consumer Debt,Average Credit Card Balance per Account,1942,$,Federal Reserve,Q3 2024
+2024-Q2,Consumer Spending,Retail Sales,690,$B,Commerce Dept,Q2 2024
+2024-Q2,Savings & Wealth,Personal Saving Rate,4.2,% of DPI,BEA,Q2 2024
+2024-Q3,Consumer Debt,Auto Loan Debt,1.395,$T,Federal Reserve,Calculated from per-account
+2024-Q3,Consumer Debt,Mortgage Debt,12.5,$T,Federal Reserve,69.7% of total debt
+2024-Q3,Consumer Debt,Student Loan Debt,1.774,$T,Federal Reserve,9.82% of household debt
+2024-Q3,Consumer Debt,Total Household Debt,17.9,$T,Federal Reserve,Q3 2024
+2024-Q3,Consumer Debt,Credit Card Debt,1.166,$T,Federal Reserve,6.45% of household debt
+2024-Q3,Consumer Spending,PCE Growth Real YoY,1.4,%,BEA,Q3 2024 inflation-adjusted
+2024-Q3,Credit Quality,Auto Loan Delinquency Rate 30+ Days,2.41,%,Federal Reserve,Q3 2024
+2024-Q3,Consumer Spending,Personal Consumption Expenditures,18500,$B annualized,BEA,Q3 2024
+2024-Q3,Savings & Wealth,Financial Assets,87,$T,FRB,Q3 2024
+2024-Q3,Savings & Wealth,Real Estate Wealth,58,$T,FRB,Q3 2024
+2024-Q3,Savings & Wealth,Household Net Worth,175,$T,FRB,Q3 2024
+2024-Q3,Credit Quality,Credit Card Delinquency Rate 30+ Days,2.95,%,Federal Reserve,Q3 2024
+2024-Q3,Credit Quality,Student Loan Delinquency Rate 90+ Days,3.2,%,Federal Reserve,Q3 2024
+2024-Q3,Credit Quality,Mortgage Delinquency Rate 30+ Days,0.71,%,Federal Reserve,Q3 2024
+2024-Q3,Consumer Spending,PCE Growth YoY,2.8,%,BEA,Q3 2024 nominal
+2025-08,Income & Wages,Average Hourly Earnings Growth YoY,3.8,%,BLS,Aug 2025
+2025-08,Income & Wages,Average Hourly Earnings,35.49,$,BLS,"All employees, private sector"
+2025-08,Employment & Labor Market,Unemployment Rate,4.2,%,BLS,Aug 2025
+2025-08,Employment & Labor Market,Labor Force Participation Rate,62.3,%,BLS,Aug 2025 - lowest since Dec 2022
+2025-08,Employment & Labor Market,Employment-to-Population Ratio,59.6,%,BLS,Aug 2025
+2025-09,Consumer Confidence,Michigan Consumer Sentiment Index,55.1,Index,U Michigan,Sep 2025
+2025-10,Consumer Confidence,Michigan Consumer Sentiment Index,53.6,Index,U Michigan,"Oct 2025, revised down"
+2025-11,Consumer Confidence,Michigan Consumer Sentiment Index,50.3,Index,U Michigan,"Nov 2025, 2nd lowest on record"
+2025-11,Consumer Confidence,5-Year Inflation Expectations,3.6,%,U Michigan,Nov 2025
+2025-11,Consumer Confidence,Year-Ahead Inflation Expectations,4.7,%,U Michigan,Nov 2025
+2025-11,Consumer Confidence,Consumer Expectations Index,49.0,Index,U Michigan,"Nov 2025, 6-month low"
+2025-11,Consumer Confidence,Current Economic Conditions Index,52.3,Index,U Michigan,"Nov 2025, all-time low"
+2025-Q1,Housing Affordability,Home Ownership Rate,65.2,%,Census,Q1 2025
+2025-Q1,Credit Quality,Student Loan Delinquencies Increasing,Yes,Direction,Federal Reserve,First time in 5 years
+2025-Q1,Mortgage Market,Purchase Mortgage Originations,593000,loans,ATTOM,Q1 2025 count
+2025-Q1,Mortgage Market,Total Mortgage Origination Count,1400000,loans,ATTOM,1.4M loans Q1 2025
+2025-Q1,Mortgage Market,Total Mortgage Originations,478,$B,ATTOM,Q1 2025
+2025-Q1,Mortgage Market,Refinance Mortgage Originations,580000,loans,ATTOM,"Q1 2025 count, 40.2% share"
+2025-Q1,Mortgage Market,HELOC Originations,255000,loans,ATTOM,"Q1 2025, 18.2% share, $25B unlocked"
+2025-Q1,Mortgage Market,Average Mortgage Rate,6.9,%,MBA,Q1 2025
+2025-Q1,Credit Quality,Credit Card and Auto Balances Declining,Yes,Direction,Federal Reserve,"Q1 2025, improving trend"
+2025-Q1,Consumer Debt,Total Household Debt,18.2,$T,Federal Reserve,"Q1 2025, up $167B"

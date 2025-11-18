@@ -1,0 +1,25 @@
+{
+  "name": "bondai-scripts",
+  "version": "1.0.0",
+  "description": "Bond.AI utility scripts",
+  "scripts": {
+    "demo": "ts-node demo.ts",
+    "seed": "ts-node seed.ts",
+    "clean": "ts-node clean.ts",
+    "health": "ts-node healthCheck.ts",
+    "test": "ts-node test-integration.ts",
+    "stress": "ts-node stress-test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.11.0",
+    "ioredis": "^5.3.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "bcryptjs": "^2.4.3"
+  }
+}

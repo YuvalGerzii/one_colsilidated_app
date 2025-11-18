@@ -1,0 +1,277 @@
+period,year,institution_type,metric_category,metric_name,metric_value,metric_unit,data_source
+2020-01-01,2020,Pension Funds,Asset Allocation,Total AUM,8.45,Trillion USD,OECD/Thinking Ahead Institute
+2020-01-01,2020,Pension Funds,Asset Allocation,Public Pension %,55.0,Percent,Census of State/Local Pensions
+2020-01-01,2020,Pension Funds,Pension Health,Funded Ratio,82.2,Percent,PERA/CalPERS/TIAA
+2020-01-01,2020,Pension Funds,Pension Health,Assumed Discount Rate,3.75,Percent,Pension Fund Reports
+2020-01-01,2020,Pension Funds,Pension Health,Required Return to Meet Obligations,7.25,Percent,Actuarial Analysis
+2020-01-01,2020,Pension Funds,Asset Class Allocation,Real Estate Allocation,8.2,Percent,PREA Investment Intentions Survey
+2020-01-01,2020,Pension Funds,Asset Class Allocation,Private Equity Allocation,10.5,Percent,Preqin
+2020-01-01,2020,Pension Funds,Asset Class Allocation,Fixed Income Allocation,35.2,Percent,Pension Fund Reports
+2020-01-01,2020,Pension Funds,Asset Class Allocation,Equities Allocation,28.5,Percent,Pension Fund Reports
+2021-01-01,2021,Pension Funds,Asset Allocation,Total AUM,9.85,Trillion USD,OECD/Thinking Ahead Institute
+2021-01-01,2021,Pension Funds,Asset Allocation,Public Pension %,56.0,Percent,Census of State/Local Pensions
+2021-01-01,2021,Pension Funds,Pension Health,Funded Ratio,91.5,Percent,PERA/CalPERS/TIAA
+2021-01-01,2021,Pension Funds,Pension Health,Assumed Discount Rate,2.75,Percent,Pension Fund Reports
+2021-01-01,2021,Pension Funds,Pension Health,Required Return to Meet Obligations,6.85,Percent,Actuarial Analysis
+2021-01-01,2021,Pension Funds,Asset Class Allocation,Real Estate Allocation,8.5,Percent,PREA Investment Intentions Survey
+2021-01-01,2021,Pension Funds,Asset Class Allocation,Private Equity Allocation,11.2,Percent,Preqin
+2021-01-01,2021,Pension Funds,Asset Class Allocation,Fixed Income Allocation,32.5,Percent,Pension Fund Reports
+2021-01-01,2021,Pension Funds,Asset Class Allocation,Equities Allocation,30.2,Percent,Pension Fund Reports
+2022-01-01,2022,Pension Funds,Asset Allocation,Total AUM,9.15,Trillion USD,OECD/Thinking Ahead Institute
+2022-01-01,2022,Pension Funds,Asset Allocation,Public Pension %,55.0,Percent,Census of State/Local Pensions
+2022-01-01,2022,Pension Funds,Pension Health,Funded Ratio,86.8,Percent,PERA/CalPERS/TIAA
+2022-01-01,2022,Pension Funds,Pension Health,Assumed Discount Rate,3.25,Percent,Pension Fund Reports
+2022-01-01,2022,Pension Funds,Pension Health,Required Return to Meet Obligations,7.15,Percent,Actuarial Analysis
+2022-01-01,2022,Pension Funds,Asset Class Allocation,Real Estate Allocation,8.0,Percent,PREA Investment Intentions Survey
+2022-01-01,2022,Pension Funds,Asset Class Allocation,Private Equity Allocation,10.8,Percent,Preqin
+2022-01-01,2022,Pension Funds,Asset Class Allocation,Fixed Income Allocation,36.2,Percent,Pension Fund Reports
+2022-01-01,2022,Pension Funds,Asset Class Allocation,Equities Allocation,28.8,Percent,Pension Fund Reports
+2023-01-01,2023,Pension Funds,Asset Allocation,Total AUM,10.25,Trillion USD,OECD/Thinking Ahead Institute
+2023-01-01,2023,Pension Funds,Asset Allocation,Public Pension %,56.0,Percent,Census of State/Local Pensions
+2023-01-01,2023,Pension Funds,Pension Health,Funded Ratio,89.2,Percent,PERA/CalPERS/TIAA
+2023-01-01,2023,Pension Funds,Pension Health,Assumed Discount Rate,3.5,Percent,Pension Fund Reports
+2023-01-01,2023,Pension Funds,Pension Health,Required Return to Meet Obligations,7.35,Percent,Actuarial Analysis
+2023-01-01,2023,Pension Funds,Asset Class Allocation,Real Estate Allocation,8.3,Percent,PREA Investment Intentions Survey
+2023-01-01,2023,Pension Funds,Asset Class Allocation,Private Equity Allocation,11.5,Percent,Preqin
+2023-01-01,2023,Pension Funds,Asset Class Allocation,Fixed Income Allocation,34.5,Percent,Pension Fund Reports
+2023-01-01,2023,Pension Funds,Asset Class Allocation,Equities Allocation,29.5,Percent,Pension Fund Reports
+2024-01-01,2024,Pension Funds,Asset Allocation,Total AUM,11.5,Trillion USD,OECD/Thinking Ahead Institute
+2024-01-01,2024,Pension Funds,Asset Allocation,Public Pension %,57.0,Percent,Census of State/Local Pensions
+2024-01-01,2024,Pension Funds,Pension Health,Funded Ratio,92.1,Percent,PERA/CalPERS/TIAA
+2024-01-01,2024,Pension Funds,Pension Health,Assumed Discount Rate,3.75,Percent,Pension Fund Reports
+2024-01-01,2024,Pension Funds,Pension Health,Required Return to Meet Obligations,7.45,Percent,Actuarial Analysis
+2024-01-01,2024,Pension Funds,Asset Class Allocation,Real Estate Allocation,8.6,Percent,PREA Investment Intentions Survey
+2024-01-01,2024,Pension Funds,Asset Class Allocation,Private Equity Allocation,12.2,Percent,Preqin
+2024-01-01,2024,Pension Funds,Asset Class Allocation,Fixed Income Allocation,33.8,Percent,Pension Fund Reports
+2024-01-01,2024,Pension Funds,Asset Class Allocation,Equities Allocation,30.2,Percent,Pension Fund Reports
+2025-01-01,2025,Pension Funds,Asset Allocation,Total AUM,12.85,Trillion USD,OECD/Thinking Ahead Institute
+2025-01-01,2025,Pension Funds,Asset Allocation,Public Pension %,58.0,Percent,Census of State/Local Pensions
+2025-01-01,2025,Pension Funds,Pension Health,Funded Ratio,94.5,Percent,PERA/CalPERS/TIAA
+2025-01-01,2025,Pension Funds,Pension Health,Assumed Discount Rate,3.85,Percent,Pension Fund Reports
+2025-01-01,2025,Pension Funds,Pension Health,Required Return to Meet Obligations,7.55,Percent,Actuarial Analysis
+2025-01-01,2025,Pension Funds,Asset Class Allocation,Real Estate Allocation,9.0,Percent,PREA Investment Intentions Survey
+2025-01-01,2025,Pension Funds,Asset Class Allocation,Private Equity Allocation,13.0,Percent,Preqin
+2025-01-01,2025,Pension Funds,Asset Class Allocation,Fixed Income Allocation,33.2,Percent,Pension Fund Reports
+2025-01-01,2025,Pension Funds,Asset Class Allocation,Equities Allocation,31.0,Percent,Pension Fund Reports
+2020-01-01,2020,Endowments & Foundations,Asset Allocation,Total AUM,850.0,Billion USD,NACUBO/CAI Surveys
+2020-01-01,2020,Endowments & Foundations,Real Estate,RE Target Allocation,9.5,Percent,Endowment Reports
+2020-01-01,2020,Endowments & Foundations,Real Estate,RE Actual Allocation,8.8,Percent,Endowment Reports
+2020-01-01,2020,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,52.5,Percent,Endowment Reports
+2020-01-01,2020,Endowments & Foundations,Portfolio Management,Spending Rate,4.8,Percent of Corpus,Endowment Reports
+2020-01-01,2020,Endowments & Foundations,Performance,10-Year RE Returns,4.2,Percent Annual,NCREIF/Endowment Performance
+2020-01-01,2020,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,65.0,Percent,Endowment Industry Survey
+2021-01-01,2021,Endowments & Foundations,Asset Allocation,Total AUM,1025.0,Billion USD,NACUBO/CAI Surveys
+2021-01-01,2021,Endowments & Foundations,Real Estate,RE Target Allocation,10.0,Percent,Endowment Reports
+2021-01-01,2021,Endowments & Foundations,Real Estate,RE Actual Allocation,10.2,Percent,Endowment Reports
+2021-01-01,2021,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,55.2,Percent,Endowment Reports
+2021-01-01,2021,Endowments & Foundations,Portfolio Management,Spending Rate,4.5,Percent of Corpus,Endowment Reports
+2021-01-01,2021,Endowments & Foundations,Performance,10-Year RE Returns,6.8,Percent Annual,NCREIF/Endowment Performance
+2021-01-01,2021,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,68.0,Percent,Endowment Industry Survey
+2022-01-01,2022,Endowments & Foundations,Asset Allocation,Total AUM,925.0,Billion USD,NACUBO/CAI Surveys
+2022-01-01,2022,Endowments & Foundations,Real Estate,RE Target Allocation,10.2,Percent,Endowment Reports
+2022-01-01,2022,Endowments & Foundations,Real Estate,RE Actual Allocation,9.8,Percent,Endowment Reports
+2022-01-01,2022,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,53.8,Percent,Endowment Reports
+2022-01-01,2022,Endowments & Foundations,Portfolio Management,Spending Rate,5.2,Percent of Corpus,Endowment Reports
+2022-01-01,2022,Endowments & Foundations,Performance,10-Year RE Returns,3.5,Percent Annual,NCREIF/Endowment Performance
+2022-01-01,2022,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,70.0,Percent,Endowment Industry Survey
+2023-01-01,2023,Endowments & Foundations,Asset Allocation,Total AUM,1085.0,Billion USD,NACUBO/CAI Surveys
+2023-01-01,2023,Endowments & Foundations,Real Estate,RE Target Allocation,10.5,Percent,Endowment Reports
+2023-01-01,2023,Endowments & Foundations,Real Estate,RE Actual Allocation,10.1,Percent,Endowment Reports
+2023-01-01,2023,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,56.2,Percent,Endowment Reports
+2023-01-01,2023,Endowments & Foundations,Portfolio Management,Spending Rate,5.0,Percent of Corpus,Endowment Reports
+2023-01-01,2023,Endowments & Foundations,Performance,10-Year RE Returns,5.2,Percent Annual,NCREIF/Endowment Performance
+2023-01-01,2023,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,72.0,Percent,Endowment Industry Survey
+2024-01-01,2024,Endowments & Foundations,Asset Allocation,Total AUM,1225.0,Billion USD,NACUBO/CAI Surveys
+2024-01-01,2024,Endowments & Foundations,Real Estate,RE Target Allocation,10.8,Percent,Endowment Reports
+2024-01-01,2024,Endowments & Foundations,Real Estate,RE Actual Allocation,10.5,Percent,Endowment Reports
+2024-01-01,2024,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,58.5,Percent,Endowment Reports
+2024-01-01,2024,Endowments & Foundations,Portfolio Management,Spending Rate,4.8,Percent of Corpus,Endowment Reports
+2024-01-01,2024,Endowments & Foundations,Performance,10-Year RE Returns,6.5,Percent Annual,NCREIF/Endowment Performance
+2024-01-01,2024,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,74.0,Percent,Endowment Industry Survey
+2025-01-01,2025,Endowments & Foundations,Asset Allocation,Total AUM,1385.0,Billion USD,NACUBO/CAI Surveys
+2025-01-01,2025,Endowments & Foundations,Real Estate,RE Target Allocation,11.0,Percent,Endowment Reports
+2025-01-01,2025,Endowments & Foundations,Real Estate,RE Actual Allocation,10.8,Percent,Endowment Reports
+2025-01-01,2025,Endowments & Foundations,Asset Class Allocation,Alternatives Allocation,60.2,Percent,Endowment Reports
+2025-01-01,2025,Endowments & Foundations,Portfolio Management,Spending Rate,4.7,Percent of Corpus,Endowment Reports
+2025-01-01,2025,Endowments & Foundations,Performance,10-Year RE Returns,7.2,Percent Annual,NCREIF/Endowment Performance
+2025-01-01,2025,Endowments & Foundations,Strategy Influence,Yale Model Adoption %,76.0,Percent,Endowment Industry Survey
+2020-01-01,2020,Insurance Companies,Asset Allocation,General Account Assets,7.15,Trillion USD,NAIC/SNL Financial
+2020-01-01,2020,Insurance Companies,Real Estate,RE & Mortgage Allocation,8.2,Percent,NAIC/Company Reports
+2020-01-01,2020,Insurance Companies,Fixed Income,Fixed Income Allocation,62.5,Percent,Insurance Industry Data
+2020-01-01,2020,Insurance Companies,Real Estate,RE Debt Allocation,3.2,Percent,NAIC
+2020-01-01,2020,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-1.2,Years,Company Reports
+2021-01-01,2021,Insurance Companies,Asset Allocation,General Account Assets,7.85,Trillion USD,NAIC/SNL Financial
+2021-01-01,2021,Insurance Companies,Real Estate,RE & Mortgage Allocation,8.5,Percent,NAIC/Company Reports
+2021-01-01,2021,Insurance Companies,Fixed Income,Fixed Income Allocation,60.2,Percent,Insurance Industry Data
+2021-01-01,2021,Insurance Companies,Real Estate,RE Debt Allocation,4.5,Percent,NAIC
+2021-01-01,2021,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-0.8,Years,Company Reports
+2022-01-01,2022,Insurance Companies,Asset Allocation,General Account Assets,7.45,Trillion USD,NAIC/SNL Financial
+2022-01-01,2022,Insurance Companies,Real Estate,RE & Mortgage Allocation,8.8,Percent,NAIC/Company Reports
+2022-01-01,2022,Insurance Companies,Fixed Income,Fixed Income Allocation,61.8,Percent,Insurance Industry Data
+2022-01-01,2022,Insurance Companies,Real Estate,RE Debt Allocation,5.2,Percent,NAIC
+2022-01-01,2022,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-1.5,Years,Company Reports
+2023-01-01,2023,Insurance Companies,Asset Allocation,General Account Assets,8.25,Trillion USD,NAIC/SNL Financial
+2023-01-01,2023,Insurance Companies,Real Estate,RE & Mortgage Allocation,9.2,Percent,NAIC/Company Reports
+2023-01-01,2023,Insurance Companies,Fixed Income,Fixed Income Allocation,60.5,Percent,Insurance Industry Data
+2023-01-01,2023,Insurance Companies,Real Estate,RE Debt Allocation,6.8,Percent,NAIC
+2023-01-01,2023,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-0.9,Years,Company Reports
+2024-01-01,2024,Insurance Companies,Asset Allocation,General Account Assets,9.15,Trillion USD,NAIC/SNL Financial
+2024-01-01,2024,Insurance Companies,Real Estate,RE & Mortgage Allocation,9.8,Percent,NAIC/Company Reports
+2024-01-01,2024,Insurance Companies,Fixed Income,Fixed Income Allocation,59.2,Percent,Insurance Industry Data
+2024-01-01,2024,Insurance Companies,Real Estate,RE Debt Allocation,8.5,Percent,NAIC
+2024-01-01,2024,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-0.5,Years,Company Reports
+2025-01-01,2025,Insurance Companies,Asset Allocation,General Account Assets,10.05,Trillion USD,NAIC/SNL Financial
+2025-01-01,2025,Insurance Companies,Real Estate,RE & Mortgage Allocation,10.5,Percent,NAIC/Company Reports
+2025-01-01,2025,Insurance Companies,Fixed Income,Fixed Income Allocation,58.5,Percent,Insurance Industry Data
+2025-01-01,2025,Insurance Companies,Real Estate,RE Debt Allocation,10.2,Percent,NAIC
+2025-01-01,2025,Insurance Companies,Risk Management,Asset-Liability Duration Gap,-0.3,Years,Company Reports
+2020-01-01,2020,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,9.2,Trillion USD,Sovereign Wealth Fund Institute
+2020-01-01,2020,Sovereign Wealth Funds,Real Estate,RE Allocation,7.5,Percent,SWFI/Real Capital Analytics
+2020-01-01,2020,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,35.0,Percent,SWFI Database
+2020-01-01,2020,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,22.5,Billion USD,Real Capital Analytics
+2020-01-01,2020,Sovereign Wealth Funds,Geographic Allocation,International RE %,68.0,Percent,SWFI
+2021-01-01,2021,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,10.8,Trillion USD,Sovereign Wealth Fund Institute
+2021-01-01,2021,Sovereign Wealth Funds,Real Estate,RE Allocation,8.0,Percent,SWFI/Real Capital Analytics
+2021-01-01,2021,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,38.0,Percent,SWFI Database
+2021-01-01,2021,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,35.8,Billion USD,Real Capital Analytics
+2021-01-01,2021,Sovereign Wealth Funds,Geographic Allocation,International RE %,70.0,Percent,SWFI
+2022-01-01,2022,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,10.2,Trillion USD,Sovereign Wealth Fund Institute
+2022-01-01,2022,Sovereign Wealth Funds,Real Estate,RE Allocation,8.2,Percent,SWFI/Real Capital Analytics
+2022-01-01,2022,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,40.0,Percent,SWFI Database
+2022-01-01,2022,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,28.5,Billion USD,Real Capital Analytics
+2022-01-01,2022,Sovereign Wealth Funds,Geographic Allocation,International RE %,72.0,Percent,SWFI
+2023-01-01,2023,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,11.5,Trillion USD,Sovereign Wealth Fund Institute
+2023-01-01,2023,Sovereign Wealth Funds,Real Estate,RE Allocation,8.5,Percent,SWFI/Real Capital Analytics
+2023-01-01,2023,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,42.0,Percent,SWFI Database
+2023-01-01,2023,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,45.2,Billion USD,Real Capital Analytics
+2023-01-01,2023,Sovereign Wealth Funds,Geographic Allocation,International RE %,72.0,Percent,SWFI
+2024-01-01,2024,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,13.2,Trillion USD,Sovereign Wealth Fund Institute
+2024-01-01,2024,Sovereign Wealth Funds,Real Estate,RE Allocation,9.2,Percent,SWFI/Real Capital Analytics
+2024-01-01,2024,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,45.0,Percent,SWFI Database
+2024-01-01,2024,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,62.5,Billion USD,Real Capital Analytics
+2024-01-01,2024,Sovereign Wealth Funds,Geographic Allocation,International RE %,74.0,Percent,SWFI
+2025-01-01,2025,Sovereign Wealth Funds,Asset Allocation,Total SWF AUM,15.0,Trillion USD,Sovereign Wealth Fund Institute
+2025-01-01,2025,Sovereign Wealth Funds,Real Estate,RE Allocation,10.0,Percent,SWFI/Real Capital Analytics
+2025-01-01,2025,Sovereign Wealth Funds,Investment Strategy,Direct Investment %,48.0,Percent,SWFI Database
+2025-01-01,2025,Sovereign Wealth Funds,Capital Flows,RE Acquisitions,85.0,Billion USD,Real Capital Analytics
+2025-01-01,2025,Sovereign Wealth Funds,Geographic Allocation,International RE %,76.0,Percent,SWFI
+2020-01-01,2020,Private Markets,PERE Fundraising,Quarterly Fundraising,18.2,Billion USD,PERE/Preqin
+2020-01-01,2020,Private Markets,PERE Fundraising,Annual Fundraising,72.8,Billion USD,PERE/Preqin
+2020-01-01,2020,Private Markets,PERE Fundraising,Dry Powder,285.0,Billion USD,Preqin
+2020-01-01,2020,Private Markets,PERE Fund Structure,Median Fund Size,425.0,Million USD,Preqin/PERE
+2020-01-01,2020,Private Markets,PERE Fund Fees,Management Fee,120.0,Basis Points,Preqin
+2020-01-01,2020,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2021-01-01,2021,Private Markets,PERE Fundraising,Quarterly Fundraising,32.5,Billion USD,PERE/Preqin
+2021-01-01,2021,Private Markets,PERE Fundraising,Annual Fundraising,130.0,Billion USD,PERE/Preqin
+2021-01-01,2021,Private Markets,PERE Fundraising,Dry Powder,365.0,Billion USD,Preqin
+2021-01-01,2021,Private Markets,PERE Fund Structure,Median Fund Size,520.0,Million USD,Preqin/PERE
+2021-01-01,2021,Private Markets,PERE Fund Fees,Management Fee,118.0,Basis Points,Preqin
+2021-01-01,2021,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2022-01-01,2022,Private Markets,PERE Fundraising,Quarterly Fundraising,22.8,Billion USD,PERE/Preqin
+2022-01-01,2022,Private Markets,PERE Fundraising,Annual Fundraising,91.2,Billion USD,PERE/Preqin
+2022-01-01,2022,Private Markets,PERE Fundraising,Dry Powder,425.0,Billion USD,Preqin
+2022-01-01,2022,Private Markets,PERE Fund Structure,Median Fund Size,485.0,Million USD,Preqin/PERE
+2022-01-01,2022,Private Markets,PERE Fund Fees,Management Fee,115.0,Basis Points,Preqin
+2022-01-01,2022,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2023-01-01,2023,Private Markets,PERE Fundraising,Quarterly Fundraising,19.5,Billion USD,PERE/Preqin
+2023-01-01,2023,Private Markets,PERE Fundraising,Annual Fundraising,78.0,Billion USD,PERE/Preqin
+2023-01-01,2023,Private Markets,PERE Fundraising,Dry Powder,450.0,Billion USD,Preqin
+2023-01-01,2023,Private Markets,PERE Fund Structure,Median Fund Size,465.0,Million USD,Preqin/PERE
+2023-01-01,2023,Private Markets,PERE Fund Fees,Management Fee,112.0,Basis Points,Preqin
+2023-01-01,2023,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2024-01-01,2024,Private Markets,PERE Fundraising,Quarterly Fundraising,23.8,Billion USD,PERE/Preqin
+2024-01-01,2024,Private Markets,PERE Fundraising,Annual Fundraising,95.2,Billion USD,PERE/Preqin
+2024-01-01,2024,Private Markets,PERE Fundraising,Dry Powder,475.0,Billion USD,Preqin
+2024-01-01,2024,Private Markets,PERE Fund Structure,Median Fund Size,485.0,Million USD,Preqin/PERE
+2024-01-01,2024,Private Markets,PERE Fund Fees,Management Fee,110.0,Basis Points,Preqin
+2024-01-01,2024,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2025-01-01,2025,Private Markets,PERE Fundraising,Quarterly Fundraising,27.6,Billion USD,PERE/Preqin
+2025-01-01,2025,Private Markets,PERE Fundraising,Annual Fundraising,110.5,Billion USD,PERE/Preqin
+2025-01-01,2025,Private Markets,PERE Fundraising,Dry Powder,520.0,Billion USD,Preqin
+2025-01-01,2025,Private Markets,PERE Fund Structure,Median Fund Size,515.0,Million USD,Preqin/PERE
+2025-01-01,2025,Private Markets,PERE Fund Fees,Management Fee,108.0,Basis Points,Preqin
+2025-01-01,2025,Private Markets,PERE Fund Fees,Carry,20.0,Percent,PERE Industry Data
+2020-01-01,2020,Private Markets,Private Credit,Private Credit AUM,1.15,Trillion USD,Preqin/Bain
+2020-01-01,2020,Private Markets,RE Debt,RE Debt Funds,185.0,Billion USD,Preqin
+2020-01-01,2020,Private Markets,RE Debt,Direct RE Lending,42.0,Billion USD,FDIC/Bank Reports
+2020-01-01,2020,Private Markets,RE Debt,RE Debt Fund Yields,5.2,Percent,PERE/Preqin
+2020-01-01,2020,Private Markets,RE Debt,Average LTV Ratio,65.0,Percent,Lending Market Data
+2021-01-01,2021,Private Markets,Private Credit,Private Credit AUM,1.45,Trillion USD,Preqin/Bain
+2021-01-01,2021,Private Markets,RE Debt,RE Debt Funds,225.0,Billion USD,Preqin
+2021-01-01,2021,Private Markets,RE Debt,Direct RE Lending,68.0,Billion USD,FDIC/Bank Reports
+2021-01-01,2021,Private Markets,RE Debt,RE Debt Fund Yields,4.8,Percent,PERE/Preqin
+2021-01-01,2021,Private Markets,RE Debt,Average LTV Ratio,63.0,Percent,Lending Market Data
+2022-01-01,2022,Private Markets,Private Credit,Private Credit AUM,1.85,Trillion USD,Preqin/Bain
+2022-01-01,2022,Private Markets,RE Debt,RE Debt Funds,285.0,Billion USD,Preqin
+2022-01-01,2022,Private Markets,RE Debt,Direct RE Lending,95.0,Billion USD,FDIC/Bank Reports
+2022-01-01,2022,Private Markets,RE Debt,RE Debt Fund Yields,6.5,Percent,PERE/Preqin
+2022-01-01,2022,Private Markets,RE Debt,Average LTV Ratio,61.0,Percent,Lending Market Data
+2023-01-01,2023,Private Markets,Private Credit,Private Credit AUM,2.25,Trillion USD,Preqin/Bain
+2023-01-01,2023,Private Markets,RE Debt,RE Debt Funds,355.0,Billion USD,Preqin
+2023-01-01,2023,Private Markets,RE Debt,Direct RE Lending,125.0,Billion USD,FDIC/Bank Reports
+2023-01-01,2023,Private Markets,RE Debt,RE Debt Fund Yields,7.2,Percent,PERE/Preqin
+2023-01-01,2023,Private Markets,RE Debt,Average LTV Ratio,62.0,Percent,Lending Market Data
+2024-01-01,2024,Private Markets,Private Credit,Private Credit AUM,2.75,Trillion USD,Preqin/Bain
+2024-01-01,2024,Private Markets,RE Debt,RE Debt Funds,425.0,Billion USD,Preqin
+2024-01-01,2024,Private Markets,RE Debt,Direct RE Lending,165.0,Billion USD,FDIC/Bank Reports
+2024-01-01,2024,Private Markets,RE Debt,RE Debt Fund Yields,7.8,Percent,PERE/Preqin
+2024-01-01,2024,Private Markets,RE Debt,Average LTV Ratio,63.0,Percent,Lending Market Data
+2025-01-01,2025,Private Markets,Private Credit,Private Credit AUM,3.35,Trillion USD,Preqin/Bain
+2025-01-01,2025,Private Markets,RE Debt,RE Debt Funds,515.0,Billion USD,Preqin
+2025-01-01,2025,Private Markets,RE Debt,Direct RE Lending,215.0,Billion USD,FDIC/Bank Reports
+2025-01-01,2025,Private Markets,RE Debt,RE Debt Fund Yields,7.2,Percent,PERE/Preqin
+2025-01-01,2025,Private Markets,RE Debt,Average LTV Ratio,62.0,Percent,Lending Market Data
+2020-01-01,2020,Institutional Flows,Capital Flows,Net Flows to RE Funds,-8.5,Billion USD,Preqin Flow Data
+2020-01-01,2020,Institutional Flows,Capital Flows,Redemption Requests,12.5,Billion USD,Fund Data
+2020-01-01,2020,Institutional Flows,Capital Flows,Capital Calls,28.5,Billion USD,Fund Data
+2020-01-01,2020,Institutional Flows,Capital Flows,Distributions to LPs,45.2,Billion USD,Fund Data
+2020-01-01,2020,Institutional Flows,Performance,NAV Change,-2.8,Percent,Fund Reporting
+2021-01-01,2021,Institutional Flows,Capital Flows,Net Flows to RE Funds,45.2,Billion USD,Preqin Flow Data
+2021-01-01,2021,Institutional Flows,Capital Flows,Redemption Requests,5.8,Billion USD,Fund Data
+2021-01-01,2021,Institutional Flows,Capital Flows,Capital Calls,62.5,Billion USD,Fund Data
+2021-01-01,2021,Institutional Flows,Capital Flows,Distributions to LPs,72.8,Billion USD,Fund Data
+2021-01-01,2021,Institutional Flows,Performance,NAV Change,12.5,Percent,Fund Reporting
+2022-01-01,2022,Institutional Flows,Capital Flows,Net Flows to RE Funds,-22.5,Billion USD,Preqin Flow Data
+2022-01-01,2022,Institutional Flows,Capital Flows,Redemption Requests,28.5,Billion USD,Fund Data
+2022-01-01,2022,Institutional Flows,Capital Flows,Capital Calls,35.8,Billion USD,Fund Data
+2022-01-01,2022,Institutional Flows,Capital Flows,Distributions to LPs,65.2,Billion USD,Fund Data
+2022-01-01,2022,Institutional Flows,Performance,NAV Change,-8.2,Percent,Fund Reporting
+2023-01-01,2023,Institutional Flows,Capital Flows,Net Flows to RE Funds,18.5,Billion USD,Preqin Flow Data
+2023-01-01,2023,Institutional Flows,Capital Flows,Redemption Requests,15.2,Billion USD,Fund Data
+2023-01-01,2023,Institutional Flows,Capital Flows,Capital Calls,48.2,Billion USD,Fund Data
+2023-01-01,2023,Institutional Flows,Capital Flows,Distributions to LPs,68.5,Billion USD,Fund Data
+2023-01-01,2023,Institutional Flows,Performance,NAV Change,3.5,Percent,Fund Reporting
+2024-01-01,2024,Institutional Flows,Capital Flows,Net Flows to RE Funds,35.8,Billion USD,Preqin Flow Data
+2024-01-01,2024,Institutional Flows,Capital Flows,Redemption Requests,8.2,Billion USD,Fund Data
+2024-01-01,2024,Institutional Flows,Capital Flows,Capital Calls,72.5,Billion USD,Fund Data
+2024-01-01,2024,Institutional Flows,Capital Flows,Distributions to LPs,85.2,Billion USD,Fund Data
+2024-01-01,2024,Institutional Flows,Performance,NAV Change,6.8,Percent,Fund Reporting
+2025-01-01,2025,Institutional Flows,Capital Flows,Net Flows to RE Funds,48.5,Billion USD,Preqin Flow Data
+2025-01-01,2025,Institutional Flows,Capital Flows,Redemption Requests,6.5,Billion USD,Fund Data
+2025-01-01,2025,Institutional Flows,Capital Flows,Capital Calls,95.2,Billion USD,Fund Data
+2025-01-01,2025,Institutional Flows,Capital Flows,Distributions to LPs,102.5,Billion USD,Fund Data
+2025-01-01,2025,Institutional Flows,Performance,NAV Change,8.5,Percent,Fund Reporting
+2020-01-01,2020,ESG Integration,ESG Mandates,ESG Mandate %,35.0,Percent of Institutions,ESG Investing Survey
+2020-01-01,2020,ESG Integration,ESG Mandates,Green Building Requirement,42.0,Percent,GRESB/MSCI
+2020-01-01,2020,ESG Integration,ESG Mandates,Carbon Reduction Targets,15.0,Percent,Net Zero Initiative
+2020-01-01,2020,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.35,Correlation Coefficient,Academic Studies/MSCI
+2021-01-01,2021,ESG Integration,ESG Mandates,ESG Mandate %,52.0,Percent of Institutions,ESG Investing Survey
+2021-01-01,2021,ESG Integration,ESG Mandates,Green Building Requirement,58.0,Percent,GRESB/MSCI
+2021-01-01,2021,ESG Integration,ESG Mandates,Carbon Reduction Targets,28.0,Percent,Net Zero Initiative
+2021-01-01,2021,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.42,Correlation Coefficient,Academic Studies/MSCI
+2022-01-01,2022,ESG Integration,ESG Mandates,ESG Mandate %,68.0,Percent of Institutions,ESG Investing Survey
+2022-01-01,2022,ESG Integration,ESG Mandates,Green Building Requirement,72.0,Percent,GRESB/MSCI
+2022-01-01,2022,ESG Integration,ESG Mandates,Carbon Reduction Targets,45.0,Percent,Net Zero Initiative
+2022-01-01,2022,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.48,Correlation Coefficient,Academic Studies/MSCI
+2023-01-01,2023,ESG Integration,ESG Mandates,ESG Mandate %,78.0,Percent of Institutions,ESG Investing Survey
+2023-01-01,2023,ESG Integration,ESG Mandates,Green Building Requirement,82.0,Percent,GRESB/MSCI
+2023-01-01,2023,ESG Integration,ESG Mandates,Carbon Reduction Targets,62.0,Percent,Net Zero Initiative
+2023-01-01,2023,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.52,Correlation Coefficient,Academic Studies/MSCI
+2024-01-01,2024,ESG Integration,ESG Mandates,ESG Mandate %,85.0,Percent of Institutions,ESG Investing Survey
+2024-01-01,2024,ESG Integration,ESG Mandates,Green Building Requirement,88.0,Percent,GRESB/MSCI
+2024-01-01,2024,ESG Integration,ESG Mandates,Carbon Reduction Targets,75.0,Percent,Net Zero Initiative
+2024-01-01,2024,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.55,Correlation Coefficient,Academic Studies/MSCI
+2025-01-01,2025,ESG Integration,ESG Mandates,ESG Mandate %,92.0,Percent of Institutions,ESG Investing Survey
+2025-01-01,2025,ESG Integration,ESG Mandates,Green Building Requirement,92.0,Percent,GRESB/MSCI
+2025-01-01,2025,ESG Integration,ESG Mandates,Carbon Reduction Targets,85.0,Percent,Net Zero Initiative
+2025-01-01,2025,ESG Integration,Performance Correlation,ESG vs Financial Returns Correlation,0.58,Correlation Coefficient,Academic Studies/MSCI

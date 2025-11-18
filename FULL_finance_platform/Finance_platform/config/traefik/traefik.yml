@@ -1,0 +1,58 @@
+# ============================================
+# TRAEFIK STATIC CONFIGURATION
+# ============================================
+# This is the main configuration file for Traefik reverse proxy
+
+# API and Dashboard Configuration
+api:
+  dashboard: true
+  insecure: true  # Allow access without authentication (for development only)
+
+# Entry Points (Ports that Traefik listens on)
+entryPoints:
+  web:
+    address: ":80"
+    # Optional: Redirect HTTP to HTTPS
+    # http:
+    #   redirections:
+    #     entryPoint:
+    #       to: websecure
+    #       scheme: https
+
+  websecure:
+    address: ":443"
+
+# Provider Configuration
+providers:
+  # Docker provider
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false  # Only expose services with traefik.enable=true label
+    network: finance_network
+    watch: true
+
+  # File provider for additional dynamic configuration
+  file:
+    directory: "/etc/traefik/dynamic"
+    watch: true
+
+# Logging
+log:
+  level: INFO  # DEBUG, INFO, WARN, ERROR, FATAL, PANIC
+  format: common  # common, json
+
+# Access Logs
+accessLog:
+  format: common
+
+# Metrics (optional - for Prometheus integration)
+metrics:
+  prometheus:
+    addEntryPointsLabels: true
+    addServicesLabels: true
+    entryPoint: metrics
+
+# Global Settings
+global:
+  checkNewVersion: true
+  sendAnonymousUsage: false

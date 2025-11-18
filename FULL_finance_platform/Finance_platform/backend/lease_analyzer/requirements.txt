@@ -1,0 +1,30 @@
+# Lease Abstraction & Rent Roll Analyzer - Dependencies
+
+# Core AI/ML
+anthropic>=0.39.0
+
+# PDF Processing
+pdfplumber>=0.11.0
+PyPDF2>=3.0.0
+pytesseract>=0.3.10  # For OCR if needed
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Excel Generation
+openpyxl>=3.1.0
+
+# Web API (if using FastAPI endpoints)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6  # For file uploads
+
+# Database (PostgreSQL)
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.23
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variables
+pydantic>=2.5.0  # Data validation
+requests>=2.31.0

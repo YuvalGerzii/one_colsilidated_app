@@ -1,0 +1,33 @@
+market,reform_name,area_affected,old_zoning,new_zoning,effective_date,units_enabled,description,data_source
+"New York City, NY",City of Yes for Housing,Citywide,Various,MX-Enhanced,2024-12-05,82000,Citywide zoning reform enabling 82K+ units,Municipal Planning Department
+"New York City, NY",Office to Residential Conversion,Manhattan CBD,C-3,MX-2,2024-03-15,5000,Enables office conversion to residential,Municipal Planning Department
+"New York City, NY",ADU Legalization,Citywide R-1/R-2,R-1/R-2,R-1/R-2 + ADU,2024-12-05,15000,Allows ADUs in single-family zones,Municipal Planning Department
+"Los Angeles, CA",New Zoning Code Chapter 1A,Downtown,Various,Form-Based Code,2024-10-01,25000,Form-based zoning replacing Euclidean zones,Municipal Planning Department
+"Los Angeles, CA",ADU Reforms SB 9/10,Citywide,R-1,R-1 + SB9,2023-01-01,40000,State-mandated duplex/ADU legalization,Municipal Planning Department
+"Los Angeles, CA",Parking Reduction AB 2097,Transit areas,All zones,Reduced parking,2023-01-01,0,Eliminates parking minimums near transit,Municipal Planning Department
+"San Francisco, CA",Family Zoning Plan,Various neighborhoods,RH-1,RH-2,2025-01-31,15000,Upzoning to meet state housing mandates,Municipal Planning Department
+"San Francisco, CA",TOD Density Bonus,Transit corridors,Various,TOD overlay,2024-06-01,8500,FAR bonuses near BART/Muni,Municipal Planning Department
+"Boston, MA",ADU Legalization Statewide,Citywide,R-1,R-1 + ADU,2025-02-02,10000,Statewide ADU law allows 900 SF by-right,Municipal Planning Department
+"Boston, MA",Squares + Streets Initiative,Commercial corridors,C-1,MX-2,2024-04-01,12000,Mixed-use upzoning in neighborhood centers,Municipal Planning Department
+"Seattle, WA",ADU Expansion,Citywide,SF zones,SF + 2 ADUs,2019-07-01,8000,Allows up to 2 ADUs per lot,Municipal Planning Department
+"Seattle, WA",Missing Middle Housing,Urban villages,LR-1,LR-3,2024-03-01,18000,Enables duplexes/triplexes/fourplexes,Municipal Planning Department
+"Miami, FL",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,5610,Allows accessory dwelling units by-right,Municipal Planning Department
+"Miami, FL",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Chicago, IL",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,11163,Allows accessory dwelling units by-right,Municipal Planning Department
+"Chicago, IL",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+Washington DC,ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,11433,Allows accessory dwelling units by-right,Municipal Planning Department
+Washington DC,Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Austin, TX",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,10648,Allows accessory dwelling units by-right,Municipal Planning Department
+"Austin, TX",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Denver, CO",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,11171,Allows accessory dwelling units by-right,Municipal Planning Department
+"Denver, CO",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Dallas, TX",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,8055,Allows accessory dwelling units by-right,Municipal Planning Department
+"Dallas, TX",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Atlanta, GA",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,11148,Allows accessory dwelling units by-right,Municipal Planning Department
+"Atlanta, GA",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Phoenix, AZ",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,3379,Allows accessory dwelling units by-right,Municipal Planning Department
+"Phoenix, AZ",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Nashville, TN",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,4475,Allows accessory dwelling units by-right,Municipal Planning Department
+"Nashville, TN",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department
+"Charlotte, NC",ADU Legalization,Single-family zones,R-1,R-1 + ADU,2023-01-01,9442,Allows accessory dwelling units by-right,Municipal Planning Department
+"Charlotte, NC",Parking Requirement Reduction,Transit corridors,Various (2.0 spaces/unit),Various (1.0 spaces/unit),2024-01-01,0,Reduced parking minimums near transit,Municipal Planning Department

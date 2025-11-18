@@ -1,0 +1,2 @@
+# This directory is for dynamic Traefik configuration files
+# Add any additional routers, services, or middleware configurations here

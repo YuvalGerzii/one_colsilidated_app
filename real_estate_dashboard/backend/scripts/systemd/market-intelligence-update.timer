@@ -1,0 +1,16 @@
+[Unit]
+Description=Daily Market Intelligence Update Timer
+Requires=market-intelligence-update.service
+
+[Timer]
+# Run daily at 6:00 PM EST (18:00)
+OnCalendar=*-*-* 18:00:00
+
+# If system was off, run 10 minutes after boot
+OnBootSec=10min
+
+# Run 5 minutes after the scheduled time if missed
+Persistent=true
+
+[Install]
+WantedBy=timers.target

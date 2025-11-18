@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Pipeline</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-family: "Segoe UI", "Inter", system-ui, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 2rem 1.5rem;
+            background: linear-gradient(145deg, rgba(15, 118, 110, 0.85), rgba(15, 23, 42, 0.95));
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .back-link {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            color: #cbd5f5;
+        }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(120deg, #14b8a6, #0d9488);
+            color: #0f172a;
+        }
+
+        .btn-primary:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .filters {
+            background: rgba(15, 23, 42, 0.75);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-group label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        .filter-group select {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            background: rgba(15, 23, 42, 0.6);
+            color: #f8fafc;
+            font-family: inherit;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(15, 23, 42, 0.75);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: rgba(15, 23, 42, 0.9);
+        }
+
+        th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: #cbd5f5;
+            border-bottom: 2px solid rgba(148, 163, 184, 0.2);
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        tbody tr:hover {
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        .stage-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .stage-research {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+        }
+
+        .stage-loi {
+            background: rgba(59, 130, 246, 0.2);
+            color: #3b82f6;
+            border: 1px solid rgba(59, 130, 246, 0.4);
+        }
+
+        .stage-due_diligence {
+            background: rgba(168, 85, 247, 0.2);
+            color: #a855f7;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+        }
+
+        .stage-closing {
+            background: rgba(236, 72, 153, 0.2);
+            color: #ec4899;
+            border: 1px solid rgba(236, 72, 153, 0.4);
+        }
+
+        .stage-closed {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+            border: 1px solid rgba(34, 197, 94, 0.4);
+        }
+
+        .stage-dead {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .status-active {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+            border: 1px solid rgba(34, 197, 94, 0.4);
+        }
+
+        .status-on_hold {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+        }
+
+        .status-dead, .status-closed {
+            background: rgba(148, 163, 184, 0.2);
+            color: #94a3b8;
+            border: 1px solid rgba(148, 163, 184, 0.4);
+        }
+
+        .priority-high {
+            color: #ef4444;
+            font-weight: 700;
+        }
+
+        .priority-medium {
+            color: #fbbf24;
+            font-weight: 600;
+        }
+
+        .priority-low {
+            color: #94a3b8;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 800px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .close-btn:hover {
+            color: #f8fafc;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            color: #cbd5f5;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            background: rgba(15, 23, 42, 0.6);
+            color: #f8fafc;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+        }
+
+        .btn-secondary {
+            background: rgba(148, 163, 184, 0.2);
+            color: #f8fafc;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(148, 163, 184, 0.3);
+        }
+
+        .btn-danger {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
+        .btn-danger:hover {
+            background: rgba(239, 68, 68, 0.3);
+        }
+
+        .action-btn {
+            background: none;
+            border: none;
+            color: #3b82f6;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.9rem;
+            text-decoration: underline;
+        }
+
+        .action-btn:hover {
+            color: #60a5fa;
+        }
+
+        .action-btn.delete {
+            color: #ef4444;
+        }
+
+        .action-btn.delete:hover {
+            color: #f87171;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .empty-state h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/api/v1/crm" class="back-link">← Back to CRM Home</a>
+
+        <header>
+            <h1>Deal Pipeline</h1>
+            <div class="actions">
+                <button class="btn btn-primary" onclick="openAddModal()">+ Add Deal</button>
+            </div>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>Stage</label>
+                <select id="stageFilter" onchange="filterDeals()">
+                    <option value="">All Stages</option>
+                    {% for stage in stages %}
+                    <option value="{{ stage }}" {% if current_stage == stage %}selected{% endif %}>
+                        {{ stage.replace('_', ' ').title() }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Status</label>
+                <select id="statusFilter" onchange="filterDeals()">
+                    <option value="">All Statuses</option>
+                    {% for status in statuses %}
+                    <option value="{{ status }}" {% if current_status == status %}selected{% endif %}>
+                        {{ status.replace('_', ' ').title() }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        {% if deals %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Stage</th>
+                    <th>Status</th>
+                    <th>Type</th>
+                    <th>Market</th>
+                    <th>Asking Price</th>
+                    <th>Priority</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for deal in deals %}
+                <tr>
+                    <td>
+                        <strong>{{ deal.property_name }}</strong>
+                        {% if deal.property_address %}
+                        <br><small style="color: #94a3b8;">{{ deal.property_address }}</small>
+                        {% endif %}
+                    </td>
+                    <td><span class="stage-badge stage-{{ deal.stage.value }}">{{ deal.stage.value.replace('_', ' ') }}</span></td>
+                    <td><span class="status-badge status-{{ deal.status.value }}">{{ deal.status.value.replace('_', ' ') }}</span></td>
+                    <td>{{ deal.property_type or '-' }}</td>
+                    <td>{{ deal.market or '-' }}</td>
+                    <td>{{ '${:,.0f}'.format(deal.asking_price) if deal.asking_price else '-' }}</td>
+                    <td>
+                        <span class="priority-{{ 'high' if deal.priority and deal.priority <= 2 else ('medium' if deal.priority and deal.priority == 3 else 'low') }}">
+                            {{ deal.priority or '-' }}
+                        </span>
+                    </td>
+                    <td>
+                        <button class="action-btn" onclick="editDeal('{{ deal.id }}')">Edit</button>
+                        <button class="action-btn delete" onclick="deleteDeal('{{ deal.id }}', '{{ deal.property_name }}')">Delete</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="empty-state">
+            <h3>No deals found</h3>
+            <p>Start tracking deals by clicking the "Add Deal" button above.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Add/Edit Deal Modal -->
+    <div class="modal" id="dealModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add Deal</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="dealForm" onsubmit="saveDeal(event)">
+                <input type="hidden" id="dealId">
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label>Property Name *</label>
+                        <input type="text" id="property_name" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Property Address</label>
+                        <input type="text" id="property_address">
+                    </div>
+                    <div class="form-group">
+                        <label>Property Type</label>
+                        <select id="property_type">
+                            <option value="">Select Type</option>
+                            <option value="Multifamily">Multifamily</option>
+                            <option value="Office">Office</option>
+                            <option value="Retail">Retail</option>
+                            <option value="Industrial">Industrial</option>
+                            <option value="Hotel">Hotel</option>
+                            <option value="Land">Land</option>
+                            <option value="Mixed-Use">Mixed-Use</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Market</label>
+                        <input type="text" id="market">
+                    </div>
+                    <div class="form-group">
+                        <label>Stage *</label>
+                        <select id="stage" required>
+                            <option value="research">Research</option>
+                            <option value="loi">LOI</option>
+                            <option value="due_diligence">Due Diligence</option>
+                            <option value="closing">Closing</option>
+                            <option value="closed">Closed</option>
+                            <option value="dead">Dead</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Status *</label>
+                        <select id="status" required>
+                            <option value="active">Active</option>
+                            <option value="on_hold">On Hold</option>
+                            <option value="dead">Dead</option>
+                            <option value="closed">Closed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Asking Price ($)</label>
+                        <input type="number" id="asking_price" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Offer Price ($)</label>
+                        <input type="number" id="offer_price" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Units</label>
+                        <input type="number" id="units">
+                    </div>
+                    <div class="form-group">
+                        <label>Square Feet</label>
+                        <input type="number" id="square_feet">
+                    </div>
+                    <div class="form-group">
+                        <label>Cap Rate (%)</label>
+                        <input type="number" id="cap_rate" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Target IRR (%)</label>
+                        <input type="number" id="irr_target" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Broker</label>
+                        <select id="broker_id">
+                            <option value="">None</option>
+                            {% for broker in brokers %}
+                            <option value="{{ broker.id }}">{{ broker.full_name }} - {{ broker.company or 'N/A' }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Lead Analyst</label>
+                        <input type="text" id="lead_analyst">
+                    </div>
+                    <div class="form-group">
+                        <label>Priority (1=High, 5=Low)</label>
+                        <input type="number" id="priority" min="1" max="5" value="3">
+                    </div>
+                    <div class="form-group">
+                        <label>Confidence Level (%)</label>
+                        <input type="number" id="confidence_level" min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label>Date Identified</label>
+                        <input type="date" id="date_identified">
+                    </div>
+                    <div class="form-group">
+                        <label>Expected Closing</label>
+                        <input type="date" id="expected_closing">
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Notes</label>
+                        <textarea id="notes"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Pros</label>
+                        <textarea id="pros"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Cons</label>
+                        <textarea id="cons"></textarea>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openAddModal() {
+            document.getElementById('modalTitle').textContent = 'Add Deal';
+            document.getElementById('dealForm').reset();
+            document.getElementById('dealId').value = '';
+            document.getElementById('dealModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('dealModal').classList.remove('active');
+        }
+
+        async function editDeal(dealId) {
+            const response = await fetch(`/api/v1/crm/api/deals/${dealId}`);
+            const deal = await response.json();
+
+            document.getElementById('modalTitle').textContent = 'Edit Deal';
+            document.getElementById('dealId').value = deal.id;
+
+            // Populate form fields
+            Object.keys(deal).forEach(key => {
+                const field = document.getElementById(key);
+                if (field && deal[key] !== null) {
+                    field.value = deal[key];
+                }
+            });
+
+            document.getElementById('dealModal').classList.add('active');
+        }
+
+        async function saveDeal(event) {
+            event.preventDefault();
+
+            const dealId = document.getElementById('dealId').value;
+            const formData = {};
+
+            // Collect form data
+            ['property_name', 'property_address', 'property_type', 'market', 'stage', 'status',
+             'asking_price', 'offer_price', 'units', 'square_feet', 'cap_rate', 'irr_target',
+             'broker_id', 'lead_analyst', 'priority', 'confidence_level', 'date_identified',
+             'expected_closing', 'notes', 'pros', 'cons'].forEach(field => {
+                const value = document.getElementById(field).value;
+                if (value !== '') {
+                    formData[field] = value;
+                }
+            });
+
+            const url = dealId ? `/api/v1/crm/api/deals/${dealId}` : '/api/v1/crm/api/deals';
+            const method = dealId ? 'PUT' : 'POST';
+
+            const response = await fetch(url, {
+                method: method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error saving deal');
+            }
+        }
+
+        async function deleteDeal(dealId, propertyName) {
+            if (!confirm(`Are you sure you want to delete "${propertyName}"?`)) return;
+
+            const response = await fetch(`/api/v1/crm/api/deals/${dealId}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Error deleting deal');
+            }
+        }
+
+        function filterDeals() {
+            const stage = document.getElementById('stageFilter').value;
+            const status = document.getElementById('statusFilter').value;
+
+            const params = new URLSearchParams();
+            if (stage) params.append('stage', stage);
+            if (status) params.append('status', status);
+
+            window.location.href = '/api/v1/crm/deals' + (params.toString() ? '?' + params.toString() : '');
+        }
+    </script>
+</body>
+</html>
