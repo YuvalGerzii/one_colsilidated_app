@@ -12,17 +12,47 @@ class PersonalBrandBuilderAgent(BaseAgent):
 
     def __init__(self):
         super().__init__(
-            name="Personal Brand Builder Agent",
-            role="Personal Brand Strategist",
-            expertise=[
-                "Personal branding",
-                "Content strategy",
-                "Thought leadership",
-                "Social media presence",
-                "Professional visibility",
-                "Online reputation"
-            ]
+            agent_id="personal_brand_builder",
+            agent_type="Personal Brand Strategist"
         )
+        self.capabilities = [
+            "Personal branding",
+            "Content strategy",
+            "Thought leadership",
+            "Social media presence",
+            "Professional visibility",
+            "Online reputation"
+        ]
+
+    def process_task(self, task: Dict) -> 'AgentResponse':
+        """Process a task assigned to this agent"""
+        from datetime import datetime
+        from .base_agent import AgentResponse
+
+        task_type = task.get('type', 'analyze_brand')
+
+        if task_type == 'analyze_brand':
+            result = self.analyze_brand_strength(task.get('profile_data', task))
+        elif task_type == 'thought_leadership':
+            result = self.create_thought_leadership_plan(task.get('expertise', []))
+        else:
+            result = self.analyze_brand_strength(task)
+
+        return AgentResponse(
+            agent_id=self.agent_id,
+            agent_type=self.agent_type,
+            status='success',
+            data=result,
+            confidence=0.85,
+            recommendations=result.get('quick_wins', []) if isinstance(result, dict) else [],
+            next_steps=[],
+            timestamp=datetime.now(),
+            metadata={'task_type': task_type}
+        )
+
+    def analyze(self, data: Dict) -> Dict:
+        """Analyze provided data according to agent's specialization"""
+        return self.analyze_brand_strength(data)
 
     def analyze_brand_strength(self, profile_data: Dict[str, Any]) -> Dict[str, Any]:
         """Analyze current personal brand strength"""

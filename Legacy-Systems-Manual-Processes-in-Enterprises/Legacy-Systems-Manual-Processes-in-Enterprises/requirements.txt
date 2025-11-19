@@ -27,7 +27,7 @@ asyncpg==0.29.0
 # Cache & Queue
 redis==5.0.1
 celery==5.3.6
-python-rq==1.15.1
+rq==1.15.1
 
 # Object Storage
 minio==7.2.0
@@ -52,12 +52,12 @@ pyautogui==0.9.54
 # Legacy System Integration
 paramiko==3.4.0
 pyodbc==5.0.1
-cx-Oracle==8.3.0
-ibm-db==3.2.3
-sap-nw-rfc==2.3.0
+# cx-Oracle==8.3.0  # Commented out - requires Oracle Client libraries
+# ibm-db==3.2.3  # Commented out - fails on ARM64/Apple Silicon
+# sap-nw-rfc==2.3.0  # Commented out - requires SAP RFC SDK
 
 # API & HTTP
-httpx==0.26.0
+httpx==0.27.0
 requests==2.31.0
 aiohttp==3.9.1
 
@@ -80,9 +80,9 @@ neo4j==5.16.0
 rdflib==7.0.0
 
 # Workflow & Orchestration
-prefect==2.14.21
-airflow==2.8.1
-temporal-sdk==1.5.1
+# prefect==2.14.21  # Commented out - conflicts with fastapi starlette version
+# apache-airflow==2.8.1  # Commented out - complex dependencies
+# temporal-sdk==1.5.1  # Commented out - not compatible with Python 3.11
 
 # Data Validation
 marshmallow==3.20.2
@@ -94,7 +94,7 @@ pytest==7.4.4
 pytest-asyncio==0.23.3
 pytest-cov==4.1.0
 pytest-mock==3.12.0
-httpx-mock==0.16.1
+# pytest-httpx==0.30.0  # Commented out - conflicts with httpx version
 
 # Code Quality
 black==24.1.1
@@ -120,6 +120,6 @@ google-cloud-storage==2.14.0
 kubernetes==29.0.0
 
 # Async & Concurrency
-asyncio==3.4.3
+# asyncio==3.4.3  # Commented out - built into Python 3.4+
 aiofiles==23.2.1
 aiocache==0.12.2

@@ -222,8 +222,8 @@ async function checkTables(pool: Pool): Promise<any> {
       'user_needs', 'user_offerings', 'filter_preferences'
     ];
 
-    const existingTables = [];
-    const missingTables = [];
+    const existingTables: string[] = [];
+    const missingTables: string[] = [];
 
     for (const table of requiredTables) {
       const result = await pool.query(
@@ -235,9 +235,9 @@ async function checkTables(pool: Pool): Promise<any> {
       );
 
       if (result.rows[0].exists) {
-        existingTables.push(table);
+        (existingTables as string[]).push(table);
       } else {
-        missingTables.push(table);
+        (missingTables as string[]).push(table);
       }
     }
 
@@ -261,8 +261,8 @@ async function checkTables(pool: Pool): Promise<any> {
 async function checkExtensions(pool: Pool): Promise<any> {
   try {
     const requiredExtensions = ['pg_trgm', 'vector'];
-    const installedExtensions = [];
-    const missingExtensions = [];
+    const installedExtensions: string[] = [];
+    const missingExtensions: string[] = [];
 
     for (const ext of requiredExtensions) {
       const result = await pool.query(
@@ -274,9 +274,9 @@ async function checkExtensions(pool: Pool): Promise<any> {
       );
 
       if (result.rows[0].exists) {
-        installedExtensions.push(ext);
+        (installedExtensions as string[]).push(ext);
       } else {
-        missingExtensions.push(ext);
+        (missingExtensions as string[]).push(ext);
       }
     }
 

@@ -43,6 +43,7 @@ from app.api.v1.endpoints import (
     deal_analysis,  # ✅ NEW - Deal analysis framework
     predictive_analytics,  # ✅ NEW - ML-powered predictive analytics
     ai_chatbot,  # ✅ NEW - AI chatbot with multi-agent system
+    zillow_data,  # ✅ NEW - Zillow property data scraping with background tasks
 )
 
 api_router = APIRouter()
@@ -311,4 +312,11 @@ api_router.include_router(
     ai_chatbot.router,
     prefix="/ai-chatbot",
     tags=["ai-chatbot", "multi-agent", "assistant", "conversational-ai"]
+)
+
+# Zillow Property Data endpoints (Web scraping with background tasks - no API key required)
+api_router.include_router(
+    zillow_data.router,
+    prefix="/zillow",
+    tags=["zillow", "property-data", "scraping", "real-estate"]
 )

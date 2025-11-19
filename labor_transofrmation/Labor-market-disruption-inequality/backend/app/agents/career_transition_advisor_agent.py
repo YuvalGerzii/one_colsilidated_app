@@ -12,16 +12,46 @@ class CareerTransitionAdvisorAgent(BaseAgent):
 
     def __init__(self):
         super().__init__(
-            name="Career Transition Advisor Agent",
-            role="Career Pivot Specialist",
-            expertise=[
-                "Career change planning",
-                "Skill transferability",
-                "Transition timeline",
-                "Risk mitigation",
-                "Industry pivots"
-            ]
+            agent_id="career_transition_advisor",
+            agent_type="Career Pivot Specialist"
         )
+        self.capabilities = [
+            "Career change planning",
+            "Skill transferability",
+            "Transition timeline",
+            "Risk mitigation",
+            "Industry pivots"
+        ]
+
+    def process_task(self, task: Dict) -> 'AgentResponse':
+        """Process a task assigned to this agent"""
+        from datetime import datetime
+        from .base_agent import AgentResponse
+
+        task_type = task.get('type', 'assess_feasibility')
+
+        if task_type == 'assess_feasibility':
+            result = self.assess_transition_feasibility(task.get('transition_data', task))
+        elif task_type == 'create_roadmap':
+            result = self.create_transition_roadmap(task.get('transition_goal', task))
+        else:
+            result = self.assess_transition_feasibility(task)
+
+        return AgentResponse(
+            agent_id=self.agent_id,
+            agent_type=self.agent_type,
+            status='success',
+            data=result,
+            confidence=0.85,
+            recommendations=result.get('risk_mitigation', []) if isinstance(result, dict) else [],
+            next_steps=[],
+            timestamp=datetime.now(),
+            metadata={'task_type': task_type}
+        )
+
+    def analyze(self, data: Dict) -> Dict:
+        """Analyze provided data according to agent's specialization"""
+        return self.assess_transition_feasibility(data)
 
     def assess_transition_feasibility(self, transition_data: Dict[str, Any]) -> Dict[str, Any]:
         """Assess feasibility of career transition"""

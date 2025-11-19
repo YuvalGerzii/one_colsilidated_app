@@ -26,7 +26,15 @@
       "Bash(else echo \"❌ $path\")",
       "Bash(fi)",
       "Bash(done)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(./setup-and-start.sh)",
+      "Bash(docker logs:*)",
+      "Bash(curl:*)",
+      "Bash(docker ps:*)",
+      "Bash(python3:*)",
+      "Bash(docker port:*)",
+      "Bash(for port in 8100 8101 8102 8103)",
+      "Bash(do echo -n 'Port $port: ')"
     ],
     "deny": [],
     "ask": []

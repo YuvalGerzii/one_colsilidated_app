@@ -23,6 +23,9 @@ from datetime import datetime
 from pathlib import Path
 import time
 
+# Configure logger early so it can be used in imports
+logger = logging.getLogger(__name__)
+
 from sqlalchemy.orm import Session
 from fastapi import UploadFile
 try:
@@ -39,9 +42,6 @@ from app.models.markitdown_documents import (
     ConversionMethod,
     MarkItDownVersion
 )
-
-# Configure logger
-logger = logging.getLogger(__name__)
 
 
 class MarkItDownService:

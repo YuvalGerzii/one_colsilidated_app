@@ -3,7 +3,7 @@
  * PostgreSQL connection using pg library
  */
 
-import { Pool, PoolClient, QueryResult } from 'pg';
+import { Pool, PoolClient, QueryResult, QueryResultRow } from 'pg';
 import Redis from 'ioredis';
 
 interface DatabaseConfig {
@@ -28,13 +28,22 @@ interface RedisConfig {
  * Database connection pool
  */
 export class Database {
-  private pool: Pool;
-  private redis: Redis;
+  private _pool: Pool;
+  private _redis: Redis;
   private static instance: Database;
+
+  // Public getters for pool and redis
+  get pool(): Pool {
+    return this._pool;
+  }
+
+  get redis(): Redis {
+    return this._redis;
+  }
 
   private constructor(dbConfig: DatabaseConfig, redisConfig: RedisConfig) {
     // PostgreSQL connection pool
-    this.pool = new Pool({
+    this._pool = new Pool({
       host: dbConfig.host,
       port: dbConfig.port,
       database: dbConfig.database,
@@ -46,7 +55,7 @@ export class Database {
     });
 
     // Redis connection
-    this.redis = new Redis({
+    this._redis = new Redis({
       host: redisConfig.host,
       port: redisConfig.port,
       password: redisConfig.password,
@@ -77,19 +86,19 @@ export class Database {
    * Setup event handlers
    */
   private setupEventHandlers(): void {
-    this.pool.on('error', (err) => {
+    this._pool.on('error', (err) => {
       console.error('Unexpected error on idle client', err);
     });
 
-    this.pool.on('connect', () => {
+    this._pool.on('connect', () => {
       console.log('PostgreSQL client connected');
     });
 
-    this.redis.on('error', (err) => {
+    this._redis.on('error', (err) => {
       console.error('Redis connection error:', err);
     });
 
-    this.redis.on('connect', () => {
+    this._redis.on('connect', () => {
       console.log('Redis client connected');
     });
   }
@@ -97,9 +106,9 @@ export class Database {
   /**
    * Execute query
    */
-  async query<T = any>(text: string, params?: any[]): Promise<QueryResult<T>> {
+  async query<T extends QueryResultRow = any>(text: string, params?: any[]): Promise<QueryResult<T>> {
     const start = Date.now();
-    const result = await this.pool.query<T>(text, params);
+    const result = await this._pool.query<T>(text, params);
     const duration = Date.now() - start;
 
     if (duration > 1000) {
@@ -112,7 +121,7 @@ export class Database {
   /**
    * Execute query with single row result
    */
-  async queryOne<T = any>(text: string, params?: any[]): Promise<T | null> {
+  async queryOne<T extends QueryResultRow = any>(text: string, params?: any[]): Promise<T | null> {
     const result = await this.query<T>(text, params);
     return result.rows[0] || null;
   }
@@ -120,7 +129,7 @@ export class Database {
   /**
    * Execute query with multiple rows result
    */
-  async queryMany<T = any>(text: string, params?: any[]): Promise<T[]> {
+  async queryMany<T extends QueryResultRow = any>(text: string, params?: any[]): Promise<T[]> {
     const result = await this.query<T>(text, params);
     return result.rows;
   }
@@ -129,7 +138,7 @@ export class Database {
    * Get client for transaction
    */
   async getClient(): Promise<PoolClient> {
-    return await this.pool.connect();
+    return await this._pool.connect();
   }
 
   /**
@@ -155,19 +164,19 @@ export class Database {
    * Cache helpers
    */
   async getCache(key: string): Promise<string | null> {
-    return await this.redis.get(key);
+    return await this._redis.get(key);
   }
 
   async getCacheJSON<T>(key: string): Promise<T | null> {
-    const data = await this.redis.get(key);
+    const data = await this._redis.get(key);
     return data ? JSON.parse(data) : null;
   }
 
   async setCache(key: string, value: string, ttlSeconds?: number): Promise<void> {
     if (ttlSeconds) {
-      await this.redis.setex(key, ttlSeconds, value);
+      await this._redis.setex(key, ttlSeconds, value);
     } else {
-      await this.redis.set(key, value);
+      await this._redis.set(key, value);
     }
   }
 
@@ -176,13 +185,13 @@ export class Database {
   }
 
   async deleteCache(key: string): Promise<void> {
-    await this.redis.del(key);
+    await this._redis.del(key);
   }
 
   async deleteCachePattern(pattern: string): Promise<void> {
-    const keys = await this.redis.keys(pattern);
+    const keys = await this._redis.keys(pattern);
     if (keys.length > 0) {
-      await this.redis.del(...keys);
+      await this._redis.del(...keys);
     }
   }
 
@@ -190,8 +199,8 @@ export class Database {
    * Close connections
    */
   async close(): Promise<void> {
-    await this.pool.end();
-    await this.redis.quit();
+    await this._pool.end();
+    await this._redis.quit();
   }
 
   /**
@@ -209,7 +218,7 @@ export class Database {
     }
 
     try {
-      await this.redis.ping();
+      await this._redis.ping();
       redisHealthy = true;
     } catch (error) {
       console.error('Redis health check failed:', error);
@@ -223,9 +232,9 @@ export class Database {
    */
   getPoolStats() {
     return {
-      totalCount: this.pool.totalCount,
-      idleCount: this.pool.idleCount,
-      waitingCount: this.pool.waitingCount,
+      totalCount: this._pool.totalCount,
+      idleCount: this._pool.idleCount,
+      waitingCount: this._pool.waitingCount,
     };
   }
 }

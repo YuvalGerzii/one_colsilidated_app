@@ -417,7 +417,7 @@ class OpportunityDiscoveryAgent(BaseAgent):
             'estimated_hidden_market_size': 'up to 80% of jobs',
             'recommendations': [
                 'Focus on networking - most hidden jobs filled through referrals',
-                'Be proactive - don't wait for public postings',
+                'Be proactive - do not wait for public postings',
                 'Build relationships before you need them'
             ]
         }

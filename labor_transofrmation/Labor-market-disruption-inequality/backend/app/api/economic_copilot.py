@@ -4,7 +4,7 @@ Economic Copilot API Endpoints
 Provides REST API for integrated personal finance and career decision-making tools.
 """
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Body
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional
 from app.models.economic_copilot import (
@@ -448,7 +448,7 @@ def get_economic_copilot_dashboard(worker_id: int):
 
 @router.post("/compare-scenarios")
 def compare_multiple_scenarios(
-    scenarios: List[Dict] = Field(..., description="List of career scenarios to compare")
+    scenarios: List[Dict] = Body(..., description="List of career scenarios to compare")
 ):
     """
     Compare multiple career scenarios side-by-side.

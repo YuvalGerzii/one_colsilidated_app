@@ -12,16 +12,46 @@ class MentorshipMatchingAgent(BaseAgent):
 
     def __init__(self):
         super().__init__(
-            name="Mentorship Matching Agent",
-            role="Mentorship Coordinator",
-            expertise=[
-                "Mentor matching",
-                "Relationship building",
-                "Career guidance",
-                "Skill development planning",
-                "Network leveraging"
-            ]
+            agent_id="mentorship_matcher",
+            agent_type="Mentorship Coordinator"
         )
+        self.capabilities = [
+            "Mentor matching",
+            "Relationship building",
+            "Career guidance",
+            "Skill development planning",
+            "Network leveraging"
+        ]
+
+    def process_task(self, task: Dict) -> 'AgentResponse':
+        """Process a task assigned to this agent"""
+        from datetime import datetime
+        from .base_agent import AgentResponse
+
+        task_type = task.get('type', 'find_mentors')
+
+        if task_type == 'find_mentors':
+            result = self.find_mentors(task.get('worker_profile', task))
+        elif task_type == 'create_plan':
+            result = self.create_mentorship_plan(task.get('mentorship_goal', ''))
+        else:
+            result = self.find_mentors(task)
+
+        return AgentResponse(
+            agent_id=self.agent_id,
+            agent_type=self.agent_type,
+            status='success',
+            data=result,
+            confidence=0.85,
+            recommendations=result.get('relationship_building_tips', []) if isinstance(result, dict) else [],
+            next_steps=result.get('next_steps', []) if isinstance(result, dict) else [],
+            timestamp=datetime.now(),
+            metadata={'task_type': task_type}
+        )
+
+    def analyze(self, data: Dict) -> Dict:
+        """Analyze provided data according to agent's specialization"""
+        return self.find_mentors(data)
 
     def find_mentors(self, worker_profile: Dict[str, Any]) -> Dict[str, Any]:
         """Find and rank potential mentors"""

@@ -23,7 +23,7 @@ class LearningActivity(Base):
     completed_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     notes = Column(Text, nullable=True)
-    metadata = Column(JSON, nullable=True)  # Additional activity-specific data
+    activity_metadata = Column(JSON, nullable=True)  # Additional activity-specific data
 
     worker = relationship("Worker", back_populates="learning_activities")
 
@@ -89,7 +89,7 @@ class Achievement(Base):
     badge_icon = Column(String)  # Icon name or URL
     points = Column(Integer, default=0)
     unlocked_at = Column(DateTime, default=datetime.utcnow)
-    metadata = Column(JSON, nullable=True)
+    achievement_metadata = Column(JSON, nullable=True)
 
     worker = relationship("Worker", back_populates="achievements")
 

@@ -13,17 +13,17 @@ class ResumeOptimizationAgent(BaseAgent):
 
     def __init__(self):
         super().__init__(
-            name="Resume Optimization Agent",
-            role="Resume & Application Document Expert",
-            expertise=[
-                "ATS optimization",
-                "Resume formatting",
-                "Achievement quantification",
-                "Keyword optimization",
-                "Industry-specific tailoring",
-                "Impact statement crafting"
-            ]
+            agent_id="resume_optimizer",
+            agent_type="Resume & Application Document Expert"
         )
+        self.capabilities = [
+            "ATS optimization",
+            "Resume formatting",
+            "Achievement quantification",
+            "Keyword optimization",
+            "Industry-specific tailoring",
+            "Impact statement crafting"
+        ]
 
         # Resume scoring weights
         self.scoring_weights = {
@@ -725,3 +725,40 @@ class ResumeOptimizationAgent(BaseAgent):
             "sections": "Clear headers: Summary, Experience, Education, Skills",
             "styling": "Minimal formatting, no tables, no text boxes, no images"
         }
+
+    def process_task(self, task: Dict) -> 'AgentResponse':
+        """Process a task assigned to this agent"""
+        from datetime import datetime
+        from .base_agent import AgentResponse
+
+        task_type = task.get('type', 'analyze_resume')
+
+        if task_type == 'analyze_resume':
+            result = self.analyze_resume(task.get('resume_data', {}))
+        elif task_type == 'optimize_for_job':
+            result = self.optimize_for_job(
+                task.get('resume_data', {}),
+                task.get('job_description', '')
+            )
+        elif task_type == 'ats_check':
+            result = self.ats_compatibility_check(task.get('resume_file', {}))
+        elif task_type == 'improve_achievements':
+            result = self.generate_achievement_statements(task.get('experience_data', []))
+        else:
+            result = self.analyze_resume(task.get('resume_data', task))
+
+        return AgentResponse(
+            agent_id=self.agent_id,
+            agent_type=self.agent_type,
+            status='success',
+            data=result,
+            confidence=0.85,
+            recommendations=result.get('recommendations', []) if isinstance(result, dict) else [],
+            next_steps=result.get('quick_wins', []) if isinstance(result, dict) else [],
+            timestamp=datetime.now(),
+            metadata={'task_type': task_type}
+        )
+
+    def analyze(self, data: Dict) -> Dict:
+        """Analyze provided data according to agent's specialization"""
+        return self.analyze_resume(data)

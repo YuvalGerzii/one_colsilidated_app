@@ -13,17 +13,49 @@ class JobApplicationStrategistAgent(BaseAgent):
 
     def __init__(self):
         super().__init__(
-            name="Job Application Strategist Agent",
-            role="Application Campaign Manager",
-            expertise=[
-                "Application strategy",
-                "Job board optimization",
-                "Application tracking",
-                "Follow-up timing",
-                "Multi-channel job search",
-                "Application conversion optimization"
-            ]
+            agent_id="job_application_strategist",
+            agent_type="Application Campaign Manager"
         )
+        self.capabilities = [
+            "Application strategy",
+            "Job board optimization",
+            "Application tracking",
+            "Follow-up timing",
+            "Multi-channel job search",
+            "Application conversion optimization"
+        ]
+
+    def process_task(self, task: Dict) -> 'AgentResponse':
+        """Process a task assigned to this agent"""
+        from datetime import datetime
+        from .base_agent import AgentResponse
+
+        task_type = task.get('type', 'create_strategy')
+
+        if task_type == 'create_strategy':
+            result = self.create_application_strategy(task.get('worker_data', task))
+        elif task_type == 'track_campaign':
+            result = self.track_application_campaign(task.get('applications', []))
+        elif task_type == 'optimize_timing':
+            result = self.optimize_application_timing(task.get('target_companies', []))
+        else:
+            result = self.create_application_strategy(task)
+
+        return AgentResponse(
+            agent_id=self.agent_id,
+            agent_type=self.agent_type,
+            status='success',
+            data=result,
+            confidence=0.85,
+            recommendations=result.get('optimization_tips', []) if isinstance(result, dict) else [],
+            next_steps=[],
+            timestamp=datetime.now(),
+            metadata={'task_type': task_type}
+        )
+
+    def analyze(self, data: Dict) -> Dict:
+        """Analyze provided data according to agent's specialization"""
+        return self.create_application_strategy(data)
 
     def create_application_strategy(self, worker_data: Dict[str, Any]) -> Dict[str, Any]:
         """
