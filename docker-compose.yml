@@ -304,6 +304,26 @@ services:
   # MONITORING & OBSERVABILITY
   # ===========================================================================
 
+  health-aggregator:
+    build:
+      context: ./health-aggregator
+      dockerfile: Dockerfile
+    container_name: health-aggregator
+    ports:
+      - "8200:8200"
+    networks:
+      - unified-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8200/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.health-dashboard.rule=Host(`health.localhost`)"
+      - "traefik.http.services.health-dashboard.loadbalancer.server.port=8200"
+    restart: unless-stopped
+
   prometheus:
     image: prom/prometheus:latest
     container_name: unified-prometheus
@@ -385,7 +405,7 @@ services:
     networks:
       - unified-network
     healthcheck:
-      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')\""]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -480,7 +500,7 @@ services:
     networks:
       - unified-network
     healthcheck:
-      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')\""]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -587,7 +607,7 @@ services:
     networks:
       - unified-network
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/ready"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -664,7 +684,7 @@ services:
     networks:
       - unified-network
     healthcheck:
-      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')\""]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -702,7 +722,7 @@ services:
     networks:
       - unified-network
     healthcheck:
-      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')\""]
       interval: 30s
       timeout: 10s
       retries: 3

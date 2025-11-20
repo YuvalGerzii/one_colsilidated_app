@@ -73,12 +73,177 @@ async def root() -> dict:
 
 @app.get("/health")
 async def health_check() -> JSONResponse:
-    """Health check endpoint."""
+    """Basic health check - lightweight probe."""
     return JSONResponse(
         status_code=200,
         content={
             "status": "healthy",
+            "service": "legacy-backend",
             "version": settings.app_version,
+        },
+    )
+
+
+@app.get("/health/live")
+async def liveness_check() -> JSONResponse:
+    """Kubernetes-style liveness probe."""
+    import time
+    return JSONResponse(
+        status_code=200,
+        content={
+            "alive": True,
+            "service": "legacy-backend",
+            "uptime": time.process_time(),
+        },
+    )
+
+
+@app.get("/health/ready")
+async def readiness_check() -> JSONResponse:
+    """Kubernetes-style readiness probe - checks critical dependencies."""
+    import os
+    import urllib.request
+    import urllib.error
+
+    checks = {}
+    all_healthy = True
+
+    # Check Database
+    database_url = os.getenv("DATABASE_URL", "")
+    if database_url:
+        checks["database"] = {"healthy": True, "configured": True, "critical": True}
+    else:
+        checks["database"] = {"healthy": False, "error": "DATABASE_URL not configured", "critical": True}
+        all_healthy = False
+
+    # Check Redis
+    redis_url = os.getenv("REDIS_URL", "")
+    if redis_url:
+        checks["redis"] = {"healthy": True, "configured": True, "critical": True}
+    else:
+        checks["redis"] = {"healthy": False, "error": "REDIS_URL not configured", "critical": True}
+        all_healthy = False
+
+    # Check Qdrant (Vector DB)
+    qdrant_url = os.getenv("QDRANT_URL", "http://qdrant:6333")
+    try:
+        req = urllib.request.Request(qdrant_url, method="GET")
+        response = urllib.request.urlopen(req, timeout=2)
+        checks["qdrant"] = {"healthy": True, "url": qdrant_url, "critical": False}
+    except Exception:
+        checks["qdrant"] = {"healthy": False, "error": "Service unavailable", "critical": False, "fallback": "Vector search disabled"}
+
+    # Check Neo4j (Graph DB)
+    neo4j_uri = os.getenv("NEO4J_URI", "")
+    if neo4j_uri:
+        checks["neo4j"] = {"healthy": True, "configured": True, "critical": False}
+    else:
+        checks["neo4j"] = {"healthy": False, "error": "Not configured", "critical": False}
+
+    status_code = 200 if all_healthy else 503
+
+    return JSONResponse(
+        status_code=status_code,
+        content={
+            "ready": all_healthy,
+            "service": "legacy-backend",
+            "checks": checks,
+        },
+    )
+
+
+@app.get("/health/detailed")
+async def detailed_health_check() -> JSONResponse:
+    """Detailed health check with all dependencies and modules."""
+    import os
+    import sys
+    import time
+    import urllib.request
+    import urllib.error
+
+    checks = {}
+
+    # Database check
+    database_url = os.getenv("DATABASE_URL", "")
+    checks["database"] = {
+        "healthy": bool(database_url),
+        "configured": bool(database_url),
+        "critical": True
+    }
+
+    # Redis check
+    redis_url = os.getenv("REDIS_URL", "")
+    checks["redis"] = {
+        "healthy": bool(redis_url),
+        "configured": bool(redis_url),
+        "critical": True
+    }
+
+    # Ollama check (LLM)
+    ollama_url = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
+    try:
+        req = urllib.request.Request(f"{ollama_url}/api/tags", method="GET")
+        response = urllib.request.urlopen(req, timeout=2)
+        checks["ollama"] = {"healthy": True, "url": ollama_url, "critical": False}
+    except Exception as e:
+        checks["ollama"] = {"healthy": False, "error": "Service unavailable", "critical": False, "fallback": "LLM features disabled"}
+
+    # Qdrant check (Vector DB)
+    qdrant_url = os.getenv("QDRANT_URL", "http://qdrant:6333")
+    try:
+        req = urllib.request.Request(qdrant_url, method="GET")
+        response = urllib.request.urlopen(req, timeout=2)
+        checks["qdrant"] = {"healthy": True, "url": qdrant_url, "critical": False}
+    except Exception:
+        checks["qdrant"] = {"healthy": False, "error": "Service unavailable", "critical": False, "fallback": "Vector search disabled"}
+
+    # Neo4j check
+    neo4j_uri = os.getenv("NEO4J_URI", "")
+    checks["neo4j"] = {
+        "healthy": bool(neo4j_uri),
+        "configured": bool(neo4j_uri),
+        "critical": False,
+        "fallback": "Knowledge graph features disabled" if not neo4j_uri else None
+    }
+
+    # Elasticsearch check
+    es_url = os.getenv("ELASTICSEARCH_URL", "")
+    if es_url:
+        try:
+            req = urllib.request.Request(f"{es_url}/_cluster/health", method="GET")
+            response = urllib.request.urlopen(req, timeout=2)
+            checks["elasticsearch"] = {"healthy": True, "url": es_url, "critical": False}
+        except Exception:
+            checks["elasticsearch"] = {"healthy": False, "error": "Service unavailable", "critical": False}
+    else:
+        checks["elasticsearch"] = {"healthy": False, "error": "Not configured", "critical": False}
+
+    # MinIO check
+    minio_endpoint = os.getenv("MINIO_ENDPOINT", "")
+    checks["minio"] = {
+        "healthy": bool(minio_endpoint),
+        "configured": bool(minio_endpoint),
+        "critical": False,
+        "fallback": "Object storage disabled" if not minio_endpoint else None
+    }
+
+    # Determine overall status
+    critical_services_healthy = all(
+        check.get("healthy", False)
+        for check in checks.values()
+        if check.get("critical", False)
+    )
+
+    overall_status = "healthy" if critical_services_healthy else "degraded"
+
+    return JSONResponse(
+        status_code=200,
+        content={
+            "status": overall_status,
+            "service": "legacy-backend",
+            "version": settings.app_version,
+            "timestamp": time.time(),
+            "checks": checks,
             "modules": {
                 "automation_fabric": settings.eaf_enabled,
                 "legacy_migrator": settings.migrator_enabled,
@@ -91,6 +256,17 @@ async def health_check() -> JSONResponse:
                 "agents": settings.agents_enabled,
                 "risk_radar": settings.risk_radar_enabled,
             },
+            "system": {
+                "python_version": sys.version,
+                "uptime": time.process_time()
+            },
+            "fallback_info": {
+                "ollama": "LLM features will be disabled if unavailable",
+                "qdrant": "Vector search will be disabled if unavailable",
+                "neo4j": "Knowledge graph features will be disabled if unavailable",
+                "elasticsearch": "Advanced search will be disabled if unavailable",
+                "minio": "Object storage features will be disabled if unavailable"
+            }
         },
     )
 

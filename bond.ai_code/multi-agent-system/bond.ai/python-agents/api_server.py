@@ -112,13 +112,130 @@ async def root():
 
 @app.get("/health")
 async def health():
-    """Detailed health check"""
+    """Basic health check - lightweight probe"""
     return {
         "status": "healthy",
-        "agents": {
-            name: "ready" for name in agents.keys()
+        "service": "bondai-agents",
+        "agents_loaded": len(agents)
+    }
+
+@app.get("/health/live")
+async def liveness_check():
+    """Kubernetes-style liveness probe"""
+    import time
+    return {
+        "alive": True,
+        "service": "bondai-agents",
+        "uptime": time.process_time()
+    }
+
+@app.get("/health/ready")
+async def readiness_check():
+    """Kubernetes-style readiness probe - checks critical dependencies"""
+    import os
+    import urllib.request
+    import urllib.error
+
+    checks = {}
+    all_healthy = True
+
+    # Check if agents are loaded
+    if len(agents) > 0:
+        checks["agents"] = {"healthy": True, "loaded": len(agents), "critical": True}
+    else:
+        checks["agents"] = {"healthy": False, "error": "No agents loaded", "critical": True}
+        all_healthy = False
+
+    # Check Database (if configured)
+    database_url = os.getenv("DATABASE_URL", "")
+    if database_url:
+        checks["database"] = {"healthy": True, "configured": True, "critical": False}
+    else:
+        checks["database"] = {"healthy": False, "error": "DATABASE_URL not configured", "critical": False}
+
+    # Check Ollama (LLM service)
+    ollama_url = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
+    try:
+        req = urllib.request.Request(f"{ollama_url}/api/tags", method="GET")
+        response = urllib.request.urlopen(req, timeout=2)
+        checks["ollama"] = {"healthy": True, "url": ollama_url, "critical": False}
+    except Exception:
+        checks["ollama"] = {"healthy": False, "error": "Service unavailable", "critical": False, "fallback": "LLM features may be limited"}
+
+    status_code = 200 if all_healthy else 503
+
+    return {
+        "ready": all_healthy,
+        "service": "bondai-agents",
+        "checks": checks
+    }
+
+@app.get("/health/detailed")
+async def detailed_health():
+    """Detailed health check with all dependencies and agent status"""
+    import os
+    import sys
+    import time
+    import urllib.request
+
+    checks = {}
+
+    # Agent status
+    checks["agents"] = {
+        "healthy": len(agents) > 0,
+        "loaded": len(agents),
+        "available": list(agents.keys()),
+        "critical": True
+    }
+
+    # Database check
+    database_url = os.getenv("DATABASE_URL", "")
+    checks["database"] = {
+        "healthy": bool(database_url),
+        "configured": bool(database_url),
+        "critical": False
+    }
+
+    # Ollama check (LLM service)
+    ollama_url = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434")
+    try:
+        req = urllib.request.Request(f"{ollama_url}/api/tags", method="GET")
+        response = urllib.request.urlopen(req, timeout=2)
+        checks["ollama"] = {"healthy": True, "url": ollama_url, "critical": False}
+    except Exception:
+        checks["ollama"] = {"healthy": False, "error": "Service unavailable", "critical": False, "fallback": "LLM features may be limited"}
+
+    # Determine overall status
+    critical_services_healthy = all(
+        check.get("healthy", False)
+        for check in checks.values()
+        if check.get("critical", False)
+    )
+
+    overall_status = "healthy" if critical_services_healthy else "degraded"
+
+    return {
+        "status": overall_status,
+        "service": "bondai-agents",
+        "version": "1.0.0",
+        "timestamp": time.time(),
+        "checks": checks,
+        "agent_details": {
+            name: {
+                "id": agent.agent_id if hasattr(agent, 'agent_id') else name,
+                "status": "ready",
+                "capabilities": len(agent.capabilities) if hasattr(agent, 'capabilities') else 0
+            }
+            for name, agent in agents.items()
         },
-        "total_agents": len(agents)
+        "system": {
+            "python_version": sys.version,
+            "uptime": time.process_time()
+        },
+        "fallback_info": {
+            "ollama": "LLM features may be limited if unavailable",
+            "database": "Will use in-memory processing if unavailable"
+        }
     }
 
 @app.post("/match", response_model=MatchResponse)
