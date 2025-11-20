@@ -157,7 +157,102 @@ async def root():
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy"}
+    """Basic health check - lightweight probe."""
+    return {
+        "status": "healthy",
+        "service": "labor-backend",
+        "version": "2.8.0"
+    }
+
+@app.get("/health/live")
+async def liveness_check():
+    """Kubernetes-style liveness probe."""
+    import time
+    return {
+        "alive": True,
+        "service": "labor-backend",
+        "uptime": time.process_time()
+    }
+
+@app.get("/health/ready")
+async def readiness_check():
+    """Kubernetes-style readiness probe - checks critical dependencies."""
+    import os
+    import urllib.request
+    import urllib.error
+
+    checks = {}
+    all_healthy = True
+
+    # Check Database URL is configured
+    database_url = os.getenv("DATABASE_URL", "")
+    if database_url:
+        checks["database"] = {"healthy": True, "configured": True, "critical": True}
+    else:
+        checks["database"] = {"healthy": False, "error": "DATABASE_URL not configured", "critical": True}
+        all_healthy = False
+
+    # Check Redis
+    redis_url = os.getenv("REDIS_URL", "")
+    if redis_url:
+        checks["redis"] = {"healthy": True, "configured": True, "critical": True}
+    else:
+        checks["redis"] = {"healthy": False, "error": "REDIS_URL not configured", "critical": True}
+        all_healthy = False
+
+    status_code = 200 if all_healthy else 503
+
+    return {
+        "ready": all_healthy,
+        "service": "labor-backend",
+        "checks": checks
+    }
+
+@app.get("/health/detailed")
+async def detailed_health_check():
+    """Detailed health check with all dependencies."""
+    import os
+    import sys
+    import time
+
+    checks = {}
+
+    # Database check
+    database_url = os.getenv("DATABASE_URL", "")
+    checks["database"] = {
+        "healthy": bool(database_url),
+        "configured": bool(database_url),
+        "critical": True
+    }
+
+    # Redis check
+    redis_url = os.getenv("REDIS_URL", "")
+    checks["redis"] = {
+        "healthy": bool(redis_url),
+        "configured": bool(redis_url),
+        "critical": True
+    }
+
+    # Determine overall status
+    critical_services_healthy = all(
+        check.get("healthy", False)
+        for check in checks.values()
+        if check.get("critical", False)
+    )
+
+    overall_status = "healthy" if critical_services_healthy else "degraded"
+
+    return {
+        "status": overall_status,
+        "service": "labor-backend",
+        "version": "2.8.0",
+        "timestamp": time.time(),
+        "checks": checks,
+        "system": {
+            "python_version": sys.version,
+            "uptime": time.process_time()
+        }
+    }
 
 if __name__ == "__main__":
     import uvicorn
