@@ -372,6 +372,7 @@ services:
       WEAVIATE_URL: http://weaviate:8080
       AUTH_SERVER_URL: http://keycloak:8080
       AUTH_REALM: unified-platform
+      CORS_ORIGINS: '["http://localhost:3000","http://localhost:3100","http://localhost:5173","http://localhost:3102"]'
     volumes:
       - ./FULL_finance_platform/Finance_platform/backend:/app
     depends_on:
@@ -467,6 +468,7 @@ services:
       OLLAMA_BASE_URL: http://ollama:11434
       AUTH_SERVER_URL: http://keycloak:8080
       AUTH_REALM: unified-platform
+      CORS_ORIGINS: '["http://localhost:3000","http://localhost:3100","http://localhost:5173","http://localhost:3103"]'
     volumes:
       - ./real_estate_dashboard/backend:/app
       - ./real_estate_dashboard/storage:/app/storage
@@ -647,6 +649,7 @@ services:
       MINIO_SECRET_KEY: ${MINIO_PASSWORD:-minioadmin}
       AUTH_SERVER_URL: http://keycloak:8080
       AUTH_REALM: unified-platform
+      CORS_ORIGINS: '["http://localhost:3000","http://localhost:3100","http://localhost:5173"]'
     depends_on:
       postgres:
         condition: service_healthy
@@ -690,6 +693,7 @@ services:
       REDIS_URL: redis://:${REDIS_PASSWORD:-unified_redis_pass}@redis:6379/4
       AUTH_SERVER_URL: http://keycloak:8080
       AUTH_REALM: unified-platform
+      CORS_ORIGINS: '["http://localhost:3000","http://localhost:3100","http://localhost:5173","http://localhost:3105"]'
     depends_on:
       postgres:
         condition: service_healthy
